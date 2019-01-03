@@ -581,6 +581,13 @@ ul {
   li a:hover {
     color: rgb(77, 75, 75);
   }
+
+  @media screen and (max-width: 700px) {
+    li {
+      padding: .7rem;
+    }
+  }
+
 }
 
 .table-nav {
