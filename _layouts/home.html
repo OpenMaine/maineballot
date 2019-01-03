@@ -9,7 +9,7 @@ layout: archive
 <br>  <a href="http://www.maine.gov/cgi-bin/online/AbsenteeBallot/index.pl">Request an absentee ballot</a>
 <br>  <a href="http://www.maine.gov/sos/cec/elec/voter-info/votreg.html">Register to vote</a>
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "On the ballot in the current election" }}</h3>
 
 {% for post in paginator.posts %}
   {% include archive-single.html %}
