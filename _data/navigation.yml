@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "Find your polling place"
+    url: https://www.maine.gov/portal/government/edemocracy/voter_lookup.php
+  - title: Request an absentee ballot
+    url: http://www.maine.gov/cgi-bin/online/AbsenteeBallot/index.pl
+  - title: "Register to vote"
+    url: http://www.maine.gov/sos/cec/elec/voter-info/votreg.html
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
