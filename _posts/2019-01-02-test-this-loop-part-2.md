@@ -20,9 +20,10 @@ This referendum would create a new Universal Home Care Program to provide in-hom
 | Yes means | No means |
 | --------- | -------- |
 | I am in favor of creating a new tax to fund in home care for seniors and disabled people. | I don't want to fund in home care via a new tax. |
+<br>
 
- ## Tell me more
- This referendum would create a new Universal Home Care Program funded by a 3.8% tax on individuals and families that make more than the Social Security tax threshold, which is $128,400 for 2018.  The program would provide in long-term, home health and social services care to people over 65 or who have physical or mental disabilities. [1]
+## Tell me more
+This referendum would create a new Universal Home Care Program funded by a 3.8% tax on individuals and families that make more than the Social Security tax threshold, which is $128,400 for 2018.  The program would provide in long-term, home health and social services care to people over 65 or who have physical or mental disabilities. [1]
 
 The program would involve the creation of a board to manage the program and funds, which may involve creating waiting lists if too many people sign up for services. The services wouldn’t require income limits. [1]
 
@@ -60,7 +61,7 @@ The primary arguments against this referendum are:
 
 ## Further reading
 [Full Text](http://maine.gov/sos/cec/elec/citizens/uhcleg.pdf)
-<br>[Ballotpedia Article](https://ballotpedia.org/Maine_Question_1,_Payroll_and_Non-Wage_Income_Taxes_for_Home_Care_Program_Initiative_(2018)
+<br>[Ballotpedia Article](https://ballotpedia.org/Maine_Question_1,_Payroll_and_Non-Wage_Income_Taxes_for_Home_Care_Program_Initiative_(2018))
 <br>[Maine Calling Radio Show](http://www.mainepublic.org/post/your-vote-debate-over-ballot-question-one)
 <br>[Portland Press Herald Article](https://www.pressherald.com/2018/07/30/advocates-of-in-home-care-referendum-call-it-fairness-critics-call-it-a-scam/?utm_medium=webpush&utm_source=browser&utm_campaign=pushnotifications)
 <br>[Bangor Daily News Article](https://bangordailynews.com/2018/10/09/opinion/contributors/home-care-referendum-a-necessity-for-maine/)
