@@ -9,7 +9,7 @@ categories:
 last_modified_at: 2019-01-01T08:06:00-05:00
 ---
 
-<![Image of a nurse helping a homebound senior.](/assets/img/2018_11/Question1_HomeCare.jpg)
+![Image of a nurse helping a homebound senior.](/assets/img/2018_11/Question1_HomeCare.jpg)
 ## Results
 This measure did not pass.
 ## The gist
@@ -89,7 +89,7 @@ The primary arguments against this referendum are:
 * MaineHealth
 
 ## References
-[1] Ballotpedia State Desk. [Maine Question 1, Payroll and Non-Wage Income Taxes for Home Care Program Initiative (2018)](https://ballotpedia.org/Maine_Question_1,_Payroll_and_Non-Wage_Income_Taxes_for_Home_Care_Program_Initiative_(2018). Ballotpedia.  Accessed October 11, 2018.
+[1] Ballotpedia State Desk. [Maine Question 1, Payroll and Non-Wage Income Taxes for Home Care Program Initiative (2018)](https://ballotpedia.org/Maine_Question_1,_Payroll_and_Non-Wage_Income_Taxes_for_Home_Care_Program_Initiative_(2018)). Ballotpedia.  Accessed October 11, 2018.
 <br>[2] Maine State Legislature. [Sec. 1. 5 MRSA §12004-G, sub-§14-I](http://maine.gov/sos/cec/elec/citizens/uhcleg.pdf). Accessed October 11, 2018.
 <br>[3] League of Women Voters. [League of Women Voters, Maine 2018 General Election Voter Guide (2018)](http://www.lwvme.org/files/VG_2018_Statewide.pdf). Accessed October 11, 2018.
 <br>[4] Dunlap, Matthew. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide.pdf). Accessed October 11, 2018.
