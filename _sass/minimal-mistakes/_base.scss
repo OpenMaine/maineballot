@@ -191,12 +191,17 @@ hr {
 
 ul li,
 ol li {
+  margin-left: 2rem;
   margin-bottom: 0.5em;
 }
 
 li ul,
 li ol {
   margin-top: 0.5em;
+}
+
+.footnotes li {
+  margin-left: 0;
 }
 
 /*
