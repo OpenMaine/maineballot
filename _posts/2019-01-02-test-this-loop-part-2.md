@@ -6,6 +6,8 @@ categories:
 - Citizen Initiative
 - Did Not Pass
 - November 2018 Election
+yes_vote: This is what happens if you vote yes.
+no_vote: This is what happens if you vote no.
 last_modified_at: 2019-01-01T08:06:00-05:00
 ---
 
@@ -16,13 +18,9 @@ This measure did not pass.
 This referendum would create a new Universal Home Care Program to provide in-home care to disabled people and seniors by taxing high-income earners.
 ## Ballot question
 “Do you want to create the Universal Home Care Program to provide home-based assistance to people with disabilities and senior citizens, regardless of income, funded by a new 3.8% tax on individuals and families with Maine wage and adjusted gross income above the amount subject to Social Security taxes, which is $128,400 in 2018?” [2]
-<br>
-<br>
 
-| Yes means | No means |
-| --------- | -------- |
-| I am in favor of creating a new tax to fund in home care for seniors and disabled people. | I don't want to fund in home care via a new tax. |
-<br>
+{% include yes-no-table.html %}
+
 
 ## Tell me more
 This referendum would create a new Universal Home Care Program funded by a 3.8% tax on individuals and families that make more than the Social Security tax threshold, which is $128,400 for 2018.  The program would provide in long-term, home health and social services care to people over 65 or who have physical or mental disabilities. [1]
