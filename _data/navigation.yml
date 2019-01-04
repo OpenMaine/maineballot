@@ -1,9 +1,9 @@
 # main links
 main:
+  - title: Current election
+    url: /home
   - title: "How to vote in Maine"
     url: /vote
-  #- title: Request an absentee ballot
-  #  url: http://www.maine.gov/cgi-bin/online/AbsenteeBallot/index.pl
   #- title: "Register to vote"
   #  url: http://www.maine.gov/sos/cec/elec/voter-info/votreg.html
   # - title: "Sample Collections"
