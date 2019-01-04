@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "Find your polling place"
-    url: https://www.maine.gov/portal/government/edemocracy/voter_lookup.php
-  - title: Request an absentee ballot
-    url: http://www.maine.gov/cgi-bin/online/AbsenteeBallot/index.pl
-  - title: "Register to vote"
-    url: http://www.maine.gov/sos/cec/elec/voter-info/votreg.html
+  - title: "How to vote in Maine"
+    url: /vote
+  #- title: Request an absentee ballot
+  #  url: http://www.maine.gov/cgi-bin/online/AbsenteeBallot/index.pl
+  #- title: "Register to vote"
+  #  url: http://www.maine.gov/sos/cec/elec/voter-info/votreg.html
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
