@@ -4,8 +4,8 @@ main:
     url: /index
   - title: "How to vote in Maine"
     url: /vote
-  #- title: "Register to vote"
-  #  url: http://www.maine.gov/sos/cec/elec/voter-info/votreg.html
+  - title: "Previous elections"
+    url: /archive
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
