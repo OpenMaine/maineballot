@@ -36,7 +36,7 @@ This question is a **citizen initiative**, which is a way for Mainers to propose
 * Support these types of services: “self-directed care services; medical and diagnostic services; professional nursing; physical, occupational and speech therapy; dietary and nutrition services; home health aide services; personal care assistance services; companion and attendant services; home repair, chore and homemaker services; respite care; hospice care; counseling services; transportation; small rent subsidies; various devices that lessen the effects of disabilities; and other appropriate and necessary social services.” [^4]
 
 ### The money will be coming from:
-* A new 3.8% tax (1.9% via payroll tax, 1.9% via an income tax) for individuals and families that make more than $128,400. [1,2] This is about 2% of the population. [^5]
+* A new 3.8% tax (1.9% via payroll tax, 1.9% via an income tax) for individuals and families that make more than $128,400. [^1] [^2] This is about 2% of the population. [^5]
 * A new 3.8% tax on non-wage income, including stocks, interest, and dividends [^1]
 * The total expected income from these taxes is $310 million annually [^4]
 
@@ -61,15 +61,21 @@ The primary arguments against this referendum are:
 
 ## Further reading
 [Full Text](http://maine.gov/sos/cec/elec/citizens/uhcleg.pdf)
-<br>[Ballotpedia Article](https://ballotpedia.org/Maine_Question_1,_Payroll_and_Non-Wage_Income_Taxes_for_Home_Care_Program_Initiative_(2018))
-<br>[Maine Calling Radio Show](http://www.mainepublic.org/post/your-vote-debate-over-ballot-question-one)
-<br>[Portland Press Herald Article](https://www.pressherald.com/2018/07/30/advocates-of-in-home-care-referendum-call-it-fairness-critics-call-it-a-scam/?utm_medium=webpush&utm_source=browser&utm_campaign=pushnotifications)
-<br>[Bangor Daily News Article](https://bangordailynews.com/2018/10/09/opinion/contributors/home-care-referendum-a-necessity-for-maine/)
-<br>[Maine Public Article](http://www.mainepublic.org/post/experts-disagree-whether-maine-home-care-referendum-will-result-marriage-penalty-tax#stream/0)
-<br>[Maine Center for Economic Policy Blog](http://blog.mecep.org/2018/09/new-analysis-home-care-tax-would-affect-top-3-percent-of-wealthiest-mainers/)
+
+[Ballotpedia Article](https://ballotpedia.org/Maine_Question_1,_Payroll_and_Non-Wage_Income_Taxes_for_Home_Care_Program_Initiative_(2018))
+
+[Maine Calling Radio Show](http://www.mainepublic.org/post/your-vote-debate-over-ballot-question-one)
+
+[Portland Press Herald Article](https://www.pressherald.com/2018/07/30/advocates-of-in-home-care-referendum-call-it-fairness-critics-call-it-a-scam/?utm_medium=webpush&utm_source=browser&utm_campaign=pushnotifications)
+
+[Bangor Daily News Article](https://bangordailynews.com/2018/10/09/opinion/contributors/home-care-referendum-a-necessity-for-maine/)
+
+[Maine Public Article](http://www.mainepublic.org/post/experts-disagree-whether-maine-home-care-referendum-will-result-marriage-penalty-tax#stream/0)
+
+[Maine Center for Economic Policy Blog](http://blog.mecep.org/2018/09/new-analysis-home-care-tax-would-affect-top-3-percent-of-wealthiest-mainers/)
 
 ## Who cares
-### Support [1]
+### Support [^1]
 * Maine People’s Alliance
 * Mainers for Homecare
 * The Caring Majority
@@ -78,7 +84,7 @@ The primary arguments against this referendum are:
 * Center for Community Change Action
 * Bend the Arc Jewish Action
 
-### Opposition [1]
+### Opposition [^1]
 * No on Question One
 * Maine Bankers Association PAC
 * Maine Association of Retailers
@@ -87,6 +93,7 @@ The primary arguments against this referendum are:
 * MaineHealth
 
 ## References
+
 [^1]: Ballotpedia State Desk. [Maine Question 1, Payroll and Non-Wage Income Taxes for Home Care Program Initiative (2018)](https://ballotpedia.org/Maine_Question_1,_Payroll_and_Non-Wage_Income_Taxes_for_Home_Care_Program_Initiative_(2018)). Ballotpedia.  Accessed October 11, 2018.
 
 [^2]: Maine State Legislature. [Sec. 1. 5 MRSA §12004-G, sub-§14-I](http://maine.gov/sos/cec/elec/citizens/uhcleg.pdf). Accessed October 11, 2018.
