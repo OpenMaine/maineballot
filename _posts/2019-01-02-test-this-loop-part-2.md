@@ -6,9 +6,9 @@ categories:
 - Citizen Initiative
 - Did Not Pass
 - November 2018 Election
-yes_vote: This is what happens if you vote yes.
-no_vote: This is what happens if you vote no.
-last_modified_at: 2019-01-01T08:06:00-05:00
+yes_vote:  I am in favor of creating a new tax to fund in home care for seniors and disabled people.
+no_vote: I don't want to fund in home care via a new tax.
+last_modified_at: 2019-01-07 T08:06:00-05:00
 ---
 
 ![Image of a nurse helping a homebound senior.](/assets/img/2018_11/Question1_HomeCare.jpg)
@@ -69,7 +69,7 @@ The primary arguments against this referendum are:
 <br>[Maine Center for Economic Policy Blog](http://blog.mecep.org/2018/09/new-analysis-home-care-tax-would-affect-top-3-percent-of-wealthiest-mainers/)
 
 ## Who cares
-### Support [1]
+### Support [^1]
 * Maine People’s Alliance
 * Mainers for Homecare
 * The Caring Majority
@@ -78,7 +78,7 @@ The primary arguments against this referendum are:
 * Center for Community Change Action
 * Bend the Arc Jewish Action
 
-### Opposition [1]
+### Opposition [^1]
 * No on Question One
 * Maine Bankers Association PAC
 * Maine Association of Retailers
