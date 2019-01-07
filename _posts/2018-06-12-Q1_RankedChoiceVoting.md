@@ -97,4 +97,4 @@ The primary arguments against this referendum are:
 
 [^4]: Dunlop, M. [Maine Citizen's Guide to the Referendum Election](http://www.state.me.us/sos/cec/elec/upcoming/citizensguide2016.pdf). Accessed October 7, 2016.
 
-[^5:] Hayes, T., [Ranked Choice restores majority rule](http://www.sunjournal.com/news/columns-analysis/2016/09/25/ranked-choice-restores-majority-rule/1997089).  Sun Journal, September 25, 2016.  Accessed October 7, 2016
+[^5]: Hayes, T., [Ranked Choice restores majority rule](http://www.sunjournal.com/news/columns-analysis/2016/09/25/ranked-choice-restores-majority-rule/1997089).  Sun Journal, September 25, 2016.  Accessed October 7, 2016
