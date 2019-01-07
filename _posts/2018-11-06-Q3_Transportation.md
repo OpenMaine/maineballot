@@ -1,6 +1,6 @@
 ---
 title:  "Question 3: Transportation"
-search: false
+search: true
 categories:
 - Transportation
 - Bond

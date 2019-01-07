@@ -1,6 +1,6 @@
 ---
 title:  "Question 4: University of Maine"
-search: false
+search: true
 categories:
 - Education
 - Bond
