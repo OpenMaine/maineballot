@@ -11,7 +11,7 @@ no_vote: I do not want Maine to borrow $106 million to address infrastructure im
 last_modified_at: 2019-01-07 T08:06:00-05:00
 ---
 
-![Image of transportation infrastructure.](/assets/img/2018_11/Question3_Transportation.jpg)
+![Image of transportation infrastructure.](/assets/img/2018_11/Question3Transportation.jpg)
 ## Results
 This measure passed.
 ## The gist
