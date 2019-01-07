@@ -18,7 +18,7 @@ This measure passed.
 Passing this question would allow the state to borrow $30 million to improve water quality.
 
 ## Ballot question
-“Do you favor a $30,000,000 bond issue to improve water quality, support the planning and construction of wastewater treatment facilities and assist homeowners whose homes are served by substandard or malfunctioning wastewater treatment systems? ”[^2]
+“Do you favor a $30,000,000 bond issue to improve water quality, support the planning and construction of wastewater treatment facilities and assist homeowners whose homes are served by substandard or malfunctioning wastewater treatment systems?”[^2]
 
 {% include yes-no-table.html %}
 
@@ -26,17 +26,17 @@ Passing this question would allow the state to borrow $30 million to improve wat
 ## Tell me more
 Passing this question would provide funds to towns, wastewater facilities, and homeowners, primarily in areas that affect the coast and shell fishing areas to fix broken wastewater disposal systems.
 
-This is a **bond issue** -- if voters approve the bond, it means that the State of Maine is allowed to borrow money for the project described in the ballot question and has to pay it back over 10 years. [^3] [Learn more about how bonds work](/bonds).
+This is a **bond issue** -- if voters approve the bond, it means that the State of Maine is allowed to borrow money for the project described in the ballot question and has to pay it back over 10 years.[^3] [Learn more about how bonds work](/bonds).
 
 ## Follow the money
 Principal: $30,000,000
-Interest: $8,250,000 (assumes 5.0% over 10 years)
-Total cost: $38,250,000 [^4]
+<br>Interest: $8,250,000 (assumes 5.0% over 10 years)
+<br>Total cost: $38,250,000[^4]
 
 ### The money will be used to:
-* $27.65 million for wastewater treatment facility planning and construction for areas that affect high-value shellfish resources [^4]
-* $2 million for a small community grant program to help towns replace broken septic systems that are causing pollution [^4]
-* $350,000 for homeowners to fix their disposal systems [^4]
+* $27.65 million for wastewater treatment facility planning and construction for areas that affect high-value shellfish resources[^4]
+* $2 million for a small community grant program to help towns replace broken septic systems that are causing pollution[^4]
+* $350,000 for homeowners to fix their disposal systems[^4]
 
 ### The money will be coming from:
 * $30 million bond issued by the state and paid back through the budget and taxes over 10 years.
@@ -48,15 +48,15 @@ The primary arguments for this referendum are:
 * Wastewater is a problem for coastal waters and shellfish supplies.
 * Individual landowners don’t have an incentive to make these expensive improvements themselves because they don’t have a direct impact.
 * Infrastructure improvements cost less the sooner they are made.
-* Interest rates are currently low, making it a good time to invest. [^3]
+* Interest rates are currently low, making it a good time to invest.[^3]
 
 ## Cons
 The primary arguments against this referendum are:
 * There isn’t a lot of information about which communities will benefit from these improvements.
-* Maine already has $106,258,509 in outstanding bond debt that this will add to and it could lead to increased taxes. [^4]
+* Maine already has $106,258,509 in outstanding bond debt that this will add to and it could lead to increased taxes.[^4]
 
 ## Who cares
-Nobody has registered support or opposition to this bond. [^1]
+Nobody has registered support or opposition to this bond.[^1]
 
 ## Further reading
 [Full Text](http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP1034&item=1&snum=128)
