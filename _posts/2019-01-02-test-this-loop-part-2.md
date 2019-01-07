@@ -36,7 +36,7 @@ This question is a **citizen initiative**, which is a way for Mainers to propose
 * Support these types of services: “self-directed care services; medical and diagnostic services; professional nursing; physical, occupational and speech therapy; dietary and nutrition services; home health aide services; personal care assistance services; companion and attendant services; home repair, chore and homemaker services; respite care; hospice care; counseling services; transportation; small rent subsidies; various devices that lessen the effects of disabilities; and other appropriate and necessary social services.” [^4]
 
 ### The money will be coming from:
-* A new 3.8% tax (1.9% via payroll tax, 1.9% via an income tax) for individuals and families that make more than $128,400. [^1][^2] This is about 2% of the population. [^5]
+* A new 3.8% tax (1.9% via payroll tax, 1.9% via an income tax) for individuals and families that make more than $128,400. [^1],[^2] This is about 2% of the population. [^5]
 * A new 3.8% tax on non-wage income, including stocks, interest, and dividends [^1]
 * The total expected income from these taxes is $310 million annually [^4]
 
