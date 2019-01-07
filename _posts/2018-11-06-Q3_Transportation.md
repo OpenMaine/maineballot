@@ -1,5 +1,7 @@
 ---
 title:  "Question 3: Transportation"
+excerpt: Passing this question would allow the state to borrow $106 million for transportation improvements. This is the second of 3 consecutive years of transportation bonds that will fill a shortfall in the highway fund.[^5]
+election: 2018-11-06
 search: true
 categories:
 - Transportation
@@ -14,8 +16,9 @@ last_modified_at: 2019-01-07 T08:06:00-05:00
 ![Image of transportation infrastructure.](/assets/img/2018_11/Question3Transportation.jpg)
 ## Results
 This measure passed.
+
 ## The gist
-Passing this question would allow the state to borrow $106 million for transportation improvements. This is the second of 3 consecutive years of transportation bonds that will fill a shortfall in the highway fund.[^5]
+{{page.excerpt}}
 
 ## Ballot question
 “Do you favor a $106,000,000 bond issue, including $101,000,000 for construction, reconstruction, and rehabilitation of highways and bridges and for facilities and equipment related to ports, piers, harbors, marine transportation, freight and passenger railroads, aviation, transit and bicycle and pedestrian trails, to be used to match an estimated $137,000,000 in federal and other funds, and $5,000,000 for the upgrade of municipal culverts at stream crossings?”[^2]

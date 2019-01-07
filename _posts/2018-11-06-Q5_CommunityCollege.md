@@ -1,5 +1,7 @@
 ---
 title:  "Question 5: Community Colleges"
+excerpt: Approving this question would allow the state to borrow $15 million to upgrade facilities at all 7 of Maine’s community colleges.
+election: 2018-11-06
 search: true
 categories:
 - Education
@@ -14,8 +16,9 @@ last_modified_at: 2019-01-07 T08:06:00-05:00
 ![Image of a community college.](/assets/img/2018_11/Question5_CommunityCollege.jpg)
 ## Results
 This measure passed.
+
 ## The gist
-Approving this question would allow the state to borrow $15 million to upgrade facilities at all 7 of Maine’s community colleges.
+{{page.excerpt}}
 
 ## Ballot question
 “Do you favor a $15,000,000 bond issue to improve educational programs by upgrading facilities at all 7 of Maine's community colleges in order to provide Maine people with access to high-skill, low-cost technical and career education?”[^2]

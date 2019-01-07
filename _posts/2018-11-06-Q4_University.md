@@ -1,5 +1,7 @@
 ---
 title:  "Question 4: University of Maine"
+excerpt: Approving this question would allow the state to borrow $49 million, matched by $49 million in private and public funds, to improve facilities and infrastructure at the University of Maine campuses.
+election: 2018-11-06
 search: true
 categories:
 - Education
@@ -14,8 +16,9 @@ last_modified_at: 2019-01-07 T08:06:00-05:00
 ![Image of university graduates.](/assets/img/2018_11/Question4_University.jpg)
 ## Results
 This measure passed.
+
 ## The gist
-Approving this question would allow the state to borrow $49 million, matched by $49 million in private and public funds, to improve facilities and infrastructure at the University of Maine campuses.
+{{page.excerpt}}
 
 ## Ballot question
 “Do you favor a $49,000,000 bond issue to be matched by at least $49,000,000 in private and public funds to modernize and improve the facilities and infrastructure of Maine's public universities in order to expand workforce development capacity and to attract and retain students to strengthen Maine's economy and future workforce?”[^2]
