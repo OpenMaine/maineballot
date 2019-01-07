@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD:_posts/2018-11-06-Q2_Wastewater.md
-title:  "Question 3: Transportation"
-search: true
-=======
 title:  "Question 2: Wastewater"
-search: false
->>>>>>> parent of 94638ab... Adds question 3:_posts/2019-01-07-Q2_Wastewater.md
+search: true
 categories:
 - Water
 - Bond
@@ -16,11 +11,7 @@ no_vote: I don't want to issue a $30 million bond to fund wastewater infrastruct
 last_modified_at: 2019-01-07 T08:06:00-05:00
 ---
 
-<<<<<<< HEAD:_posts/2018-11-06-Q2_Wastewater.md
-![Image of transportation infrastructure.](/assets/img/2018_11/Question3Transportation.jpg)
-=======
 ![Image of wastewater.](/assets/img/2018_11/Question2_Wastewater.jpg)
->>>>>>> parent of 94638ab... Adds question 3:_posts/2019-01-07-Q2_Wastewater.md
 ## Results
 This measure passed.
 ## The gist
