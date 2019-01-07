@@ -63,8 +63,8 @@ The costs in this section are from the 2016 referendum question.  No new numbers
 ### The money will be coming from:
 * General Fund appropriation
 * Highway Fund allocation
-<br>
-Note: The Maine Office of Fiscal and Program Review fiscal statement says that most of the expenditures are ongoing [4], but some of them (i.e. updating ballot machines) are likely one-time.  The Maine State Treasurer, Terry Hayes cited $500,000 as the cost in an Op-Ed, but it isn't clear where that number came from or whether it's the startup costs or ongoing costs.[^5]  
+<br><br>
+Note: The Maine Office of Fiscal and Program Review fiscal statement says that most of the expenditures are ongoing[^4], but some of them (i.e. updating ballot machines) are likely one-time.  The Maine State Treasurer, Terry Hayes cited $500,000 as the cost in an Op-Ed, but it isn't clear where that number came from or whether it's the startup costs or ongoing costs.[^5]  
 
 ## Pros
 The primary arguments for this referendum are:
