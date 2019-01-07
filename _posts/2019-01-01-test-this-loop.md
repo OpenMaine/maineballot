@@ -13,92 +13,60 @@ last_modified_at: 2019-01-07 T08:06:00-05:00
 
 ![Image of wastewater.](/assets/img/2018_11/Question2_Wastewater.jpg)
 ## Results
-This measure did not pass.
+This measure passed.
 ## The gist
-This referendum would create a new Universal Home Care Program to provide in-home care to disabled people and seniors by taxing high-income earners.
+Passing this question would allow the state to borrow $30 million to improve water quality.
+
 ## Ballot question
-“Do you want to create the Universal Home Care Program to provide home-based assistance to people with disabilities and senior citizens, regardless of income, funded by a new 3.8% tax on individuals and families with Maine wage and adjusted gross income above the amount subject to Social Security taxes, which is $128,400 in 2018?” [^2]
+“Do you favor a $30,000,000 bond issue to improve water quality, support the planning and construction of wastewater treatment facilities and assist homeowners whose homes are served by substandard or malfunctioning wastewater treatment systems? ”[^2]
 
 {% include yes-no-table.html %}
 
 
 ## Tell me more
-This referendum would create a new Universal Home Care Program funded by a 3.8% tax on individuals and families that make more than the Social Security tax threshold, which is $128,400 for 2018.  The program would provide in long-term, home health and social services care to people over 65 or who have physical or mental disabilities. [^1]
+Passing this question would provide funds to towns, wastewater facilities, and homeowners, primarily in areas that affect the coast and shell fishing areas to fix broken wastewater disposal systems.
 
-The program would involve the creation of a board to manage the program and funds, which may involve creating waiting lists if too many people sign up for services. The services wouldn’t require income limits. [^1]
+This is a **bond issue** -- if voters approve the bond, it means that the State of Maine is allowed to borrow money for the project described in the ballot question and has to pay it back over 10 years. [^3] [Learn more about how bonds work](/bonds).
 
-This question is a **citizen initiative**, which is a way for Mainers to propose new laws. In order to become a valid initiative, a petition supporting the initiative must collect over 60,000 signatures. [^3]
 ## Follow the money
+Principal: $30,000,000
+Interest: $8,250,000 (assumes 5.0% over 10 years)
+Total cost: $38,250,000 [^4]
+
 ### The money will be used to:
-* Create a Universal Home Care Program that provides home-based assistance to two groups of people: senior citizens and disabled individuals. [^3]
-* Pay for worker costs.  77% of the funds must be spent on worker costs. [^1]
-* Establish a board to manage the program and funds [^1]
-* Support these types of services: “self-directed care services; medical and diagnostic services; professional nursing; physical, occupational and speech therapy; dietary and nutrition services; home health aide services; personal care assistance services; companion and attendant services; home repair, chore and homemaker services; respite care; hospice care; counseling services; transportation; small rent subsidies; various devices that lessen the effects of disabilities; and other appropriate and necessary social services.” [^4]
+* $27.65 million for wastewater treatment facility planning and construction for areas that affect high-value shellfish resources [^4]
+* $2 million for a small community grant program to help towns replace broken septic systems that are causing pollution [^4]
+* $350,000 for homeowners to fix their disposal systems [^4]
 
 ### The money will be coming from:
-* A new 3.8% tax (1.9% via payroll tax, 1.9% via an income tax) for individuals and families that make more than $128,400. [^1],[^2] This is about 2% of the population. [^5]
-* A new 3.8% tax on non-wage income, including stocks, interest, and dividends [^1]
-* The total expected income from these taxes is $310 million annually [^4]
+* $30 million bond issued by the state and paid back through the budget and taxes over 10 years.
 
 ## Pros
 The primary arguments for this referendum are:
 
-* Maine has a large elderly population, many of whom can’t afford in-home care.  20,000 Mainers need home care, 6,000 currently receive it. [^5]
-* Medicare doesn’t cover long-term care costs. [^7]
-* The legislature has cut funding for home care. [^5]
-* The program may increase the number of people attracted to home care work because it will increase the market of people who can afford care, reducing shortages of people willing to do the work. [^5]
-* High-income earners can afford higher taxes.
+* Wastewater issues affect the entire community, not just those who have broken systems.
+* Wastewater is a problem for coastal waters and shellfish supplies.
+* Individual landowners don’t have an incentive to make these expensive improvements themselves because they don’t have a direct impact.
+* Infrastructure improvements cost less the sooner they are made.
+* Interest rates are currently low, making it a good time to invest. [^3]
 
 ## Cons
 The primary arguments against this referendum are:
-* Raising taxes for high earners may detract them from living in Maine, hurting the economy.
-* Some of the language in the referendum makes it seem like it will force home care workers to join a union. [^6]
-* There is a lot of unclear language in the referendum, including whether the income limit is for individuals or households. [^8]
-* Many believe that this type of legislation shouldn’t be created using referendums and that it should follow the regular legislative process. [^6]
-* There are no means test or residency requirements for the program, potentially opening up the door to large numbers of people participating. [^4]
-* The program may violate patient privacy because of language in the referendum about sharing patient information with third parties. [^4]
-* The board wouldn’t be accountable to taxpayers. [^4]
-
-## Further reading
-[Full Text](http://maine.gov/sos/cec/elec/citizens/uhcleg.pdf)
-<br>[Ballotpedia Article](https://ballotpedia.org/Maine_Question_1,_Payroll_and_Non-Wage_Income_Taxes_for_Home_Care_Program_Initiative_(2018))
-<br>[Maine Calling Radio Show](http://www.mainepublic.org/post/your-vote-debate-over-ballot-question-one)
-<br>[Portland Press Herald Article](https://www.pressherald.com/2018/07/30/advocates-of-in-home-care-referendum-call-it-fairness-critics-call-it-a-scam/?utm_medium=webpush&utm_source=browser&utm_campaign=pushnotifications)
-<br>[Bangor Daily News Article](https://bangordailynews.com/2018/10/09/opinion/contributors/home-care-referendum-a-necessity-for-maine/)
-<br>[Maine Public Article](http://www.mainepublic.org/post/experts-disagree-whether-maine-home-care-referendum-will-result-marriage-penalty-tax#stream/0)
-<br>[Maine Center for Economic Policy Blog](http://blog.mecep.org/2018/09/new-analysis-home-care-tax-would-affect-top-3-percent-of-wealthiest-mainers/)
+* There isn’t a lot of information about which communities will benefit from these improvements.
+* Maine already has $106,258,509 in outstanding bond debt that this will add to and it could lead to increased taxes. [^4]
 
 ## Who cares
-### Support [^1]
-* Maine People’s Alliance
-* Mainers for Homecare
-* The Caring Majority
-* SEIU
-* Open Society Policy Center
-* Center for Community Change Action
-* Bend the Arc Jewish Action
+Nobody has registered support or opposition to this bond. [^1]
 
-### Opposition [^1]
-* No on Question One
-* Maine Bankers Association PAC
-* Maine Association of Retailers
-* Dorks R Us
-* IDEXX Laboratories
-* MaineHealth
+## Further reading
+[Full Text](http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP1034&item=1&snum=128)
+<br>[Ballotpedia Article](https://ballotpedia.org/Maine_Question_2,_Wastewater_Infrastructure_Bond_Issue_(2018))
 
 ## References
-[^1]: Ballotpedia State Desk. [Maine Question 1, Payroll and Non-Wage Income Taxes for Home Care Program Initiative (2018)](https://ballotpedia.org/Maine_Question_1,_Payroll_and_Non-Wage_Income_Taxes_for_Home_Care_Program_Initiative_(2018)). Ballotpedia.  Accessed October 11, 2018.
+[^1]: Ballotpedia State Desk. [Maine Question 2, Wastewater Infrastructure Bond Issue (2018)](https://ballotpedia.org/Maine_Question_2,_Wastewater_Infrastructure_Bond_Issue_(2018))). Ballotpedia.  Accessed October 11, 2018.
 
-[^2]: Maine State Legislature. [Sec. 1. 5 MRSA §12004-G, sub-§14-I](http://maine.gov/sos/cec/elec/citizens/uhcleg.pdf). Accessed October 11, 2018.
+[^2]: Maine State Legislature. [H.P. 1034](http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP1034&item=1&snum=128). Accessed October 11, 2018.
 
 [^3]: League of Women Voters. [League of Women Voters, Maine 2018 General Election Voter Guide (2018)](http://www.lwvme.org/files/VG_2018_Statewide.pdf). Accessed October 11, 2018.
 
 [^4]: Dunlap, Matthew. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide.pdf). Accessed October 11, 2018.
-
-[^5]: Maine Public. [Your Vote: The Debate Over Ballot Question One](http://www.mainepublic.org/post/your-vote-debate-over-ballot-question-one). Accessed October 11, 2018
-
-[^6]: Anderson, J. Craig. [Advocates of in-home care referendum call it fairness; critics call it a scam. Portland Press Herald](https://www.pressherald.com/2018/07/30/advocates-of-in-home-care-referendum-call-it-fairness-critics-call-it-a-scam/?utm_medium=webpush&utm_source=browser&utm_campaign=pushnotifications). Accessed October 11, 2018
-
-[^7]: Butler, Sandra and Luisa S. Deprez. [Home care referendum a necessity for Maine](https://bangordailynews.com/2018/10/09/opinion/contributors/home-care-referendum-a-necessity-for-maine/). Bangor Daily News. Accessed October 11, 2018
-
-[^8]: Wight, Patty. [Experts Disagree On Whether Maine Home Care Referendum Will Result In ‘Marriage Penalty’ Tax](http://www.mainepublic.org/post/experts-disagree-whether-maine-home-care-referendum-will-result-marriage-penalty-tax#stream/0). Maine Public. Accessed October 11, 2018
