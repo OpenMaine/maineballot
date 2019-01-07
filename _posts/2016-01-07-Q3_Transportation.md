@@ -1,95 +1,76 @@
 ---
-title:  "Gemified Theme -- Alpha Release"
-last_modified_at: 2018-03-20T16:00:58-04:00
-categories: 
-  - Jekyll
-tags:
-  - update
-toc: true
-toc_label: "Getting Started"
+title:  "Question 3: Transportation"
+search: false
+categories:
+- Transportation
+- Bond
+- Passed
+- November 2018 Election
+yes_vote:   I am in favor of issuing the $106 million bond to address infrastructure improvements.
+no_vote: I do not want Maine to borrow $106 million to address infrastructure improvements.
+last_modified_at: 2019-01-07 T08:06:00-05:00
 ---
 
-Jekyll [themes distributed as Ruby gems](http://jekyllrb.com/docs/themes/) are finally here to make installing and upgrading much easier. Gone are the days of forking a repo just to "install it". Or dealing with merge conflicts when pulling in upstream commits to "upgrade it".
+![Image of transportation infrastructure.](/assets/img/2018_11/Question3Transportation.jpg)
+## Results
+This measure passed.
+## The gist
+Passing this question would allow the state to borrow $106 million for transportation improvements. This is the second of 3 consecutive years of transportation bonds that will fill a shortfall in the highway fund.[^5]
 
-If you're interested in testing out Minimal Mistakes as a gemified theme read on. There are a few caveats though:
+## Ballot question
+“Do you favor a $106,000,000 bond issue, including $101,000,000 for construction, reconstruction, and rehabilitation of highways and bridges and for facilities and equipment related to ports, piers, harbors, marine transportation, freight and passenger railroads, aviation, transit and bicycle and pedestrian trails, to be used to match an estimated $137,000,000 in federal and other funds, and $5,000,000 for the upgrade of municipal culverts at stream crossings?”[^2]
 
-1. Support for a theme `assets` folder was recently [added to Jekyll core](https://github.com/jekyll/jekyll/pull/5364), but has yet to be released or rolled into the `github-pages` gem. Meaning you can't use Minimal Mistakes as a Ruby gem there just yet... locally served or self-hosted installs should be fine if you don't mind using a pre-release version of Jekyll. 
-2. Windows users can't currently use themes packaged as gems due to a [bug with file paths](https://github.com/jekyll/jekyll/issues/5192) in Jekyll core. This is being worked on so hopefully a [fix is on the way](https://github.com/jekyll/jekyll/pull/5256) soon.
+{% include yes-no-table.html %}
 
-Fine with all that? Great. Let's continue.
 
-If you're migrating a site already using Minimal Mistakes and haven't customized any of the `_includes`, `_layouts`, `_sass` partials, or `assets` this should be quick and painless.
+## Tell me more
+Passing this question would allow the State of Maine to borrow $106 million for a variety of infrastructure improvements, including highways, bridges, ports, railroads, airports, bicycle, and walking trails.[^3]
 
-## Step 1: Remove Theme Files 
+This is a **bond issue** -- if voters approve the bond, it means that the State of Maine is allowed to borrow money for the project described in the ballot question and has to pay it back over 10 years.[^3] [Learn more about how bonds work](/bonds).
 
-Remove `_includes`, `_layouts`, `_sass`, `assets` folders and files within. You won't need these anymore as they're bundled in the theme.
+## Follow the money
+Principal: $106,000,000
+<br>Interest: $29,150,000 (assumes 5.0% over 10 years)
+<br>Total cost: $135,150,000[^4]
 
-If you customized any of these then leave them alone and only remove the untouched ones. If setup correctly your modified versions should act as [overrides](http://jekyllrb.com/docs/themes/#overriding-theme-defaults) to the versions bundled with the theme.
+### The money will be used to:
+* 80 million (plus $88 million in matching funds) for highways, secondary roads, and bridges[^4]
+* $20 million (plus $49 million in matching funds) for projects that “preserve public safety or otherwise demonstrate high economic value in terms of transportation” for things like  ports, railroads, airports, bicycle, and walking trails[^4]
+* $5 million (plus some matching funds) to fund a Department of Environmental Protection grant program for upgrading fish and wildlife habitats[^4]
+* $1 million for improving a pier at Maine Maritime Academy[^4]
 
-## Step 2: Update `Gemfile`
+### The money will be coming from:
+* $106 million bond issued by the state and paid back through the budget and taxes over 10 years.[^4]
+* $137 million matching funds from the federal government and other sources[^4]
+* Matching funds from municipalities (they will be required to match 50% or more of project costs)[^4]
 
-In order to test you'll need to install pre-release gems of Jekyll and Minimal Mistakes.
+## Pros
+The primary arguments for this referendum are:
 
-Start by replacing `gem "github-pages"` or `gem "jekyll"` with the following:
+* Maine's roads and infrastructure are deteriorating.
+* Makes up for some of the shortfall in gas taxes from fuel-efficient vehicles that has left the funds for highway repairs insufficient.
+* Issuing the bond opens up matching funds.
+* Interest rates are currently low, making it a good time to invest.[^3]
 
-```ruby
-gem "jekyll", :git => "https://github.com/jekyll/jekyll.git"
-```
+## Cons
+The primary arguments against this referendum are:
+* Maine already has $106,258,509 in outstanding bond debt that this will add to and it could lead to increased taxes.[^4]
 
-Then add the pre-release Minimal Mistakes theme gem: 
+## Who cares
+Nobody has registered support or opposition to this bond.[^1]
 
-```ruby
-gem "minimal-mistakes-jekyll", :git => "https://github.com/mmistakes/minimal-mistakes.git", :branch => "feature/theme-gem"`
-```
+## Further reading
+[Full Text](http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=SP0682&item=2&snum=128)
+<br>[Ballotpedia Article](https://ballotpedia.org/Maine_Question_3,_Transportation_Bond_Issue_(2018))
+<br>[Portland Press Herald Article](https://www.pressherald.com/2017/11/05/question-3-asks-voters-to-approve-105-million-bond-for-roads-and-bridges/)
 
-When finished your `Gemfile` should look something like this:
+## References
+[^1]: Ballotpedia State Desk. [Maine Question 3, Transportation Bond Issue (2018)](https://ballotpedia.org/Maine_Question_3,_Transportation_Bond_Issue_(2018)). Ballotpedia.  Accessed October 11, 2018.
 
-```ruby
-source "https://rubygems.org"
+[^2]: Maine State Legislature. [L.D. 1815](http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=SP0682&item=2&snum=128). Accessed October 11, 2018.
 
-gem "jekyll", :git => "https://github.com/jekyll/jekyll.git"
-gem "minimal-mistakes-jekyll", :git => "https://github.com/mmistakes/minimal-mistakes.git", :branch => "feature/theme-gem"
+[^3]: League of Women Voters. [League of Women Voters, Maine 2018 General Election Voter Guide (2018)](http://www.lwvme.org/files/VG_2018_Statewide.pdf). Accessed October 11, 2018.
 
-group :jekyll_plugins do
-  # gem "jekyll-archives"
-  gem "jekyll-paginate"
-  gem "jekyll-sitemap"
-  gem "jekyll-gist"
-  gem "jekyll-feed"
-  gem "jemoji"
-end
-```
+[^4]: Dunlap, Matthew. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide.pdf). Accessed October 11, 2018.
 
-## Step 3: Run Bundler
-
-Run `bundle install` (or `bundle update` if you're updating an existing repo) to install the pre-release gems.
-
-## Step 4: Install the Theme
-
-Add `theme: "minimal-mistakes-jekyll"` to your `_config.yml` file.
-
-If you're migrating from an existing Minimal Mistakes site you shouldn't have to change anything else after this. If it's a new site consult then docs to [properly config]({{ "/docs/configuration/" | relative_url }}).
-
-**Please Note:** Paths for image headers, overlays, teasers, [galleries]({{ "/docs/helpers/#gallery" | relative_url }}), and [feature rows]({{ "/docs/helpers/#feature-row" | relative_url }}) have changed and now require a full path. Instead of just `image: filename.jpg` you'll need to use the full path eg: `image: assets/images/filename.jpg`. The preferred location is now `assets/images` but can be placed elsewhere or external hosted. This applies for image references in `_config.yml` and `author.yml`.
-{: .notice--danger}
-
-## Step 5: `jekyll new` Tweaks
-
-If this is a new site be sure to add the following files to `_data/` and customize as you see fit. There is currently no way of bundling them in with the theme, so be sure to consult the docs on how to properly use both.
-
-- [`_data/ui-text.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml) - UI text [documentation]({{ "/docs/ui-text/" | relative_url }})
-- [`_data/navigation.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_data/navigation.yml) - navigation [documentation]({{ "/docs/navigation/" | relative_url }})
-
-You'll also need to: 
-
-- Replace `<site root>/index.html` with a modified [Minimal Mistakes `index.html`](https://github.com/mmistakes/minimal-mistakes/blob/master/index.html).
-- Change `layout: post` in `_posts/0000-00-00-welcome-to-jekyll.markdown` to `layout: single`.
-- Remove `about.md`, or at the very least change `layout: page` to `layout: single` and remove references to `icon-github.html` (or [copy to your `_includes`](https://github.com/jekyll/minima/tree/master/_includes) if using).
-
----
-
-That's it! If all goes well running `bundle exec jekyll serve` should spin-up your site. If you encounter any bumps please file an issue on GitHub and make sure to indicate you're testing the pre-release Ruby gem version.
-
-[File an issue](https://github.com/mmistakes/minimal-mistakes/issues/new){: .btn .btn--info .btn--large}
-
-Thanks!
+[^5]: McGuire, Peter. [Question 3 asks voters to approve $105 million bond for roads and bridges](https://www.pressherald.com/2017/11/05/question-3-asks-voters-to-approve-105-million-bond-for-roads-and-bridges/). Portland Press Herald. Accessed October 21, 2018.
