@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: Current election
+    url: /index
+  - title: "How to vote in Maine"
+    url: /vote
+  - title: "Previous elections"
+    url: /archive
+  - title: "How bonds work"
+    url: /bonds/
   # - title: "Sitemap"
   #   url: /sitemap/
