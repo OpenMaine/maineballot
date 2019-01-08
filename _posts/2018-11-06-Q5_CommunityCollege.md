@@ -1,28 +1,21 @@
 ---
 title:  "Question 5: Community Colleges"
-excerpt: Approving this question would allow the state to borrow $15 million to upgrade facilities at all 7 of Maine’s community colleges.
-election: 2018-11-06
-header:
-  overlay_image: /assets/img/2018_11/Question5_CommunityCollege.jpg
-  teaser: /assets/img/2018_11/Question5_CommunityCollege.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 search: true
 categories:
-- November 2018 Election
-tags:
 - Education
 - Bond
 - Passed
+- November 2018 Election
 yes_vote: I support borrowing money for community college facility upgrades.
 no_vote: I do not want to borrow money for community college facility upgrades.
 last_modified_at: 2019-01-07 T08:06:00-05:00
 ---
 
+![Image of a community college.](/assets/img/2018_11/Question5_CommunityCollege.jpg)
 ## Results
 This measure passed.
-
 ## The gist
-{{page.excerpt}}
+Approving this question would allow the state to borrow $15 million to upgrade facilities at all 7 of Maine’s community colleges.
 
 ## Ballot question
 “Do you favor a $15,000,000 bond issue to improve educational programs by upgrading facilities at all 7 of Maine's community colleges in order to provide Maine people with access to high-skill, low-cost technical and career education?”[^2]
@@ -65,7 +58,7 @@ The primary arguments against this referendum are:
 * Maine already has $106,258,509 in outstanding bond debt that this will add to and it could lead to increased taxes.[^4]
 
 ## Who cares
-Nobody has registered support or opposition to this bond. [^1]
+Nobody has registered support or opposition to this bond. [1]
 
 ## Further reading
 [Full Text](http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP0585&item=2&snum=128)

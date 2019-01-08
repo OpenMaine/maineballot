@@ -10,9 +10,7 @@ layout: archive
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Ballot questions" }}</h3>
 
 {% for post in paginator.posts %}
-  {% if post.election == site.data.elections.current_election %}
-    {% include archive-single.html type="grid" %}   
-  {% endif %}
-{% endfor %}     
+  {% include archive-single.html %}
+{% endfor %}
 
 {% include paginator.html %}
