@@ -8,10 +8,11 @@ header:
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 search: true
 categories:
+- November 2018 Election
+tags:
 - Education
 - Bond
 - Passed
-- November 2018 Election
 yes_vote: I support borrowing money for community college facility upgrades.
 no_vote: I do not want to borrow money for community college facility upgrades.
 last_modified_at: 2019-01-07 T08:06:00-05:00

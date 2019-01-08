@@ -8,10 +8,11 @@ header:
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 search: true
 categories:
+- November 2018 Election
+tags:
 - Transportation
 - Bond
 - Passed
-- November 2018 Election
 yes_vote:   I am in favor of issuing the $106 million bond to address infrastructure improvements.
 no_vote: I do not want Maine to borrow $106 million to address infrastructure improvements.
 last_modified_at: 2019-01-07 T08:06:00-05:00

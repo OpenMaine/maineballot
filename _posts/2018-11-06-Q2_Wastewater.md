@@ -8,10 +8,11 @@ header:
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 search: true
 categories:
+- November 2018 Election
+tags:
 - Water
 - Bond
 - Passed
-- November 2018 Election
 yes_vote:  I am in favor of issuing a $30 million bond to fund wastewater infrastructure improvements.
 no_vote: I don't want to issue a $30 million bond to fund wastewater infrastructure improvements.
 last_modified_at: 2019-01-07 T08:06:00-05:00
