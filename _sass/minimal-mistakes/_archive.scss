@@ -140,22 +140,19 @@
   }
 }
 
+.center-grid {
+  margin: auto;
+}
+
 .grid__item {
   margin-top: 2rem;
-  float: left;
-
-  &:nth-child(4n+4) {
-    clear: both;
-  }
-
-  @include breakpoint($small) {
-
-  }
+  vertical-align: top;
+  display: inline-block;
 
   @include breakpoint($medium) {
     margin-left: 0; /* override margin*/
     margin-right: .7rem; /* override margin*/
-    max-width: 23%;
+    max-width: 22%;
   }
 
   .page__meta {
