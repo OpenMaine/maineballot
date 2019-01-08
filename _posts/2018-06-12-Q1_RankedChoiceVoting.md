@@ -8,6 +8,7 @@ categories:
 - June 2018 Election
 yes_vote: I am in favor of ranked-choice voting.
 no_vote: I want to keep elections the way they are.
+excerpt: This approved measure enacts ranked-choice voting for some elections.
 last_modified_at: 2019-01-07 T08:06:00-05:00
 ---
 
