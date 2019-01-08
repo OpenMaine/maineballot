@@ -1,6 +1,6 @@
 ---
 title:  "Question 2: Wastewater"
-excerpt: Passing this question would allow the state to borrow $30 million to improve water quality.
+excerpt: This approved measure allows the state to borrow $30 million to improve water quality.
 election: 2018-11-06
 header:
   overlay_image: /assets/img/2018_11/Question2_Wastewater.jpg
@@ -22,7 +22,7 @@ last_modified_at: 2019-01-07 T08:06:00-05:00
 This measure passed.
 
 ## The gist
-{{page.excerpt}}
+Passing this question would allow the state to borrow $30 million to improve water quality.
 
 ## Ballot question
 “Do you favor a $30,000,000 bond issue to improve water quality, support the planning and construction of wastewater treatment facilities and assist homeowners whose homes are served by substandard or malfunctioning wastewater treatment systems?”[^2]

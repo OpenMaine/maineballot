@@ -1,5 +1,6 @@
 ---
 title:  "Question 1: Ranked-Choice Voting"
+excerpt: This approved measure enacts ranked-choice voting for some elections.
 search: true
 header:
   overlay_image: /assets/img/2018_06/Question1_RankedChoice.jpg
