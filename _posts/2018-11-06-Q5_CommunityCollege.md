@@ -1,6 +1,6 @@
 ---
 title:  "Question 5: Community Colleges"
-excerpt: This approved measure allows the state to borrow $15 million to upgrade facilities at all 7 of Maine’s community colleges.
+excerpt: This approved measure allows the state to borrow $15 million to upgrade facilities at Maine’s community colleges.
 election: 2018-11-06
 header:
   overlay_image: /assets/img/2018_11/Question5_CommunityCollege.jpg

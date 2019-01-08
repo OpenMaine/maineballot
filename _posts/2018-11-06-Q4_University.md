@@ -1,6 +1,6 @@
 ---
 title:  "Question 4: University of Maine"
-excerpt: This approved measure allows the state to borrow $49 million and receive matching to improve University of Maine campuses.
+excerpt: This approved measure allows the state to borrow $49 million to improve University of Maine campuses.
 election: 2018-11-06
 header:
   overlay_image: /assets/img/2018_11/Question4_University.jpg
