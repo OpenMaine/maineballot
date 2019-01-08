@@ -2,6 +2,10 @@
 title:  "Question 2: Wastewater"
 excerpt: Passing this question would allow the state to borrow $30 million to improve water quality.
 election: 2018-11-06
+header:
+  overlay_image: /assets/img/2018_11/Question2_Wastewater.jpg
+  teaser: /assets/img/2018_11/Question2_Wastewater.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 search: true
 categories:
 - Water
@@ -13,7 +17,6 @@ no_vote: I don't want to issue a $30 million bond to fund wastewater infrastruct
 last_modified_at: 2019-01-07 T08:06:00-05:00
 ---
 
-![Image of wastewater.](/assets/img/2018_11/Question2_Wastewater.jpg)
 ## Results
 This measure passed.
 

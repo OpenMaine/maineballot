@@ -1,6 +1,10 @@
 ---
 title:  "Question 1: Ranked-Choice Voting"
 search: true
+header:
+  overlay_image: /assets/img/2018_06/Question1_RankedChoice.jpg
+  teaser: /assets/img/2018_06/Question1_RankedChoice.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 categories:
 - Ranked-Choice
 - Citizen Initiative
@@ -11,7 +15,6 @@ no_vote: I want to keep elections the way they are.
 last_modified_at: 2019-01-07 T08:06:00-05:00
 ---
 
-![Image of a ballot.](/assets/img/2018_06/Question1_RankedChoice.jpg)
 ## Results
 This measure passed.
 ## The gist

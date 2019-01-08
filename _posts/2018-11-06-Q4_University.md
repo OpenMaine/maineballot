@@ -2,6 +2,10 @@
 title:  "Question 4: University of Maine"
 excerpt: Approving this question would allow the state to borrow $49 million, matched by $49 million in private and public funds, to improve facilities and infrastructure at the University of Maine campuses.
 election: 2018-11-06
+header:
+  overlay_image: /assets/img/2018_11/Question4_University.jpg
+  teaser: /assets/img/2018_11/Question4_University.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 search: true
 categories:
 - Education
@@ -13,7 +17,6 @@ no_vote: I do not want to borrow money for University of Maine facility and infr
 last_modified_at: 2019-01-07 T08:06:00-05:00
 ---
 
-![Image of university graduates.](/assets/img/2018_11/Question4_University.jpg)
 ## Results
 This measure passed.
 

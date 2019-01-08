@@ -2,6 +2,10 @@
 title:  "Question 5: Community Colleges"
 excerpt: Approving this question would allow the state to borrow $15 million to upgrade facilities at all 7 of Maine’s community colleges.
 election: 2018-11-06
+header:
+  overlay_image: /assets/img/2018_11/Question5_CommunityCollege.jpg
+  teaser: /assets/img/2018_11/Question5_CommunityCollege.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 search: true
 categories:
 - Education
@@ -13,7 +17,6 @@ no_vote: I do not want to borrow money for community college facility upgrades.
 last_modified_at: 2019-01-07 T08:06:00-05:00
 ---
 
-![Image of a community college.](/assets/img/2018_11/Question5_CommunityCollege.jpg)
 ## Results
 This measure passed.
 
