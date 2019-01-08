@@ -64,7 +64,7 @@ The primary arguments against this referendum are:
 * Maine already has $106,258,509 in outstanding bond debt that this will add to and it could lead to increased taxes.[^4]
 
 ## Who cares
-Nobody has registered support or opposition to this bond. [1]
+Nobody has registered support or opposition to this bond. [^1]
 
 ## Further reading
 [Full Text](http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP0585&item=2&snum=128)
