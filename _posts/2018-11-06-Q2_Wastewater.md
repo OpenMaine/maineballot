@@ -1,21 +1,28 @@
 ---
 title:  "Question 2: Wastewater"
+excerpt: Passing this question would allow the state to borrow $30 million to improve water quality.
+election: 2018-11-06
+header:
+  overlay_image: /assets/img/2018_11/Question2_Wastewater.jpg
+  teaser: /assets/img/2018_11/Question2_Wastewater.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 search: true
 categories:
+- November 2018 Election
+tags:
 - Water
 - Bond
 - Passed
-- November 2018 Election
 yes_vote:  I am in favor of issuing a $30 million bond to fund wastewater infrastructure improvements.
 no_vote: I don't want to issue a $30 million bond to fund wastewater infrastructure improvements.
 last_modified_at: 2019-01-07 T08:06:00-05:00
 ---
 
-![Image of wastewater.](/assets/img/2018_11/Question2_Wastewater.jpg)
 ## Results
 This measure passed.
+
 ## The gist
-Passing this question would allow the state to borrow $30 million to improve water quality.
+{{page.excerpt}}
 
 ## Ballot question
 “Do you favor a $30,000,000 bond issue to improve water quality, support the planning and construction of wastewater treatment facilities and assist homeowners whose homes are served by substandard or malfunctioning wastewater treatment systems?”[^2]

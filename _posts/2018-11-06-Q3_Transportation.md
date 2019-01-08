@@ -1,19 +1,26 @@
 ---
 title:  "Question 3: Transportation"
+excerpt: Passing this question would allow the state to borrow $106 million for transportation improvements. This is the second of 3 consecutive years of transportation bonds that will fill a shortfall in the highway fund.
+election: 2018-11-06
+header:
+  overlay_image: /assets/img/2018_11/Question3Transportation.jpg
+  teaser: /assets/img/2018_11/Question3Transportation.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 search: true
 categories:
+- November 2018 Election
+tags:
 - Transportation
 - Bond
 - Passed
-- November 2018 Election
 yes_vote:   I am in favor of issuing the $106 million bond to address infrastructure improvements.
 no_vote: I do not want Maine to borrow $106 million to address infrastructure improvements.
 last_modified_at: 2019-01-07 T08:06:00-05:00
 ---
 
-![Image of transportation infrastructure.](/assets/img/2018_11/Question3Transportation.jpg)
 ## Results
 This measure passed.
+
 ## The gist
 Passing this question would allow the state to borrow $106 million for transportation improvements. This is the second of 3 consecutive years of transportation bonds that will fill a shortfall in the highway fund.[^5]
 
