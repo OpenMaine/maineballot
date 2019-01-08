@@ -15,7 +15,6 @@ tags:
 - Passed
 yes_vote: I support borrowing money for community college facility upgrades.
 no_vote: I do not want to borrow money for community college facility upgrades.
-excerpt: This approved measure allows the state to borrow $15 million to upgrade facilities at all 7 of Maine’s community colleges.
 last_modified_at: 2019-01-07 T08:06:00-05:00
 ---
 

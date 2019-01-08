@@ -15,7 +15,6 @@ tags:
 - Passed
 yes_vote:  I am in favor of issuing a $30 million bond to fund wastewater infrastructure improvements.
 no_vote: I don't want to issue a $30 million bond to fund wastewater infrastructure improvements.
-exceprt: This approved measure allows the state to borrow $30 million to improve water quality.
 last_modified_at: 2019-01-07 T08:06:00-05:00
 ---
 

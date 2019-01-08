@@ -15,7 +15,6 @@ tags:
 - Passed
 yes_vote:   I support borrowing money for University of Maine facility and infrastructure upgrades.
 no_vote: I do not want to borrow money for University of Maine facility and infrastructure upgrades.
-excerpt: This approved measure allows the state to borrow $49 million to improve  University of Maine campuses.
 last_modified_at: 2019-01-07 T08:06:00-05:00
 ---
 
