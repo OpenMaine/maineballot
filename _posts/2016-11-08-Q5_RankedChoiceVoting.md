@@ -6,6 +6,7 @@ header:
   overlay_image: /assets/img/2016_11/Question5_RankedChoice.jpg
   teaser: /assets/img/2016_11/Question5_RankedChoice.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  image_description: Ballot being filled out
 search: true
 categories:
 - November 2016 Election

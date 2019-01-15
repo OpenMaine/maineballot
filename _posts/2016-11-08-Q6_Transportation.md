@@ -6,6 +6,7 @@ header:
   overlay_image: /assets/img/2016_11/Question6_Transportation.jpg
   teaser: /assets/img/2016_11/Question6_Transportation.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  image_description: Road in need of repair
 search: true
 categories:
 - November 2016 Election

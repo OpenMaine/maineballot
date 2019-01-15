@@ -6,6 +6,7 @@ header:
   overlay_image: /assets/img/2018_11/Question2_Wastewater.jpg
   teaser: /assets/img/2018_11/Question2_Wastewater.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  image_description: Wastewater coming out of a pipe
 search: true
 categories:
 - November 2018 Election

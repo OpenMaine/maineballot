@@ -171,7 +171,7 @@ ul {
      ========================================================================== */
 
 .greedy-nav {
-  position: relative;
+  position: ;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -565,18 +565,18 @@ ul {
     padding: 0;
     overflow: hidden;
   }
-  
+
   li {
     padding: 1.2rem;
     list-style-type: none;
     display: inline-block;
     font-size: .70rem;
   }
-  
+
   li a {
     text-decoration: none;
   }
-  
+
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     color: rgb(77, 75, 75);
