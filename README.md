@@ -22,7 +22,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 # Credits
 Creator: [Shannon McHarg](https://github.com/shannonmcharg)
-Developer and con
 
 ## Contributors
 ### 2019
