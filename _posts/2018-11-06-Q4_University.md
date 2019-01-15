@@ -84,3 +84,7 @@ Nobody has registered opposition to this bond. [1]
 [^4]: Dunlap, Matthew. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide.pdf). Accessed October 11, 2018.
 
 [^5]: Feinberg, Robbie. [University Officials Say That Question 4 Can Help Address Maine Labor Shortage](http://www.mainepublic.org/post/university-officials-say-question-4-can-help-address-maine-labor-shortage#stream/0). Maine Public. Accessed October 21, 2018.
+
+## Image credit
+
+Commencement Exercises University of Maine Orono 05132017 by Regan Vercruysse, [Creative Commons 2.0 license](https://creativecommons.org/licenses/by-sa/2.0/), [Original Image](https://www.flickr.com/photos/rverc/34666710781)
