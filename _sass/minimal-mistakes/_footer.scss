@@ -8,6 +8,7 @@
   margin-left: 0;
   margin-right: 0;
   width: 100%;
+  font-size: $type-size-6;
   clear: both;
   /* sticky footer fix start */
   position: absolute;
@@ -37,7 +38,7 @@
 
   a {
     color: inherit;
-    text-decoration: none;
+    text-decoration: underline;
 
     &:hover {
       text-decoration: underline;

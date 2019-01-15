@@ -7,14 +7,14 @@
   margin-bottom: 2em;
 
   @include breakpoint($large) {
-    float: right;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
+    margin: 0 auto;
+    width: calc(80%);
+    padding-right: 0px;
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width;
+    width: calc(90%);
+    padding-right: 0px;
   }
 }
 
@@ -131,60 +131,24 @@
     /* extend grid elements to the right */
 
     @include breakpoint($large) {
-      margin-right: -1 * $right-sidebar-width-narrow;
+      margin-right: -1 * 0;
     }
 
     @include breakpoint($x-large) {
-      margin-right: -1 * $right-sidebar-width;
+      margin-right: -1 * 0;
     }
   }
 }
 
 .grid__item {
-  margin-bottom: 2em;
-
-  @include breakpoint($small) {
-    float: left;
-    width: span(5 of 10);
-
-    &:nth-child(2n + 1) {
-      clear: both;
-      margin-left: 0;
-    }
-
-    &:nth-child(2n + 2) {
-      clear: none;
-      margin-left: gutter(of 10);
-    }
-  }
+  margin-top: 2em;
+  vertical-align: top;
+  display: inline-block;
 
   @include breakpoint($medium) {
     margin-left: 0; /* override margin*/
-    margin-right: 0; /* override margin*/
-    width: span(3 of 12);
-
-    &:nth-child(2n + 1) {
-      clear: none;
-    }
-
-    &:nth-child(4n + 1) {
-      clear: both;
-    }
-
-    &:nth-child(4n + 2) {
-      clear: none;
-      margin-left: gutter(1 of 12);
-    }
-
-    &:nth-child(4n + 3) {
-      clear: none;
-      margin-left: gutter(1 of 12);
-    }
-
-    &:nth-child(4n + 4) {
-      clear: none;
-      margin-left: gutter(1 of 12);
-    }
+    margin-right: .7rem; /* override margin*/
+    max-width: 22%;
   }
 
   .page__meta {

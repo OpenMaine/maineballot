@@ -1,7 +1,9 @@
 /* ==========================================================================
    NAVIGATION
    ========================================================================== */
-
+ul {
+  padding: 0;
+}
 /*
    Breadcrumb navigation links
    ========================================================================== */
@@ -169,7 +171,7 @@
      ========================================================================== */
 
 .greedy-nav {
-  position: relative;
+  position: ;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -554,4 +556,40 @@
   li ul li ul li ul li ul li ul > li a {
     padding-left: 3.25rem
   }
+}
+
+.nav-clean-horizon {
+  ul {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    padding: 1.2rem;
+    list-style-type: none;
+    display: inline-block;
+    font-size: .70rem;
+  }
+
+  li a {
+    text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    color: rgb(77, 75, 75);
+  }
+
+  @media screen and (max-width: 700px) {
+    li {
+      padding: .7rem;
+    }
+  }
+
+}
+
+.table-nav {
+  text-align: center;
 }

@@ -21,13 +21,13 @@
 
 .page {
   @include breakpoint($large) {
-    float: right;
-    width: calc(100% - #{$right-sidebar-width-narrow});
+    margin: 0 auto;
+    width: calc(75%);
     padding-right: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
+    width: calc(80%);
     padding-right: $right-sidebar-width;
   }
 
@@ -53,7 +53,7 @@
 }
 
 .page__title {
-  margin-top: 0;
+  margin-top: 2rem;
   line-height: 1;
 
   & + .page__meta {
@@ -467,13 +467,11 @@
 
 .page__related {
   @include clearfix();
-  float: left;
   margin-top: 2em;
   padding-top: 1em;
-  border-top: 1px solid $border-color;
 
   @include breakpoint($large) {
-    float: right;
+    margin: 1rem auto;
     width: calc(100% - #{$right-sidebar-width-narrow});
   }
 

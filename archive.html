@@ -1,0 +1,18 @@
+---
+title: Previous elections
+layout: archive
+author_profile: false
+---
+
+{% for category in site.categories reversed %}
+  <h2>{{ category[0] }}</h2>
+  <ul>
+    {% for post in category[1] reversed %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a>
+        <br>
+        <span class="archive__item-excerpt">{{ post.excerpt }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
