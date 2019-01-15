@@ -25,26 +25,26 @@ Creator: [Shannon McHarg](https://github.com/shannonmcharg)
 
 ## Contributors
 ### 2019
-Ryan Johnson: Development, content strategy, getting the site off of Squarespace and into this fine repository
+* Ryan Johnson: Development, content strategy, getting the site off of Squarespace and into this fine repository
 
 ### 2018
-Jared Gebel: Content creation
-Jessica Roskowinski: Content review
-Nick Kaufman: Content review
-Clare Congdon: Content review
-Nathan Grant: Content review
-[Open Maine](openmaine.org): Source of volunteers to help with content creation and review
+* Jared Gebel: Content creation
+* Jessica Roskowinski: Content review
+* Nick Kaufman: Content review
+* Clare Congdon: Content review
+* Nathan Grant: Content review
+* [Open Maine](openmaine.org): Source of volunteers to help with content creation and review
 
 ### 2017
-Jessica Roskowinski: Content management and review
+* Jessica Roskowinski: Content management and review
 
 ## Image Credits
 Most images on the site are in the public domain or have been purchased and don't require attribution, except:
 
 Commencement Exercises University of Maine Orono 05132017 by Regan Vercruysse, [Creative Commons 2.0 license](https://creativecommons.org/licenses/by-sa/2.0/), [Original Image](https://www.flickr.com/photos/rverc/34666710781)
 
-
-
+<br><br><br><br>
+---
 
 # [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/)
 This site uses the Minimal Mistakes Jekyll theme.
