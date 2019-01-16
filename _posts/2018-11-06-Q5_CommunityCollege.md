@@ -6,6 +6,7 @@ header:
   overlay_image: /assets/img/2018_11/Question5_CommunityCollege.jpg
   teaser: /assets/img/2018_11/Question5_CommunityCollege.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  image_description: Community college building
 search: true
 categories:
 - November 2018 Election

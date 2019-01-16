@@ -6,6 +6,7 @@ header:
   overlay_image: /assets/img/2018_11/Question4_University.jpg
   teaser: /assets/img/2018_11/Question4_University.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  image_description: Students at graduation in caps and gowns
 search: true
 categories:
 - November 2018 Election
@@ -67,12 +68,16 @@ The primary arguments against this referendum are:
 * University of Maine Alumni Association[^5]
 
 ### Opposition
-Nobody has registered opposition to this bond. [1]
+Nobody has registered opposition to this bond. [^1]
 
 ## Further reading
 [Full Text](http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP0585&item=3&snum=128)
 <br>[Ballotpedia Article](https://ballotpedia.org/Maine_Question_4,_University_of_Maine_System_Bond_Issue_(2018))
 <br>[Maine Public Article](http://www.mainepublic.org/post/university-officials-say-question-4-can-help-address-maine-labor-shortage#stream/0)
+
+## Image credit
+
+Commencement Exercises University of Maine Orono 05132017 by Regan Vercruysse, [Creative Commons 2.0 license](https://creativecommons.org/licenses/by-sa/2.0/), [Original Image](https://www.flickr.com/photos/rverc/34666710781)
 
 ## References
 [^1]: Ballotpedia State Desk. [Maine Question 4, University of Maine System Bond Issue (2018)](https://ballotpedia.org/Maine_Question_4,_University_of_Maine_System_Bond_Issue_(2018)). Ballotpedia.  Accessed October 11, 2018.

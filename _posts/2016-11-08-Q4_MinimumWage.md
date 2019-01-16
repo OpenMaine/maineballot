@@ -6,6 +6,7 @@ header:
   overlay_image: /assets/img/2016_11/Question4_MinimumWage.jpg
   teaser: /assets/img/2016_11/Question4_MinimumWage.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  image_description: Money
 search: true
 categories:
 - November 2016 Election

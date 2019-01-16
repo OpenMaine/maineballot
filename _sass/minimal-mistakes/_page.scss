@@ -21,8 +21,8 @@
 
 .page {
   @include breakpoint($large) {
-    float: left;
-    width: calc(100%);
+    margin: 0 auto;
+    width: calc(75%);
     padding-right: $right-sidebar-width-narrow;
   }
 
@@ -53,7 +53,7 @@
 }
 
 .page__title {
-  margin-top: 0;
+  margin-top: 2rem;
   line-height: 1;
 
   & + .page__meta {
@@ -135,7 +135,7 @@
 
   &--overlay {
     position: relative;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     padding: 3em 0;
     @include clearfix;
     background-size: cover;
@@ -467,13 +467,11 @@
 
 .page__related {
   @include clearfix();
-  float: left;
   margin-top: 2em;
   padding-top: 1em;
-  border-top: 1px solid $border-color;
 
   @include breakpoint($large) {
-    float: right;
+    margin: 1rem auto;
     width: calc(100% - #{$right-sidebar-width-narrow});
   }
 
