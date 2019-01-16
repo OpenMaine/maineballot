@@ -35,7 +35,7 @@ If passed, this referendum would add a 3% tax on income above $200,000 to create
 This referendum would take the money raised by the new 3% tax on income above $200,000 to create a Fund to Advance Public Kindergarten to Grade 12 Education that will be used to pay for "direct support for student learning."  This means it will be used to pay teachers and staff who directly work with students.  Money from the fund will be allocated using the existing school funding formula.
 
 ## Follow the money
-**Annual Revenue:** $142 million (ith an estimated $12 million increase each year)[^2]
+**Annual Revenue:** $142 million (with an estimated $12 million increase each year)[^2]
 
 ### The money will be used to:
 * Fund the Fund to Advance Public Kindergarten to Grade 12 Education.

@@ -68,7 +68,7 @@ The primary arguments against this referendum are:
 * University of Maine Alumni Association[^5]
 
 ### Opposition
-Nobody has registered opposition to this bond. [1]
+Nobody has registered opposition to this bond. [^1]
 
 ## Further reading
 [Full Text](http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP0585&item=3&snum=128)
