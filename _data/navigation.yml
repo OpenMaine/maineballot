@@ -1,7 +1,7 @@
 # main links
 main:
   - title: Current election
-    url: /index
+    url: /
   - title: "How to vote in Maine"
     url: /vote
   - title: "Previous elections"
