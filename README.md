@@ -6,8 +6,8 @@ While MaineBallot.org strives to present all sides of the arguments for and agai
 Please let us know if we missed something or if you have any suggestions to improve our site.
 Contact us at: maineballot@gmail.com
 
-# Want to create a similar site for your state?
-Go ahead and fork the code!
+## Want to create a similar site for your state?
+Go ahead and fork the code!  [Learn how to create your own ballot website.](https://github.com/OpenMaine/maineballot/wiki/How-to-create-your-own-ballot-website)
 
 ## License
 Copyright 2019 Shannon McHarg
