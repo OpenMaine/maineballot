@@ -1,4 +1,6 @@
+
 # Maine Ballot Website
+
 MaineBallot.org was created by Shannon McHarg, a user experience designer living in Maine, and is supported by [Open Maine](openmaine.org) volunteers. The goal of MaineBallot.org is to provide concise, non-partisan information to make it easy to understand the ballot questions pending in Maine.
 
 While MaineBallot.org strives to present all sides of the arguments for and against the pending ballot questions, there is always a potential for error or bias. We encourage you to consult with other sources of information before you vote. Your choice to access these pages constitutes an acknowledgement that the information provided is not legal or voting advice of any kind. We will be updating this site on a regular basis until election day.
@@ -25,7 +27,7 @@ Creator: [Shannon McHarg](https://github.com/shannonmcharg)
 
 ## Contributors
 ### 2019
-* Ryan Johnson: Development, content strategy, getting the site off of Squarespace and into this fine repository
+* [Ryan Johnson](https://github.com/rentry): Development, content strategy, getting the site off of Squarespace and into this fine repository
 
 ### 2018
 * Jared Gebel: Content creation
