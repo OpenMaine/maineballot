@@ -4,7 +4,7 @@ main:
     url: /index
   - title: "How to vote in Maine"
     url: /vote
-  - title: "Previous elections"
+  - title: "Archive"
     url: /archive
   - title: "How bonds work"
     url: /bonds/
