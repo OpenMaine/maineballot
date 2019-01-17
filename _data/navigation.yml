@@ -3,10 +3,10 @@ main:
   - title: Current election
     url: /
   - title: "How to vote in Maine"
-    url: /vote
+    url: /vote/
   - title: "Archive"
-    url: /archive
+    url: /archive/
   - title: "How bonds work"
-    url: /bonds
+    url: /bonds/
   # - title: "Sitemap"
   #   url: /sitemap/
