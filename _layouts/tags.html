@@ -32,6 +32,7 @@ layout: archive
         <h2 class="archive__subtitle">{{ tag[0] }}</h2>
         <div class="entries-{{ page.entries_layout | default: 'list' }}">
           {% for post in tag.last %}
+            <span class="page__meta">{{ post.election | date: "%B %-d, %Y"}}</span>
             {% include archive-single.html type=page.entries_layout %}
           {% endfor %}
         </div>
