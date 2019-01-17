@@ -42,7 +42,7 @@ Principal: $106,000,000
 <br>Total cost: $135,150,000[^4]
 
 ### The money will be used to:
-* 80 million (plus $88 million in matching funds) for highways, secondary roads, and bridges[^4]
+* $80 million (plus $88 million in matching funds) for highways, secondary roads, and bridges[^4]
 * $20 million (plus $49 million in matching funds) for projects that “preserve public safety or otherwise demonstrate high economic value in terms of transportation” for things like  ports, railroads, airports, bicycle, and walking trails[^4]
 * $5 million (plus some matching funds) to fund a Department of Environmental Protection grant program for upgrading fish and wildlife habitats[^4]
 * $1 million for improving a pier at Maine Maritime Academy[^4]
