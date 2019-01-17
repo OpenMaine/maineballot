@@ -1,11 +1,11 @@
 # main links
 main:
   - title: Current election
-    url: /index
+    url: /
   - title: "How to vote in Maine"
-    url: /vote
-  - title: "Previous elections"
-    url: /archive
+    url: /vote/
+  - title: "Archive"
+    url: /archive/
   - title: "How bonds work"
     url: /bonds/
   # - title: "Sitemap"
