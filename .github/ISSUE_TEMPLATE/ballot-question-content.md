@@ -7,40 +7,40 @@ assignees: ''
 
 ---
 
-#Question title
+# Question title
 
-#Description (will display on homepage)
+# Description (will display on homepage)
 
-#The gist
+# The gist
 
-#Ballot question (exact text of the question)
+# Ballot question (exact text of the question)
 
-#Yes means
+# Yes means
 
-#No means
+# No means
 
-#Tell me more
+# Tell me more
 
-#Follow the money
+# Follow the money
 
-##The money will be used to
+## The money will be used to
 
-##The money will be coming from
+## The money will be coming from
 
-#Pros
+# Pros
 
-#Cons
+# Cons
 
-#Who cares
+# Who cares
 
-##Support
+## Support
 
-##Opposition
+## Opposition
 
-#Further reading
+# Further reading
 
-#References
+# References
 
-#Tags
+# Tags
 
-#Election date
+# Election date
