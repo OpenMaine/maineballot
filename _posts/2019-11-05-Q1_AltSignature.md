@@ -15,7 +15,7 @@ tags:
 - Accessibility
 - Petitions
 yes_vote: I want to allow people with disabilities to sign petitions using an alternative signature.
-no_vote: I don't want to keep the requirement for everyone to use an original signature for petitions.
+no_vote: I want to keep the requirement for everyone to use an original signature for petitions.
 last_modified_at: 2019-08-30 T08:06:00-05:00
 ---
 
