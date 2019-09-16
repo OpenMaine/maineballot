@@ -66,7 +66,7 @@ Nobody has registered support or opposition to this bond.[^3]
 
 ## Further reading
 [Full text](https://www1.maine.gov/sos/cec/elec/upcoming/pdf/plchap532.pdf)
-[Ballotpedia article](https://ballotpedia.org/Maine_Transportation_Infrastructure_Bond_Issue_(2019))
+<br>[Ballotpedia article](https://ballotpedia.org/Maine_Transportation_Infrastructure_Bond_Issue_(2019))
 
 ## References
 [^1]: Maine State Legislature. [H.P. 1049 - L.D. 1437](https://www1.maine.gov/sos/cec/elec/upcoming/pdf/ld1437.pdf). Accessed September 16, 2019.
