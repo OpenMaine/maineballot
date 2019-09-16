@@ -56,6 +56,9 @@ Nobody has registered support or opposition to this change.
 
 ## References
 [^1]: Maine State Legislature. [H.P. 1049 - L.D. 1437](https://www.maine.gov/sos/cec/elec/upcoming/pdf/ld1437.pdf). Accessed August 30, 2019.
+
 [^2]: Ballotpedia State Desk. [Maine Allow for Alternative Initiative Signatures for Persons with Disabilities Amendment (2019)](https://ballotpedia.org/Maine_Allow_for_Alternative_Initiative_Signatures_for_Persons_with_Disabilities_Amendment_(2019)). Ballotpedia. Accessed August 30, 2019.
+
 [^3]: Byrne, Ryan. [Maine to vote on a ballot measure to allow persons with physical disabilities to sign initiative petitions using an alternative signature](https://news.ballotpedia.org/2019/06/22/voters-in-maine-will-decide-a-constitutional-amendment-to-allow-persons-with-physical-disabilities-to-sign-ballot-measure-petitions-using-an/). Ballotpedia. Accessed August 30, 2019.
+
 [^4]: Dunlap, Matthew. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide19.pdf). Accessed September 16, 2019.
