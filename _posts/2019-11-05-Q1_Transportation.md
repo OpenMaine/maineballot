@@ -71,6 +71,6 @@ Nobody has registered support or opposition to this bond.[^3]
 ## References
 [^1]: Maine State Legislature. [H.P. 1049 - L.D. 1437](https://www1.maine.gov/sos/cec/elec/upcoming/pdf/ld1437.pdf). Accessed September 16, 2019.
 
-[^2]: Ballotpedia State Desk. [Maine Transportation Infrastructure Bond Issue (2019)](https://ballotpedia.org/Maine_Transportation_Infrastructure_Bond_Issue_(2019)). Ballotpedia. Accessed September 16, 2019.
+[^2]: Ballotpedia State Desk. [Maine Transportation Infrastructure Bond Issue (2019)](https://ballotpedia.org/Maine_Transportation_Infrastructure_Bond_Issue_(2019). Ballotpedia. Accessed September 16, 2019.
 
 [^3]: Dunlap, Matthew. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide19.pdf). Accessed September 16, 2019.
