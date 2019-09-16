@@ -28,7 +28,7 @@ Passing this question would allow the state to borrow $105 million, matched by $
 
 
 ## Tell me more
-Passing this question would allow the State of Maine to borrow $105 million for a variety of infrastructure improvements, including roads, bridges, railroads, airports, transit and ports.[^3]
+Passing this question would allow the State of Maine to borrow $105 million for a variety of infrastructure improvements, including roads, bridges, railroads, airports, transit and ports.[^3] The bulk of the money will go towards high priority highways and bridges.  See the Ballotpedia Article[^2] for definitions of road priority levels.
 
 This is a **bond issue** -- if voters approve the bond, it means that the State of Maine is allowed to borrow money for the project described in the ballot question and has to pay it back over 10 years. [Learn more about how bonds work](/bonds).
 
@@ -38,7 +38,7 @@ Principal: $105,000,000
 <br>Total cost:  $133,875,000[^3]
 
 ### The money will be used to:
-* $85 million for highways and bridges [^3]
+* $85 million for high priority highways and bridges [^3]
 * $15 million for projects that “preserve public safety or otherwise have demonstrated high transportation value” for things like  ports, railroads, airports, bicycle, and walking trails[^3]
 * $4 million to fund a Department of Environmental Protection grant program for upgrading fish and wildlife habitats[^3]
 * $1 million for improving a wharf at the Gulf of Maine Research Institute[^3]
@@ -55,7 +55,7 @@ The primary arguments for this referendum are:
 * Maine's roads and infrastructure are deteriorating.
 * Makes up for some of the shortfall in gas taxes from fuel-efficient vehicles that has left the funds for highway repairs insufficient.
 * Issuing the bond opens up matching funds.
-* Interest rates are currently low, making it a good time to invest.[^3]
+* Interest rates are currently low, making it a good time to invest.
 
 ## Cons
 The primary arguments against this referendum are:
@@ -71,6 +71,6 @@ Nobody has registered support or opposition to this bond.[^3]
 ## References
 [^1]: Maine State Legislature. [H.P. 1049 - L.D. 1437](https://www1.maine.gov/sos/cec/elec/upcoming/pdf/ld1437.pdf). Accessed September 16, 2019.
 
-[^2]: Ballotpedia State Desk. [Maine Transportation Infrastructure Bond Issue (2019)](https://ballotpedia.org/Maine_Transportation_Infrastructure_Bond_Issue_(2019). Ballotpedia. Accessed September 16, 2019.
+[^2]: Ballotpedia State Desk. [Maine Transportation Infrastructure Bond Issue (2019)](https://ballotpedia.org/Maine_Transportation_Infrastructure_Bond_Issue_(2019)). Ballotpedia. Accessed September 16, 2019.
 
 [^3]: Dunlap, Matthew. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide19.pdf). Accessed September 16, 2019.
