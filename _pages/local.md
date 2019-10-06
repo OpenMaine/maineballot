@@ -1,7 +1,9 @@
 ---
-title:  "Local elections"
-excerpt: Find information about local elections.
-election: 2019-11-05
+title: "Local elections"
+layout: posts
+permalink: /local/
+author_profile: false
+
 header:
   overlay_image: /assets/img/Other/Maine-counties-map.gif
   teaser: /assets/img/Other/Maine-counties-map.gif
@@ -15,14 +17,14 @@ tags:
 last_modified_at: 2019-09-16 T08:06:00-05:00
 ---
 
-## Towns and counties in Maine
+## Counties, cities, and towns in Maine
 This is a work in progress list of websites or contact information for county and town elections in Maine. If yours isn't listed and you would like to provide us with the link, please send it to maineballot@gmail.com.
 
-| County              | City or town        | Website                                                              | Information about this election |   |
+| County              | City or town        |Election website                                                      | What's on the local ballot |   |
 |---------------------|---------------------|----------------------------------------------------------------------|---------------------------------|---|
 | Androscoggin County |                     |                                                                      |                                 |   |
-|                     | Auburn              | [Auburn City Website](http://auburnmaine.gov)                        | [Municipal Election](http://www.auburnmaine.gov/pages/government/election-and-voting)                                |   |
-|                     | Durham              | [Town of Durham Website](https://durhamme.com)                       | [Election Information](https://durhamme.com/election-information)  |   |
+|                     | Auburn              | [Auburn election Website](http://www.auburnmaine.gov/pages/government/election-and-voting)                        | Mayor, City Council, School Committee                               |   |
+|                     | Durham              | [Durham election website](https://durhamme.com/election-information) | School budget  |   |
 |                     | Greene              |                                                                      |                                 |   |
 |                     | Leeds               |                                                                      |                                 |   |
 |                     | Lewiston            |                                                                      |                                 |   |
@@ -92,10 +94,10 @@ This is a work in progress list of websites or contact information for county an
 |                     | Westmanland         |                                                                      |                                 |   |
 |                     | Weston              |                                                                      |                                 |   |
 |                     | Woodland            |                                                                      |                                 |   |
-| Cumberland County   |                     | [Cumberland County website](http://www.cumberlandcounty.org/)|                                 |   |
+| Cumberland County   |                     | [Cumberland County website](http://www.cumberlandcounty.org/)|   Nothing                              |   |
 |                     | Baldwin             |                                                                      |                                 |   |
 |                     | Bridgton            |                                                                      |                                 |   |
-|                     | Brunswick           | [Brunswick website](http://www.brunswickme.org/286/Elections)|   |
+|                     | Brunswick           | [Brunswick election website](http://www.brunswickme.org/286/Elections)|City council for districts 1, 2 & 6   |
 |                     | Cape Elizabeth      |                                                                      |                                 |   |
 |                     | Casco               |                                                                      |                                 |   |
 |                     | Chebeague Island    |                                                                      |                                 |   |
@@ -111,7 +113,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Naples              |                                                                      |                                 |   |
 |                     | New Gloucester      |                                                                      |                                 |   |
 |                     | North Yarmouth      |                                                                      |                                 |   |
-|                     | Portland            | [Portland website](https://www.portlandmaine.gov/1116/November-Municipal-Election)|   |
+|                     | Portland            | [Portland election website](https://www.portlandmaine.gov/1116/November-Municipal-Election)| Mayor, city council, school board  |
 |                     | Pownal              |                                                                      |                                 |   |
 |                     | Raymond             |                                                                      |                                 |   |
 |                     | Scarborough         |                                                                      |                                 |   |
