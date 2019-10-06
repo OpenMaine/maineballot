@@ -16,7 +16,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Durham              | [Durham election website](https://durhamme.com/election-information) | School budget  |   |
 |                     | Greene              |                                                                      |                                 |   |
 |                     | Leeds               |                                                                      |                                 |   |
-|                     | Lewiston            |                                                                      |                                 |   |
+|                     | Lewiston            | [Lewiston election website](https://www.lewistonmaine.gov/117/Elections)                                                                     | Mayor, city council, school committee, bond question about building a new wing on Lewiston High School                               |   |
 |                     | Lisbon              |                                                                      |                                 |   |
 |                     | Livermore           |                                                                      |                                 |   |
 |                     | Livermore Falls     |                                                                      |                                 |   |
@@ -33,7 +33,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Bancroft            |                                                                      |                                 |   |
 |                     | Blaine              |                                                                      |                                 |   |
 |                     | Bridgewater         |                                                                      |                                 |   |
-|                     | Caribou             |                                                                      |                                 |   |
+|                     | Caribou             |[Caribou election website](http://www.cariboumaine.org/index.php/departments/city-clerk/elections/)                                                                      |City council, school board, hospital fund                                 |   |
 |                     | Castle Hill         |                                                                      |                                 |   |
 |                     | Caswell             |                                                                      |                                 |   |
 |                     | Chapman             |                                                                      |                                 |   |
@@ -69,7 +69,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Orient              |                                                                      |                                 |   |
 |                     | Perham              |                                                                      |                                 |   |
 |                     | Portage Lake        |                                                                      |                                 |   |
-|                     | Presque Isle        |                                                                      |                                 |   |
+|                     | Presque Isle        |[Presque Isle election website](http://presqueislemaine.gov/city-clerks-office/)                                                                      |                                 |   |
 |                     | Sherman             |                                                                      |                                 |   |
 |                     | Smyrna              |                                                                      |                                 |   |
 |                     | St. Agatha          |                                                                      |                                 |   |
@@ -107,9 +107,9 @@ This is a work in progress list of websites or contact information for county an
 |                     | Raymond             |                                                                      |                                 |   |
 |                     | Scarborough         |                                                                      |                                 |   |
 |                     | Sebago              |                                                                      |                                 |   |
-|                     | South Portland      |                                                                      |                                 |   |
+|                     | South Portland      |[South Portland election website](https://www.southportland.org/departments/city-clerk/november-3-2015-election)                                                                      |City council, warden, ward clerk, board of education, water district trustee, bond question about building a new middle school, bond question about traffic and pedestrian improvements                                 |   |
 |                     | Standish            |                                                                      |                                 |   |
-|                     | Westbrook           |                                                                      |                                 |   |
+|                     | Westbrook           | [Westbrook election website](https://www.westbrookmaine.com/181/Elections-Voting)                                                                     |Mayor, city council, school committee, warden, ward clerk, water district, charter amendment about warden and ward clerk term length                                 |   |
 |                     | Windham             |                                                                      |                                 |   |
 |                     | Yarmouth            |                                                                      |                                 |   |
 | Franklin County     |                     | [Franklin county website](https://www.franklincounty.maine.gov/)                                                                      |                                 |   |
@@ -143,7 +143,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Dedham              |                                                                      |                                 |   |
 |                     | Deer Isle           |                                                                      |                                 |   |
 |                     | Eastbrook           |                                                                      |                                 |   |
-|                     | Ellsworth           |                                                                      |                                 |   |
+|                     | Ellsworth           |[Ellsworth election website](https://www.ellsworthmaine.gov/services/voter-registration/#ffs-tabbed-11)                                                                      |                                 |   |
 |                     | Franklin            |                                                                      |                                 |   |
 |                     | Frenchboro          |                                                                      |                                 |   |
 |                     | Gouldsboro          |                                                                      |                                 |   |
@@ -178,8 +178,8 @@ This is a work in progress list of websites or contact information for county an
 |                     | Clinton             |                                                                      |                                 |   |
 |                     | Farmingdale         |                                                                      |                                 |   |
 |                     | Fayette             |                                                                      |                                 |   |
-|                     | Gardiner            |                                                                      |                                 |   |
-|                     | Hallowell           |                                                                      |                                 |   |
+|                     | Gardiner            |[Gardiner election website](https://www.gardinermaine.com/office-city-clerk/pages/voting-elections)                                                                      |City council, school board,                                  |   |
+|                     | Hallowell           |[Hallowell election website](https://hallowell.govoffice.com/index.asp?Type=B_BASIC&SEC=%7B49BCD9B5-12A8-43C1-96FA-2F515E9100E9%7D)                                                                      |                                 |   |
 |                     | Litchfield          |                                                                      |                                 |   |
 |                     | Manchester          |                                                                      |                                 |   |
 |                     | Monmouth            |                                                                      |                                 |   |
@@ -192,7 +192,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Sidney              |                                                                      |                                 |   |
 |                     | Vassalboro          |                                                                      |                                 |   |
 |                     | Vienna              |                                                                      |                                 |   |
-|                     | Waterville          |                                                                      |                                 |   |
+|                     | Waterville          |[Waterville election website](http://www.waterville-me.gov/clerk/march-13-2018-special-municipal-election/)                                                                      | City council, board of education, water district trustee, charter commission, question about establishing a charter commission                                |   |
 |                     | Wayne               |                                                                      |                                 |   |
 |                     | West Gardiner       |                                                                      |                                 |   |
 |                     | Windsor             |                                                                      |                                 |   |
@@ -207,7 +207,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Isle Au Haut        |                                                                      |                                 |   |
 |                     | North Haven         |                                                                      |                                 |   |
 |                     | Owls Head           |                                                                      |                                 |   |
-|                     | Rockland            |                                                                      |                                 |   |
+|                     | Rockland            |[Rockland election website](https://rocklandmaine.gov/municipal/departments/clerks-office/voting/)                                                                      |                                 |   |
 |                     | Rockport            |                                                                      |                                 |   |
 |                     | South Thomaston     |                                                                      |                                 |   |
 |                     | St. George          |                                                                      |                                 |   |
@@ -272,10 +272,10 @@ This is a work in progress list of websites or contact information for county an
 |                     | Woodstock           |                                                                      |                                 |   |
 | Penobscot County    |                     |[Penobscot county website](https://www.penobscot-county.net/#!)                                                                      |                                 |   |
 |                     | Alton               |                                                                      |                                 |   |
-|                     | Bangor              |                                                                      |                                 |   |
+|                     | Bangor              |[Bangor election website](https://www.bangormaine.gov/election)                                                                      |City council, school committee, bond question about improving city hall                                 |   |
 |                     | Bradford            |                                                                      |                                 |   |
 |                     | Bradley             |                                                                      |                                 |   |
-|                     | Brewer              |                                                                      |                                 |   |
+|                     | Brewer              | [Brewer election website](http://brewermaine.gov/city-clerk/register-vote/)                                                                     |                                 |   |
 |                     | Burlington          |                                                                      |                                 |   |
 |                     | Carmel              |                                                                      |                                 |   |
 |                     | Charleston          |                                                                      |                                 |   |
@@ -314,7 +314,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Mount Chase         |                                                                      |                                 |   |
 |                     | Newburgh            |                                                                      |                                 |   |
 |                     | Newport             |                                                                      |                                 |   |
-|                     | Old Town            |                                                                      |                                 |   |
+|                     | Old Town            |[Old Town election website](http://www.old-town.org/2014/04/elections.html)                                                                      |                                 |   |
 |                     | Orono               |                                                                      |                                 |   |
 |                     | Orrington           |                                                                      |                                 |   |
 |                     | Passadumkeag        |                                                                      |                                 |   |
@@ -346,7 +346,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Willimantic         |                                                                      |                                 |   |
 | Sagadahoc County    |                     |[Sagadahoc county website](http://sagcounty.com/)                                                                      |                                 |   |
 |                     | Arrowsic            |                                                                      |                                 |   |
-|                     | Bath                |                                                                      |                                 |   |
+|                     | Bath                | [Bath election website](http://www.cityofbath.com/Elections/)                                                                     | City council, charter amendment about contract lengths                                 |   |
 |                     | Bowdoin             |                                                                      |                                 |   |
 |                     | Bowdoinham          |                                                                      |                                 |   |
 |                     | Georgetown          |                                                                      |                                 |   |
@@ -384,7 +384,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | St. Albans          |                                                                      |                                 |   |
 |                     | Starks              |                                                                      |                                 |   |
 | Waldo County        |                     |[Waldo county website](https://www.waldocountyme.gov/)                                                                      |                                 |   |
-|                     | Belfast             |                                                                      |                                 |   |
+|                     | Belfast             |[Belfast county website](https://www.cityofbelfast.org/117/Voting-Information)                                                                      |                                 |   |
 |                     | Belmont             |                                                                      |                                 |   |
 |                     | Brooks              |                                                                      |                                 |   |
 |                     | Burnham             |                                                                      |                                 |   |
@@ -416,7 +416,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Baileyville         |                                                                      |                                 |   |
 |                     | Beals               |                                                                      |                                 |   |
 |                     | Beddington          |                                                                      |                                 |   |
-|                     | Calais              |                                                                      |                                 |   |
+|                     | Calais              |[Calais election website](https://www.calaismaine.org/voting/)                                                                      |                                 |   |
 |                     | Charlotte           |                                                                      |                                 |   |
 |                     | Cherryfield         |                                                                      |                                 |   |
 |                     | Columbia            |                                                                      |                                 |   |
@@ -428,7 +428,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Deblois             |                                                                      |                                 |   |
 |                     | Dennysville         |                                                                      |                                 |   |
 |                     | East Machias        |                                                                      |                                 |   |
-|                     | Eastport            |                                                                      |                                 |   |
+|                     | Eastport            |[Eastport election website](https://www.eastport-me.gov/city-clerks-office/pages/elections-voting-information)                                                                      |                                 |   |
 |                     | Harrington          |                                                                      |                                 |   |
 |                     | Jonesboro           |                                                                      |                                 |   |
 |                     | Jonesport           |                                                                      |                                 |   |
@@ -457,7 +457,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Alfred              |                                                                      |                                 |   |
 |                     | Arundel             |                                                                      |                                 |   |
 |                     | Berwick             |                                                                      |                                 |   |
-|                     | Biddeford           |                                                                      |                                 |   |
+|                     | Biddeford           |[Biddeford election website](https://www.biddefordmaine.org/2923/November-5-2019-General-Election-Informa)                                                                      |Mayor, city council, school committee, warden and ward clerk                                 |   |
 |                     | Buxton              |                                                                      |                                 |   |
 |                     | Cornish             |                                                                      |                                 |   |
 |                     | Dayton              |                                                                      |                                 |   |
@@ -475,8 +475,8 @@ This is a work in progress list of websites or contact information for county an
 |                     | Ogunquit            |                                                                      |                                 |   |
 |                     | Old Orchard Beach   |                                                                      |                                 |   |
 |                     | Parsonsfield        |                                                                      |                                 |   |
-|                     | Saco                |                                                                      |                                 |   |
-|                     | Sanford             |                                                                      |                                 |   |
+|                     | Saco                |[Saco election website](https://www.sacomaine.org/departments/city_clerk/elections_and_voting.php)                                                                      |Mayor, city council, warden, ward clerk, three charter amendements                                 |   |
+|                     | Sanford             |[Sanford election website](https://www.sanfordmaine.org/electioninfo)                                                                      |City council, school committee, water district trustee, sewerage district trustee, bond question about road reconstruction, bond question to acquire and develop land for a new fire station, bond question about improving school buildings                                 |   |
 |                     | Shapleigh           |                                                                      |                                 |   |
 |                     | South Berwick       |                                                                      |                                 |   |
 |                     | Waterboro           |                                                                      |                                 |   |
