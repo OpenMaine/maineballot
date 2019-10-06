@@ -1,29 +1,18 @@
 ---
-title: "Local elections"
-layout: posts
-permalink: /local/
+layout: archive
 author_profile: false
-
-header:
-  overlay_image: /assets/img/Other/Maine-counties-map.gif
-  teaser: /assets/img/Other/Maine-counties-map.gif
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-  image_description: Map of the counties in Maine
-search: true
-categories:
-- Local elections
-tags:
-- Local elections
-last_modified_at: 2019-09-16 T08:06:00-05:00
+permalink: /local/
 ---
 
 ## Counties, cities, and towns in Maine
-This is a work in progress list of websites or contact information for county and town elections in Maine. If yours isn't listed and you would like to provide us with the link, please send it to maineballot@gmail.com.
+This is a work in progress list of websites or contact information for county and town elections in Maine. The information about what's on the local ballot is based on what we could find on the locality websites, but may not be complete because the websites aren't all up to date with information about the current election. If information about your locality isn't listed and you would like to provide us with the information, please send it to maineballot@gmail.com.
+<br>
+
 
 | County              | City or town        |Election website                                                      | What's on the local ballot |   |
 |---------------------|---------------------|----------------------------------------------------------------------|---------------------------------|---|
-| Androscoggin County |                     |                                                                      |                                 |   |
-|                     | Auburn              | [Auburn election Website](http://www.auburnmaine.gov/pages/government/election-and-voting)                        | Mayor, City Council, School Committee                               |   |
+| Androscoggin County |                     | [Androscoggin county website](https://www.androscoggincountymaine.gov/)                                                                     |  |   |
+|                     | Auburn              | [Auburn election Website](http://www.auburnmaine.gov/pages/government/election-and-voting)                        | Mayor, city council, school committee                               |   |
 |                     | Durham              | [Durham election website](https://durhamme.com/election-information) | School budget  |   |
 |                     | Greene              |                                                                      |                                 |   |
 |                     | Leeds               |                                                                      |                                 |   |
@@ -37,7 +26,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Sabattus            |                                                                      |                                 |   |
 |                     | Turner              |                                                                      |                                 |   |
 |                     | Wales               |                                                                      |                                 |   |
-| Aroostook County    |                     |                                                                      |                                 |   |
+| Aroostook County    |                     | [Aroostook county website](https://www.aroostook.me.us/)                                                                    |  |   |
 |                     | Allagash            |                                                                      |                                 |   |
 |                     | Amity               |                                                                      |                                 |   |
 |                     | Ashland             |                                                                      |                                 |   |
@@ -94,7 +83,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Westmanland         |                                                                      |                                 |   |
 |                     | Weston              |                                                                      |                                 |   |
 |                     | Woodland            |                                                                      |                                 |   |
-| Cumberland County   |                     | [Cumberland County website](http://www.cumberlandcounty.org/)|   Nothing                              |   |
+| Cumberland County   |                     | [Cumberland County website](http://www.cumberlandcounty.org/)|                              |   |
 |                     | Baldwin             |                                                                      |                                 |   |
 |                     | Bridgton            |                                                                      |                                 |   |
 |                     | Brunswick           | [Brunswick election website](http://www.brunswickme.org/286/Elections)|City council for districts 1, 2 & 6   |
@@ -123,7 +112,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Westbrook           |                                                                      |                                 |   |
 |                     | Windham             |                                                                      |                                 |   |
 |                     | Yarmouth            |                                                                      |                                 |   |
-| Franklin County     |                     |                                                                      |                                 |   |
+| Franklin County     |                     | [Franklin county website](https://www.franklincounty.maine.gov/)                                                                      |                                 |   |
 |                     | Avon                |                                                                      |                                 |   |
 |                     | Carrabassett Valley |                                                                      |                                 |   |
 |                     | Carthage            |                                                                      |                                 |   |
@@ -141,7 +130,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Temple              |                                                                      |                                 |   |
 |                     | Weld                |                                                                      |                                 |   |
 |                     | Wilton              |                                                                      |                                 |   |
-| Hancock County      |                     |                                                                      |                                 |   |
+| Hancock County      |                     | [Hancock county website](https://co.hancock.me.us/site/index.php)                                                                      |                                 |   |
 |                     | Amherst             |                                                                      |                                 |   |
 |                     | Aurora              |                                                                      |                                 |   |
 |                     | Bar Harbor          |                                                                      |                                 |   |
@@ -179,9 +168,9 @@ This is a work in progress list of websites or contact information for county an
 |                     | Verona Island       |                                                                      |                                 |   |
 |                     | Waltham             |                                                                      |                                 |   |
 |                     | Winter Harbor       |                                                                      |                                 |   |
-| Kennebec County     |                     |                                                                      |                                 |   |
+| Kennebec County     |                     |[Kennebec county website](https://kennebeccounty.org/)                                                                      |                                 |   |
 |                     | Albion              |                                                                      |                                 |   |
-|                     | Augusta             | [Augusta website](http://www.augustamaine.gov/businesses/city_government/elections.php)|   |
+|                     | Augusta             | [Augusta election website](http://www.augustamaine.gov/businesses/city_government/elections.php)|   |
 |                     | Belgrade            |                                                                      |                                 |   |
 |                     | Benton              |                                                                      |                                 |   |
 |                     | Chelsea             |                                                                      |                                 |   |
@@ -209,7 +198,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Windsor             |                                                                      |                                 |   |
 |                     | Winslow             |                                                                      |                                 |   |
 |                     | Winthrop            |                                                                      |                                 |   |
-| Knox County         |                     |                                                                      |                                 |   |
+| Knox County         |                     |[Knox county website](https://www.knoxcountymaine.gov/)                                                                      |                                 |   |
 |                     | Appleton            |                                                                      |                                 |   |
 |                     | Camden              |                                                                      |                                 |   |
 |                     | Cushing             |                                                                      |                                 |   |
@@ -227,7 +216,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Vinalhaven          |                                                                      |                                 |   |
 |                     | Warren              |                                                                      |                                 |   |
 |                     | Washington          |                                                                      |                                 |   |
-| Lincoln County      |                     |                                                                      |                                 |   |
+| Lincoln County      |                     |[Lincoln county website](https://www.lincolncountymaine.me/#!)                                                                      |                                 |   |
 |                     | Alna                |                                                                      |                                 |   |
 |                     | Boothbay            |                                                                      |                                 |   |
 |                     | Boothbay Harbor     |                                                                      |                                 |   |
@@ -246,7 +235,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Westport Island     |                                                                      |                                 |   |
 |                     | Whitefield          |                                                                      |                                 |   |
 |                     | Wiscasset           |                                                                      |                                 |   |
-| Oxford County       |                     |                                                                      |                                 |   |
+| Oxford County       |                     | [Oxford county website](https://www.oxfordcounty.org/)                                                                     |                                 |   |
 |                     | Andover             |                                                                      |                                 |   |
 |                     | Bethel              |                                                                      |                                 |   |
 |                     | Brownfield          |                                                                      |                                 |   |
@@ -281,7 +270,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Waterford           |                                                                      |                                 |   |
 |                     | West Paris          |                                                                      |                                 |   |
 |                     | Woodstock           |                                                                      |                                 |   |
-| Penobscot County    |                     |                                                                      |                                 |   |
+| Penobscot County    |                     |[Penobscot county website](https://www.penobscot-county.net/#!)                                                                      |                                 |   |
 |                     | Alton               |                                                                      |                                 |   |
 |                     | Bangor              |                                                                      |                                 |   |
 |                     | Bradford            |                                                                      |                                 |   |
@@ -337,7 +326,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Veazie              |                                                                      |                                 |   |
 |                     | Winn                |                                                                      |                                 |   |
 |                     | Woodville           |                                                                      |                                 |   |
-| Piscataquis County  |                     |                                                                      |                                 |   |
+| Piscataquis County  |                     |[Piscataquis county website](https://www.piscataquis.us/)                                                                      |                                 |   |
 |                     | Abbot               |                                                                      |                                 |   |
 |                     | Atkinson            |                                                                      |                                 |   |
 |                     | Beaver Cove         |                                                                      |                                 |   |
@@ -355,7 +344,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Shirley             |                                                                      |                                 |   |
 |                     | Wellington          |                                                                      |                                 |   |
 |                     | Willimantic         |                                                                      |                                 |   |
-| Sagadahoc County    |                     |                                                                      |                                 |   |
+| Sagadahoc County    |                     |[Sagadahoc county website](http://sagcounty.com/)                                                                      |                                 |   |
 |                     | Arrowsic            |                                                                      |                                 |   |
 |                     | Bath                |                                                                      |                                 |   |
 |                     | Bowdoin             |                                                                      |                                 |   |
@@ -366,7 +355,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Topsham             |                                                                      |                                 |   |
 |                     | West Bath           |                                                                      |                                 |   |
 |                     | Woolwich            |                                                                      |                                 |   |
-| Somerset County     |                     |                                                                      |                                 |   |
+| Somerset County     |                     |[Somerset county website](https://www.somersetcounty-me.org/)                                                                      |                                 |   |
 |                     | Anson               |                                                                      |                                 |   |
 |                     | Athens              |                                                                      |                                 |   |
 |                     | Bingham             |                                                                      |                                 |   |
@@ -394,7 +383,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Solon               |                                                                      |                                 |   |
 |                     | St. Albans          |                                                                      |                                 |   |
 |                     | Starks              |                                                                      |                                 |   |
-| Waldo County        |                     |                                                                      |                                 |   |
+| Waldo County        |                     |[Waldo county website](https://www.waldocountyme.gov/)                                                                      |                                 |   |
 |                     | Belfast             |                                                                      |                                 |   |
 |                     | Belmont             |                                                                      |                                 |   |
 |                     | Brooks              |                                                                      |                                 |   |
@@ -421,7 +410,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Unity               |                                                                      |                                 |   |
 |                     | Waldo               |                                                                      |                                 |   |
 |                     | Winterport          |                                                                      |                                 |   |
-| Washington County   |                     |                                                                      |                                 |   |
+| Washington County   |                     | [Washington county website](http://washingtoncountymaine.com/)                                                                     |                                 |   |
 |                     | Addison             |                                                                      |                                 |   |
 |                     | Alexander           |                                                                      |                                 |   |
 |                     | Baileyville         |                                                                      |                                 |   |
@@ -463,7 +452,7 @@ This is a work in progress list of websites or contact information for county an
 |                     | Wesley              |                                                                      |                                 |   |
 |                     | Whiting             |                                                                      |                                 |   |
 |                     | Whitneyville        |                                                                      |                                 |   |
-| York County         |                     |                                                                      |                                 |   |
+| York County         |                     |  [York county website](https://www.yorkcountymaine.gov/)                                                                    |                                 |   |
 |                     | Acton               |                                                                      |                                 |   |
 |                     | Alfred              |                                                                      |                                 |   |
 |                     | Arundel             |                                                                      |                                 |   |
