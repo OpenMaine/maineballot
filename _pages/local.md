@@ -84,15 +84,15 @@ This is a work in progress list of websites or contact information for county, c
 |                     | Weston              |                                                                      |                                 |   |
 |                     | Woodland            |                                                                      |                                 |   |
 | Cumberland County   |                     | [Cumberland County website](http://www.cumberlandcounty.org/)|                              |   |
-|                     | Baldwin             |                                                                      |                                 |   |
-|                     | Bridgton            |                                                                      |                                 |   |
+|                     | Baldwin             | [Baldwin town website](https://www.baldwinmaine.org/town-office-directory---hours.html)                                                                     |                                 |   |
+|                     | Bridgton            | [Bridgton election website](https://bridgtonmaine.org/elections/)                                                                     | Citizen's petition about marajuana                                |   |
 |                     | Brunswick           | [Brunswick election website](http://www.brunswickme.org/286/Elections)|City council for districts 1, 2 & 6   |
-|                     | Cape Elizabeth      |                                                                      |                                 |   |
+|                     | Cape Elizabeth      | [Cape Elizabeth election website](https://www.capeelizabeth.com/services/elections/home.html)                                                                     |Town council                                 |   |
 |                     | Casco               |                                                                      |                                 |   |
 |                     | Chebeague Island    |                                                                      |                                 |   |
 |                     | Cumberland          |                                                                      |                                 |   |
-|                     | Falmouth            |                                                                      |                                 |   |
-|                     | Freeport            |                                                                      |                                 |   |
+|                     | Falmouth            |[Falmouth election website](https://www.falmouthme.org/town-clerk/pages/election-information)                                                                      |                                 |   |
+|                     | Freeport            |[Freeport election website](https://www.freeportmaine.com/town-clerk/pages/election-services)                                                                      |                                 |   |
 |                     | Frye Island         |                                                                      |                                 |   |
 |                     | Gorham              |                                                                      |                                 |   |
 |                     | Gray                |                                                                      |                                 |   |
@@ -101,7 +101,7 @@ This is a work in progress list of websites or contact information for county, c
 |                     | Long Island         |                                                                      |                                 |   |
 |                     | Naples              |                                                                      |                                 |   |
 |                     | New Gloucester      |                                                                      |                                 |   |
-|                     | North Yarmouth      |                                                                      |                                 |   |
+|                     | North Yarmouth      | [North Yarmouth election website](https://www.northyarmouth.org/town-clerk/pages/elections-voter-registration)                                                                     |                                 |   |
 |                     | Portland            | [Portland election website](https://www.portlandmaine.gov/1116/November-Municipal-Election)| Mayor, city council, school board  |
 |                     | Pownal              |                                                                      |                                 |   |
 |                     | Raymond             |                                                                      |                                 |   |
@@ -110,8 +110,8 @@ This is a work in progress list of websites or contact information for county, c
 |                     | South Portland      |[South Portland election website](https://www.southportland.org/departments/city-clerk/november-3-2015-election)                                                                      |City council, warden, ward clerk, board of education, water district trustee, bond question about building a new middle school, bond question about traffic and pedestrian improvements                                 |   |
 |                     | Standish            |                                                                      |                                 |   |
 |                     | Westbrook           | [Westbrook election website](https://www.westbrookmaine.com/181/Elections-Voting)                                                                     |Mayor, city council, school committee, warden, ward clerk, water district, charter amendment about warden and ward clerk term length                                 |   |
-|                     | Windham             |                                                                      |                                 |   |
-|                     | Yarmouth            |                                                                      |                                 |   |
+|                     | Windham             |[Windham election website](http://www.windhammaine.us/125/Voter-Information)                                                                      |                                 |   |
+|                     | Yarmouth            |[Yarmouth election website](https://yarmouth.me.us/elections)                                                                      |                                 |   |
 | Franklin County     |                     | [Franklin county website](https://www.franklincounty.maine.gov/)                                                                      |                                 |   |
 |                     | Avon                |                                                                      |                                 |   |
 |                     | Carrabassett Valley |                                                                      |                                 |   |
