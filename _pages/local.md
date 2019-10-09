@@ -24,9 +24,13 @@ You can also use the state's [Voter Information Lookup Service](https://www1.mai
   <tr>
     <td>{{ local.county }}</td>
     <td>{{ local.city }}</td>
-    <td><a href="{{ local.website }}">
-      {{ local.county }}{{ local.city }} {{ local.type }} website
-    </a></td>
+    <td>
+  {% if local.website %}
+      <a href="{{ local.website }}">
+          {{ local.county }}{{ local.city }} {{ local.type }} website
+      </a>
+  {% endif %}
+</td>
     <td>{{ local.ballot }}</td>
   </tr>
 {% endfor %}
