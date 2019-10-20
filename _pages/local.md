@@ -20,7 +20,7 @@ This is a work in progress list of websites or contact information for county, c
     </thead>
     <tbody>  
     {% for local in site.data.local %}
-      <tr>
+      <tr data-index="{% county_town_index %}">
         <td>
           {% unless local.city %}
             {{ local.county }}
