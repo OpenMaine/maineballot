@@ -21,12 +21,17 @@ This is a work in progress list of websites or contact information for county, c
     <tbody>  
     {% for local in site.data.local %}
       <tr>
-        <td>{{ local.county }}</td>
+        <td>
+          {% unless local.city %}
+            {{ local.county }}
+          {% endunless %}
+        </td>
         <td>{{ local.city }}</td>
         <td>
           {% if local.website %}
               <a href="{{ local.website }}">
-                  {{ local.county }}{{ local.city }} {{ local.type }} website
+                {% if local.city %}{{ local.city }}{% else %}{{ local.county }}{% endif %}
+                {{ local.type }} website
               </a>
           {% endif %}
         </td>
