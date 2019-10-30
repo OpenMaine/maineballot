@@ -16,8 +16,8 @@ Androscoggin,,county,https://www.androscoggincountymaine.gov/about/about.htm,,An
 ,Wales,town,http://walesmaine.org/,,Androscoggin
 Aroostook,,county,https://www.aroostook.me.us/,,Aroostook
 ,Allagash,town,http://www.aroostook.me.us/allagash/,,Aroostook
-,Amity,,,,Aroostook
-,Ashland,town,http://www.townofashland.com/,,Aroostook
+,Amity,town,http://townofamity.com/,,Aroostook
+,Ashland,town,http://townofashland.org/,,Aroostook
 ,Bancroft,,,,Aroostook
 ,Blaine,,,,Aroostook
 ,Bridgewater,,,,Aroostook
@@ -28,7 +28,7 @@ Aroostook,,county,https://www.aroostook.me.us/,,Aroostook
 ,Crystal,,,,Aroostook
 ,Dyer Brook,,,,Aroostook
 ,Eagle Lake,town,http://www.townofeaglelake.org,,Aroostook
-,Easton,town,http://www.easton.me.us/,,Aroostook
+,Easton,election,https://www.eastonme.com/municipal-departments/elections-voting/,,Aroostook
 ,Fort Fairfield,town,http://www.fortfairfield.org/,,Aroostook
 ,Fort Kent,town,http://www.fortkent.org/,,Aroostook
 ,Frenchville,,,,Aroostook
@@ -53,12 +53,12 @@ Aroostook,,county,https://www.aroostook.me.us/,,Aroostook
 ,New Canada,,,,Aroostook
 ,New Limerick,,,,Aroostook
 ,New Sweden,,,,Aroostook
-,Oakfield,town,http://www.townofoakfield.com/,,Aroostook
+,Oakfield,town,https://www.oakfieldme.org/,,Aroostook
 ,Orient,,,,Aroostook
 ,Perham,,,,Aroostook
-,Portage Lake,town,http://www.aroostook.com/portage/,,Aroostook
-,Presque Isle,election,http://presqueislemaine.gov/city-clerks-office/,,Aroostook
-,Sherman,town,http://www.uvec.org,,Aroostook
+,Portage Lake,town,https://www.townofportage.org/,,Aroostook
+,Presque Isle,election,http://presqueislemaine.gov/city-clerks-office/,"School board, city council, warden, ward clerk,",Aroostook
+,Sherman,contact info,https://www.maine.gov/local/town.php?t=Sherman,,Aroostook
 ,Smyrna,,,,Aroostook
 ,St. Agatha,,,,Aroostook
 ,St. Francis,,,,Aroostook
@@ -119,43 +119,43 @@ Franklin,,county,https://www.franklincounty.maine.gov/,,Franklin
 ,Weld,,,,Franklin
 ,Wilton,town,http://www.wiltonmaine.org,,Franklin
 Hancock,,county,https://co.hancock.me.us/site/index.php,,Hancock
-,Amherst,town,http://emainehosting.com/amherstmaine/index.html,,Hancock
-,Aurora,,,,Hancock
-,Bar Harbor,town,http://www.barharbormaine.gov,,Hancock
-,Blue Hill,town,http://www.bluehillme.govoffice2.com/,,Hancock
-,Brooklin,,,,Hancock
-,Brooksville,,,,Hancock
-,Bucksport,town,http://www.bucksport.biz/,,Hancock
-,Castine,,,,Hancock
-,Cranberry Isles,,,,Hancock
-,Dedham,,,,Hancock
-,Deer Isle,town,http://www.acadia.net/deerisle/,,Hancock
-,Eastbrook,town,http://www.eastbrookmaine.net,,Hancock
+,Amherst,town,http://amherstmaine.org/,,Hancock
+,Aurora,contact info,https://www.maine.gov/local/town.php?t=Aurora,,Hancock
+,Bar Harbor,election,http://www.barharbormaine.gov/130/Elections---General-Info,,Hancock
+,Blue Hill,election,https://www.townofbluehillmaine.org/-voting,,Hancock
+,Brooklin,town,https://www.brooklinmaine.com/,,Hancock
+,Brooksville,town,https://www.brooksvillemaine.org/,,Hancock
+,Bucksport,election,https://www.bucksportmaine.gov/index.asp?Type=B_BASIC&SEC={8253A310-60E6-4438-A35F-2009D623A8A9},"Town council, school committee, questions about replacing the municipal pool and road repair",Hancock
+,Castine,town,https://castine.me.us/,,Hancock
+,Cranberry Isles,town,https://www.cranberryisles-me.gov/,,Hancock
+,Dedham,town,https://www.dedhamme.org/,,Hancock
+,Deer Isle,town,https://www.townofdeerisle.org/,,Hancock
+,Eastbrook,town,https://www.eastbrookme.com/,,Hancock
 ,Ellsworth,election,https://www.ellsworthmaine.gov/services/voter-registration/#ffs-tabbed-11,,Hancock
-,Franklin,town,http://www.franklinmaine.net/,,Hancock
-,Frenchboro,town,http://www.maine.gov/local/hancock/frenchboro/,,Hancock
-,Gouldsboro,town,http://home.midmaine.com/%7Egouldsbo,,Hancock
-,Great Pond,,,,Hancock
-,Hancock,town,http://www.hancockmaine.org,,Hancock
+,Franklin,town,https://www.franklinmaine.com/site/,,Hancock
+,Frenchboro,town,http://frenchboro.maine.gov/,,Hancock
+,Gouldsboro,town,http://www.gouldsborotown.com/,,Hancock
+,Great Pond,town,https://www.emainehosting.com/TownofGreatPond/,,Hancock
+,Hancock,election,http://www.hancockmaine.org/content/4101/Elections/,,Hancock
 ,Lamoine,town,http://www.lamoine-me.gov/,,Hancock
-,Mariaville,,,,Hancock
-,Mount Desert,town,http://www.mtdesert.org,,Hancock
+,Mariaville,election,https://mariaville.govoffice.com/index.asp?SEC=96F3477A-036E-4BA5-B4AD-F61CDECE3363&Type=B_BASIC,,Hancock
+,Mount Desert,election,https://www.mtdesert.org/town-clerk/pages/elections-voting,,Hancock
 ,Orland,town,http://www.orlandme.org/,,Hancock
-,Osborn,,,,Hancock
+,Osborn,town,http://osbornmaine.org/,,Hancock
 ,Otis,town,http://www.townofotis.com/,,Hancock
-,Penobscot,,,,Hancock
-,Sedgwick,,,,Hancock
-,Sorrento,,,,Hancock
-,Southwest Harbor,,,,Hancock
-,Stonington,,,,Hancock
-,Sullivan,,,,Hancock
-,Surry,,,,Hancock
-,Swans Island,,,,Hancock
+,Penobscot,town,http://www.penobscot-maine.com/,,Hancock
+,Sedgwick,town,https://www.sedgwickmaine.org/,,Hancock
+,Sorrento,town,https://sorrentomaine.blogspot.com/p/town-office-info.html,,Hancock
+,Southwest Harbor,town,http://www.southwestharbormaine.org/,,Hancock
+,Stonington,town,https://www.stoningtonmaine.org/,,Hancock
+,Sullivan,town,https://sullivanmaine.org/,,Hancock
+,Surry,town,https://surry.govoffice.com/,,Hancock
+,Swans Island,town,http://swansisland.org/,,Hancock
 ,Tremont,town,http://tremont.maine.gov/,,Hancock
-,Trenton,,,,Hancock
-,Verona Island,,,,Hancock
-,Waltham,,,,Hancock
-,Winter Harbor,,,,Hancock
+,Trenton,town,https://www.trentonme.com/,,Hancock
+,Verona Island,town,http://www.veroname.org/,,Hancock
+,Waltham,contact info,https://www.maine.gov/local/town.php?t=Waltham,,Hancock
+,Winter Harbor,town,https://winterharbortown.com/,,Hancock
 Kennebec,,county,https://kennebeccounty.org/,,Kennebec
 ,Albion,town,https://townofalbionmaine.com/,,Kennebec
 ,Augusta,election,http://www.augustamaine.gov/businesses/city_government/elections.php,"City council, board of education, questions about fire equipment and street and sidewalk repair",Kennebec
@@ -392,7 +392,7 @@ Sagadahoc,,county,http://sagcounty.com/,,Sagadahoc
 ,Bowdoin,town,https://bowdoinme.com/,,Sagadahoc
 ,Bowdoinham,election,https://www.bowdoinham.com/department/elections,,Sagadahoc
 ,Georgetown,town,http://www.georgetownme.com/,,Sagadahoc
-,Perkins Township (Swan Island),town,http://swansisland.org/,,Sagadahoc
+,Perkins Township (Swan Island),town,https://www.maine.gov/ifw/programs-resources/recreational-opportunities/swan-island/index.html,,Sagadahoc
 ,Phippsburg,town,https://phippsburg.com/,,Sagadahoc
 ,Richmond,town,http://www.richmondmaine.com/default.aspx,,Sagadahoc
 ,Topsham,election,https://www.topshammaine.com/?SEC=5F5D9F59-DAB4-4BCD-9A94-D793724D801F,"Selectmen, school board",Sagadahoc
