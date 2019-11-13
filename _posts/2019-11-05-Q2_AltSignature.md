@@ -1,6 +1,6 @@
 ---
 title:  "Question 2: Alternative Signatures"
-excerpt: This measure would allow people with disabilities to sign petitions using alternative signatures.
+excerpt: This approved measure allows people with disabilities to sign petitions using alternative signatures.
 election: 2019-11-05
 header:
   overlay_image: /assets/img/2019_11/alt-signature.jpg
@@ -14,10 +14,14 @@ tags:
 - Constitutional Resolution
 - Accessibility
 - Petitions
+- Passed
 yes_vote: I want to allow people with disabilities to sign petitions using an alternative signature.
 no_vote: I want to keep the requirement for everyone to use an original signature for petitions.
 last_modified_at: 2019-08-30 T08:06:00-05:00
 ---
+
+## Results
+This measure passed.
 
 ## The gist
 This resolution would allow people with physical disabilities that prevent them from physically signing an original signature to sign petitions using an alternative method, such as a signature stamp or having someone sign on their behalf.
