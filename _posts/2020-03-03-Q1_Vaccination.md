@@ -30,7 +30,9 @@ This resolution would repeal a law passed by the governor removing religious and
 
 
 ## Tell me more
-Required vaccinations to attend school in Maine: [^2]
+Maine has one of the highest vaccine opt-out rates in the country and high rates of diseases that could be prevented by vaccines.
+
+Vaccinations to attend school in Maine: [^2]
 * Kindergarten: 4-5 diphtheria, tetanus, and acellular pertussis (DTaP), 4 polio, 2 measles, mumps, rubella (MMR), 1 chickenpox
 * Seventh grade: 1 DTaP, 1 meningococcal conjugate (MCV4)
 * Twelfth grade: 1-2 doses MCV4
