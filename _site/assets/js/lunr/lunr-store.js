@@ -93,4 +93,9 @@ var store = [{
         "excerpt":"Results This measure passed. The gist This resolution would allow people with physical disabilities that prevent them from physically signing an original signature to sign petitions using an alternative method, such as a signature stamp or having someone sign on their behalf. Ballot question “Do you favor amending the Constitution...","categories": ["November 2019 Election"],
         "tags": ["Constitutional Resolution","Accessibility","Petitions","Passed"],
         "url": "http://localhost:4000/november%202019%20election/Q2_AltSignature/",
-        "teaser":"http://localhost:4000/assets/img/2019_11/alt-signature.jpg"}]
+        "teaser":"http://localhost:4000/assets/img/2019_11/alt-signature.jpg"},{
+        "title": "Question 1: Vaccinations",
+        "excerpt":"The gist This resolution would repeal a law passed by the governor removing religious and philosophical exemptions to the vaccination requirement for students attending schools and colleges and employees of nursery schools and health care facilities. Ballot question “Do you want to reject the new law that removes religious and...","categories": ["March 2020 Election"],
+        "tags": ["Referendum","Veto referendum","Vaccination","Religion"],
+        "url": "http://localhost:4000/march%202020%20election/Q1_Vaccination/",
+        "teaser":"http://localhost:4000/assets/img/2020_03/Vaccine.jpg"}]
