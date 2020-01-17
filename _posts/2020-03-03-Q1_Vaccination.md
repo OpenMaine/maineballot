@@ -81,4 +81,4 @@ Opposition:[^2]
 
 [^5]: Lawlor, Joe. [Health experts alarmed by record rate of opt-outs for school-required vaccinations](https://www.pressherald.com/2019/04/05/vaccine-coverage-worsens-among-maine-schoolchildren-making-state-vulnerable-to-measles-pertussis-and-other-infectious-diseases/?rel=related). Portland Press Herald. Accessed January 8, 2020.
 
-[^6]: American Acadamy of Pedatrics. [Elimination of non-medical vaccine exemptions ranked top priority at Annual Leadership Forum](https://www.aappublications.org/news/2019/03/16/alfresolutions031619) AAP News. Accessed January 14, 2020.
+[^6]: American Academy of Pediatrics. [Elimination of non-medical vaccine exemptions ranked top priority at Annual Leadership Forum](https://www.aappublications.org/news/2019/03/16/alfresolutions031619) AAP News. Accessed January 14, 2020.
