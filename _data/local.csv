@@ -89,7 +89,7 @@ Cumberland,,county,http://www.cumberlandcounty.org/,,Cumberland
 ,Cape Elizabeth,election,https://www.capeelizabeth.com/services/elections/home.html,Town council,Cumberland
 ,Casco,town,https://cascomaine.org/,,Cumberland
 ,Chebeague Island,town,https://www.townofchebeagueisland.org/,,Cumberland
-,Cumberland,election,https://www.cumberlandmaine.com/election-information/pages/election-november-5-2019,,Cumberland
+,Cumberland,election,https://www.cumberlandmaine.com/election,,Cumberland
 ,Falmouth,election,https://www.falmouthme.org/town-clerk/pages/election-information,,Cumberland
 ,Freeport,election,https://www.freeportmaine.com/town-clerk/pages/election-services,,Cumberland
 ,Frye Island,town,http://www.fryeisland.com/,,Cumberland
@@ -104,8 +104,8 @@ Cumberland,,county,http://www.cumberlandcounty.org/,,Cumberland
 ,Portland,election,https://www.portlandmaine.gov/1116/November-Municipal-Election,"Mayor, city council, school board <br> Check out OpenMaine's beta <a href=""http://openmaine.org/campaign/index.html"">campaign finance site</a> for the mayoral race",Cumberland
 ,Pownal,election,https://www.pownalmaine.org/index.asp?Type=B_LIST&SEC={3290832E-1DCD-43A2-B2C3-331F9445751F},,Cumberland
 ,Raymond,election,https://www.raymondmaine.org/town-office/voters/elections,,Cumberland
-,Scarborough,election,http://www.scarboroughmaine.org/news/tuesdaynovember52019-electioninformation,,Cumberland
-,Sebago,election,https://www.townofsebago.org/home/news/absentee-ballots-november-5-2019,School budget,Cumberland
+,Scarborough,election,http://www.scarboroughmaine.org/departments/town-clerk/elections,,Cumberland
+,Sebago,town,https://www.townofsebago.org/,School budget,Cumberland
 ,South Portland,election,https://www.southportland.org/departments/city-clerk/november-3-2015-election,"City council, warden, ward clerk, board of education, water district trustee, bond question about building a new middle school, bond question about traffic and pedestrian improvements",Cumberland
 ,Standish,election,https://www.standish.org/town-clerk/pages/election-general-information,Special financial town meeting referendum,Cumberland
 ,Westbrook,election,https://www.westbrookmaine.com/181/Elections-Voting,"Mayor, city council, school committee, warden, ward clerk, water district, charter amendment about warden and ward clerk term length",Cumberland
@@ -114,7 +114,7 @@ Cumberland,,county,http://www.cumberlandcounty.org/,,Cumberland
 Franklin,,county,https://www.franklincounty.maine.gov/,,Franklin
 ,Avon,contact info,https://www.maine.gov/local/town.php?t=Avon,,Franklin
 ,Carrabassett Valley,town,http://www.carrabassettvalley.org/,,Franklin
-,Carthage,contact info,Carthage,,Franklin
+,Carthage,contact info,https://www.maine.gov/local/town.php?t=Carthage,,Franklin
 ,Chesterville,town,https://www.townofchesterville.me/,,Franklin
 ,Coplin Plantation,contact info,https://www.maine.gov/local/town.php?t=Coplin%20Plt,,Franklin
 ,Dallas Plantation,contact info,https://www.maine.gov/local/town.php?t=Dallas%20Plt,,Franklin
@@ -216,7 +216,7 @@ Knox,,county,https://www.knoxcountymaine.gov/,,Knox
 ,South Thomaston,town,https://souththomaston.me,,Knox
 ,St. George,town,https://www.stgeorgemaine.com/elections,,Knox
 ,Thomaston,town,https://www.thomastonmaine.us/public/index.php,,Knox
-,Union,election,https://www.union.maine.gov/index.asp?SEC=C72620B4-DDBE-4E09-B754-2E31A59F749F&Type=B_BASIC,"Land use, subdivision, general securities",Knox
+,Union,election,https://www.union.maine.gov/index.asp?SEC=0CE95965-3E88-49A6-8457-30093F663D27&Type=B_BASIC,"Land use, subdivision, general securities",Knox
 ,Vinalhaven,town,https://www.townofvinalhaven.org/government/pages/elections,,Knox
 ,Warren,town,https://warrenmaine.org/index.asp?SEC=9A16E126-423D-4173-BA38-89BF24884BF9,,Knox
 ,Washington,town,https://www.washington.maine.gov/,,Knox
@@ -226,7 +226,7 @@ Lincoln,,county,https://www.lincolncountymaine.me/#!,,Lincoln
 ,Boothbay Harbor,town,https://www.boothbayharbor.org/departments/town-clerk,,Lincoln
 ,Bremen,town,http://www.bremenmaine.org/,,Lincoln
 ,Bristol,town,https://www.bristolmaine.org/town-clerk,,Lincoln
-,Damariscotta,election,https://www.damariscottame.com/home/news/november-5-2019-election-ballot-zoning-licensing-medical-and-adult-use-marijuana,Ordinance,Lincoln
+,Damariscotta,election,https://www.damariscottame.com/town-clerk/pages/elections,Ordinance,Lincoln
 ,Dresden,town,https://www.townofdresden.com/town-office1.html,,Lincoln
 ,Edgecomb,town,https://edgecomb.org/,,Lincoln
 ,Jefferson,town,https://jeffersonmaine.org/election-information/,,Lincoln
@@ -329,7 +329,7 @@ Penobscot,,county,https://www.penobscot-county.net/#!,,Penobscot
 ,Lakeville,contact info,https://www.maine.gov/local/town.php?t=Lakeville,,Penobscot
 ,Lee,Facebook,https://www.facebook.com/Town-of-Lee-432149760230928/,,Penobscot
 ,Levant,town,http://townoflevant.net/,,Penobscot
-,Lincoln,election,https://lincolnmaine.org/state-local-election-november-5-2019/,"Town council, sanitary district, school board",Penobscot
+,Lincoln,town,https://lincolnmaine.org/,"Town council, sanitary district, school board",Penobscot
 ,Long A,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,Penobscot
 ,Lowell,Facebook,https://www.facebook.com/pages/category/Government-Organization/Town-of-Lowell-Maine-1938921983015278/,,Penobscot
 ,Mattamiscontis,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,Penobscot
@@ -526,7 +526,7 @@ York,,county,https://www.yorkcountymaine.gov/,,York
 ,Alfred,town,http://www.alfredme.us/,,York
 ,Arundel,town,http://www.arundelmaine.org,,York
 ,Berwick,election,https://www.berwickmaine.org/government/town_clerk/elections.php,"Questions about fire department apparatus and vehicles, replacing street lights with LEDs, federal financing, budget matching funds, and library trustees",York
-,Biddeford,election,https://www.biddefordmaine.org/2923/November-5-2019-General-Election-Informa,"Mayor, city council, school committee, warden and ward clerk",York
+,Biddeford,election,https://www.biddefordmaine.org/2170/Election-Information,"Mayor, city council, school committee, warden and ward clerk",York
 ,Buxton,town,http://www.buxton.me.us/,,York
 ,Cornish,town,http://cornishme.com,,York
 ,Dayton,town,http://www.dayton-me.gov,,York
