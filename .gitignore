@@ -5,8 +5,8 @@
 .DS_Store
 .jekyll-metadata
 .sass-cache
-_asset_bundler_cache
 _site
+_asset_bundler_cache
 codekit-config.json
 example/_site
 Gemfile.lock
