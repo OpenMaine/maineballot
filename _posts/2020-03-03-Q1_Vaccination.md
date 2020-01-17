@@ -37,7 +37,7 @@ Vaccinations required to attend school in Maine: [^2]
 * Seventh grade: 1 DTaP, 1 meningococcal conjugate (MCV4)
 * Twelfth grade: 1-2 doses MCV4
 
-This question is a **veto referendum**, which is a way for Mainers to object to new laws. In order to make it to the ballot, a petition supporting the veto must collect enough signatures to equal 10% of the number of people who voted in the most recent gubantorial election.[^2]
+This question is a **veto referendum**, which is a way for Mainers to object to new laws. In order to make it to the ballot, a petition supporting the veto must collect enough signatures to equal 10% of the number of people who voted in the most recent gubernatorial election.[^2]
 
 ## Follow the money
 There is no cost to enact this requirement.
@@ -81,4 +81,4 @@ Opposition:[^2]
 
 [^5]: Lawlor, Joe. [Health experts alarmed by record rate of opt-outs for school-required vaccinations](https://www.pressherald.com/2019/04/05/vaccine-coverage-worsens-among-maine-schoolchildren-making-state-vulnerable-to-measles-pertussis-and-other-infectious-diseases/?rel=related). Portland Press Herald. Accessed January 8, 2020.
 
-[^6]: American Acadamy of Pedatrics. [Elimination of non-medical vaccine exemptions ranked top priority at Annual Leadership Forum]. (https://www.aappublications.org/news/2019/03/16/alfresolutions031619) AAP News. Accessed January 14, 2020.
+[^6]: American Academy of Pediatrics. [Elimination of non-medical vaccine exemptions ranked top priority at Annual Leadership Forum]. (https://www.aappublications.org/news/2019/03/16/alfresolutions031619) AAP News. Accessed January 14, 2020.
