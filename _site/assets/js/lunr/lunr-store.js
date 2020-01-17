@@ -95,7 +95,7 @@ var store = [{
         "url": "http://localhost:4000/november%202019%20election/Q2_AltSignature/",
         "teaser":"http://localhost:4000/assets/img/2019_11/alt-signature.jpg"},{
         "title": "Question 1: Vaccinations",
-        "excerpt":"The gist This resolution would repeal a law passed by the governor removing religious and philosophical exemptions to the vaccination requirement for students attending schools and colleges and employees of nursery schools and health care facilities. Ballot question “Do you want to reject the new law that removes religious and...","categories": ["March 2020 Election"],
+        "excerpt":"The gist This resolution would repeal a law passed by the legislature and signed into law by the governor removing religious and philosophical exemptions to the vaccination requirement for students attending schools and colleges and employees of nursery schools and health care facilities. Ballot question “Do you want to reject...","categories": ["March 2020 Election"],
         "tags": ["Referendum","Veto referendum","Vaccination","Religion"],
         "url": "http://localhost:4000/march%202020%20election/Q1_Vaccination/",
         "teaser":"http://localhost:4000/assets/img/2020_03/Vaccine.jpg"}]

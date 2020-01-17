@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-14T20:23:08-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Maine Ballot</title><subtitle>Ballot questions for Maine elections.</subtitle><author><name>Shannon McHarg</name></author><entry><title type="html">Question 1: Vaccinations</title><link href="http://localhost:4000/march%202020%20election/Q1_Vaccination/" rel="alternate" type="text/html" title="Question 1: Vaccinations" /><published>2020-03-03T00:00:00-05:00</published><updated>2020-01-08T08:06:00-05:00</updated><id>http://localhost:4000/march%202020%20election/Q1_Vaccination</id><content type="html" xml:base="http://localhost:4000/march%202020%20election/Q1_Vaccination/">&lt;h2 id=&quot;the-gist&quot;&gt;The gist&lt;/h2&gt;
-&lt;p&gt;This resolution would repeal a law passed by the governor removing religious and philosophical exemptions to the vaccination requirement for students attending schools and colleges and employees of nursery schools and health care facilities.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-16T20:39:14-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Maine Ballot</title><subtitle>Ballot questions for Maine elections.</subtitle><author><name>Shannon McHarg</name></author><entry><title type="html">Question 1: Vaccinations</title><link href="http://localhost:4000/march%202020%20election/Q1_Vaccination/" rel="alternate" type="text/html" title="Question 1: Vaccinations" /><published>2020-03-03T00:00:00-05:00</published><updated>2020-01-16T08:06:00-05:00</updated><id>http://localhost:4000/march%202020%20election/Q1_Vaccination</id><content type="html" xml:base="http://localhost:4000/march%202020%20election/Q1_Vaccination/">&lt;h2 id=&quot;the-gist&quot;&gt;The gist&lt;/h2&gt;
+&lt;p&gt;This resolution would repeal a law passed by the legislature and signed into law by the governor removing religious and philosophical exemptions to the vaccination requirement for students attending schools and colleges and employees of nursery schools and health care facilities.&lt;/p&gt;
 
 &lt;h2 id=&quot;ballot-question&quot;&gt;Ballot question&lt;/h2&gt;
 &lt;p&gt;“Do you want to reject the new law that removes religious and philosophical exemptions to requiring immunization against certain communicable diseases for students to attend schools and colleges and for employees of nursery schools and health care facilities?”&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -12,22 +12,22 @@
         &lt;/tr&gt;    
         &lt;tr&gt;
             &lt;td style=&quot;font-size: 0.8rem; vertical-align: top; border-bottom: none; padding-right: 2rem;&quot;&gt;I want to allow religious or philosophical exemptions to the requirement for children to be vaccinated to attend school.&lt;/td&gt;
-            &lt;td style=&quot;font-size: 0.8rem; vertical-align: top; border-bottom: none;&quot;&gt;I want to require all children to be vaccinated to attend school.&lt;/td&gt;
+            &lt;td style=&quot;font-size: 0.8rem; vertical-align: top; border-bottom: none;&quot;&gt;I want to require all children to be vaccinated to attend school, except for those with a medical reason not to be vaccinated.&lt;/td&gt;
         &lt;/tr&gt;
     &lt;/tbody&gt;    
 &lt;/table&gt;
 
 &lt;h2 id=&quot;tell-me-more&quot;&gt;Tell me more&lt;/h2&gt;
-&lt;p&gt;Maine has one of the highest vaccine opt-out rates in the country and high rates of diseases that could be prevented by vaccines.&lt;/p&gt;
+&lt;p&gt;Maine has one of the highest vaccine opt-out rates in the country and high rates of diseases that could be prevented by vaccines.&lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
-&lt;p&gt;Vaccinations to attend school in Maine: &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Vaccinations required to attend school in Maine: &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Kindergarten: 4-5 diphtheria, tetanus, and acellular pertussis (DTaP), 4 polio, 2 measles, mumps, rubella (MMR), 1 chickenpox&lt;/li&gt;
   &lt;li&gt;Seventh grade: 1 DTaP, 1 meningococcal conjugate (MCV4)&lt;/li&gt;
   &lt;li&gt;Twelfth grade: 1-2 doses MCV4&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;This question is a &lt;strong&gt;veto referendum&lt;/strong&gt;, which is a way for Mainers to object to new laws. In order to make it to the ballot, a petition supporting the veto must collect enough signatures to equal 10% of the number of people who voted in the most recent gubantorial election.&lt;sup id=&quot;fnref:2:1&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;This question is a &lt;strong&gt;veto referendum&lt;/strong&gt;, which is a way for Mainers to object to new laws. In order to make it to the ballot, a petition supporting the veto must collect enough signatures to equal 10% of the number of people who voted in the most recent gubantorial election.&lt;sup id=&quot;fnref:2:1&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;follow-the-money&quot;&gt;Follow the money&lt;/h2&gt;
 &lt;p&gt;There is no cost to enact this requirement.&lt;/p&gt;
@@ -36,7 +36,7 @@
 &lt;p&gt;The primary arguments for this veto are:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Some believe that the government shouldn’t intervene in medical decisions and they shouldn’t be tied to education.&lt;/li&gt;
-  &lt;li&gt;Some people think vaccines can lead to autism, but this has been &lt;a href=&quot;https://www.cdc.gov/vaccinesafety/concerns/autism.html&quot;&gt;debunked by the CDC&lt;/a&gt;.&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Some people think vaccines can lead to autism, but this has been &lt;a href=&quot;https://www.cdc.gov/vaccinesafety/concerns/autism.html&quot;&gt;debunked by the CDC&lt;/a&gt;.&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;cons&quot;&gt;Cons&lt;/h2&gt;
@@ -45,17 +45,18 @@
   &lt;li&gt;Immunization protects the entire community from diseases.&lt;/li&gt;
   &lt;li&gt;Immunization only works if a majority of the community has the vaccine.&lt;/li&gt;
   &lt;li&gt;Some individuals, such as those with diseases that compromise the immune system, can’t receive vaccines, so they benefit from people they interact with from having the vaccine.&lt;/li&gt;
-  &lt;li&gt;Maine’s opt-out rate is more than 3 times the national average. It was 5.6% of kindergarteners for the 2018-19 school year. &lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Maine’s opt-out rate is more than 3 times the national average. It was 5.6% of kindergarteners for the 2018-19 school year. &lt;sup id=&quot;fnref:5:1&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
   &lt;li&gt;Maine was the state with the highest rate (8 times the national average) of pertussis (whooping cough) cases in 2018. &lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;The American Academy of Pediatrics highly recommends states eliminate non-medical exemptions to stop the spread of diseases. &lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;who-cares&quot;&gt;Who cares&lt;/h2&gt;
-&lt;p&gt;Support:&lt;sup id=&quot;fnref:2:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Support:&lt;sup id=&quot;fnref:2:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Mainers for Health and Parental Rights&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Opposition:&lt;sup id=&quot;fnref:2:3&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Opposition:&lt;sup id=&quot;fnref:2:3&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Maine Families for Vaccines&lt;/li&gt;
 &lt;/ul&gt;
@@ -74,17 +75,20 @@
     &lt;li id=&quot;fn:1&quot;&gt;
       &lt;p&gt;Maine State Legislature. &lt;a href=&quot;https://www.maine.gov/sos/cec/elec/upcoming/pdf/pl2019c154.pdf&quot;&gt;H.P. 586 - L.D. 798&lt;/a&gt;. Accessed January 8, 2020. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot;&gt;
+      &lt;p&gt;Lawlor, Joe. &lt;a href=&quot;https://www.pressherald.com/2019/04/05/vaccine-coverage-worsens-among-maine-schoolchildren-making-state-vulnerable-to-measles-pertussis-and-other-infectious-diseases/?rel=related&quot;&gt;Health experts alarmed by record rate of opt-outs for school-required vaccinations&lt;/a&gt;. Portland Press Herald. Accessed January 8, 2020. &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:5:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
     &lt;li id=&quot;fn:2&quot;&gt;
       &lt;p&gt;Ballotpedia State Desk. &lt;a href=&quot;https://ballotpedia.org/Maine_Question_1,_Religious_and_Philosophical_Vaccination_Exemptions_Referendum_(March_2020)&quot;&gt;Maine Question 1, Religious and Philosophical Vaccination Exemptions Referendum (March 2020)&lt;/a&gt;. Ballotpedia. Accessed January 8, 2020. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:2:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:2:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:2:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:3&quot;&gt;
       &lt;p&gt;Shepard, Michale. &lt;a href=&quot;https://bangordailynews.com/2019/10/17/politics/maine-will-vote-on-effort-to-repeal-new-school-vaccine-requirement-in-march-2020/&quot;&gt;Maine will vote on effort to repeal new school vaccine requirement in March 2020&lt;/a&gt;. Bangor Daily News. Accessed January 8, 2020. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
-    &lt;li id=&quot;fn:5&quot;&gt;
-      &lt;p&gt;Lawlor, Joe. &lt;a href=&quot;https://www.pressherald.com/2019/04/05/vaccine-coverage-worsens-among-maine-schoolchildren-making-state-vulnerable-to-measles-pertussis-and-other-infectious-diseases/?rel=related&quot;&gt;Health experts alarmed by record rate of opt-outs for school-required vaccinations&lt;/a&gt;. Portland Press Herald. Accessed January 8, 2020. &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
     &lt;li id=&quot;fn:4&quot;&gt;
       &lt;p&gt;Lawlor, Joe. &lt;a href=&quot;https://www.pressherald.com/2019/09/18/vaccine-opponents-submit-peoples-veto-petitions/&quot;&gt;Vaccine bill passed by lawmakers likely headed for statewide vote&lt;/a&gt;. Portland Press Herald. Accessed January 8, 2020. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:6&quot;&gt;
+      &lt;p&gt;American Acadamy of Pedatrics. [Elimination of non-medical vaccine exemptions ranked top priority at Annual Leadership Forum]. (https://www.aappublications.org/news/2019/03/16/alfresolutions031619) AAP News. Accessed January 14, 2020. &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;</content><author><name>Shannon McHarg</name></author><category term="Referendum" /><category term="Veto referendum" /><category term="Vaccination" /><category term="Religion" /><summary type="html">If approved this measure would allow parents to continue to refuse vaccinations for their children for religious or philosophical reasons.</summary></entry><entry><title type="html">Question 1: Transportation</title><link href="http://localhost:4000/november%202019%20election/Q1_Transportation/" rel="alternate" type="text/html" title="Question 1: Transportation" /><published>2019-11-05T00:00:00-05:00</published><updated>2019-09-16T09:06:00-04:00</updated><id>http://localhost:4000/november%202019%20election/Q1_Transportation</id><content type="html" xml:base="http://localhost:4000/november%202019%20election/Q1_Transportation/">&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
