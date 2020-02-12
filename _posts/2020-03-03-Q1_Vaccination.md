@@ -64,7 +64,7 @@ Opposition:[^2]
 * Maine Families for Vaccines
 
 ## Further reading
-[Full Text](httpsMainers for Health and Parental Rights://www.maine.gov/sos/cec/elec/upcoming/pdf/pl2019c154.pdf)
+[Full Text or the Maine's Citizen's Guide to the Special Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/pl2019c154.pdf)
 <br>[Ballotpedia Article](https://ballotpedia.org/Maine_Allow_for_Alternative_Initiative_Signatures_for_Persons_with_Disabilities_Amendment_(2019))
 <br>[Bangor Daily News Article](https://bangordailynews.com/2019/10/17/politics/maine-will-vote-on-effort-to-repeal-new-school-vaccine-requirement-in-march-2020/)
 <br>[Portland Press Herald Article](https://www.pressherald.com/2019/09/18/vaccine-opponents-submit-peoples-veto-petitions/)
