@@ -19,9 +19,11 @@ yes_vote: I want to allow religious or philosophical exemptions to the requireme
 no_vote: I want to require all children to be vaccinated to attend school, except for those with a medical reason not to be vaccinated.
 last_modified_at: 2020-01-16 T08:06:00-05:00
 ---
+## Results
+This measure did not pass.
 
 ## The gist
-This resolution would repeal a law passed by the legislature and signed into law by the governor removing religious and philosophical exemptions to the vaccination requirement for students attending schools and colleges and employees of nursery schools and health care facilities.
+This failed resolution would have repealed a law passed by the legislature and signed into law by the governor removing religious and philosophical exemptions to the vaccination requirement for students attending schools and colleges and employees of nursery schools and health care facilities.
 
 ## Ballot question
 “Do you want to reject the new law that removes religious and philosophical exemptions to requiring immunization against certain communicable diseases for students to attend schools and colleges and for employees of nursery schools and health care facilities?”[^1]
