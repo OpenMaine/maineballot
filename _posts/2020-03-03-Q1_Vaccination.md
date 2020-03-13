@@ -1,6 +1,6 @@
 ---
 title:  "Question 1: Vaccinations"
-excerpt: If approved, this measure would allow parents to continue to refuse vaccinations for their children for religious or philosophical reasons.
+excerpt: This failed measure would have allowed parents to continue to refuse vaccinations for their children for religious or philosophical reasons.
 election: 2020-03-03
 header:
   overlay_image: /assets/img/2020_03/Vaccine.jpg
@@ -15,13 +15,16 @@ tags:
 - Veto referendum
 - Vaccination
 - Religion
+- Did Not Pass
 yes_vote: I want to allow religious or philosophical exemptions to the requirement for children to be vaccinated to attend school.
 no_vote: I want to require all children to be vaccinated to attend school, except for those with a medical reason not to be vaccinated.
 last_modified_at: 2020-01-16 T08:06:00-05:00
 ---
+## Results
+This measure did not pass.
 
 ## The gist
-This resolution would repeal a law passed by the legislature and signed into law by the governor removing religious and philosophical exemptions to the vaccination requirement for students attending schools and colleges and employees of nursery schools and health care facilities.
+This failed resolution would have repealed a law passed by the legislature and signed into law by the governor removing religious and philosophical exemptions to the vaccination requirement for students attending schools and colleges and employees of nursery schools and health care facilities.
 
 ## Ballot question
 “Do you want to reject the new law that removes religious and philosophical exemptions to requiring immunization against certain communicable diseases for students to attend schools and colleges and for employees of nursery schools and health care facilities?”[^1]
