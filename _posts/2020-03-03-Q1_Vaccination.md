@@ -1,6 +1,6 @@
 ---
 title:  "Question 1: Vaccinations"
-excerpt: If approved, this measure would allow parents to continue to refuse vaccinations for their children for religious or philosophical reasons.
+excerpt: This failed measure would allow parents to continue to refuse vaccinations for their children for religious or philosophical reasons.
 election: 2020-03-03
 header:
   overlay_image: /assets/img/2020_03/Vaccine.jpg
