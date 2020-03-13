@@ -15,6 +15,7 @@ tags:
 - Veto referendum
 - Vaccination
 - Religion
+- Did Not Pass
 yes_vote: I want to allow religious or philosophical exemptions to the requirement for children to be vaccinated to attend school.
 no_vote: I want to require all children to be vaccinated to attend school, except for those with a medical reason not to be vaccinated.
 last_modified_at: 2020-01-16 T08:06:00-05:00
