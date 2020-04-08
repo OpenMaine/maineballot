@@ -7,7 +7,7 @@ layout: archive
 
 {% include election-day.html %}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Ballot questions" }}</h3>
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Statewide ballot questions" }}</h3>
 
 {% for post in paginator.posts reversed %}
   {% if post.election == site.data.elections.current_election %}
@@ -17,4 +17,10 @@ layout: archive
 
 <!--{% include paginator.html %}-->
 
-<br><br>Curious about how this website got started? Listen to the story on the <a href="https://civictech.chat/2019/07/maine-ballot">Civic Tech Chat podcast</a>.
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].local_elections | default: "Local election information" }}</h3>
+
+<p>We have links to local election websites and basic information about what's on the ballot for counties, cities, and towns. <a href="/local">Find information about your local election</a>.</p>
+
+<h3 class="archive__subtitle">About this site</h3>
+
+<p>Curious about how this website got started? Listen to the story on the <a href="https://civictech.chat/2019/07/maine-ballot">Civic Tech Chat podcast</a>.</p>
