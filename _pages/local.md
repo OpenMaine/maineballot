@@ -15,7 +15,7 @@ This is a work in progress list of websites or contact information for county, c
         <th>County</th>
         <th>City or town</th>
         <th>Election website</th>
-        <th>What's on the November 2019 ballot</th>
+        <th>What's on the July 2020 ballot</th>
         </tr>
     </thead>
     <tbody>  
