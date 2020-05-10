@@ -91,6 +91,10 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
+collections:
+  local-archive:
+    output: true  
+
 # Analytics
 analytics:
   provider               : google # false (default), "google", "google-universal", "custom"

@@ -4,8 +4,9 @@ layout: archive
 author_profile: false
 ---
 
+<h2>State elections</h2>
 {% for category in site.categories reversed %}
-  <h2>{{ category[0] }}</h2>
+  <h3>{{ category[0] }}</h3>
   <ul>
     {% for post in category[1] reversed %}
       <li><a href="{{ post.url }}">{{ post.title }}</a>
@@ -16,3 +17,11 @@ author_profile: false
   </ul>
 {% endfor %}
 
+
+<h2>Local elections</h2>
+  <ul>
+    {% for local in site.local-archive reversed %}
+        <li><a href="{{ local.url }}">{{ local.election }}</a>
+        </li>
+    {% endfor %}
+  </ul>
