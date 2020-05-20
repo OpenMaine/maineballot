@@ -3,7 +3,7 @@ layout: archive
 title: "Local elections"
 author_profile: false
 datafile: local
-ballot_description: "What's on the November 2019 ballot"
+ballot_description: "What's on the July 2020 ballot"
 permalink: /local
 ---
 
