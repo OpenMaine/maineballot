@@ -14,7 +14,6 @@ layout: archive
 
 <br>
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Statewide ballot questions" }}</h3>
-<p>There aren't currently any statewide ballot questions for the next election.</p>
 
 {% for post in paginator.posts reversed %}
   {% if post.election == site.data.elections.current_election %}
