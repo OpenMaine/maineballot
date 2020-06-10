@@ -60,8 +60,8 @@ The primary arguments against this referendum are:
 Nobody has registered support or opposition to this bond.
 
 ## Further reading
-[Full text](https://legislature.maine.gov/legis/bills/bills_129th/chapters/PUBLIC673.asp)
-[Ballotpedia article](https://ballotpedia.org/Maine_Question_2,_Transportation_Infrastructure_Bond_Issue_(July_2020))
+- [Full text](https://legislature.maine.gov/legis/bills/bills_129th/chapters/PUBLIC673.asp)
+- [Ballotpedia article](https://ballotpedia.org/Maine_Question_2,_Transportation_Infrastructure_Bond_Issue_(July_2020))
 
 ## References
 [^1]: Maine State Legislature. [An Act To Authorize a General Fund Bond Issue for Infrastructure To Improve Transportation and Internet Connections](https://legislature.maine.gov/legis/bills/bills_129th/chapters/PUBLIC673.asp). Accessed June 3, 2020.
