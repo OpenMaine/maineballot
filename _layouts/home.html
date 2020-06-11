@@ -17,12 +17,20 @@ layout: archive
 
 {% for post in paginator.posts reversed %}
   {% if post.election == site.data.elections.current_election %}
-    {% include archive-single.html type="grid" %}
+    {% unless post.local == true %}
+      {% include archive-single.html type="grid" %}
+    {% endunless %}
   {% endif %}
 {% endfor %}
 
 <!--{% include paginator.html %}-->
 <br>
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].local_elections | default: "Local election information" }}</h3>
+
+{% for post in paginator.posts reversed %}
+  {% if post.election == site.data.elections.current_election and post.local == true %}
+    {% include archive-single.html type="grid" %}
+  {% endif %}
+{% endfor %}
 
 <p>We have links to local election websites and basic information about what's on the ballot for counties, cities, and towns. <a href="/local">Find information about your local election</a>.</p>
