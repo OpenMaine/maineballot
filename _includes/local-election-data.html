@@ -7,9 +7,10 @@
         <th>City or town</th>
         <th>Election website</th>
         <th>{{ page.ballot_description }}</th>
+        <th>Sample ballot or warrant</th>
         </tr>
     </thead>
-    <tbody>  
+    <tbody>
     {% for local in site.data.local_elections[page.datafile] %}
       <tr>
         <td>{{ local.county }}</td>
@@ -22,6 +23,13 @@
           {% endif %}
         </td>
         <td>{{ local.ballot }}</td>
+        <td>
+          {% if local.ballot_link %}
+              <a href="{{ local.ballot_link }}">
+                  {{ local.ballot_link_text }}
+              </a>
+          {% endif %}
+        </td>
       </tr>
     {% endfor %}
     </tbody>
