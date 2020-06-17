@@ -1,7 +1,7 @@
 county,city,type,website,ballot,ballot_link,ballot_link_text,sorting county
 Androscoggin,,county,https://www.androscoggincountymaine.gov/about/about.htm,,,,Androscoggin
 ,Auburn,election,http://www.auburnmaine.gov/pages/government/election-and-voting,School budget,,,Androscoggin
-,Durham,election,https://www.durhamme.com/election-information,Municipal budget and school budget vote (not a town hall),./2020-07-14_ballots/Durham.pdf,Sample Ballot,Androscoggin
+,Durham,election,https://www.durhamme.com/election-information,Municipal budget and school budget vote (not a town hall),../assets/docs/2020-07-14_ballots/Durham.pdf,Sample Ballot,Androscoggin
 ,Greene,town,http://www.townofgreene.net/,,,,Androscoggin
 ,Leeds,town,https://sites.google.com/site/townofleedsmaine/,,,,Androscoggin
 ,Lewiston,election,https://www.lewistonmaine.gov/117/Elections,School budget,,,Androscoggin
