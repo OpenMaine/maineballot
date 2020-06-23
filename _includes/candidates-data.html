@@ -1,0 +1,38 @@
+<table>
+    <thead>
+        <tr>
+        <th>Office</th>
+        <th>District</th>
+        <th>County</th>
+        <th>Party</th>
+        <th>Candidate</th>
+        <th>Official campaign website</th>
+        <th>Ballotpedia page</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for candidates in site.data.candidates.[page.datafile] %}
+      <tr>
+        <td>{{ candidates.Office }}</td>
+        <td>{{ candidates.Dist }}</td>
+        <td>{{ candidates.County }}</td>
+        <td>{{ candidates.Party }}</td>
+        <td>{{ candidates.FirstName }} {{ candidates.MiddleName }} {{ candidates.LastName }} {{ candidates.Suffix }}</td>
+        <td>
+          {% if candidates.website %}
+              <a href="{{ candidates.website }}">
+                  Campaign website
+              </a>
+          {% endif %}
+        </td>
+        <td>
+          {% if candidates.ballotpedia %}
+              <a href="{{ candidates.ballotpedia }}">
+                  Ballopedia page
+              </a>
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+    </tbody>
+</table>
