@@ -13,7 +13,8 @@ layout: archive
 <p>If you need to register to vote, you can <a href="https://www.maine.gov/sos/cec/elec/images/VoterRegistrationCard20.pdf">register by mail</a> before June 23.</p>
 
 <br>
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Statewide ballot questions" }}</h3>
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "State ballot questions" }}</h3>
+<p>You do not have to be affiliated with a political party to vote on ballot questions.</p>
 
 {% for post in paginator.posts reversed %}
   {% if post.election == site.data.elections.current_election %}
@@ -23,7 +24,7 @@ layout: archive
 
 <!--{% include paginator.html %}-->
 <br>
-<h3 class="archive__subtitle">Statewide and county candidates</h3>
+<h3 class="archive__subtitle">State and county candidates</h3>
 
 <p>We have a list of candidates for statewide and county candidates with links to official campaign websites. <a href="/candidates">Find your candidates</a>.</p>
 <br>
