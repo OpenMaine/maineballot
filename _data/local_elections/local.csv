@@ -1,10 +1,10 @@
 county,city,type,website,ballot,ballot_link,ballot_link_text,sorting county
 Androscoggin,,county,https://www.androscoggincountymaine.gov/about/about.htm,,,,Androscoggin
-,Auburn,election,http://www.auburnmaine.gov/pages/government/election-and-voting,School budget,,,Androscoggin
-,Durham,election,https://www.durhamme.com/election-information,Municipal budget and school budget vote (not a town hall),../assets/docs/2020-07-14_ballots/Durham.pdf,Sample Ballot,Androscoggin
+,Auburn,election,http://www.auburnmaine.gov/pages/government/election-and-voting,School budget,http://www.auburnmaine.gov/CMSContent/City_Clerk/sample%20ballot%20Municipal%20Referendum.pdf,Sample Ballot (pdf),Androscoggin
+,Durham,election,https://www.durhamme.com/election-information,Municipal budget and school budget vote (not a town hall),../assets/docs/2020-07-14_ballots/Durham.pdf,Sample Ballot (pdf),Androscoggin
 ,Greene,town,http://www.townofgreene.net/,,,,Androscoggin
 ,Leeds,town,https://sites.google.com/site/townofleedsmaine/,,,,Androscoggin
-,Lewiston,election,https://www.lewistonmaine.gov/117/Elections,School budget,,,Androscoggin
+,Lewiston,election,https://www.lewistonmaine.gov/117/Elections,School budget,https://www.lewistonmaine.gov/DocumentCenter/View/6772/Sample-Ballot---City-School-Budget,Sample Ballot (pdf),Androscoggin
 ,Lisbon,town,https://www.lisbonme.org/,,,,Androscoggin
 ,Livermore,town,http://livermoremaine.org/,,,,Androscoggin
 ,Livermore Falls,town,http://lfme.org/,,,,Androscoggin
@@ -85,7 +85,7 @@ Aroostook,,county,https://www.aroostook.me.us/,,,,Aroostook
 Cumberland,,county,http://www.cumberlandcounty.org/,,,,Cumberland
 ,Baldwin,town,https://www.baldwinmaine.org/,,,,Cumberland
 ,Bridgton,election,https://bridgtonmaine.org/elections/,,,,Cumberland
-,Brunswick,election,http://www.brunswickme.org/286/Elections,School budget,../assets/docs/2020-07-14_ballots/Brunswick.pdf,Sample Ballot,Cumberland
+,Brunswick,election,http://www.brunswickme.org/286/Elections,School budget,../assets/docs/2020-07-14_ballots/Brunswick.pdf,Sample Ballot (pdf),Cumberland
 ,Cape Elizabeth,election,https://www.capeelizabeth.com/services/elections/home.html,School budget,,,Cumberland
 ,Casco,town,https://cascomaine.org/,,,,Cumberland
 ,Chebeague Island,town,https://www.townofchebeagueisland.org/,Town meeting (possible),,,Cumberland
@@ -101,14 +101,14 @@ Cumberland,,county,http://www.cumberlandcounty.org/,,,,Cumberland
 ,Naples,town,https://www.townofnaples.org/,,,,Cumberland
 ,New Gloucester,election,https://www.newgloucester.com/index.asp?Type=B_BASIC&SEC={72694DD2-81F1-460C-A97E-89FE9EBD19AF}&DE={14D5CAFF-33E8-4D98-8D03-7713E6810120},School budget,,,Cumberland
 ,North Yarmouth,election,https://www.northyarmouth.org/town-clerk/pages/elections-voter-registration,,,,Cumberland
-,Portland,election,https://www.portlandmaine.gov/325/Elections-Voting,"Municipal charter, school budget",../assets/docs/2020-07-14_ballots/Portland.pdf,Sample Ballot,Cumberland
+,Portland,election,https://www.portlandmaine.gov/325/Elections-Voting,"Municipal charter, school budget",../assets/docs/2020-07-14_ballots/Portland.pdf,Sample Ballot (pdf),Cumberland
 ,Pownal,election,https://www.pownalmaine.org/index.asp?Type=B_LIST&SEC={3290832E-1DCD-43A2-B2C3-331F9445751F},,,,Cumberland
 ,Raymond,election,https://www.raymondmaine.org/town-office/voters/elections,,,,Cumberland
 ,Scarborough,election,http://www.scarboroughmaine.org/departments/town-clerk/elections,School budget,,,Cumberland
 ,Sebago,town,https://www.townofsebago.org/,,,,Cumberland
-,South Portland,election,https://www.southportland.org/departments/city-clerk/november-3-2015-election,School budget,,,Cumberland
+,South Portland,election,https://www.southportland.org/departments/city-clerk/november-3-2015-election,School budget,../assets/docs/2020-07-14_ballots/SouthPortland.pdf,Sample Ballot (pdf),Cumberland
 ,Standish,election,https://www.standish.org/town-clerk/pages/election-general-information,,,,Cumberland
-,Westbrook,election,https://www.westbrookmaine.com/181/Elections-Voting,School budget,../assets/docs/2020-07-14_ballots/Westbrook.pdf,Sample Ballot,Cumberland
+,Westbrook,election,https://www.westbrookmaine.com/181/Elections-Voting,School budget,../assets/docs/2020-07-14_ballots/Westbrook.pdf,Sample Ballot (pdf),Cumberland
 ,Windham,election,http://www.windhammaine.us/125/Voter-Information,,,,Cumberland
 ,Yarmouth,election,https://yarmouth.me.us/elections,"Town council, school committee, water district, school budget",,,Cumberland
 Franklin,,county,https://www.franklincounty.maine.gov/,,,,Franklin
@@ -181,7 +181,7 @@ Kennebec,,county,https://kennebeccounty.org/,,,,Kennebec
 ,Clinton,town,http://www.clinton-me.us,,,,Kennebec
 ,Farmingdale,election,https://www.farmingdalemaine.org/index.asp?SEC=645DE9BE-E94D-4525-BF14-931B69726E98&Type=B_BASIC,,,,Kennebec
 ,Fayette,town,https://www.fayettemaine.org/,,,,Kennebec
-,Gardiner,election,https://www.gardinermaine.com/office-city-clerk/pages/voting-elections,"School budget, district adult ed program, special education reserve fund",../assets/docs/2020-07-14_ballots/Gardiner.pdf,Sample Ballot,Kennebec
+,Gardiner,election,https://www.gardinermaine.com/office-city-clerk/pages/voting-elections,"School budget, district adult ed program, special education reserve fund",../assets/docs/2020-07-14_ballots/Gardiner.pdf,Sample Ballot (pdf),Kennebec
 ,Hallowell,election,https://hallowell.govoffice.com/index.asp?Type=B_BASIC&SEC=%7B49BCD9B5-12A8-43C1-96FA-2F515E9100E9%7D,,,,Kennebec
 ,Litchfield,town,https://www.litchfieldmaine.org/,,,,Kennebec
 ,Manchester,town,http://www.manchester.govoffice2.com/,,,,Kennebec
@@ -244,7 +244,7 @@ Oxford,,county,https://www.oxfordcounty.org/,,,,Oxford
 ,Albany Township,town,http://www.albanymaine.org/,,,,Oxford
 ,Andover,town,https://www.andovermaine.org/,,,,Oxford
 ,Bethel,election,https://www.bethelmaine.org/2181/Voter-Registration,,,,Oxford
-,Brownfield,town,http://www.brownfieldmaine.org/,Town meeting (July 14-15),http://www.brownfieldmaine.org/uploads/2/6/3/1/26314117/2020-2021_town_meeting_warrant.pdf,Town Meeting Warrant,Oxford
+,Brownfield,town,http://www.brownfieldmaine.org/,Town meeting (July 14-15),http://www.brownfieldmaine.org/uploads/2/6/3/1/26314117/2020-2021_town_meeting_warrant.pdf,Town Meeting Warrant (pdf),Oxford
 ,Buckfield,town,https://www.townofbuckfield.com,,,,Oxford
 ,Byron,Facebook,https://www.facebook.com/Town-of-Byron-Maine-559875007809068/,,,,Oxford
 ,Canton,Facebook,https://www.facebook.com/cantonmaine,,,,Oxford
@@ -435,7 +435,7 @@ Somerset,,county,https://www.somersetcounty-me.org/,,,,Somerset
 ,Mercer,election,https://mercerme.webs.com/annual-reports-warrants,,,,Somerset
 ,Moose River,contact info,https://www.maine.gov/local/town.php?t=Moose%20River,,,,Somerset
 ,Moscow,town,http://home.myfairpoint.net/~DBeane,,,,Somerset
-,New Portland,town,http://www.newportlandmaine.org,"Special Town Meeting (6 Jun, 2020)",http://newportlandmaine.org/wp-content/uploads/2011/10/2020-TOWN-MEETING-WARRANT1.docx,Town Meeting Warrant,Somerset
+,New Portland,town,http://www.newportlandmaine.org,"Special Town Meeting (6 Jun, 2020)",http://newportlandmaine.org/wp-content/uploads/2011/10/2020-TOWN-MEETING-WARRANT1.docx,Town Meeting Warrant (docx),Somerset
 ,Norridgewock,election,http://www.townofnorridgewock.com/meeting.html,,,,Somerset
 ,Palmyra,town,http://www.palmyratown.org/Town_of_Palmyra/Welcome.html,,,,Somerset
 ,Pittsfield,town,http://www.pittsfield.org/,Special Town Council District 2 Election,,,Somerset
@@ -526,11 +526,11 @@ York,,county,https://www.yorkcountymaine.gov/,,,,York
 ,Alfred,election,http://www.alfredme.gov/departments/town_clerk/elections.php,School budget (possible),,,York
 ,Arundel,town,http://www.arundelmaine.org,,,,York
 ,Berwick,election,https://www.berwickmaine.org/government/town_clerk/elections.php,"Town meeting, school budget",,,York
-,Biddeford,election,https://www.biddefordmaine.org/2170/Election-Information,,,,York
+,Biddeford,election,https://www.biddefordmaine.org/2170/Election-Information,"School renovation loan, school budget",../assets/docs/2020-07-14_ballots/Biddeford.pdf,Sample Ballot (pdf),York
 ,Buxton,election,https://www.buxton.me.us/town-clerk/pages/voting-elections,,,,York
 ,Cornish,town,http://cornishme.com,,,,York
 ,Dayton,town,http://www.dayton-me.gov,Selectmen,,,York
-,Eliot,election,https://www.eliotmaine.org/2020-election-info,"Town Election/Referendum, MSAD #35 Budget",https://www.eliotmaine.org/sites/eliotme/files/uploads/warrant_-_final_docusigned_posted.pdf,Town Meeting Warrant,York
+,Eliot,election,https://www.eliotmaine.org/2020-election-info,"Town Election/Referendum, MSAD #35 Budget",https://www.eliotmaine.org/sites/eliotme/files/uploads/warrant_-_final_docusigned_posted.pdf,Town Meeting Warrant (pdf),York
 ,Hollis,election,https://www.hollismaine.org/town-clerk/pages/elections,,,,York
 ,Kennebunk,election,https://www.kennebunkmaine.us/444/Election-and-Town-Meeting-Information,"Question about marajuana facilities, town meeting, school budget",,,York
 ,Kennebunkport,election,https://www.kennebunkportme.gov/town-clerk/pages/elections-and-voting,,,,York
