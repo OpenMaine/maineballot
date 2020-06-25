@@ -1,5 +1,6 @@
-<h3>Democratic Party</h3>
-
+<h2>Democratic Party</h2>
+<h3>Contested races</h3>
+<p>There are more than one candidate for these races, so you might need to do some research before making a choice.</p>
 <table>
     <thead>
         <tr>
@@ -7,18 +8,28 @@
         <th>District</th>
         <th>County</th>
         <th>Candidate</th>
-        <th>Campaign website</th>
         <th>Ballotpedia page</th>
+        <th>Campaign website</th>
+        <th>Comparison</th>
         </tr>
     </thead>
     <tbody>
     {% for candidates in site.data.candidates.[page.datafile] %}
     {% if candidates.Party == "D" %}
+    {% if candidates.Contested == "Y" %}
       <tr>
         <td>{{ candidates.Office }}</td>
         <td>{{ candidates.Dist }}</td>
         <td>{{ candidates.County }}</td>
         <td>{{ candidates.FirstName }} {{ candidates.MiddleName }} {{ candidates.LastName }} {{ candidates.Suffix }}</td>
+
+        <td>
+          {% if candidates.ballotpedia %}
+              <a href="{{ candidates.ballotpedia }}">
+                  Ballopedia page
+              </a>
+          {% endif %}
+        </td>
         <td>
           {% if candidates.website %}
               <a href="{{ candidates.website }}">
@@ -26,6 +37,42 @@
               </a>
           {% endif %}
         </td>
+        <td>
+          {% if candidates.comparison %}
+              <a href="{{ candidates.comparison }}">
+                  {{ candidates.comparison_text }}
+              </a>
+          {% endif %}
+        </td>
+      </tr>
+      {% endif %}
+      {% endif %}
+    {% endfor %}
+    </tbody>
+</table>
+<br><br>
+<h3>Uncontested races</h3>
+<p>There is only one candidate for these races, so you just need to fill in the oval or write-in another candidate.</p>
+<table>
+    <thead>
+        <tr>
+        <th>Office</th>
+        <th>District</th>
+        <th>County</th>
+        <th>Candidate</th>
+        <th>Ballotpedia page</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for candidates in site.data.candidates.[page.datafile] %}
+    {% if candidates.Party == "D" %}
+    {% if candidates.Contested == "N" %}
+      <tr>
+        <td>{{ candidates.Office }}</td>
+        <td>{{ candidates.Dist }}</td>
+        <td>{{ candidates.County }}</td>
+        <td>{{ candidates.FirstName }} {{ candidates.MiddleName }} {{ candidates.LastName }} {{ candidates.Suffix }}</td>
+
         <td>
           {% if candidates.ballotpedia %}
               <a href="{{ candidates.ballotpedia }}">
@@ -35,11 +82,14 @@
         </td>
       </tr>
       {% endif %}
+      {% endif %}
     {% endfor %}
     </tbody>
 </table>
 <br><br>
+
 <h3>Green Independent Party</h3>
+<p>There is only one candidate for these races, so you just need to fill in the oval or write-in another candidate.</p>
 
 <table>
     <thead>
@@ -83,6 +133,8 @@
 
 <h3>Republican Party</h3>
 
+<h3>Contested races</h3>
+<p>There are more than one candidate for these races, so you might need to do some research before making a choice.</p>
 <table>
     <thead>
         <tr>
@@ -90,18 +142,28 @@
         <th>District</th>
         <th>County</th>
         <th>Candidate</th>
-        <th>Campaign website</th>
         <th>Ballotpedia page</th>
+        <th>Campaign website</th>
+        <th>Comparison</th>
         </tr>
     </thead>
     <tbody>
     {% for candidates in site.data.candidates.[page.datafile] %}
     {% if candidates.Party == "R" %}
+    {% if candidates.Contested == "Y" %}
       <tr>
         <td>{{ candidates.Office }}</td>
         <td>{{ candidates.Dist }}</td>
         <td>{{ candidates.County }}</td>
         <td>{{ candidates.FirstName }} {{ candidates.MiddleName }} {{ candidates.LastName }} {{ candidates.Suffix }}</td>
+
+        <td>
+          {% if candidates.ballotpedia %}
+              <a href="{{ candidates.ballotpedia }}">
+                  Ballopedia page
+              </a>
+          {% endif %}
+        </td>
         <td>
           {% if candidates.website %}
               <a href="{{ candidates.website }}">
@@ -109,6 +171,42 @@
               </a>
           {% endif %}
         </td>
+        <td>
+          {% if candidates.comparison %}
+              <a href="{{ candidates.comparison }}">
+                  {{ candidates.comparison_text }}
+              </a>
+          {% endif %}
+        </td>
+      </tr>
+      {% endif %}
+      {% endif %}
+    {% endfor %}
+    </tbody>
+</table>
+<br><br>
+<h3>Uncontested races</h3>
+<p>There is only one candidate for these races, so you just need to fill in the oval or write-in another candidate.</p>
+<table>
+    <thead>
+        <tr>
+        <th>Office</th>
+        <th>District</th>
+        <th>County</th>
+        <th>Candidate</th>
+        <th>Ballotpedia page</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for candidates in site.data.candidates.[page.datafile] %}
+    {% if candidates.Party == "R" %}
+    {% if candidates.Contested == "N" %}
+      <tr>
+        <td>{{ candidates.Office }}</td>
+        <td>{{ candidates.Dist }}</td>
+        <td>{{ candidates.County }}</td>
+        <td>{{ candidates.FirstName }} {{ candidates.MiddleName }} {{ candidates.LastName }} {{ candidates.Suffix }}</td>
+
         <td>
           {% if candidates.ballotpedia %}
               <a href="{{ candidates.ballotpedia }}">
@@ -118,6 +216,8 @@
         </td>
       </tr>
       {% endif %}
+      {% endif %}
     {% endfor %}
     </tbody>
 </table>
+<br><br>
