@@ -13,3 +13,5 @@ example/_site
 Gemfile.lock
 node_modules
 npm-debug.log*
+assets/docs/*/ocr.sh
+assets/docs/2020-07-14_ballots/sample.pdf
