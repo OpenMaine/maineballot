@@ -1,0 +1,123 @@
+<h3>Democratic Party</h3>
+
+<table>
+    <thead>
+        <tr>
+        <th>Office</th>
+        <th>District</th>
+        <th>County</th>
+        <th>Candidate</th>
+        <th>Campaign website</th>
+        <th>Ballotpedia page</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for candidates in site.data.candidates.[page.datafile] %}
+    {% if candidates.Party == "D" %}
+      <tr>
+        <td>{{ candidates.Office }}</td>
+        <td>{{ candidates.Dist }}</td>
+        <td>{{ candidates.County }}</td>
+        <td>{{ candidates.FirstName }} {{ candidates.MiddleName }} {{ candidates.LastName }} {{ candidates.Suffix }}</td>
+        <td>
+          {% if candidates.website %}
+              <a href="{{ candidates.website }}">
+                  {{ candidates.website_text }}
+              </a>
+          {% endif %}
+        </td>
+        <td>
+          {% if candidates.ballotpedia %}
+              <a href="{{ candidates.ballotpedia }}">
+                  Ballopedia page
+              </a>
+          {% endif %}
+        </td>
+      </tr>
+      {% endif %}
+    {% endfor %}
+    </tbody>
+</table>
+<br><br>
+<h3>Green Independent Party</h3>
+
+<table>
+    <thead>
+        <tr>
+        <th>Office</th>
+        <th>District</th>
+        <th>County</th>
+        <th>Candidate</th>
+        <th>Campaign website</th>
+        <th>Ballotpedia page</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for candidates in site.data.candidates.[page.datafile] %}
+    {% if candidates.Party == "G" %}
+      <tr>
+        <td>{{ candidates.Office }}</td>
+        <td>{{ candidates.Dist }}</td>
+        <td>{{ candidates.County }}</td>
+        <td>{{ candidates.FirstName }} {{ candidates.MiddleName }} {{ candidates.LastName }} {{ candidates.Suffix }}</td>
+        <td>
+          {% if candidates.website %}
+              <a href="{{ candidates.website }}">
+                  {{ candidates.website_text }}
+              </a>
+          {% endif %}
+        </td>
+        <td>
+          {% if candidates.ballotpedia %}
+              <a href="{{ candidates.ballotpedia }}">
+                  Ballopedia page
+              </a>
+          {% endif %}
+        </td>
+      </tr>
+      {% endif %}
+    {% endfor %}
+    </tbody>
+</table>
+<br><br>
+
+<h3>Republican Party</h3>
+
+<table>
+    <thead>
+        <tr>
+        <th>Office</th>
+        <th>District</th>
+        <th>County</th>
+        <th>Candidate</th>
+        <th>Campaign website</th>
+        <th>Ballotpedia page</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for candidates in site.data.candidates.[page.datafile] %}
+    {% if candidates.Party == "R" %}
+      <tr>
+        <td>{{ candidates.Office }}</td>
+        <td>{{ candidates.Dist }}</td>
+        <td>{{ candidates.County }}</td>
+        <td>{{ candidates.FirstName }} {{ candidates.MiddleName }} {{ candidates.LastName }} {{ candidates.Suffix }}</td>
+        <td>
+          {% if candidates.website %}
+              <a href="{{ candidates.website }}">
+                  {{ candidates.website_text }}
+              </a>
+          {% endif %}
+        </td>
+        <td>
+          {% if candidates.ballotpedia %}
+              <a href="{{ candidates.ballotpedia }}">
+                  Ballopedia page
+              </a>
+          {% endif %}
+        </td>
+      </tr>
+      {% endif %}
+    {% endfor %}
+    </tbody>
+</table>
