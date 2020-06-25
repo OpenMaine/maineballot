@@ -1,10 +1,9 @@
 county,city,type,website,ballot,ballot_link,ballot_link_text,sorting county
-Androscoggin,,county,https://www.androscoggincountymaine.gov/about/about.htm,,,,Androscoggin
 ,Auburn,election,http://www.auburnmaine.gov/pages/government/election-and-voting,School budget,http://www.auburnmaine.gov/CMSContent/City_Clerk/sample%20ballot%20Municipal%20Referendum.pdf,Sample Ballot (pdf),Androscoggin
 ,Durham,election,https://www.durhamme.com/election-information,Municipal budget and school budget vote (not a town hall),../assets/docs/2020-07-14_ballots/Durham.pdf,Sample Ballot (pdf),Androscoggin
 ,Greene,town,http://www.townofgreene.net/,,,,Androscoggin
 ,Leeds,town,https://sites.google.com/site/townofleedsmaine/,,,,Androscoggin
-,Lewiston,election,https://www.lewistonmaine.gov/117/Elections,School budget,https://www.lewistonmaine.gov/DocumentCenter/View/6772/Sample-Ballot---City-School-Budget,Sample Ballot (pdf),Androscoggin
+,Lewiston,election,https://www.lewistonmaine.gov/117/Elections,School budget,../assets/docs/2020-07-14_ballots/Lewiston.pdf,Sample Ballot (pdf),Androscoggin
 ,Lisbon,town,https://www.lisbonme.org/,,,,Androscoggin
 ,Livermore,town,http://livermoremaine.org/,,,,Androscoggin
 ,Livermore Falls,town,http://lfme.org/,,,,Androscoggin
@@ -550,4 +549,5 @@ York,,county,https://www.yorkcountymaine.gov/,,,,York
 ,South Berwick,election,http://www.southberwickmaine.org/departments/town_clerk/clerk/sample_ballots.php,,,,York
 ,Waterboro,election,http://www.waterboro-me.gov/information_center/index.php#elections,,,,York
 ,Wells,election,http://www.wellstown.org/440/Town-Meeting-Election-Info,,,,York
+,York,election,https://www.yorkmaine.org/240/Election-Referendum-Documents,,,,York
 ,York,election,https://www.yorkmaine.org/240/Election-Referendum-Documents,,,,York
