@@ -1,4 +1,5 @@
 county,city,type,website,ballot,ballot_link,ballot_link_text,sorting county
+Androscoggin,,county,https://www.androscoggincountymaine.gov/about/about.htm,,,,Androscoggin
 ,Auburn,election,http://www.auburnmaine.gov/pages/government/election-and-voting,School budget,http://www.auburnmaine.gov/CMSContent/City_Clerk/sample%20ballot%20Municipal%20Referendum.pdf,Sample Ballot (pdf),Androscoggin
 ,Durham,election,https://www.durhamme.com/election-information,Municipal budget and school budget vote (not a town hall),../assets/docs/2020-07-14_ballots/Durham.pdf,Sample Ballot (pdf),Androscoggin
 ,Greene,town,http://www.townofgreene.net/,,,,Androscoggin
@@ -140,7 +141,7 @@ Hancock,,county,https://co.hancock.me.us/site/index.php,,,,Hancock
 ,Brooklin,town,https://www.brooklinmaine.com/,,,,Hancock
 ,Brooksville,town,https://www.brooksvillemaine.org/,,,,Hancock
 ,Bucksport,election,https://www.bucksportmaine.gov/index.asp?Type=B_BASIC&SEC={8253A310-60E6-4438-A35F-2009D623A8A9},,,,Hancock
-,Castine,town,https://castine.me.us/,,,,Hancock
+,Castine,town,https://castine.me.us/,,https://castine.me.us/wp-content/uploads/2020/05/July-14-Sample-Ballots.pdf,Sample Ballot (pdf),Hancock
 ,Cranberry Isles,town,https://www.cranberryisles-me.gov/,,,,Hancock
 ,Dedham,election,https://www.dedhamme.org/index.asp?SEC=F6196C83-D62F-40DC-BF35-13F815190E14&Type=B_BASIC,,,,Hancock
 ,Deer Isle,town,https://www.townofdeerisle.org/,,,,Hancock
@@ -410,7 +411,7 @@ Sagadahoc,,county,http://sagcounty.com/,,,,Sagadahoc
 ,Perkins Township (Swan Island),(Sagadahoc County unorganized terrorities),http://www.richmondmaine.com/swan-island-info-richmond-maine.aspx,,,,Sagadahoc
 ,Phippsburg,town,https://phippsburg.com/,,,,Sagadahoc
 ,Richmond,town,http://www.richmondmaine.com/default.aspx,Town meeting referendum questions,,,Sagadahoc
-,Topsham,election,https://www.topshammaine.com/?SEC=5F5D9F59-DAB4-4BCD-9A94-D793724D801F,School budget,,,Sagadahoc
+,Topsham,election,https://www.topshammaine.com/?SEC=5F5D9F59-DAB4-4BCD-9A94-D793724D801F,School budget,../assets/docs/2020-07-14_ballots/Topsham.pdf,Sample Ballot (pdf),Sagadahoc
 ,West Bath,election,https://www.westbath.org/index.asp?SEC=8D961DE8-3900-40C4-A383-E0D71EB1D163&Type=B_BASIC,,,,Sagadahoc
 ,Woolwich,town,http://www.woolwich.us/,,,,Sagadahoc
 Somerset,,county,https://www.somersetcounty-me.org/,,,,Somerset
@@ -549,5 +550,4 @@ York,,county,https://www.yorkcountymaine.gov/,,,,York
 ,South Berwick,election,http://www.southberwickmaine.org/departments/town_clerk/clerk/sample_ballots.php,,,,York
 ,Waterboro,election,http://www.waterboro-me.gov/information_center/index.php#elections,,,,York
 ,Wells,election,http://www.wellstown.org/440/Town-Meeting-Election-Info,,,,York
-,York,election,https://www.yorkmaine.org/240/Election-Referendum-Documents,,,,York
 ,York,election,https://www.yorkmaine.org/240/Election-Referendum-Documents,,,,York
