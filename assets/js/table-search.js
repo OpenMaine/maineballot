@@ -38,17 +38,17 @@ $(document).ready(function() {
     }
   }
 
-  $('input#town-search').change(function() {
+  $('.js-table-search').change(function() {
     var search_str = $(this).val().toLowerCase();
-
+    var search_col = $(this).attr('data-column');
     if (search_str) {
-      $('td:nth-child(2):icontains(' + search_str + ')').parent().show()
-      $('td:nth-child(2):not(:icontains(' + search_str + '))').parent().hide()
+      $('td:nth-child(' + search_col + '):icontains(' + search_str + ')').parent().show()
+      $('td:nth-child(' + search_col + '):not(:icontains(' + search_str + '))').parent().hide()
     } else {
       $('tr').show()
     }
     debounceSendSearchEvent(search_str);
   }).keyup(function() {
-    $(this).change();
+    $(this).change(); 
   })
 });
