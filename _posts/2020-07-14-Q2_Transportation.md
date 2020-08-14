@@ -13,10 +13,14 @@ categories:
 tags:
 - Transportation
 - Bond
+- Passed
 yes_vote:   I am in favor of issuing the $105 million bond to address infrastructure improvements.
 no_vote: I do not want Maine to borrow $105 million to address infrastructure improvements.
 last_modified_at: 2020-06-10 T08:06:00-05:00
 ---
+
+## Results
+This measure passed.
 
 ## The gist
 Passing this question would allow the state to borrow $105 million, matched by $275 million in federal and other funds, for transportation improvements.
