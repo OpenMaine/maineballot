@@ -28,8 +28,8 @@ author_profile: false
 
   <h2>Candidates</h2>
     <ul>
-      {% for local in site.candidates-archive reversed %}
-          <li><a href="{{ local.url }}">{{ local.election }}</a>
+      {% for candidate in site.candidates-archive reversed %}
+          <li><a href="{{ candidate.url }}">{{ candidate.election }}</a>
           </li>
       {% endfor %}
     </ul>

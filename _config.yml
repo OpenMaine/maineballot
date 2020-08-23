@@ -93,7 +93,9 @@ social:
 
 collections:
   local-archive:
-    output: true  
+    output: true
+  candidates-archive:
+    output: true
 
 # Analytics
 analytics:
