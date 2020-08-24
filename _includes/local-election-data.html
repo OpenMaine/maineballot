@@ -7,6 +7,7 @@
         <th>County</th>
         <th>City or town</th>
         <th>Election website</th>
+        <th>Ballot drop box</th>
         <th>{{ page.ballot_description }}</th>
         <th>Sample ballot or warrant</th>
         </tr>
@@ -23,6 +24,7 @@
               </a>
           {% endif %}
         </td>
+        <td>{{ local.drop }}</td>
         <td>{{ local.ballot }}</td>
         <td>
           {% if local.ballot_link %}

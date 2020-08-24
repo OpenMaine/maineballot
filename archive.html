@@ -25,3 +25,11 @@ author_profile: false
         </li>
     {% endfor %}
   </ul>
+
+  <h2>Candidates</h2>
+    <ul>
+      {% for candidate in site.candidates-archive reversed %}
+          <li><a href="{{ candidate.url }}">{{ candidate.election }}</a>
+          </li>
+      {% endfor %}
+    </ul>

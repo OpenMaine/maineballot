@@ -16,36 +16,37 @@
         </tr>
     </thead>
     <tbody>
-    {% for candidates in site.data.candidates.[page.datafile] %}
-    {% if candidates.Party == "D" %}
-    {% if candidates.Contested == "Y" %}
-      <tr>
-        <td>{{ candidates.County }} {{ candidates.Office }}</td>
-        <td>{{ candidates.Dist }}</td>
-        <td>{{ candidates.FirstName }} {{ candidates.MiddleName }} {{ candidates.LastName }} {{ candidates.Suffix }}</td>
+    {% assign candidate-data = site.data.candidates.[page.datafile] %}
+    {% for candidates in candidate-data %}
+      {% if candidates.Party == "D" %}
+      {% if candidates.Contested == "Y" %}
+        <tr>
+          <td>{{ candidates.County }} {{ candidates.Office }}</td>
+          <td>{{ candidates.Dist }}</td>
+          <td>{{ candidates.FirstName }} {{ candidates.MiddleName }} {{ candidates.LastName }} {{ candidates.Suffix }}</td>
 
-        <td>
-          {% if candidates.ballotpedia %}
-              <a href="{{ candidates.ballotpedia }}">
-                  Ballotpedia page
-              </a>
-          {% endif %}
-        </td>
-        <td>
-          {% if candidates.website %}
-              <a href="{{ candidates.website }}">
-                  {{ candidates.website_text }}
-              </a>
-          {% endif %}
-        </td>
-        <td>
-          {% if candidates.comparison %}
-              <a href="{{ candidates.comparison }}">
-                  {{ candidates.comparison_text }}
-              </a>
-          {% endif %}
-        </td>
-      </tr>
+          <td>
+            {% if candidates.ballotpedia %}
+                <a href="{{ candidates.ballotpedia }}">
+                    Ballotpedia page
+                </a>
+            {% endif %}
+          </td>
+          <td>
+            {% if candidates.website %}
+                <a href="{{ candidates.website }}">
+                    {{ candidates.website_text }}
+                </a>
+            {% endif %}
+          </td>
+          <td>
+            {% if candidates.comparison %}
+                <a href="{{ candidates.comparison }}">
+                    {{ candidates.comparison_text }}
+                </a>
+            {% endif %}
+          </td>
+        </tr>
       {% endif %}
       {% endif %}
     {% endfor %}
@@ -64,22 +65,22 @@
         </tr>
     </thead>
     <tbody>
-    {% for candidates in site.data.candidates.[page.datafile] %}
-    {% if candidates.Party == "D" %}
-    {% if candidates.Contested == "N" %}
-      <tr>
-        <td>{{ candidates.County }} {{ candidates.Office }}</td>
-        <td>{{ candidates.Dist }}</td>
-        <td>{{ candidates.FirstName }} {{ candidates.MiddleName }} {{ candidates.LastName }} {{ candidates.Suffix }}</td>
+    {% for candidates in candidate-data %}
+      {% if candidates.Party == "D" %}
+      {% if candidates.Contested == "N" %}
+        <tr>
+          <td>{{ candidates.County }} {{ candidates.Office }}</td>
+          <td>{{ candidates.Dist }}</td>
+          <td>{{ candidates.FirstName }} {{ candidates.MiddleName }} {{ candidates.LastName }} {{ candidates.Suffix }}</td>
 
-        <td>
-          {% if candidates.ballotpedia %}
-              <a href="{{ candidates.ballotpedia }}">
-                  Ballotpedia page
-              </a>
-          {% endif %}
-        </td>
-      </tr>
+          <td>
+            {% if candidates.ballotpedia %}
+                <a href="{{ candidates.ballotpedia }}">
+                    Ballotpedia page
+                </a>
+            {% endif %}
+          </td>
+        </tr>
       {% endif %}
       {% endif %}
     {% endfor %}
@@ -100,20 +101,20 @@
         </tr>
     </thead>
     <tbody>
-    {% for candidates in site.data.candidates.[page.datafile] %}
-    {% if candidates.Party == "G" %}
-      <tr>
-        <td>{{ candidates.County }} {{ candidates.Office }}</td>
-        <td>{{ candidates.Dist }}</td>
-        <td>{{ candidates.FirstName }} {{ candidates.MiddleName }} {{ candidates.LastName }} {{ candidates.Suffix }}</td>
-        <td>
-          {% if candidates.ballotpedia %}
-              <a href="{{ candidates.ballotpedia }}">
-                  Ballotpedia page
-              </a>
-          {% endif %}
-        </td>
-      </tr>
+    {% for candidates in candidate-data %}
+      {% if candidates.Party == "G" %}
+        <tr>
+          <td>{{ candidates.County }} {{ candidates.Office }}</td>
+          <td>{{ candidates.Dist }}</td>
+          <td>{{ candidates.FirstName }} {{ candidates.MiddleName }} {{ candidates.LastName }} {{ candidates.Suffix }}</td>
+          <td>
+            {% if candidates.ballotpedia %}
+                <a href="{{ candidates.ballotpedia }}">
+                    Ballotpedia page
+                </a>
+            {% endif %}
+          </td>
+        </tr>
       {% endif %}
     {% endfor %}
     </tbody>
@@ -136,36 +137,36 @@
         </tr>
     </thead>
     <tbody>
-    {% for candidates in site.data.candidates.[page.datafile] %}
-    {% if candidates.Party == "R" %}
-    {% if candidates.Contested == "Y" %}
-      <tr>
-        <td>{{ candidates.County }} {{ candidates.Office }}</td>
-        <td>{{ candidates.Dist }}</td>
-        <td>{{ candidates.FirstName }} {{ candidates.MiddleName }} {{ candidates.LastName }} {{ candidates.Suffix }}</td>
+    {% for candidates in candidate-data %}
+      {% if candidates.Party == "R" %}
+      {% if candidates.Contested == "Y" %}
+        <tr>
+          <td>{{ candidates.County }} {{ candidates.Office }}</td>
+          <td>{{ candidates.Dist }}</td>
+          <td>{{ candidates.FirstName }} {{ candidates.MiddleName }} {{ candidates.LastName }} {{ candidates.Suffix }}</td>
 
-        <td>
-          {% if candidates.ballotpedia %}
-              <a href="{{ candidates.ballotpedia }}">
-                  Ballotpedia page
-              </a>
-          {% endif %}
-        </td>
-        <td>
-          {% if candidates.website %}
-              <a href="{{ candidates.website }}">
-                  {{ candidates.website_text }}
-              </a>
-          {% endif %}
-        </td>
-        <td>
-          {% if candidates.comparison %}
-              <a href="{{ candidates.comparison }}">
-                  {{ candidates.comparison_text }}
-              </a>
-          {% endif %}
-        </td>
-      </tr>
+          <td>
+            {% if candidates.ballotpedia %}
+                <a href="{{ candidates.ballotpedia }}">
+                    Ballotpedia page
+                </a>
+            {% endif %}
+          </td>
+          <td>
+            {% if candidates.website %}
+                <a href="{{ candidates.website }}">
+                    {{ candidates.website_text }}
+                </a>
+            {% endif %}
+          </td>
+          <td>
+            {% if candidates.comparison %}
+                <a href="{{ candidates.comparison }}">
+                    {{ candidates.comparison_text }}
+                </a>
+            {% endif %}
+          </td>
+        </tr>
       {% endif %}
       {% endif %}
     {% endfor %}
@@ -184,22 +185,22 @@
         </tr>
     </thead>
     <tbody>
-    {% for candidates in site.data.candidates.[page.datafile] %}
-    {% if candidates.Party == "R" %}
-    {% if candidates.Contested == "N" %}
-      <tr>
-        <td>{{ candidates.County }} {{ candidates.Office }}</td>
-        <td>{{ candidates.Dist }}</td>
-        <td>{{ candidates.FirstName }} {{ candidates.MiddleName }} {{ candidates.LastName }} {{ candidates.Suffix }}</td>
+    {% for candidates in candidate-data %}
+      {% if candidates.Party == "R" %}
+      {% if candidates.Contested == "N" %}
+        <tr>
+          <td>{{ candidates.County }} {{ candidates.Office }}</td>
+          <td>{{ candidates.Dist }}</td>
+          <td>{{ candidates.FirstName }} {{ candidates.MiddleName }} {{ candidates.LastName }} {{ candidates.Suffix }}</td>
 
-        <td>
-          {% if candidates.ballotpedia %}
-              <a href="{{ candidates.ballotpedia }}">
-                  Ballotpedia page
-              </a>
-          {% endif %}
-        </td>
-      </tr>
+          <td>
+            {% if candidates.ballotpedia %}
+                <a href="{{ candidates.ballotpedia }}">
+                    Ballotpedia page
+                </a>
+            {% endif %}
+          </td>
+        </tr>
       {% endif %}
       {% endif %}
     {% endfor %}
