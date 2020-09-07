@@ -79,4 +79,4 @@ Full Text- Not available yet
 
 [^3]: Overton, Penelope. [Maine secretary of state appeals judge’s ruling on ranked-choice voting](https://www.pressherald.com/2020/08/28/maine-secretary-of-state-appeals-judges-ruling-on-ranked-choice-voting/). Portland Press Herald. Accessed September 3, 2020.
 
-[^4]:Thistle, Scott. [State’s high court hears case on people’s veto for ranked choice voting](https://www.pressherald.com/2020/09/03/states-high-court-hears-case-on-peoples-veto-for-ranked-choice-voting/)
+[^4]:Thistle, Scott. [State’s high court hears case on people’s veto for ranked choice voting](https://www.pressherald.com/2020/09/03/states-high-court-hears-case-on-peoples-veto-for-ranked-choice-voting/). Portland Press Herald. Accessed September 3, 2020.
