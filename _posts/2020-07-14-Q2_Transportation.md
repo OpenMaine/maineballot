@@ -1,6 +1,6 @@
 ---
 title:  "Question 2: Transportation"
-excerpt: This measure would allow the state to borrow $105 million for transportation improvements.
+excerpt: This approved measure would allow the state to borrow $105 million for transportation improvements.
 election: 2020-07-14
 header:
   overlay_image: /assets/img/2018_11/Question3Transportation.jpg
