@@ -25,20 +25,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 Creator: [Shannon McHarg](https://github.com/shannonmcharg)
 
 ## Contributors
-### 2019
-
-* [Ryan Johnson](https://github.com/rentry): Development, content strategy, getting the site off of Squarespace and into this fine repository
-
-### 2018
-* Jared Gebel: Content creation
-* Jessica Roskowinski: Content review
-* Nick Kaufman: Content review
-* Clare Congdon: Content review
-* Nathan Grant: Content review
-* [Open Maine](openmaine.org): Source of volunteers to help with content creation and review
-
-### 2017
-* Jessica Roskowinski: Content management and review
+See the [contributors](https://maineballot.org/contributors/) page on maineballot.org.
 
 ## Image Credits
 Most images on the site are in the public domain or have been purchased and don't require attribution, except:
