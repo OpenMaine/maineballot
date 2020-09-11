@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: Current election
+  - title: Home
     url: /
   - title: "How to vote in Maine"
     url: /vote/
@@ -8,5 +8,7 @@ main:
     url: /archive/
   - title: "How bonds work"
     url: /bonds/
+  - title: "About"
+    url: /about/
   # - title: "Sitemap"
   #   url: /sitemap/
