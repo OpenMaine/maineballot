@@ -1,38 +1,27 @@
 ---
-layout: archive
+layout: default
 ---
 
 {{ content }}
 
 
 {% include election-day.html %}
-
-<h3 class="archive__subtitle">Voting in Maine</h3>
-<h4>Vote by mail</h4>
-Anyone registered to vote in Maine can <a href="https://www.maine.gov/cgi-bin/online/AbsenteeBallot/index.pl">request an absentee ballot</a> and return it to their municipal clerk's office either by mail or in person.
-
-<h4>Early voting</h4>
-You can also vote early in-person at your <a href="https://www.maine.gov/sos/cec/elec/munic.html"> municipal clerk's office</a>.
-<br>
-<br>
-More about <a href="/vote/"> how to vote in Maine</a>
-
-
-<h3 class="archive__subtitle">State ballot questions</h3>
-
-{% for post in paginator.posts reversed %}
+{% include home-info.html %}
+<div class="archive text-center">
+  <p class="home-ballots-header content-lrg-b text-center">What's On Your Ballot?</p>
+  <p class="home-ballots-header content-med-b">State ballot questions</p>
+  <p></p>
+  {% for post in paginator.posts reversed %}
   {% if post.election == site.data.elections.current_election %}
-    {% include archive-single.html type="grid" %}
+  {% include archive-single.html type="grid" %}
   {% endif %}
-{% endfor %}
-
-<!--{% include paginator.html %}-->
-<br>
-<h3 class="archive__subtitle">Local ballot questions</h3>
-
-<p>We have links to local election websites and basic information about what's on the ballot for counties, cities, and towns. <a href="/local">Find information about your local election</a>.</p>
-
-<br>
-<!--<h3 class="archive__subtitle">State and county candidates</h3>
-
+  {% endfor %}
+  <!--{% include paginator.html %}-->
+  <hr class="home-hr">
+  <p class="home-ballots-header content-med-b">Local ballot questions</p>
+  <p>We have links to local election websites and basic information about what's on the ballot for counties, cities, and
+    towns. <br />
+    <a href="/local">Find information about your local election</a>.</p>
+  <!--<h3 class="archive__subtitle">State and county candidates</h3>
 <p>We have a list of candidates for statewide and county candidates with links to official campaign websites. <a href="/candidates">Find your candidates</a>.</p><-->
+</div>
