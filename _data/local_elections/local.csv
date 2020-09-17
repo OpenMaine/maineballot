@@ -1,11 +1,11 @@
 county,city,type,website,drop,ballot,ballot_link,ballot_link_text,sorting county
 Androscoggin,,county,https://www.androscoggincountymaine.gov/about/about.htm,,,,,Androscoggin
-,Auburn,election,http://www.auburnmaine.gov/pages/government/election-and-voting,,,,,Androscoggin
-,Durham,election,https://www.durhamme.com/election-information,,,,,Androscoggin
+,Auburn,election,http://www.auburnmaine.gov/pages/government/election-and-voting,,Ward 1 school committee member,,,Androscoggin
+,Durham,election,https://www.durhamme.com/election-information,,"Zoning map and land use ordinance, historic district ordinance, marijuana ordinances, and approval to hire a town manager",https://www.durhamme.com/sites/g/files/vyhlif4366/f/uploads/message_from_selectmen_09012020.pdf,Town meeting agenda,Androscoggin
 ,Greene,town,http://www.townofgreene.net/,,,,,Androscoggin
 ,Leeds,town,https://sites.google.com/site/townofleedsmaine/,,,,,Androscoggin
-,Lewiston,election,https://www.lewistonmaine.gov/117/Elections,Yes,,,,Androscoggin
-,Lisbon,town,https://www.lisbonme.org/,,,,,Androscoggin
+,Lewiston,election,https://www.lewistonmaine.gov/117/Elections,City Hall - Park Street entrance door,,,,Androscoggin
+,Lisbon,election,https://www.lisbonme.org/election-information,,,,,Androscoggin
 ,Livermore,town,http://livermoremaine.org/,,,,,Androscoggin
 ,Livermore Falls,town,http://lfme.org/,,,,,Androscoggin
 ,Mechanic Falls,town,https://mechanicfalls.govoffice.com/,,,,,Androscoggin
@@ -85,28 +85,28 @@ Aroostook,,county,https://www.aroostook.me.us/,,,,,Aroostook
 Cumberland,,county,http://www.cumberlandcounty.org/,,,,,Cumberland
 ,Baldwin,town,https://www.baldwinmaine.org/,,,,,Cumberland
 ,Bridgton,election,https://bridgtonmaine.org/elections/,,,,,Cumberland
-,Brunswick,election,http://www.brunswickme.org/286/Elections,Yes,,,,Cumberland
-,Cape Elizabeth,election,https://www.capeelizabeth.com/services/elections/home.html,,,,,Cumberland
+,Brunswick,election,http://www.brunswickme.org/286/Elections,Town Hall - near front door,,,,Cumberland
+,Cape Elizabeth,election,https://www.capeelizabeth.com/services/elections/home.html,,"Town council, school board, water district",,,Cumberland
 ,Casco,town,https://cascomaine.org/,,,,,Cumberland
 ,Chebeague Island,town,https://www.townofchebeagueisland.org/,,,,,Cumberland
 ,Cumberland,election,https://www.cumberlandmaine.com/election,,,,,Cumberland
 ,Falmouth,election,https://www.falmouthme.org/town-clerk/pages/election-information,,,,,Cumberland
-,Freeport,election,https://www.freeportmaine.com/town-clerk/pages/election-services,,,,,Cumberland
+,Freeport,election,https://www.freeportmaine.com/town-clerk/pages/election-services,Town Hall,"Town council, school board, sewer district, water district",,,Cumberland
 ,Frye Island,town,http://www.fryeisland.com/,,,,,Cumberland
-,Gorham,election,https://www.gorham-me.org/town-clerk/pages/annual-municipal-election,,,,,Cumberland
+,Gorham,election,https://www.gorham-me.org/town-clerk/pages/annual-municipal-election,Municipal Center,,,,Cumberland
 ,Gray,election,https://www.graymaine.org/elections,,,,,Cumberland
 ,Harpswell,election,https://www.harpswell.maine.gov/index.asp?SEC=49346E07-DA84-4C68-BD02-EAC23C5B5A18&Type=B_BASIC,,,,,Cumberland
 ,Harrison,election,https://www.harrisonmaine.org/index.asp?SEC=4CAFBDBB-36BE-4517-948F-BA6571E11ADE&DE=84D5F5E9-5D93-49A4-8E88-3F66B3086CB6&Type=B_BASIC,,,,,Cumberland
 ,Long Island,election,http://townoflongisland.us/wp/?page_id=181,,,,,Cumberland
 ,Naples,town,https://www.townofnaples.org/,,,,,Cumberland
-,New Gloucester,election,https://www.newgloucester.com/index.asp?Type=B_BASIC&SEC={72694DD2-81F1-460C-A97E-89FE9EBD19AF}&DE={14D5CAFF-33E8-4D98-8D03-7713E6810120},,,,,Cumberland
+,New Gloucester,election,https://www.newgloucester.com/index.asp?Type=B_BASIC&SEC={AB7D0D21-9C89-4C15-9D6F-DE687764863E},,,,,Cumberland
 ,North Yarmouth,election,https://www.northyarmouth.org/town-clerk/pages/elections-voter-registration,,,,,Cumberland
-,Portland,election,https://www.portlandmaine.gov/325/Elections-Voting,,,,,Cumberland
+,Portland,election,https://www.portlandmaine.gov/325/Elections-Voting,Merrill Auditorium lobby,,,,Cumberland
 ,Pownal,election,https://www.pownalmaine.org/index.asp?Type=B_LIST&SEC={3290832E-1DCD-43A2-B2C3-331F9445751F},,,,,Cumberland
 ,Raymond,election,https://www.raymondmaine.org/town-office/voters/elections,,,,,Cumberland
-,Scarborough,election,http://www.scarboroughmaine.org/departments/town-clerk/elections,,,,,Cumberland
+,Scarborough,election,https://www.scarboroughmaine.org/departments/town-clerk/elections/,,,,,Cumberland
 ,Sebago,town,https://www.townofsebago.org/,,,,,Cumberland
-,South Portland,election,https://www.southportland.org/departments/city-clerk/november-3-2015-election,,,,,Cumberland
+,South Portland,election,https://www.southportland.org/departments/city-clerk/november-3-2015-election,,"City council, school board, water district",,,Cumberland
 ,Standish,election,https://www.standish.org/town-clerk/pages/election-general-information,,,,,Cumberland
 ,Westbrook,election,https://www.westbrookmaine.com/181/Elections-Voting,,,,,Cumberland
 ,Windham,election,http://www.windhammaine.us/125/Voter-Information,,,,,Cumberland
@@ -173,7 +173,7 @@ Hancock,,county,https://co.hancock.me.us/site/index.php,,,,,Hancock
 ,Winter Harbor,town,https://winterharbortown.com/,,,,,Hancock
 Kennebec,,county,https://kennebeccounty.org/,,,,,Kennebec
 ,Albion,town,https://townofalbionmaine.com/,,,,,Kennebec
-,Augusta,election,http://www.augustamaine.gov/businesses/city_government/elections.php,,,,,Kennebec
+,Augusta,election,http://www.augustamaine.gov/businesses/city_government/elections.php,,"City council, board of education",,,Kennebec
 ,Belgrade,election,https://www.townofbelgrade.com/voterregistration,,,,,Kennebec
 ,Benton,town,https://www.bentonmaine.info/,,,,,Kennebec
 ,Chelsea,town,https://chelseamaine.org/,,,,,Kennebec
@@ -181,7 +181,7 @@ Kennebec,,county,https://kennebeccounty.org/,,,,,Kennebec
 ,Clinton,town,http://www.clinton-me.us,,,,,Kennebec
 ,Farmingdale,election,https://www.farmingdalemaine.org/index.asp?SEC=645DE9BE-E94D-4525-BF14-931B69726E98&Type=B_BASIC,,,,,Kennebec
 ,Fayette,town,https://www.fayettemaine.org/,,,,,Kennebec
-,Gardiner,election,https://www.gardinermaine.com/office-city-clerk/pages/voting-elections,,,,,Kennebec
+,Gardiner,election,https://www.gardinermaine.com/office-city-clerk/pages/voting-elections,,"Mayor, city council, school board",,,Kennebec
 ,Hallowell,election,https://hallowell.govoffice.com/index.asp?Type=B_BASIC&SEC=%7B49BCD9B5-12A8-43C1-96FA-2F515E9100E9%7D,,,,,Kennebec
 ,Litchfield,town,https://www.litchfieldmaine.org/,,,,,Kennebec
 ,Manchester,town,http://www.manchester.govoffice2.com/,,,,,Kennebec
@@ -256,7 +256,7 @@ Oxford,,county,https://www.oxfordcounty.org/,,,,,Oxford
 ,Hanover,town,http://hanoverme.org/,,,,,Oxford
 ,Hartford,town,https://httphartfordmaine.org/,,,,,Oxford
 ,Hebron,election,https://hebronmaine.org/index.asp?SEC=BFFFF77E-BF4B-490E-BCAC-8E7052666D19&Type=B_LIST,,,,,Oxford
-,Hiram,election,https://townofhiram.org/elections,,,,,Oxford
+,Hiram,election,https://townofhiram.org/elections,,Looking for a new polling location with higher capacity,,,Oxford
 ,Lincoln Plantation,contact info,https://www.maine.gov/local/town.php?t=Lincoln%20Plt,,,,,Oxford
 ,Lovell,town,http://www.lovellmaine.org/,,,,,Oxford
 ,Magalloway Plantation,Facebook,https://www.facebook.com/pages/Magalloway-Plantation-Maine/109272282425174,,,,,Oxford
@@ -285,7 +285,7 @@ Oxford,,county,https://www.oxfordcounty.org/,,,,,Oxford
 Penobscot,,county,https://www.penobscot-county.net/#!,,,,,Penobscot
 ,Alton,Facebook,https://www.facebook.com/Town-of-Alton-321335587904880/,,,,,Penobscot
 ,Argyle,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
-,Bangor,election,https://www.bangormaine.gov/election,Yes,,,,Penobscot
+,Bangor,election,https://www.bangormaine.gov/election,City Hall,,,,Penobscot
 ,Bradford,town,http://www.bradfordmaine.org,,,,,Penobscot
 ,Bradley,election,http://www.townofbradley.net/voter-information/4592109537,,,,,Penobscot
 ,Brewer,election,http://brewermaine.gov/city-clerk/register-vote/,,,,,Penobscot
@@ -329,7 +329,7 @@ Penobscot,,county,https://www.penobscot-county.net/#!,,,,,Penobscot
 ,Lakeville,contact info,https://www.maine.gov/local/town.php?t=Lakeville,,,,,Penobscot
 ,Lee,Facebook,https://www.facebook.com/Town-of-Lee-432149760230928/,,,,,Penobscot
 ,Levant,town,http://townoflevant.net/,,,,,Penobscot
-,Lincoln,town,https://lincolnmaine.org/,,,,,Penobscot
+,Lincoln,town,https://lincolnmaine.org/,Town Office,,,,Penobscot
 ,Long A,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
 ,Lowell,Facebook,https://www.facebook.com/pages/category/Government-Organization/Town-of-Lowell-Maine-1938921983015278/,,,,,Penobscot
 ,Mattamiscontis,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
@@ -404,14 +404,14 @@ Piscataquis,,county,https://www.piscataquis.us/,,,,,Piscataquis
 ,Willimantic,contact info,https://www.maine.gov/local/town.php?t=Willimantic,,,,,Piscataquis
 Sagadahoc,,county,http://sagcounty.com/,,,,,Sagadahoc
 ,Arrowsic,election,http://www.arrowsic.org/clerk_page.html#elections,,,,,Sagadahoc
-,Bath,election,http://www.cityofbath.com/Elections/,Yes,,,,Sagadahoc
+,Bath,election,http://www.cityofbath.com/Elections/,City Hall,,,,Sagadahoc
 ,Bowdoin,town,https://bowdoinme.com/,,,,,Sagadahoc
 ,Bowdoinham,election,https://www.bowdoinham.com/elections,,,,,Sagadahoc
 ,Georgetown,town,http://www.georgetownme.com/,,,,,Sagadahoc
 ,Perkins Township (Swan Island),(Sagadahoc County unorganized terrorities),http://www.richmondmaine.com/swan-island-info-richmond-maine.aspx,,,,,Sagadahoc
 ,Phippsburg,town,https://phippsburg.com/,,,,,Sagadahoc
-,Richmond,town,http://www.richmondmaine.com/default.aspx,,,,,Sagadahoc
-,Topsham,election,https://www.topshammaine.com/?SEC=5F5D9F59-DAB4-4BCD-9A94-D793724D801F,Yes,,,,Sagadahoc
+,Richmond,town,http://www.richmondmaine.com/default.aspx,,Land use ordinances,,,Sagadahoc
+,Topsham,election,https://www.topshammaine.com/?SEC=5F5D9F59-DAB4-4BCD-9A94-D793724D801F,Town Hall - parking lot,"Selectmen, school board",,,Sagadahoc
 ,West Bath,election,https://www.westbath.org/index.asp?SEC=8D961DE8-3900-40C4-A383-E0D71EB1D163&Type=B_BASIC,,,,,Sagadahoc
 ,Woolwich,town,http://www.woolwich.us/,,,,,Sagadahoc
 Somerset,,county,https://www.somersetcounty-me.org/,,,,,Somerset
@@ -426,7 +426,7 @@ Somerset,,county,https://www.somersetcounty-me.org/,,,,,Somerset
 ,Dennistown Plantation,contact info,https://www.maine.gov/local/town.php?t=Dennistown%20Plt,,,,,Somerset
 ,Detroit,Facebook,https://www.facebook.com/TownofDetroitMaine/?rf=863282867033273,,,,,Somerset
 ,Embden,town,http://embden.maine.gov/,,,,,Somerset
-,Fairfield,election,http://www.fairfieldme.com/town/visitors.php/public-notices/Elections,,,,,Somerset
+,Fairfield,election,http://www.fairfieldme.com/town/visitors.php/public-notices/Elections,Town Office,,,,Somerset
 ,Harmony,Facebook,https://www.facebook.com/permalink.php?id=201376573099&story_fbid=10156041066013100,,,,,Somerset
 ,Hartland,town,https://www.townofhartlandme.com/,,,,,Somerset
 ,Highland Plantation,contact info,https://www.maine.gov/local/town.php?t=Highland%20Plt,,,,,somerset
@@ -537,7 +537,7 @@ York,,county,https://www.yorkcountymaine.gov/,,,,,York
 ,Kittery,election,http://www.kitteryme.gov/town-clerk/pages/voting-elections,,,,,York
 ,Lebanon,election,https://www.lebanon-me.org/town-clerk-tax-collector/pages/election-information,,,,,York
 ,Limerick,town,http://www.limerickme.org/index.html,,,,,York
-,Limington,town,http://www.limington.net/,,,,,York
+,Limington,town,http://www.limington.net/,No,,,,York
 ,Lyman,election,http://lyman-me.gov/town-clerk/,,,,,York
 ,Newfield,election,https://newfieldme.org/departments/registrar-of-voters/,,,,,York
 ,North Berwick,town,http://www.townofnorthberwick.org/,,,,,York
