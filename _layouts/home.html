@@ -10,7 +10,7 @@ layout: default
 <div class="archive text-center">
   <p class="home-ballots-header content-lrg-b text-center">What's On Your Ballot?</p>
   <p class="home-ballots-header content-med-b">State ballot questions</p>
-  <p>There are currently no statewide questions on the ballot.</p>
+  <p>There are currently no statewide questions on the ballot. <br><br>State sample ballots: <p><a href="https://www.maine.gov/sos/cec/elec/upcoming/yorkRCV11-20geneleballotsample.pdf">District 1 sample ballot</a> | <a href="https://www.maine.gov/sos/cec/elec/upcoming/abbotRCV11-20geneleballotsample.pdf">District 2 sample ballot</a></p>
   {% for post in paginator.posts reversed %}
   {% if post.election == site.data.elections.current_election %}
   {% include archive-single.html type="grid" %}
