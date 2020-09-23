@@ -142,9 +142,9 @@ Hancock,,county,https://co.hancock.me.us/site/index.php,,,,,Hancock
 ,Brooksville,town,https://www.brooksvillemaine.org/,,,,,Hancock
 ,Bucksport,election,https://www.bucksportmaine.gov/index.asp?Type=B_BASIC&SEC={8253A310-60E6-4438-A35F-2009D623A8A9},,,,,Hancock
 ,Castine,town,https://castine.me.us/,,,,,Hancock
-,Cranberry Isles,town,https://www.cranberryisles-me.gov/,,,,,Hancock
+,Cranberry Isles,town,https://www.cranberryisles-me.gov/,,Special Election (Oct 1),,,Hancock
 ,Dedham,election,https://www.dedhamme.org/index.asp?SEC=F6196C83-D62F-40DC-BF35-13F815190E14&Type=B_BASIC,,,,,Hancock
-,Deer Isle,town,https://www.townofdeerisle.org/,,,,,Hancock
+,Deer Isle,town,https://www.townofdeerisle.org/,Town Office,,,,Hancock
 ,Eastbrook,town,https://www.eastbrookme.com/,,,,,Hancock
 ,Ellsworth,election,https://www.ellsworthmaine.gov/services/voter-registration/#ffs-tabbed-11,Church Street entrance lobby of City Hall,,,,Hancock
 ,Fletcher's Landing Township,election,https://www.ellsworthmaine.gov/services/voter-registration/#ffs-tabbed-11,Church Street entrance lobby of City Hall,,,,Hancock
@@ -153,7 +153,7 @@ Hancock,,county,https://co.hancock.me.us/site/index.php,,,,,Hancock
 ,Gouldsboro,town,http://www.gouldsborotown.com/,,,,,Hancock
 ,Great Pond,town,https://www.emainehosting.com/TownofGreatPond/,,,,,Hancock
 ,Hancock,election,http://www.hancockmaine.org/content/4101/Elections/,,,,,Hancock
-,Lamoine,town,http://www.lamoine-me.gov/,,,,,Hancock
+,Lamoine,town,http://www.lamoine-me.gov/,,Special Meeting (Oct 15),,,Hancock
 ,Mariaville,election,https://mariaville.govoffice.com/index.asp?SEC=96F3477A-036E-4BA5-B4AD-F61CDECE3363&Type=B_BASIC,,,,,Hancock
 ,Mount Desert,election,https://www.mtdesert.org/town-clerk/pages/elections-voting,,,,,Hancock
 ,Orland,town,http://www.orlandme.org/,,,,,Hancock
@@ -176,15 +176,15 @@ Kennebec,,county,https://kennebeccounty.org/,,,,,Kennebec
 ,Albion,town,https://townofalbionmaine.com/,,,,,Kennebec
 ,Augusta,election,http://www.augustamaine.gov/businesses/city_government/elections.php,,"City council, board of education",,,Kennebec
 ,Belgrade,election,https://www.townofbelgrade.com/voterregistration,Town Office,,,,Kennebec
-,Benton,town,https://www.bentonmaine.info/,,,,,Kennebec
+,Benton,election,https://www.bentonmaine.info/town-clerk---elections.html,,Town Election and Referendum,https://drive.google.com/file/d/1xtLxC-rOuLqN-gson4difyzByEEVMd9B/view,Are you in favor of authorizing the Selectmen to transfer funds from office salary/compensation to town clerk salary/compensation in the amount of $9500?,Kennebec
 ,Chelsea,town,https://chelseamaine.org/,,,,,Kennebec
-,China,election,https://china.govoffice.com/elections,"Selectman, planning board, budget committee, solid waste ordinances",,,,Kennebec
+,China,election,https://china.govoffice.com/elections,,"Selectman, planning board, budget committee, solid waste ordinances",,,Kennebec
 ,Clinton,town,http://www.clinton-me.us,,,,,Kennebec
 ,Farmingdale,election,https://www.farmingdalemaine.org/index.asp?SEC=645DE9BE-E94D-4525-BF14-931B69726E98&Type=B_BASIC,,,,,Kennebec
 ,Fayette,town,https://www.fayettemaine.org/,,,,,Kennebec
 ,Gardiner,election,https://www.gardinermaine.com/office-city-clerk/pages/voting-elections,,"Mayor, city council, school board",,,Kennebec
 ,Hallowell,election,https://hallowell.govoffice.com/index.asp?Type=B_BASIC&SEC=%7B49BCD9B5-12A8-43C1-96FA-2F515E9100E9%7D,,,,,Kennebec
-,Litchfield,town,https://www.litchfieldmaine.org/,,,,,Kennebec
+,Litchfield,election,https://www.litchfieldmaine.org/town-government/town-meeting/,,,,,Kennebec
 ,Manchester,town,http://www.manchester.govoffice2.com/,,,,,Kennebec
 ,Monmouth,town,http://www.monmouthme.org,,,,,Kennebec
 ,Mount Vernon,town,http://www.mtvernonme.org/,,,,,Kennebec
@@ -228,13 +228,13 @@ Lincoln,,county,https://www.lincolncountymaine.me/#!,,,,,Lincoln
 ,Bremen,town,http://www.bremenmaine.org/,,,,,Lincoln
 ,Bristol,election,https://www.bristolmaine.org/town-clerk/pages/elections,Town Hall - to the left of the front door,,,,Lincoln
 ,Damariscotta,election,https://www.damariscottame.com/town-clerk/pages/elections,,,,,Lincoln
-,Dresden,town,https://www.townofdresden.com/town-office1.html,,,,,Lincoln
-,Edgecomb,town,https://edgecomb.org/,,,,,Lincoln
+,Dresden,election,https://www.townofdresden.com/election-info.html,,,,,Lincoln
+,Edgecomb,town,https://edgecomb.org/,,Town Warrant (Oct 15),,,Lincoln
 ,Jefferson,election,https://jeffersonmaine.org/election-information/,,,,,Lincoln
 ,Monhegan Island Plantation,town,http://www.monheganplantation.com/,,,,,Lincoln
 ,Newcastle,election,https://www.newcastlemaine.us/government/election-information/,,,,,Lincoln
 ,Nobleboro,town,https://www.nobleboro.maine.gov/,,,,,Lincoln
-,Somerville,town,http://www.somervillemaine.org/town-government/election-information,,,,,Lincoln
+,Somerville,town,https://www.somervillemaine.org/home,,,,,Lincoln
 ,South Bristol,town,https://www.townofsouthbristol.com/,,,,,Lincoln
 ,Southport,election,https://www.townofsouthport.org/elections,,,,,Lincoln
 ,Waldoboro,election,https://www.waldoboromaine.org/departments/town_clerk/voting_information/index.php,,,,,Lincoln
@@ -242,11 +242,10 @@ Lincoln,,county,https://www.lincolncountymaine.me/#!,,,,,Lincoln
 ,Whitefield,election,https://townofwhitefield.com/election-information/,,,,,Lincoln
 ,Wiscasset,election,http://www.wiscasset.org/departments/town-clerk-and-elections,,,,,Lincoln
 Oxford,,county,https://www.oxfordcounty.org/,,,,,Oxford
-,Albany Township,town,http://www.albanymaine.org/,,,,,Oxford
 ,Andover,town,https://www.andovermaine.org/,,,,,Oxford
 ,Bethel,election,https://www.bethelmaine.org/2181/Voter-Registration,,,,,Oxford
-,Brownfield,town,http://www.brownfieldmaine.org/,,,,,Oxford
-,Buckfield,town,https://www.townofbuckfield.com,,,,,Oxford
+,Brownfield,town,http://www.brownfieldmaine.org/,,Town Warrant (Oct 21),,,Oxford
+,Buckfield,town,https://www.townofbuckfield.com,,Referendum (Oct 6),,,Oxford
 ,Byron,Facebook,https://www.facebook.com/Town-of-Byron-Maine-559875007809068/,,,,,Oxford
 ,Canton,Facebook,https://www.facebook.com/cantonmaine,,,,,Oxford
 ,Denmark,election,https://www.denmarkmaine.org/index.asp?Type=B_BASIC&SEC={71AE01AE-D71C-4B94-ABEF-6BE5F6008049},,,,,Oxford
@@ -268,7 +267,7 @@ Oxford,,county,https://www.oxfordcounty.org/,,,,,Oxford
 ,North Oxford Unorganized Territories,(Oxford County unorganized territories),https://www.oxfordcounty.org/unorg-territory,,,,,Oxford
 ,Norway,election,https://norwaymaine.com/votingelections-2/,,,,,Oxford
 ,Otisfield,election,https://www.otisfieldme.gov/town-clerk/pages/voting-election-information,,,,,Oxford
-,Oxford,town,https://oxfordmaine.org/,,,,,Oxford
+,Oxford,election,https://oxfordmaine.org/how-do-i/elections/,Town Office,,,,Oxford
 ,Paris,town,https://www.parismaine.org/,,,,,Oxford
 ,Peru,contact info,https://www.maine.gov/local/town.php?t=Peru,,,,,Oxford
 ,Porter,election,https://portermaine.org/voter-reg-%26-elections,,,,,Oxford
@@ -429,7 +428,7 @@ Somerset,,county,https://www.somersetcounty-me.org/,,,,,Somerset
 ,Embden,town,http://embden.maine.gov/,,,,,Somerset
 ,Fairfield,election,http://www.fairfieldme.com/town/visitors.php/public-notices/Elections,Town Office,,,,Somerset
 ,Harmony,Facebook,https://www.facebook.com/permalink.php?id=201376573099&story_fbid=10156041066013100,,,,,Somerset
-,Hartland,town,https://www.townofhartlandme.com/,,,,,Somerset
+,Hartland,election,https://www.townofhartlandme.com/index.asp?Type=B_BASIC&SEC={27B1D3E0-CAB4-4C58-8AD5-68869CE07D25}&DE={3C08D6FB-91EB-42EB-BCFE-8A999687BBEA},,,,,Somerset
 ,Highland Plantation,contact info,https://www.maine.gov/local/town.php?t=Highland%20Plt,,,,,somerset
 ,Jackman,town,https://jackmanme.net,,,,,Somerset
 ,Madison,town,http://www.madisonmaine.com/,,,,,Somerset
@@ -451,7 +450,7 @@ Somerset,,county,https://www.somersetcounty-me.org/,,,,,Somerset
 ,West Forks Plantation,contact info,https://www.maine.gov/local/town.php?t=West%20Forks%20Plt,,,,,Somerset
 Waldo,,county,https://www.waldocountyme.gov/,,,,,Waldo
 ,Belfast,election,https://www.cityofbelfast.org/117/Voting-Information,City Hall by High Street entrance,,,,Waldo
-,Belmont,town,https://belmontme.org/,,,,,Waldo
+,Belmont,election,https://belmontme.org/index.asp?SEC=91BA42CD-0736-47C1-A225-3E5A9ABD8E59,,,,,Waldo
 ,Brooks,election,https://brooks.govoffice2.com/index.asp?SEC=C5AE112D-6771-4883-A6B5-D64388CABDC6&Type=B_BASIC,,,,,Waldo
 ,Burnham,contact info,https://www.maine.gov/local/town.php?t=Burnham,,,,,Waldo
 ,Frankfort,election,https://www.frankfortme.com/town-office/elections-and-voting-annual-town-elections-meeting-state-elections-voter-registration-absentee-voting/,,,,,Waldo
@@ -462,7 +461,7 @@ Waldo,,county,https://www.waldocountyme.gov/,,,,,Waldo
 ,Liberty,town,http://www.libertymaine.us/,,,,,Waldo
 ,Lincolnville,election,https://www.town.lincolnville.me.us/index.asp?Type=B_BASIC&SEC={16A09510-61D4-4B52-9C77-CA97DC839854},,,,,Waldo
 ,Monroe,town,https://townofmonroe.me/,,,,,Waldo
-,Montville,town,http://montvillemaine.org,,,,,Waldo
+,Montville,town,http://montvillemaine.org,Town Office porch,,,,Waldo
 ,Morrill,town,https://www.morrillme.org/,,,,,Waldo
 ,Northport,election,http://www.northportmaine.org/content/4094/Elections_and_Voter_Registrations/,,,,,Waldo
 ,Palermo,election,http://www.townofpalermo.org/town-government/election-information,,,,,Waldo
@@ -471,7 +470,7 @@ Waldo,,county,https://www.waldocountyme.gov/,,,,,Waldo
 ,Searsport,town,http://searsport.maine.gov/,,,,,Waldo
 ,Stockton Springs,town,http://www.stocktonsprings.org/,,,,,Waldo
 ,Swanville,contact info,https://www.maine.gov/local/town.php?t=Swanville,,,,,Waldo
-,Thorndike,town,https://thorndikeme.com/,,,,,Waldo
+,Thorndike,election,https://thorndikeme.com/index.asp?SEC=D42E5C62-C8F2-412D-B91D-13F3D6B81396,,,,,Waldo
 ,Troy,town,https://troymainelocalnews.com/,,,,,Waldo
 ,Unity,town,https://unityme.org/,,,,,Waldo
 ,Waldo,town,http://www.townofwaldo.com/,,,,,Waldo
@@ -515,7 +514,7 @@ Washington,,county,http://washingtoncountymaine.com/,,,,,Washington
 ,Robbinston,town,http://townofrobbinston.org/,,,,,Washington
 ,Roque Bluffs,contact info,https://www.maine.gov/local/town.php?t=Roque%20Bluffs,,,,,Washington
 ,Steuben,town,http://steubenme.com/,,,,,Washington
-,Talmadge,town,http://talmadge.me/,,,,,Washington
+,Talmadge,contact info,https://www.maine.gov/local/town.php?t=Talmadge,,,,,Washington
 ,Topsfield,contact info,https://www.maine.gov/local/town.php?t=Topsfield,,,,,Washington
 ,Vanceboro,contact info,https://www.maine.gov/local/town.php?t=Vanceboro,,,,,Washington
 ,Waite,Facebook,https://www.facebook.com/townofwaiteme/,,,,,Washington
