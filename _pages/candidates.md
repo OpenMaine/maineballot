@@ -5,7 +5,7 @@ author_profile: false
 datafile: candidates
 permalink: /candidates
 search_for: candidate
-search_column: 3
+search_column: 4
 ---
 Below is a list of candidates for state and county level offices.  Note: Candidates are listed alphabetically by last name for each office.
 
