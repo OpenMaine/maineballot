@@ -205,6 +205,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # Allows posts with filenames in the future to render
 future: true
 
+# When new plugins are added, make sure to add them to the Gemfile in addition to this section:
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
