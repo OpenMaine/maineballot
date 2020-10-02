@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-# Add dependencies in here as well as in _config.yml as they are added to the project
+# Add dependencies in here as well as in _config.yml's plugins section as they are added to the project
 gem "jekyll"
 gem "jekyll-paginate"
 gem "jekyll-sitemap"
