@@ -101,14 +101,14 @@ Cumberland,,county,http://www.cumberlandcounty.org/,,,,,Cumberland
 ,Naples,town,https://www.townofnaples.org/,,,,,Cumberland
 ,New Gloucester,election,https://www.newgloucester.com/index.asp?Type=B_BASIC&SEC={AB7D0D21-9C89-4C15-9D6F-DE687764863E},,,,,Cumberland
 ,North Yarmouth,election,https://www.northyarmouth.org/town-clerk/pages/elections-voter-registration,Town Office - inside,,,,Cumberland
-,Portland,election,https://www.portlandmaine.gov/325/Elections-Voting,Merrill Auditorium lobby,,,,Cumberland
+,Portland,election,https://www.portlandmaine.gov/325/Elections-Voting,Merrill Auditorium lobby,"City ordinance changes, water district, city council, school board",https://www.portlandmaine.gov/DocumentCenter/View/17946/Sample-Ballots-Nov-2020?bidId=,Sample Ballot,Cumberland
 ,Pownal,election,https://www.pownalmaine.org/index.asp?Type=B_LIST&SEC={3290832E-1DCD-43A2-B2C3-331F9445751F},Town Office - outside,,,,Cumberland
 ,Raymond,election,https://www.raymondmaine.org/town-office/voters/elections,,,,,Cumberland
-,Scarborough,election,https://www.scarboroughmaine.org/departments/town-clerk/elections/,,,,,Cumberland
+,Scarborough,election,https://www.scarboroughmaine.org/departments/town-clerk/elections/,,"Town council, board of education, sanitary district trustee, ladder truck bond",https://drive.google.com/file/d/17RLDCsActcSF8M3tcq3Ak9xMA3vA_t6c/view,Sample Ballot,Cumberland
 ,Sebago,town,https://www.townofsebago.org/,,,,,Cumberland
-,South Portland,election,https://www.southportland.org/departments/city-clerk/november-3-2015-election,,"City council, school board, water district",,,Cumberland
+,South Portland,election,https://www.southportland.org/departments/city-clerk/november-3-2015-election,,"City council, school board, water district",https://www.southportland.org/files/8116/0131/1123/SAMPLE_BALLOT_-_CITY_-_11-3-2020.pdf,Sample Ballot,Cumberland
 ,Standish,election,https://www.standish.org/town-clerk/pages/election-general-information,,,,,Cumberland
-,Westbrook,election,https://www.westbrookmaine.com/181/Elections-Voting,In front of City Hall at 2 York Street,Two proposed City Charter amendments,http://www.westbrookmaine.com/DocumentCenter/View/2674,Sample Ballot,Cumberland
+,Westbrook,election,https://www.westbrookmaine.com/181/Elections-Voting,In front of City Hall at 2 York Street,Two proposed City Charter amendments,http://www.westbrookmaine.com/DocumentCenter/View/2674,Sample Municipal Ballot,Cumberland
 ,Windham,election,http://www.windhammaine.us/125/Voter-Information,,,,,Cumberland
 ,Yarmouth,election,https://yarmouth.me.us/elections,,,,,Cumberland
 Franklin,,county,https://www.franklincounty.maine.gov/,,,,,Franklin
@@ -152,7 +152,7 @@ Hancock,,county,https://co.hancock.me.us/site/index.php,,,,,Hancock
 ,Frenchboro,town,http://frenchboro.maine.gov/,,,,,Hancock
 ,Gouldsboro,town,http://www.gouldsborotown.com/,,,,,Hancock
 ,Great Pond,town,https://www.emainehosting.com/TownofGreatPond/,,,,,Hancock
-,Hancock,election,http://www.hancockmaine.org/content/4101/Elections/,,,,,Hancock
+,Hancock,election,http://www.hancockmaine.org/content/4101/Elections/,,"Bond question, constitutional amendment",,,Hancock
 ,Lamoine,town,http://www.lamoine-me.gov/,,Special Meeting (Oct 15),,,Hancock
 ,Mariaville,election,https://mariaville.govoffice.com/index.asp?SEC=96F3477A-036E-4BA5-B4AD-F61CDECE3363&Type=B_BASIC,,,,,Hancock
 ,Mount Desert,election,https://www.mtdesert.org/town-clerk/pages/elections-voting,,,,,Hancock
@@ -182,7 +182,7 @@ Kennebec,,county,https://kennebeccounty.org/,,,,,Kennebec
 ,Clinton,town,http://www.clinton-me.us,,,,,Kennebec
 ,Farmingdale,election,https://www.farmingdalemaine.org/index.asp?SEC=645DE9BE-E94D-4525-BF14-931B69726E98&Type=B_BASIC,,,,,Kennebec
 ,Fayette,town,https://www.fayettemaine.org/,,,,,Kennebec
-,Gardiner,election,https://www.gardinermaine.com/office-city-clerk/pages/voting-elections,,"Mayor, city council, school board",,,Kennebec
+,Gardiner,election,https://www.gardinermaine.com/office-city-clerk/pages/voting-elections,"Outside the door to City Hall, facing the parking lot","Mayor, city council, school board",,,Kennebec
 ,Hallowell,election,https://hallowell.govoffice.com/index.asp?Type=B_BASIC&SEC=%7B49BCD9B5-12A8-43C1-96FA-2F515E9100E9%7D,,,,,Kennebec
 ,Litchfield,election,https://www.litchfieldmaine.org/town-government/town-meeting/,,,,,Kennebec
 ,Manchester,town,http://www.manchester.govoffice2.com/,,,,,Kennebec
@@ -196,7 +196,7 @@ Kennebec,,county,https://kennebeccounty.org/,,,,,Kennebec
 ,Sidney,election,https://www.sidneymaine.org/index.php/town-business/elections-voting-information.html,,,,,Kennebec
 ,Vassalboro,town,http://www.vassalboro.net,,,,,Kennebec
 ,Vienna,town,http://www.viennamaine.org,,,,,Kennebec
-,Waterville,election,http://www.waterville-me.gov/clerk/march-13-2018-special-municipal-election/,,,,,Kennebec
+,Waterville,election,http://www.waterville-me.gov/clerk/november-3-2020-election/,,"Mayor, board of education, water district trustee, charter amendment",http://www.waterville-me.gov/clerk/wp-content/uploads/sites/10/2017/08/Regular-Special-Municipal-Election-Ward-1.pdf,Sample Ballot,Kennebec
 ,Wayne,election,https://www.waynemaine.org/index.asp?SEC=43D7D0BA-39F4-4F39-9A5A-7E6A6771A5F0&Type=B_LIST,,,,,Kennebec
 ,West Gardiner,election,https://www.westgardinermaine.org/index.asp?SEC=0179D3F9-2CBC-49BF-890C-7999303630A9&Type=B_BASIC,,,,,Kennebec
 ,Windsor,town,http://windsor.maine.gov/,,,,,Kennebec
@@ -313,7 +313,7 @@ Penobscot,,county,https://www.penobscot-county.net/#!,,,,,Penobscot
 ,Greenbush,election,http://www.townofgreenbushmaine.org/elections_and_voting.html,,Municipal Election,,,Penobscot
 ,Greenfield,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
 ,Grindstone,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
-,Hampden,town,http://www.hampdenmaine.com/,,,,,Penobscot
+,Hampden,election,https://www.hampdenmaine.gov/index.asp?SEC=814F1FE8-B9B4-408F-BD48-4A96889967AF&DE=3835680A-54C7-40D5-8E78-04785A3F6555&Type=B_BASIC,,,,,Penobscot
 ,Hermon,election,https://www.hermon.net/town-government/election-town-meeting/,,,,,Penobscot
 ,Herseytown,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
 ,Holden,town,http://www.holdenmaine.com/,,,,,Penobscot
@@ -388,7 +388,7 @@ Piscataquis,,county,https://www.piscataquis.us/,,,,,Piscataquis
 ,Beaver Cove,town,http://www.beavercoveme.com/,,,,,Piscataquis
 ,Bowerbank,town,http://bowerbank.trcmaine.org/,,,,,Piscataquis
 ,Brownville,town,http://brownville.trcmaine.org/,,,,,Piscataquis
-,Dover-Foxcroft,election,https://dover-foxcroft.org/index.asp?SEC=7C1A7B17-8A72-43D5-AD67-3BC308535303&Type=B_BASIC,,,,,Piscataquis
+,Dover-Foxcroft,election,https://dover-foxcroft.org/index.asp?SEC=7C1A7B17-8A72-43D5-AD67-3BC308535303&Type=B_BASIC,Outside front entrance of municipal building,,,,Piscataquis
 ,Greenville,election,https://greenvilleme.com/town-office/,,,,,Piscataquis
 ,Guilford,election,https://townofguilford.com/departments/town-office/voter-registration-election-information/,,,,,Piscataquis
 ,Kingsbury Plantation,contact info,https://www.maine.gov/local/town.php?t=Kingsbury%20Plt,,,,,Piscataquis
@@ -532,7 +532,7 @@ York,,county,https://www.yorkcountymaine.gov/,,,,,York
 ,Dayton,town,http://www.dayton-me.gov,,,,,York
 ,Eliot,election,https://www.eliotmaine.org/2020-election-info,Town Office,,,,York
 ,Hollis,election,https://www.hollismaine.org/town-clerk/pages/elections,,,,,York
-,Kennebunk,election,https://www.kennebunkmaine.us/444/Election-and-Town-Meeting-Information,,,,,York
+,Kennebunk,election,https://www.kennebunkmaine.us/444/Election-and-Town-Meeting-Information,,"Water district trustee, emergency management ordinance",https://www.kennebunkmaine.us/DocumentCenter/View/10901/Voter-Guide-2020-11-03,Voter Guide,York
 ,Kennebunkport,election,https://www.kennebunkportme.gov/town-clerk/pages/elections-and-voting,,,,,York
 ,Kittery,election,http://www.kitteryme.gov/town-clerk/pages/voting-elections,,,,,York
 ,Lebanon,election,https://www.lebanon-me.org/town-clerk-tax-collector/pages/election-information,,,,,York
@@ -544,7 +544,7 @@ York,,county,https://www.yorkcountymaine.gov/,,,,,York
 ,Ogunquit,town,http://www.townofogunquit.org,,,,,York
 ,Old Orchard Beach,election,https://www.oobmaine.com/town-clerk/pages/election-informationvoter-registration,,,,,York
 ,Parsonsfield,town,http://www.parsonsfield.org/,,,,,York
-,Saco,election,https://www.sacomaine.org/departments/city_clerk/elections_and_voting.php,,,,,York
+,Saco,election,https://www.sacomaine.org/departments/city_clerk/elections_and_voting.php,On the Cutts Avenue side of City Hall,,,,York
 ,Sanford,election,https://www.sanfordmaine.org/electioninfo,,,,,York
 ,Shapleigh,town,http://www.shapleigh.net,,,,,York
 ,South Berwick,election,http://www.southberwickmaine.org/departments/town_clerk/clerk/sample_ballots.php,,,,,York
