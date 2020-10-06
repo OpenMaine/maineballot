@@ -82,10 +82,10 @@ Aroostook,,county,https://www.aroostook.me.us/,,,,,Aroostook
 ,Weston,town,https://townofwestonnet.ipower.com/,,,,,Aroostook
 ,Winterville Plantation,contact info,https://www.maine.gov/local/town.php?t=Winterville%20Plt,,,,,Aroostook
 ,Woodland,town,https://www.townofwoodland.org/,,,,,Aroostook
-Cumberland,,county,http://www.cumberlandcounty.org/,,,,,Cumberland
+Cumberland,,county,http://www.cumberlandcounty.org/,,Register of probate,,,Cumberland
 ,Baldwin,town,https://www.baldwinmaine.org/,,,,,Cumberland
 ,Bridgton,election,https://bridgtonmaine.org/elections/,,,,,Cumberland
-,Brunswick,election,http://www.brunswickme.org/286/Elections,Town Hall - near front door,,,,Cumberland
+,Brunswick,election,http://www.brunswickme.org/286/Elections,Town Hall - near front door,"Three charter amendments, town council, school board",../assets/docs/2020-11-03_ballots/Brunswick-Nov2020.pdf,Sample Ballot,Cumberland
 ,Cape Elizabeth,election,https://www.capeelizabeth.com/services/elections/home.html,,"Town council, school board, water district",,,Cumberland
 ,Casco,town,https://cascomaine.org/,,,,,Cumberland
 ,Chebeague Island,town,https://www.townofchebeagueisland.org/,,,,,Cumberland
@@ -172,11 +172,11 @@ Hancock,,county,https://co.hancock.me.us/site/index.php,,,,,Hancock
 ,Verona Island,town,http://www.veroname.org/,,,,,Hancock
 ,Waltham,contact info,https://www.maine.gov/local/town.php?t=Waltham,,,,,Hancock
 ,Winter Harbor,town,https://winterharbortown.com/,,,,,Hancock
-Kennebec,,county,https://kennebeccounty.org/,,,,,Kennebec
+Kennebec,,county,https://kennebeccounty.org/,,"Judge of probate, sheriff, county commissioner",,,Kennebec
 ,Albion,town,https://townofalbionmaine.com/,,,,,Kennebec
 ,Augusta,election,http://www.augustamaine.gov/businesses/city_government/elections.php,,"City council, board of education",,,Kennebec
 ,Belgrade,election,https://www.townofbelgrade.com/voterregistration,Town Office,,,,Kennebec
-,Benton,election,https://www.bentonmaine.info/town-clerk---elections.html,,Town Election and Referendum,https://drive.google.com/file/d/1xtLxC-rOuLqN-gson4difyzByEEVMd9B/view,Are you in favor of authorizing the Selectmen to transfer funds from office salary/compensation to town clerk salary/compensation in the amount of $9500?,Kennebec
+,Benton,election,https://www.bentonmaine.info/town-clerk---elections.html,,Town Election and Referendum,https://drive.google.com/file/d/1xtLxC-rOuLqN-gson4difyzByEEVMd9B/view,Sample Ballot,Kennebec
 ,Chelsea,town,https://chelseamaine.org/,,,,,Kennebec
 ,China,election,https://china.govoffice.com/elections,,"Selectman, planning board, budget committee, solid waste ordinances",,,Kennebec
 ,Clinton,town,http://www.clinton-me.us,,,,,Kennebec
