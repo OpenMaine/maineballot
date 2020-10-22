@@ -28,9 +28,15 @@
         <td>{{ local.ballot }}</td>
         <td>
           {% if local.ballot_link %}
-              <a href="{{ local.ballot_link }}">
-                  {{ local.ballot_link_text }}
+            {% if local.ballot_link contains "/assets/docs/" %}
+              <a href="{{ local.ballot_link | relative_url }}">
+                {{ local.ballot_link_text }}
               </a>
+            {% else %}
+              <a href="{{ local.ballot_link }}">
+                {{ local.ballot_link_text }}
+              </a>
+            {% endif %}
           {% endif %}
         </td>
       </tr>
