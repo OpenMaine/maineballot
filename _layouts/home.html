@@ -10,7 +10,7 @@ layout: default
 <div class="archive text-center">
   <p class="home-ballots-header content-lrg-b text-center">What's On Your Ballot?</p>
   <p class="home-ballots-header content-med-b">State ballot questions</p>
-  <p>There are currently no statewide questions on the ballot. <br><br>State sample ballots: <p><a href="https://www.maine.gov/sos/cec/elec/upcoming/yorkRCV11-20geneleballotsample.pdf">District 1 sample ballot</a> | <a href="https://www.maine.gov/sos/cec/elec/upcoming/abbotRCV11-20geneleballotsample.pdf">District 2 sample ballot</a></p>
+  <p>There are currently no statewide questions or candidates on the June ballot.</p>
   {% for post in paginator.posts reversed %}
   {% if post.election == site.data.elections.current_election %}
   {% include archive-single.html type="grid" %}
@@ -19,11 +19,10 @@ layout: default
   <!--{% include paginator.html %}-->
   <hr class="home-hr">
   <p class="home-ballots-header content-med-b">Local ballot questions</p>
-  <p>We have links to local election websites and basic information about what's on the ballot and ballot drop box locations for counties, cities, and
-    towns. <br />
+  <p>We have links to local election websites and basic information about what's on the ballot and ballot drop box locations for counties, cities, and towns. <br />
     <a href="/local">Find information about your local election</a>.</p>
     <hr class="home-hr">
-    <p class="home-ballots-header content-med-b">State and county candidates</p>
+    <!--<p class="home-ballots-header content-med-b">State and county candidates</p>
 
-<p>We have a list of candidates for statewide and county races with links to candidate information. <br><a href="/candidates">Find your candidates</a>.</p>
+<p>We have a list of candidates for statewide and county races with links to candidate information. <br><a href="/candidates">Find your candidates</a>.</p>-->
 </div>

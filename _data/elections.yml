@@ -1,6 +1,7 @@
-current_election: 2020-11-03
+current_election: 2021-06-08
 past_elections:
   2020:
+    - 2020-11-03
     - 2020-07-14
     - 2020-03-03
   2019:
