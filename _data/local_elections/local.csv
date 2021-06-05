@@ -2,16 +2,16 @@ county,city,type,website,drop,ballot,ballot_link,ballot_link_text,sorting county
 Androscoggin,,county,https://www.androscoggincountymaine.gov/about/about.htm,,,,,Androscoggin
 ,Auburn,election,http://www.auburnmaine.gov/pages/government/election-and-voting,,School budget,https://www.auburnmaine.gov/CMSContent/City_Clerk/Sample%20Ballot%20SBVR%202021.pdf,Sample ballot,Androscoggin
 ,Durham,election,https://www.durhamme.com/election-information,,"Town meeting May 22, school budget election June 8",https://www.durhamme.com/special-open-town-meeting-person-saturday-may-22-900-am,Town meeting and election details,Androscoggin
-,Greene,town,http://www.townofgreene.net/,,,,,Androscoggin
+,Greene,contact info,https://www.maine.gov/local/town.php?t=Greene,,,,,Androscoggin
 ,Leeds,town,https://sites.google.com/site/townofleedsmaine/,,,,,Androscoggin
 ,Lewiston,election,https://www.lewistonmaine.gov/117/Elections,City Hall - Park Street entrance door,School budget,https://www.lewistonmaine.gov/DocumentCenter/View/3303/Sample-Ballot-School-Budget-Validation,Sample ballot,Androscoggin
-,Lisbon,election,https://www.lisbonme.org/election-information,,,,,Androscoggin
-,Livermore,town,http://livermoremaine.org/,,,,,Androscoggin
-,Livermore Falls,town,http://lfme.org/,,,,,Androscoggin
-,Mechanic Falls,town,https://mechanicfalls.govoffice.com/,,,,,Androscoggin
+,Lisbon,election,https://www.lisbonme.org/election-information,,School budget,,,Androscoggin
+,Livermore,town,http://livermoremaine.org/,,Town meeting,http://livermoremaine.org/,Town meeting warrant,Androscoggin
+,Livermore Falls,town,http://lfme.org/,,"Budget, selectmen, school board",,,Androscoggin
+,Mechanic Falls,town,https://mechanicfalls.govoffice.com/,,Municipal election referendum,,,Androscoggin
 ,Minot,election,https://minotme.org/index.asp?SEC=8CA67442-D60D-4CCD-B5C0-F0C162FD0658&DE=3DD12AA1-1B1B-4844-AB38-AD2EA80C2324,Town hall main entrance,,,,Androscoggin
 ,Poland,town,https://www.polandtownoffice.org/,,,,,Androscoggin
-,Sabattus,town,https://www.sabattus.org/,,,,,Androscoggin
+,Sabattus,town,https://www.sabattus.org/,,May 20: Town meeting,https://www.sabattus.org/sites/g/files/vyhlif4961/f/uploads/annual_town_report_fye_6-30-20.pdf,Town meeting report,Androscoggin
 ,Turner,town,https://www.turnermaine.com/,,,,,Androscoggin
 ,Wales,town,http://walesmaine.org/,,Budget validation,,,Androscoggin
 Aroostook,,county,https://www.aroostook.me.us/,,,,,Aroostook
@@ -531,7 +531,7 @@ York,,county,https://www.yorkcountymaine.gov/,,,,,York
 ,Buxton,election,https://www.buxton.me.us/home/news/warrant-june-12-2021-annual-town-meeting,,"June 12: Town Meeting, 74 articles",https://www.buxton.me.us/sites/g/files/vyhlif2891/f/news/2021_warrant_for_annual_town_meeting.pdf,Town meeting warrant,York
 ,Cornish,town,http://cornishme.com,,,,,York
 ,Dayton,town,http://www.dayton-me.gov,,,,,York
-,Eliot,election,https://www.eliotmaine.org/2020-election-info,Town Office,School budget,,,York
+,Eliot,election,https://www.eliotmaine.org/2020-election-info,Town Office,School budget,https://www.eliotmaine.org/home/news/annual-town-meeting-election-referendum-and-msad-35-budget-validation-referendum-be,Town meeting warrant and sample ballot,York
 ,Hollis,election,https://www.hollismaine.org/town-clerk/pages/elections,,"Select board member, overseer of the poor, treasurer, 19 articles related to the budget",https://www.hollismaine.org/sites/g/files/vyhlif4536/f/news/specimen_ballots_for_june_8_2021_annual_town_meeting_0.pdf,Sample ballot,York
 ,Kennebunk,election,https://www.kennebunkmaine.us/444/Election-and-Town-Meeting-Information,,Town meeting and candidate election,https://www.kennebunkmaine.us/DocumentCenter/View/11900/Voter-Guide-2021-06-08,Voter guide,York
 ,Kennebunkport,election,https://www.kennebunkportme.gov/town-clerk/pages/elections-and-voting,,Town meeting,https://www.kennebunkportme.gov/sites/g/files/vyhlif3306/f/pages/warrant_-_6-8-21.pdf,Town meeting warrant,York
