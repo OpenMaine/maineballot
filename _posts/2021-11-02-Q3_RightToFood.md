@@ -14,7 +14,7 @@ tags:
 - food
 - Constitutional Resolution
 
-yes_vote:   I am in favor of amending the state constitution so that all individuals have the right to grow, raise, harvest, produce and consume the food of their choosing.
+yes_vote: I am in favor of amending the state constitution so that all individuals have the right to grow, raise, harvest, produce and consume the food of their choosing.
 no_vote: I don't want to amend the state constitution.
 last_modified_at: 2021-10-02 T08:06:00-05:00
 ---
