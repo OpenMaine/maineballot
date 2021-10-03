@@ -88,8 +88,7 @@ The primary arguments against this referendum are:
 ## References
 [^1]: Maine State Legislature. [Sec. 1. 12 MRSA §1852, sub-§4](https://www.maine.gov/sos/cec/elec/citizens/line.pdf). Accessed September 25 2021.
 
-[^2]: Ballotpedia State Desk. [Maine Question 1, Electric Transmission Line Restrictions and Legislative Approval Initiative (2021)
-](https://ballotpedia.org/Maine_Question_1,_Electric_Transmission_Line_Restrictions_and_Legislative_Approval_Initiative_(2021)). Ballotpedia. Accessed September 25, 2021.
+[^2]: Ballotpedia State Desk. [Maine Question 1, Electric Transmission Line Restrictions and Legislative Approval Initiative (2021)](https://ballotpedia.org/Maine_Question_1,_Electric_Transmission_Line_Restrictions_and_Legislative_Approval_Initiative_(2021)). Ballotpedia. Accessed September 25, 2021.
 
 [^3]: NewsCenter Maine. [Ballot Question 1 explained](https://www.newscentermaine.com/article/news/politics/ballot-question-1-explained-high-impact-transmission-cmp-central-maine-power-corridor-new-england-clean-energy-corridor/97-8d9808c3-380e-4d37-b0c7-d78870f22d1a)
 

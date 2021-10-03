@@ -78,7 +78,6 @@ The primary arguments against this referendum are:
 ## References
 [^1]: Maine State Legislature. [RESOLUTION, Proposing an Amendment to the Constitution of Maine To Establish a Right to Food](http://legislature.maine.gov/ros/LawsOfMaine/breeze/Law/getDocById/?docId=78982). Accessed October 2, 2021.
 
-[^2]: Ballotpedia State Desk. [Maine Question 3, Right to Produce, Harvest, and Consume Food Amendment (2021)
-](https://ballotpedia.org/Maine_Question_3,_Right_to_Produce,_Harvest,_and_Consume_Food_Amendment_(2021)). Ballotpedia. Accessed October 2, 2021.
+[^2]: Ballotpedia State Desk. [Maine Question 3, Right to Produce, Harvest, and Consume Food Amendment (2021)](https://ballotpedia.org/Maine_Question_3,_Right_to_Produce,_Harvest,_and_Consume_Food_Amendment_(2021)). Ballotpedia. Accessed October 2, 2021.
 
 [^3]: Bellows, Shenna. [Maine Citizen's Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/11-21citizensguide.pdf). Accessed October 2, 2021.
