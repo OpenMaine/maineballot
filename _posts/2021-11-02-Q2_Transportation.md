@@ -32,9 +32,9 @@ Passing this question would allow the State of Maine to borrow $100 million for 
 This is a **bond issue** -- if voters approve the bond, it means that the State of Maine is allowed to borrow money for the project described in the ballot question and has to pay it back over 10 years. [Learn more about how bonds work](/bonds).
 
 ## Follow the money
-Principal: $127,500,000
-<br>Interest: $100,000,000
-<br>Total cost: $27,500,000[^3]
+Principal: $100,000,000
+<br>Interest: $27,500,000
+<br>Total cost: $127,500,000[^3]
 
 ### The money will be used to:
 * $85 million for highways and bridges[^2]
