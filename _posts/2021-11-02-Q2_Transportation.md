@@ -38,11 +38,11 @@ Principal: $127,500,000
 
 ### The money will be used to:
 * $85 million for highways and bridges[^2]
-* $15 million for rail, aviation, ports, and active transportation. [^2]
+* $15 million for rail, aviation, ports, and active transportation.[^2]
 
 ### The money will be coming from:
-* $100 million bond issued by the state and paid back through the budget and taxes over 10 years. [^2]
-* $253 million in matching funds from the federal government and other sources. [^2]
+* $100 million bond issued by the state and paid back through the budget and taxes over 10 years.[^2]
+* $253 million in matching funds from the federal government and other sources.[^2]
 
 ## Pros
 The primary arguments for this referendum are:
