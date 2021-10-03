@@ -46,7 +46,7 @@ The primary arguments against this referendum are:
 * Maine already has $110.53 million in outstanding bond debt that this will add to and it could lead to increased taxes.[^3]
 * It could infringe on seed patents.[^3]
 * Some believe the language is too vague.[^3]
-* It could allow people to side step existing regulations related to things like animal welfare, pollution, local ordinances, or public safety.[^3]
+* It could allow people to sidestep existing regulations related to things like animal welfare, pollution, local ordinances, or public safety.[^3]
 
 ## Who cares
 ### Support[^2]
