@@ -40,7 +40,7 @@ Aroostook,Hammond,contact info,https://www.maine.gov/local/town.php?t=Hammond,,,
 Aroostook,Haynesville,contact info,https://www.maine.gov/local/town.php?t=Haynesville,,,,,Aroostook
 Aroostook,Hersey,contact info,https://www.maine.gov/local/town.php?t=Hersey,,,,,Aroostook
 Aroostook,Hodgdon,contact info,https://www.maine.gov/local/town.php?t=Hodgdon,,,,,Aroostook
-Aroostook,Houlton,town,http://www.houlton-maine.com/,,,,,Aroostook
+Aroostook,Houlton,town,http://www.houlton-maine.com/,,"Town council, school board, library board, water company director, board of budget review",https://www.houlton-maine.com/wp-content/uploads/2021/10/Municipal.pdf,Sample ballot,Aroostook
 Aroostook,Island Falls,election,https://www.islandfallsme.us/index.asp?SEC=0DE9ACC4-6892-4F43-A1D3-2E313D3EAB71,,,,,Aroostook
 Aroostook,Limestone,town,http://www.limestonemaine.org/,,,,,Aroostook
 Aroostook,Linneus,contact info,https://www.maine.gov/local/town.php?t=Linneus,,,,,Aroostook
@@ -245,7 +245,7 @@ Oxford,Fryeburg,town,http://www.fryeburgmaine.org/,,,,,Oxford
 Oxford,Gilead,Facebook,https://www.facebook.com/pages/category/Government-Organization/Gilead-Town-Office-614214438918965/,,,,,Oxford
 Oxford,Greenwood,town,http://www.greenwoodmaine.org/,,,,,Oxford
 Oxford,Hanover,town,http://hanoverme.org/,,,,,Oxford
-Oxford,Hartford,town,https://httphartfordmaine.org/,,,,,Oxford
+Oxford,Hartford,town,https://hartfordmaine.weebly.com/,,,,,Oxford
 Oxford,Hebron,election,https://hebronmaine.org/committees-other-officials/election-faqs/,,,,,Oxford
 Oxford,Hiram,election,https://townofhiram.org/elections,,,,,Oxford
 Oxford,Lincoln Plantation,contact info,https://www.maine.gov/local/town.php?t=Lincoln%20Plt,,,,,Oxford
@@ -259,7 +259,7 @@ Oxford,North Oxford Unorganized Territories,(Oxford County unorganized territori
 Oxford,Norway,election,https://norwaymaine.com/?page_id=115,,,,,Oxford
 Oxford,Otisfield,election,https://www.otisfieldme.gov/town-clerk/pages/voting-election-information,,,,,Oxford
 Oxford,Oxford,election,https://www.oxfordmaine.org/general-information/town-meeting,Town Office,,,,Oxford
-Oxford,Paris,town,https://www.parismaine.org/,,,,,Oxford
+Oxford,Paris,town,https://parismaine.org/clerks-office/elections-voting/,,,,,Oxford
 Oxford,Peru,contact info,https://www.maine.gov/local/town.php?t=Peru,,,,,Oxford
 Oxford,Porter,election,https://portermaine.org/voter-reg-%26-elections,,,,,Oxford
 Oxford,Roxbury,town,http://www.roxburymaine.com/index.php,,,,,Oxford
@@ -267,7 +267,7 @@ Oxford,Rumford,town,http://www.rumfordme.org/,,,,,Oxford
 Oxford,South Oxford Unorganized Territory,Facebook,https://www.facebook.com/pages/South-Oxford-Maine/139309962754460,,,,,Oxford
 Oxford,Stoneham,town,https://stoneham-maine.com/,,,,,Oxford
 Oxford,Stow,town,https://www.stowmaine.us/#!,,,,,Oxford
-Oxford,Sumner,town,http://www.sumnermaine.us,,,,,Oxford
+Oxford,Sumner,town,https://www.townofsumner.me/post/november-2nd-referendum-election-absentee-ballots-available,,,,,Oxford
 Oxford,Sweden,election,https://swedenmaine.org/voter-registration/,,,,,Oxford
 Oxford,Upton,contact info,https://www.maine.gov/local/town.php?t=Upton,,,,,Oxford
 Oxford,Waterford,town,https://waterfordme.org/index.php,,,,,Oxford
@@ -383,7 +383,7 @@ Piscataquis,Guilford,election,https://townofguilford.com/departments/town-office
 Piscataquis,Kingsbury Plantation,contact info,https://www.maine.gov/local/town.php?t=Kingsbury%20Plt,,,,,Piscataquis
 Piscataquis,Lake View Plantation,town,https://www.trcmaine.org/lakeview,,,,,Piscataquis
 Piscataquis,Medford,town,http://medford.trcmaine.org/,,,,,Piscataquis
-Piscataquis,Milo,town,https://www.milomaine.org/index.asp?SEC=9DD3DC47-8FB4-4CC4-9D08-7830CB8C51E3&Type=B_BASIC,,,,,Piscataquis
+Piscataquis,Milo,town,https://www.milomaine.org/index.asp?SEC=3233607C-A151-4A54-BA86-71709E7386A2&Type=B_BASIC,,,,,Piscataquis
 Piscataquis,Monson,town,http://monsonmaine.org/,,,,,Piscataquis
 Piscataquis,Parkman,town,http://parkmanmaine.com/,,,,,Piscataquis
 Piscataquis,Sangerville,town,https://sangervilleme.com/,,,,,Piscataquis
@@ -423,7 +423,7 @@ Somerset,Mercer,election,https://mercermaine.com/election-information/,Outside t
 Somerset,Moose River,contact info,https://www.maine.gov/local/town.php?t=Moose%20River,,,,,Somerset
 Somerset,Moscow,town,http://home.myfairpoint.net/~DBeane,,,,,Somerset
 Somerset,New Portland,town,http://www.newportlandmaine.org,,,,,Somerset
-Somerset,Norridgewock,town,https://www.townofnorridgewock.com/,,,,,Somerset
+Somerset,Norridgewock,town,https://www.townofnorridgewock.com/elections-voting,,,https://www.townofnorridgewock.com/sites/g/files/vyhlif6081/f/uploads/nov_2_local_ballot.pdf,Sample local ballot,Somerset
 Somerset,Palmyra,town,http://www.palmyratown.org/Town_of_Palmyra/Welcome.html,,,,,Somerset
 Somerset,Pittsfield,election,https://www.pittsfield.org/newselections,,,,,Somerset
 Somerset,Pleasant Ridge Plantation,contact info,https://www.maine.gov/local/town.php?t=Pleasant%20Ridge%20Plt,,,,,Somerset
@@ -440,7 +440,7 @@ Waldo,Belmont,election,https://belmontme.org/,,,,,Waldo
 Waldo,Brooks,election,https://brooks.govoffice2.com/index.asp?SEC=C5AE112D-6771-4883-A6B5-D64388CABDC6&Type=B_BASIC,,,,,Waldo
 Waldo,Burnham,town,https://burnham-maine.us/,,,,,Waldo
 Waldo,Frankfort,election,https://www.frankfortme.com/town-office/elections-and-voting-annual-town-elections-meeting-state-elections-voter-registration-absentee-voting/,,,,,Waldo
-Waldo,Freedom,town,https://www.freedomme.org/Ddata.htm,,,,,Waldo
+Waldo,Freedom,town,https://www.freedomme.org/,,,,,Waldo
 Waldo,Islesboro,town,http://townofislesboro.com/town-office/,,,,,Waldo
 Waldo,Jackson,town,http://www.jacksonmaine.net/home,,,,,Waldo
 Waldo,Knox,town,http://knoxmaine.com/,,,,,Waldo
