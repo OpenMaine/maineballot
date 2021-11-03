@@ -14,6 +14,7 @@ tags:
 - Electricity
 - Citizen's initiative
 - Retroactive
+- Passed
 yes_vote: I don't want NECEC to construct a high-impact electric transmission line in the Upper Kennebec region and require a 2/3 majority vote for similar projects retroactively to 2020 for projects anywhere in Maine and 2014 for projects on public land.
 no_vote: I want to allow the NECEC to continue construction of the high-impact electric transmission line in the Upper Kennebec region and I want the legislative rules for approval of such projects to stay the way they are.
 last_modified_at: 2021-10-02 T08:06:00-05:00
