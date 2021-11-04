@@ -11,7 +11,7 @@ search: true
 categories:
 - November 2021 Election
 tags:
-- food
+- Food
 - Constitutional Resolution
 - Passed
 
