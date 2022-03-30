@@ -33,6 +33,6 @@
   },
   "dependencies": {
     "braces": "^3.0.2",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   }
 }
