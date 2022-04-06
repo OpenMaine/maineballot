@@ -90,6 +90,11 @@ GEM
     minitest (5.15.0)
     multipart-post (2.1.1)
     nokogiri (1.13.3-x86_64-darwin)
+<<<<<<< HEAD
+=======
+      racc (~> 1.4)
+    nokogiri (1.13.3-x86_64-linux)
+>>>>>>> c93468138aff476e4872c06b699bf1397fe2d196
       racc (~> 1.4)
     octokit (4.22.0)
       faraday (>= 0.9)
@@ -98,7 +103,11 @@ GEM
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
     racc (1.6.0)
+<<<<<<< HEAD
     rb-fsevent (0.11.1)
+=======
+    rb-fsevent (0.11.0)
+>>>>>>> c93468138aff476e4872c06b699bf1397fe2d196
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.5)
@@ -119,7 +128,11 @@ GEM
 
 PLATFORMS
   x86_64-darwin-20
+<<<<<<< HEAD
   x86_64-darwin-21
+=======
+  x86_64-linux
+>>>>>>> c93468138aff476e4872c06b699bf1397fe2d196
 
 DEPENDENCIES
   jekyll
