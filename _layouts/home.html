@@ -10,7 +10,7 @@ layout: default
 <div class="archive text-center">
   <p class="home-ballots-header content-lrg-b text-center">What's On Your Ballot?</p>
   <p class="home-ballots-header content-med-b">State ballot questions</p>
-  <!--<p>There are currently no statewide questions or candidates on the June ballot.</p>-->
+  <p>There are currently no statewide questions on the June ballot.</p> 
   {% for post in paginator.posts reversed %}
   {% if post.election == site.data.elections.current_election %}
   {% include archive-single.html type="grid" %}
