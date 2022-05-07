@@ -13,6 +13,7 @@ categories:
 tags:
 - Transportation
 - Bond
+- Passed
 yes_vote:   I am in favor of issuing the $100 million bond to address infrastructure improvements.
 no_vote: I do not want Maine to borrow $100 million to address infrastructure improvements.
 last_modified_at: 2021-10-02 T08:06:00-05:00
