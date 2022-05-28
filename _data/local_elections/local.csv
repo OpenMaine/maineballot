@@ -121,7 +121,7 @@ Franklin,Jay,town,http://www.jay-maine.org/,,,,,Franklin
 Franklin,Kingfield,election,http://www.kingfield.me/1005-2/,,,,,Franklin
 Franklin,New Sharon,town,https://www.newsharon.maine.gov/,,School budget,https://www.newsharon.maine.gov/#:~:text=NEW%20SHARON%20REFERENDUM,Warrant,Franklin
 Franklin,New Vineyard,town,http://www.newvineyardme.org/,,,,,Franklin
-Franklin,Phillips,town,http://www.phillipsmaine.com/,,,,,Franklin
+Franklin,Phillips,contact info,https://www.maine.gov/local/town.php?t=Phillips,,,,,Franklin
 Franklin,Rangeley,election,https://townofrangeley.com/185/Elections-Voter-Registration,,,,,Franklin
 Franklin,Rangeley Plantation,contact info,https://www.maine.gov/local/town.php?t=Rangeley%20Plt,,,,,Franklin
 Franklin,Sandy River Plantation,contact info,https://www.maine.gov/local/town.php?t=Sandy%20River%20Plt,,,,,Franklin
@@ -394,7 +394,7 @@ Piscataquis,Willimantic,contact info,https://www.maine.gov/local/town.php?t=Will
 Sagadahoc,Arrowsic,election,http://www.arrowsic.org/clerk_page.html#elections,,,,,Sagadahoc
 Sagadahoc,Bath,election,http://www.cityofbath.com/Elections/,City Hall,School budget,https://www.cityofbath.com/Elections/,Sample ballots,Sagadahoc
 Sagadahoc,Bowdoin,town,https://bowdoinme.com/,,,,,Sagadahoc
-Sagadahoc,Bowdoinham,election,https://www.bowdoinham.com/elections,,,,,Sagadahoc
+Sagadahoc,Bowdoinham,election,https://www.bowdoinham.com/elections,,"School budget, articles",https://www.bowdoinham.com/elections,Sample ballots and warrant,Sagadahoc
 Sagadahoc,Georgetown,town,http://www.georgetownme.com/,,,,,Sagadahoc
 Sagadahoc,Perkins Township (Swan Island),(Sagadahoc County unorganized terrorities),http://www.richmondmaine.com/swan-island-info-richmond-maine.aspx,,,,,Sagadahoc
 Sagadahoc,Phippsburg,election,https://phippsburg.com/,,,,,Sagadahoc
@@ -512,7 +512,7 @@ York,Arundel,town,http://www.arundelmaine.org,,,,,York
 York,Berwick,election,https://www.berwickmaine.org/government/town_clerk/elections.php,,"Town meeting, school budget",https://www.berwickmaine.org/government/town_clerk/elections.php,Sample ballots and warrant,York
 York,Biddeford,town,https://www.biddefordmaine.org/,Next to the back stairs of City Hall on the South Street side of the building,,,,York
 York,Buxton,election,https://www.buxton.me.us/registrar-voters,Municipal Clerk - inside,,,,York
-York,Cornish,town,http://cornishme.com,,,,,York
+York,Cornish,town,http://cornishme.com,,District referendum,https://www.cornishme.com/2022/05/12/maine-school-administrative-referendum-vote/,Sample ballot,York
 York,Dayton,town,http://www.dayton-me.gov,,,,,York
 York,Eliot,election,https://www.eliotmaine.org/election-information-november-2-2021,Town Office - 24hr,"Town election & referendum, school budget",,,York
 York,Hollis,election,https://www.hollismaine.org/town-clerk/pages/elections,,,,,York
