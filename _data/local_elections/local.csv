@@ -1,14 +1,14 @@
 county,city,type,website,drop,ballot,ballot_link,ballot_link_text,sorting county
 Androscoggin,Auburn,election,http://www.auburnmaine.gov/pages/government/election-and-voting,,,,,Androscoggin
 Androscoggin,Durham,town,https://www.durhamme.com/,,April 1: Municipal Officers,,,Androscoggin
-Androscoggin,Greene,contact info,https://www.maine.gov/local/town.php?t=Greene,,,,,Androscoggin
+Androscoggin,Greene,election,https://www.townofgreene.net/elections,,"Municipal Election, School Budget",,,Androscoggin
 Androscoggin,Leeds,town,https://sites.google.com/site/townofleedsmaine/,,,,,Androscoggin
 Androscoggin,Lewiston,election,https://www.lewistonmaine.gov/117/Elections,City Hall - Park Street entrance door,May 10: School budget,https://www.lewistonmaine.gov/DocumentCenter/View/3303/Sample-Ballot-School-Budget-Validation,Sample Ballot,Androscoggin
 Androscoggin,Lisbon,election,https://www.lisbonme.org/election-information,,School budget,,,Androscoggin
 Androscoggin,Livermore,town,http://livermoremaine.org/,,,,,Androscoggin
 Androscoggin,Livermore Falls,town,http://lfme.org/,,"June 8: Budget, Selectmen, School Board",,,Androscoggin
 Androscoggin,Mechanic Falls,town,https://mechanicfalls.govoffice.com/,,School Budget,,,Androscoggin
-Androscoggin,Minot,election,https://minotme.org/index.asp?SEC=8CA67442-D60D-4CCD-B5C0-F0C162FD0658&DE=3DD12AA1-1B1B-4844-AB38-AD2EA80C2324,Town hall main entrance,,,,Androscoggin
+Androscoggin,Minot,election,https://minotme.org/index.asp?SEC=8CA67442-D60D-4CCD-B5C0-F0C162FD0658&DE=3DD12AA1-1B1B-4844-AB38-AD2EA80C2324,Town hall main entrance,"School Budget, Municipal Referendum",,,Androscoggin
 Androscoggin,Poland,town,https://www.polandtownoffice.org/,,,,,Androscoggin
 Androscoggin,Sabattus,town,https://www.sabattus.org/,,,,,Androscoggin
 Androscoggin,Turner,town,https://www.turnermaine.com/,,,,,Androscoggin
@@ -19,7 +19,7 @@ Aroostook,Ashland,town,http://townofashland.org/,,,,,Aroostook
 Aroostook,Bancroft,contact info,https://www.maine.gov/local/town.php?t=Bancroft,,,,,Aroostook
 Aroostook,Blaine,contact info,https://www.maine.gov/local/town.php?t=Blaine,,,,,Aroostook
 Aroostook,Bridgewater,Facebook,https://www.facebook.com/bridgewatermaine/,,,,,Aroostook
-Aroostook,Caribou,election,http://www.cariboumaine.org/index.php/departments/city-clerk/elections/,,,,,Aroostook
+Aroostook,Caribou,election,http://www.cariboumaine.org/index.php/departments/city-clerk/elections/,,Municipal Referendum,https://www.cariboumaine.org/wp-content/uploads/2022/05/Municipal-Ballot-for-Posting.pdf,City of Caribou Municipal Ballot,Aroostook
 Aroostook,Cary Plantation,contact info,https://www.maine.gov/local/town.php?t=Cary%20Plt,,,,,Aroostook
 Aroostook,Castle Hill,town,https://www.mapleton.me/#,,,,,Aroostook
 Aroostook,Caswell,contact info,https://www.maine.gov/local/town.php?t=Caswell,,,,,Aroostook
@@ -28,13 +28,13 @@ Aroostook,Crystal,contact info,https://www.maine.gov/local/town.php?t=Crystal,,,
 Aroostook,Cyr Plantation,contact info,https://www.maine.gov/local/town.php?t=Cyr%20Plt,,,,,Aroostook
 Aroostook,Dyer Brook,contact info,https://www.maine.gov/local/town.php?t=Dyer%20Brook,,,,,Aroostook
 Aroostook,Eagle Lake,election,https://www.townofeaglelake.org/registering-to-vote,,,,,Aroostook
-Aroostook,Easton,election,https://www.eastonme.com/municipal-departments/elections-voting/,,,,,Aroostook
+Aroostook,Easton,election,https://www.eastonme.com/municipal-departments/elections-voting/,,June 6: School Budget,,,Aroostook
 Aroostook,Fort Fairfield,town,http://www.fortfairfield.org/,,,,,Aroostook
 Aroostook,Fort Kent,town,http://www.fortkent.org/,,,,,Aroostook
 Aroostook,Frenchville,town,https://www.frenchville.org/,,,,,Aroostook
 Aroostook,Garfield Plantation,contact info,https://www.maine.gov/local/town.php?t=Garfield%20Plt,,,,,Aroostook
 Aroostook,Glenwood Plantation,contact info,https://www.maine.gov/local/town.php?t=Glenwood%20Plt,,,,,Aroostook
-Aroostook,Grand Isle,town,http://www.grandislemaine.com/Home_Page.php,,,,,Aroostook
+Aroostook,Grand Isle,town,https://grandislemaine.com/,,,,,Aroostook
 Aroostook,Hamlin,contact info,https://www.maine.gov/local/town.php?t=Hamlin,,,,,Aroostook
 Aroostook,Hammond,contact info,https://www.maine.gov/local/town.php?t=Hammond,,,,,Aroostook
 Aroostook,Haynesville,contact info,https://www.maine.gov/local/town.php?t=Haynesville,,,,,Aroostook
@@ -54,7 +54,7 @@ Aroostook,Masardis,contact info,https://www.maine.gov/local/town.php?t=Masardis,
 Aroostook,Merrill,town,https://merrill.aroostook.me.us/,,,,,Aroostook
 Aroostook,Monticello,contact info,https://www.maine.gov/local/town.php?t=Monticello,,,,,Aroostook
 Aroostook,Moro Plantation,contact info,https://www.maine.gov/local/town.php?t=Moro%20Plt,,,,,Aroostook
-Aroostook,Nashville Plantation,contact info,https://www.maine.gov/local/town.php?t=Nashville%20Plt,,,,,Aroostook
+Aroostook,Nashville Plantation,election,https://www.townofportage.org/town-government/office-personnel/office-of-the-clerk.html,,,,,Aroostook
 Aroostook,New Canada,contact info,https://www.maine.gov/local/town.php?t=New%20Canada,,,,,Aroostook
 Aroostook,New Limerick,contact info,https://www.maine.gov/local/town.php?t=New%20Limerick,,,,,Aroostook
 Aroostook,New Sweden,contact info,https://www.maine.gov/local/town.php?t=New%20Sweden,,,,,Aroostook
@@ -67,7 +67,7 @@ Aroostook,Presque Isle,election,http://presqueislemaine.gov/city-clerks-office/,
 Aroostook,Reed Plantation,contact info,https://www.maine.gov/local/town.php?t=Reed%20Plt,,,,,Aroostook
 Aroostook,Sherman,contact info,https://www.maine.gov/local/town.php?t=Sherman,,,,,Aroostook
 Aroostook,Smyrna,town,https://www.aroostook.me.us/smyrna/,,,,,Aroostook
-Aroostook,St. Agatha,town,https://www.stagatha.com/,,,,,Aroostook
+Aroostook,St. Agatha,election,https://www.stagatha.com/news-events/town-elections.html,,,,,Aroostook
 Aroostook,St. Francis,town,http://stfrancisme.com/,,,,,Aroostook
 Aroostook,St. John Plantation,contact info,https://www.maine.gov/local/town.php?t=Saint%20John%20Plt,,,,,Aroostook
 Aroostook,Stockholm,contact info,https://www.maine.gov/local/town.php?t=Stockholm,,,,,Aroostook
@@ -121,7 +121,7 @@ Franklin,Jay,town,http://www.jay-maine.org/,,,,,Franklin
 Franklin,Kingfield,election,http://www.kingfield.me/1005-2/,,,,,Franklin
 Franklin,New Sharon,town,https://www.newsharon.maine.gov/,,School budget,https://www.newsharon.maine.gov/#:~:text=NEW%20SHARON%20REFERENDUM,Warrant,Franklin
 Franklin,New Vineyard,town,http://www.newvineyardme.org/,,,,,Franklin
-Franklin,Phillips,town,http://www.phillipsmaine.com/,,,,,Franklin
+Franklin,Phillips,contact info,https://www.maine.gov/local/town.php?t=Phillips,,,,,Franklin
 Franklin,Rangeley,election,https://townofrangeley.com/185/Elections-Voter-Registration,,,,,Franklin
 Franklin,Rangeley Plantation,contact info,https://www.maine.gov/local/town.php?t=Rangeley%20Plt,,,,,Franklin
 Franklin,Sandy River Plantation,contact info,https://www.maine.gov/local/town.php?t=Sandy%20River%20Plt,,,,,Franklin
@@ -135,7 +135,7 @@ Hancock,Bar Harbor,election,http://www.barharbormaine.gov/130/Elections---Genera
 Hancock,Blue Hill,election,https://www.townofbluehillmaine.org/-voting,,,,,Hancock
 Hancock,Brooklin,town,https://www.brooklinmaine.com/,,,,,Hancock
 Hancock,Brooksville,town,https://www.brooksvillemaine.org/,,,,,Hancock
-Hancock,Bucksport,election,https://www.bucksportmaine.gov/index.asp?Type=B_BASIC&SEC={8253A310-60E6-4438-A35F-2009D623A8A9},,,,,Hancock
+Hancock,Bucksport,election,https://www.bucksportmaine.gov/index.asp?Type=B_BASIC&SEC={8253A310-60E6-4438-A35F-2009D623A8A9},,School budget,https://www.bucksportmaine.gov/index.asp?Type=B_BASIC&SEC={8253A310-60E6-4438-A35F-2009D623A8A9}&DE={CFB3C396-13A8-4424-8DE8-25458A10A604},Sample ballots,Hancock
 Hancock,Castine,town,https://castine.me.us/,Front doors of Emerson Hall,,,,Hancock
 Hancock,Cranberry Isles,town,https://www.cranberryisles-me.gov/,,,,,Hancock
 Hancock,Dedham,election,https://www.dedhamme.org/index.asp?SEC=F6196C83-D62F-40DC-BF35-13F815190E14&Type=B_BASIC,,Town meeting in August,,,Hancock
@@ -200,7 +200,7 @@ Knox,Appleton,town,https://appleton.maine.gov/,,,,,Knox
 Knox,Camden,election,https://www.camdenmaine.gov/town_clerk/elections___voter_registration.php,"Entrance door of Camden Town Office, 29 Elm Street",Town Meeting,https://cms8.revize.com/revize/camdenme/Town%20Meeting%20Warrant%20and%20Backup.pdf,Town Meeting Warrant,Knox
 Knox,Cushing,town,https://www.cushing.maine.gov/,,School budget,,,Knox
 Knox,Friendship,contact info,https://www.maine.gov/local/town.php?t=Friendship,,,,,Knox
-Knox,Hope,town,https://hopemaine.org/,,,,,Knox
+Knox,Hope,town,https://hopemaine.org/,,Town meeting June 16,https://hopemaine.org/vertical/Sites/%7B67218D83-801A-4BE2-816F-7F3C6B6A7FFF%7D/uploads/2022_Town_Meeting_Warrant_6.16.22.pdf,Town meeting warrant,Knox
 Knox,Isle Au Haut,town,http://www.isleauhautmaine.us/,,,,,Knox
 Knox,Matinicus Isle Plantation,town,https://matinicusplantation.com/election-information/,,,,,Knox
 Knox,North Haven,town,http://www.northhavenmaine.org/,,,,,Knox
@@ -242,7 +242,7 @@ Oxford,Canton,Facebook,https://www.facebook.com/cantonmaine,,,,,Oxford
 Oxford,Denmark,election,https://www.denmarkmaine.org/index.asp?Type=B_BASIC&SEC={71AE01AE-D71C-4B94-ABEF-6BE5F6008049},,,,,Oxford
 Oxford,Dixfield,town,https://dixfield.org/,,,,,Oxford
 Oxford,Fryeburg,town,http://www.fryeburgmaine.org/,,,,,Oxford
-Oxford,Gilead,Facebook,https://www.facebook.com/pages/category/Government-Organization/Gilead-Town-Office-614214438918965/,,,,,Oxford
+Oxford,Gilead,Facebook,https://www.facebook.com/pages/category/Government-Organization/Gilead-Town-Office-614214438918965/,,Town meeting March 26,,,Oxford
 Oxford,Greenwood,town,http://www.greenwoodmaine.org/,,,,,Oxford
 Oxford,Hanover,town,http://hanoverme.org/,,,,,Oxford
 Oxford,Hartford,town,https://hartfordmaine.weebly.com/,,Town meeting June 18,,,Oxford
@@ -273,7 +273,7 @@ Oxford,Upton,contact info,https://www.maine.gov/local/town.php?t=Upton,,,,,Oxfor
 Oxford,Waterford,town,https://waterfordme.org/index.php,,,,,Oxford
 Oxford,West Paris,election,https://www.westparisme.com/index.asp?SEC=19147DB6-D2B4-46FE-8C61-8385CF9880BD,,,,,Oxford
 Oxford,Woodstock,town,http://woodstockmaine.net/,,,,,Oxford
-Penobscot,Alton,Facebook,https://www.facebook.com/Town-of-Alton-321335587904880/,,,,,Penobscot
+Penobscot,Alton,Facebook,https://www.facebook.com/Town-of-Alton-321335587904880/,,Town meeting May 17,,,Penobscot
 Penobscot,Argyle,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
 Penobscot,Bangor,election,https://www.bangormaine.gov/election,City Hall,City council,https://www.bangormaine.gov/filestorage/318/326/614/sampleballot.pdf,Sample ballot,Penobscot
 Penobscot,Bradford,town,http://www.bradfordmaine.org,,,,,Penobscot
@@ -317,7 +317,7 @@ Penobscot,Kenduskeag,contact info,https://www.maine.gov/local/town.php?t=Kendusk
 Penobscot,Kingman,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
 Penobscot,Lagrange,town,https://www.lagrangeme.com/,,,,,Penobscot
 Penobscot,Lakeville,contact info,https://www.maine.gov/local/town.php?t=Lakeville,,,,,Penobscot
-Penobscot,Lee,Facebook,https://www.facebook.com/Town-of-Lee-432149760230928/,,,,,Penobscot
+Penobscot,Lee,town,https://townofleemaine.com/?fbclid=IwAR216TZGttfGoXGDDLBo2T6cabLKE5nO6757yqHbzsuOPWfA9YykHKTtImo,,,,,Penobscot
 Penobscot,Levant,town,http://townoflevant.net/,,,,,Penobscot
 Penobscot,Lincoln,town,https://lincolnmaine.org/,Town Office,,,,Penobscot
 Penobscot,Long A,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
@@ -394,7 +394,7 @@ Piscataquis,Willimantic,contact info,https://www.maine.gov/local/town.php?t=Will
 Sagadahoc,Arrowsic,election,http://www.arrowsic.org/clerk_page.html#elections,,,,,Sagadahoc
 Sagadahoc,Bath,election,http://www.cityofbath.com/Elections/,City Hall,School budget,https://www.cityofbath.com/Elections/,Sample ballots,Sagadahoc
 Sagadahoc,Bowdoin,town,https://bowdoinme.com/,,,,,Sagadahoc
-Sagadahoc,Bowdoinham,election,https://www.bowdoinham.com/elections,,,,,Sagadahoc
+Sagadahoc,Bowdoinham,election,https://www.bowdoinham.com/elections,,"School budget, articles",https://www.bowdoinham.com/elections,Sample ballots and warrant,Sagadahoc
 Sagadahoc,Georgetown,town,http://www.georgetownme.com/,,,,,Sagadahoc
 Sagadahoc,Perkins Township (Swan Island),(Sagadahoc County unorganized terrorities),http://www.richmondmaine.com/swan-island-info-richmond-maine.aspx,,,,,Sagadahoc
 Sagadahoc,Phippsburg,election,https://phippsburg.com/,,,,,Sagadahoc
@@ -408,7 +408,7 @@ Somerset,Bingham,town,http://www.binghammaine.org/,,,,,Somerset
 Somerset,Brighton Plantation,contact info,https://www.maine.gov/local/town.php?t=Brighton%20Plt,,,,,Somerset
 Somerset,Cambridge,town,http://cambridgemaine.com/,,,,,Somerset
 Somerset,Canaan,town,https://townofcanaan.com/,,,,,Somerset
-Somerset,Caratunk,Facebook,https://www.facebook.com/caratunk/,,,,,Somerset
+Somerset,Caratunk,Facebook,https://www.facebook.com/caratunk/,,Town meeting Marcvh 7,,,Somerset
 Somerset,Cornville,contact info,https://www.maine.gov/local/town.php?t=Cornville,,,,,Somerset
 Somerset,Dennistown Plantation,contact info,https://www.maine.gov/local/town.php?t=Dennistown%20Plt,,,,,Somerset
 Somerset,Detroit,Facebook,https://www.facebook.com/TownofDetroitMaine/?rf=863282867033273,,,,,Somerset
@@ -483,7 +483,7 @@ Washington,Eastport,election,https://www.eastport-me.gov/city-clerks-office/page
 Washington,Grand Lake Stream Plantation,town,https://grand-lake-stream.org/government/voting/,,,,,Washington
 Washington,Harrington,town,https://www.harringtonmaine.com/,,,,,Washington
 Washington,Indian Township Reservation,tribe,https://www.passamaquoddy.com/?page_id=492,,,,,Washington
-Washington,Jonesboro,Facebook,https://www.facebook.com/TownofJonesboroMaine/?rf=1693839290858783,,,,,Washington
+Washington,Jonesboro,Facebook,https://www.facebook.com/TownofJonesboroMaine/?rf=1693839290858783,,School budget meeting May 12,,,Washington
 Washington,Jonesport,election,https://www.townofjonesport.com/office/voter-info.php,,,,,Washington
 Washington,Lubec,town,https://townoflubec.com/,,,,,Washington
 Washington,Machias,election,https://machiasme.org/departments-staff/town-clerk/election-services/,,,,,Washington
@@ -512,7 +512,7 @@ York,Arundel,town,http://www.arundelmaine.org,,,,,York
 York,Berwick,election,https://www.berwickmaine.org/government/town_clerk/elections.php,,"Town meeting, school budget",https://www.berwickmaine.org/government/town_clerk/elections.php,Sample ballots and warrant,York
 York,Biddeford,town,https://www.biddefordmaine.org/,Next to the back stairs of City Hall on the South Street side of the building,,,,York
 York,Buxton,election,https://www.buxton.me.us/registrar-voters,Municipal Clerk - inside,,,,York
-York,Cornish,town,http://cornishme.com,,,,,York
+York,Cornish,town,http://cornishme.com,,District referendum,https://www.cornishme.com/2022/05/12/maine-school-administrative-referendum-vote/,Sample ballot,York
 York,Dayton,town,http://www.dayton-me.gov,,,,,York
 York,Eliot,election,https://www.eliotmaine.org/election-information-november-2-2021,Town Office - 24hr,"Town election & referendum, school budget",,,York
 York,Hollis,election,https://www.hollismaine.org/town-clerk/pages/elections,,,,,York
