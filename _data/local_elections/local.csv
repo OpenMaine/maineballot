@@ -152,14 +152,14 @@ Hancock,Lamoine,town,http://www.lamoine-me.gov/,,,,,Hancock
 Hancock,Mariaville,town,https://www.mariavilleme.gov/elections,,School budget,https://www.mariavilleme.gov/elections,Sample ballot,Hancock
 Hancock,Mount Desert,election,https://www.mtdesert.org/town-clerk/pages/elections-voting,,,,,Hancock
 Hancock,Orland,town,https://townoforland.org/election-information/,,"Schodol budget, liquor, municipal officer",https://townoforland.org/election-information/,Sample ballots,Hancock
-Hancock,Osborn,town,https://www.emainehosting.com/OsbornMaine/,,,,,Hancock
+Hancock,Osborn,town,https://www.osbornmaine.org/,,,,,Hancock
 Hancock,Otis,town,http://www.townofotis.com/,,,,,Hancock
 Hancock,Penobscot,town,http://www.penobscot-maine.com/,,,,,Hancock
 Hancock,Sedgwick,town,https://www.sedgwickmaine.org/,,,,,Hancock
 Hancock,Sorrento,contact info,https://www.countyoffice.org/sorrento-town-hall-sorrento-me-b47/,,,,,Hancock
 Hancock,Southwest Harbor,town,http://www.southwestharbormaine.org/,,State senator,http://www.southwestharbormaine.org/,Sample ballots,Hancock
 Hancock,Stonington,town,https://www.stoningtonmaine.org/,,,,,Hancock
-Hancock,Sullivan,town,https://sullivanmaine.org/,,,,,Hancock
+Hancock,Sullivan,town,https://sullivanmaine.org/,,"Municipal Election, RSU 24 Referendum",,,Hancock
 Hancock,Surry,election,https://www.townofsurrymaine.com/departments/elections/index.php,,,,,Hancock
 Hancock,Swans Island,town,http://swansisland.org/,,,,,Hancock
 Hancock,Tremont,town,http://tremont.maine.gov/,,,,,Hancock
@@ -214,25 +214,25 @@ Knox,Union,election,https://www.union.maine.gov/index.asp?SEC=0CE95965-3E88-49A6
 Knox,Vinalhaven,town,https://www.townofvinalhaven.org/,,,,,Knox
 Knox,Warren,election,https://warrenmaine.org/index.asp?SEC=9A16E126-423D-4173-BA38-89BF24884BF9,,"Selectmen, school board, sanitary district, town meeting June 21",,,Knox
 Knox,Washington,town,https://www.washington.maine.gov/,,,,,Knox
-Lincoln,Alna,town,https://www.alna.maine.gov/,,,,,Lincoln
+Lincoln,Alna,town,https://www.alna.maine.gov/,,RSU 12 Budget,https://alna.maine.gov/vertical/sites/%7BBDB98820-241D-4E93-ADE8-FCEDF75584C6%7D/uploads/BallotRSU12_SampleJune2022.pdf,RSU 12 Budget Sample,Lincoln
 Lincoln,Boothbay,town,https://www.townofboothbay.org/,,,,,Lincoln
 Lincoln,Boothbay Harbor,town,https://www.boothbayharbor.org/,,,,,Lincoln
-Lincoln,Bremen,town,http://www.bremenmaine.org/,,,,,Lincoln
-Lincoln,Bristol,election,https://www.bristolmaine.org/town-clerk/pages/elections,Town Hall - to the left of the front door,,,,Lincoln
-Lincoln,Damariscotta,election,https://www.damariscottame.com/town-clerk/pages/elections,,,,,Lincoln
+Lincoln,Bremen,town,http://www.bremenmaine.org/,,Municipal Elections,http://www.bremenmaine.org/wp-content/uploads/2022/05/Municipal-Ballots.pdf,Municipal Ballots,Lincoln
+Lincoln,Bristol,election,https://www.bristolmaine.org/town-clerk/pages/elections,Town Hall - to the left of the front door,Special Town Meeting,,,Lincoln
+Lincoln,Damariscotta,election,https://www.damariscottame.com/town-clerk/pages/elections,,Annual Town Meeting,,,Lincoln
 Lincoln,Dresden,town,https://www.townofdresden.com/,,,,,Lincoln
 Lincoln,Edgecomb,town,https://edgecomb.org/,,May 21 referendum election,,,Lincoln
-Lincoln,Jefferson,election,https://jeffersonmaine.org/election-information/,,,,,Lincoln
+Lincoln,Jefferson,election,https://jeffersonmaine.org/election-information/,,School Budget,,,Lincoln
 Lincoln,Monhegan Island Plantation,town,http://www.monheganplantation.com/,,,,,Lincoln
 Lincoln,Newcastle,election,https://www.newcastlemaine.us/town-clerk/pages/election-information,,,,,Lincoln
 Lincoln,Nobleboro,election,https://www.nobleboro.maine.gov/index.asp?SEC=0A6C6CD7-512A-43E9-B9C2-DD879B3D7ED5,,,,,Lincoln
-Lincoln,Somerville,town,https://www.somervillemaine.org/home,,,,,Lincoln
+Lincoln,Somerville,election,https://www.somervillemaine.org/home/services/registrar-of-voters,,,,,Lincoln
 Lincoln,South Bristol,town,https://www.townofsouthbristol.com/,,,,,Lincoln
-Lincoln,Southport,town,https://www.townofsouthport.org/,,,,,Lincoln
+Lincoln,Southport,town,https://www.townofsouthport.org/,,"June 28, 2022 Special Town Meeting",,,Lincoln
 Lincoln,Waldoboro,election,https://www.waldoboromaine.org/departments/town_clerk/voting_information/index.php,,"Town referendum, school budget",,,Lincoln
-Lincoln,Westport Island,election,http://westportisland.us/government/voter-registration,,,,,Lincoln
+Lincoln,Westport Island,election,http://westportisland.us/government/voter-registration,,"Municipal Election, RSU #12 School Budget Referendum Election",,,Lincoln
 Lincoln,Whitefield,election,https://townofwhitefield.com/election-information/,,School budget,,,Lincoln
-Lincoln,Wiscasset,election,http://www.wiscasset.org/departments/town-clerk-and-elections,,,,,Lincoln
+Lincoln,Wiscasset,election,http://www.wiscasset.org/departments/town-clerk-and-elections,,Town Warrant,,,Lincoln
 Oxford,Andover,town,https://www.andovermaine.org/,,,,,Oxford
 Oxford,Bethel,election,https://www.bethelmaine.org/2181/Voter-Registration,,,,,Oxford
 Oxford,Brownfield,town,http://www.brownfieldmaine.org/,,,,,Oxford
@@ -277,9 +277,9 @@ Penobscot,Alton,Facebook,https://www.facebook.com/Town-of-Alton-321335587904880/
 Penobscot,Argyle,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
 Penobscot,Bangor,election,https://www.bangormaine.gov/election,City Hall,City council,https://www.bangormaine.gov/filestorage/318/326/614/sampleballot.pdf,Sample ballot,Penobscot
 Penobscot,Bradford,town,http://www.bradfordmaine.org,,,,,Penobscot
-Penobscot,Bradley,election,https://www.townofbradley.net/voter-information/,Municipal Building,,,,Penobscot
-Penobscot,Brewer,town,https://brewermaine.gov/,,,,,Penobscot
-Penobscot,Burlington,town,http://www.burlingtonme.com/,,,,,Penobscot
+Penobscot,Bradley,election,https://www.townofbradley.net/voter-information/,Municipal Building,4 articles,https://www.townofbradley.net/wp-content/uploads/2022/05/Sample-Municipal-Ballot.pdf,Sample ballot,Penobscot
+Penobscot,Brewer,election,https://brewermaine.gov/city-clerk/register-to-vote/,,,,,Penobscot
+Penobscot,Burlington,town,http://www.burlingtonme.com/,,Town meeting and school budget,https://www.burlingtonme.com/component/icagenda/83-school-budget-referendum?Itemid=101&date=2022-06-14-00-00#.YpZfHBPMJmo,Sample ballot,Penobscot
 Penobscot,Carmel,town,http://www.townofcarmel.org/,,,,,Penobscot
 Penobscot,Carroll Plantation,Facebook,https://www.facebook.com/pages/Carroll-Plantation-Town-Offices/1504687936419080,,,,,Penobscot
 Penobscot,Cedar Lake Township,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
@@ -291,11 +291,11 @@ Penobscot,Corinth,election,https://www.townofcorinth.com/voting-elections,,,,,Pe
 Penobscot,Dexter,town,http://www.dextermaine.org/,,,,,Penobscot
 Penobscot,Dixmont,town,https://www.townofdixmont.org/,,,,,Penobscot
 Penobscot,Drew Plantation,Facebook,https://www.facebook.com/pages/Drew-Plantation-Town-Office/260577274122319,,,,,Penobscot
-Penobscot,East Millinocket,town,https://www.eastmillinocket.org/default.aspx,,,,,Penobscot
-Penobscot,Eddington,town,http://www.eddingtonmaine.gov,,,,,Penobscot
+Penobscot,East Millinocket,town,https://www.eastmillinocket.org/default.aspx,,Town meeting June 21,https://www.eastmillinocket.org/News/140/Article/9672/,Town meeting warrant,Penobscot
+Penobscot,Eddington,town,http://www.eddingtonmaine.gov,,Town meeting June 21,http://eddingtonmaine.gov/uploads/3/5/4/8/35486991/2022warrant.pdf,Town meeting warrant,Penobscot
 Penobscot,Edinburg,contact info,https://www.maine.gov/local/town.php?t=Edinburg,,,,,Penobscot
-Penobscot,Enfield,town,https://townofenfieldmaine.org/,,,,,Penobscot
-Penobscot,Etna,town,https://sites.google.com/site/townofetna/,,,,,Penobscot
+Penobscot,Enfield,election,https://www.townofenfieldmaine.org/meetings___events/voter_registration.php,,,,,Penobscot
+Penobscot,Etna,town,https://sites.google.com/site/townofetna/,,June 15 town meeting,,,Penobscot
 Penobscot,Exeter,town,http://www.townofexetermaine.com/,,,,,Penobscot
 Penobscot,Garland,town,https://www.garlandmaine.net/,,,,,Penobscot
 Penobscot,Glenburn,election,https://www.glenburn.org/index.asp?Type=B_BASIC&SEC={7E74E00E-6642-419F-A2B2-CE346E84470F},,,,,Penobscot
@@ -306,7 +306,7 @@ Penobscot,Grindstone,(Penobscot County unorganized territories),https://www.ut.p
 Penobscot,Hampden,election,https://www.hampdenmaine.gov/index.asp?SEC=814F1FE8-B9B4-408F-BD48-4A96889967AF&DE=3835680A-54C7-40D5-8E78-04785A3F6555&Type=B_BASIC,,School budget,https://www.hampdenmaine.gov/index.asp?SEC=814F1FE8-B9B4-408F-BD48-4A96889967AF&DE=3835680A-54C7-40D5-8E78-04785A3F6555&Type=B_BASIC,Sample ballots,Penobscot
 Penobscot,Hermon,election,https://www.hermon.net/town-government/election-town-meeting/,,,,,Penobscot
 Penobscot,Herseytown,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
-Penobscot,Holden,town,http://www.holdenmaine.com/,,,,,Penobscot
+Penobscot,Holden,town,http://www.holdenmaine.com/,,"Town council, school board, school budget, town meeting June 15",https://www.holdenmaine.com/index.asp?Type=B_EV&SEC={79509A32-6A53-4E95-B493-0353D5D11CA2}&DE={F69CEFFE-014B-4245-AA74-5698D25074B5},Town election details,Penobscot
 Penobscot,Hopkins Academy Grant,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
 Penobscot,Howland,election,https://howlandmaine.com/election-information/,,,,,Penobscot
 Penobscot,Hudson,town,hudsonmaine.wordpress.com,,,,,Penobscot
@@ -331,7 +331,7 @@ Penobscot,Millinocket,election,https://millinocket.org/government/public-notices
 Penobscot,Mount Chase,Facebook,https://www.facebook.com/pages/category/Community/Mt-Chase-Maine-279593082200069/,,,,,Penobscot
 Penobscot,Newburgh,town,http://newburghmaine.ipage.com/,,,,,Penobscot
 Penobscot,Newport,town,https://newportme.org/,,,,,Penobscot
-Penobscot,Old Town,election,http://www.old-town.org/2014/04/elections.html,,,,,Penobscot
+Penobscot,Old Town,town,http://www.old-town.org/,,,,,Penobscot
 Penobscot,Orono,election,http://www.orono.org/304/Elections-Voting,,,,,Penobscot
 Penobscot,Orrington,election,https://orrington.govoffice.com/index.asp?SEC=AE8FA375-F621-43CF-8569-5ED6E3BC7317&Type=B_BASIC,,Municipal election June 6,,,Penobscot
 Penobscot,Passadumkeag,Facebook,https://www.facebook.com/Passadumkeag-172464189468151/,,,,,Penobscot
@@ -370,11 +370,11 @@ Penobscot,TA R7 WELS,(Penobscot County unorganized territories),https://www.ut.p
 Penobscot,Veazie,election,https://www.veazie.net/town-clerk/pages/voting-elections,,,,,Penobscot
 Penobscot,Veazie Gore,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
 Penobscot,Webster Plantation,contact info,https://www.maine.gov/local/town.php?t=Webster%20Plt,,,,,Penobscot
-Penobscot,Winn,town,https://winnmaine.com/index.html,,,,,Penobscot
+Penobscot,Winn,town,https://winnmaine.com/index.html,,Town meeting April 18,https://winnmaine.com/announcements-and-reminders.html,Town meeting warrant,Penobscot
 Penobscot,Woodville,Facebook,https://www.facebook.com/ResidencesofWoodville/,,,,,Penobscot
 Piscataquis,Abbot,Facebook,https://www.facebook.com/Town-of-Abbot-Maine-433075913559730/,,Town meeting March 21,,,Piscataquis
 Piscataquis,Atkinson,contact info,https://www.maine.gov/local/town.php?t=Atkinson,,,,,Piscataquis
-Piscataquis,Beaver Cove,town,http://www.beavercoveme.com/,,,,,Piscataquis
+Piscataquis,Beaver Cove,town,http://www.beavercoveme.com/,,Town meeting May 20,https://beavercoveme.com/annual-town-meeting/,Town meeting details,Piscataquis
 Piscataquis,Bowerbank,town,http://bowerbank.trcmaine.org/,,,,,Piscataquis
 Piscataquis,Brownville,town,http://brownville.trcmaine.org/,,,,,Piscataquis
 Piscataquis,Dover-Foxcroft,election,https://dover-foxcroft.org/index.asp?SEC=7C1A7B17-8A72-43D5-AD67-3BC308535303&Type=B_BASIC,Outside front entrance of municipal building,"Municipal candidates, municipal budget, school budget",https://dover-foxcroft.org/index.asp?SEC=7C1A7B17-8A72-43D5-AD67-3BC308535303&Type=B_BASIC,Sample ballots,Piscataquis
@@ -384,7 +384,7 @@ Piscataquis,Kingsbury Plantation,contact info,https://www.maine.gov/local/town.p
 Piscataquis,Lake View Plantation,town,https://www.trcmaine.org/lakeview,,,,,Piscataquis
 Piscataquis,Medford,town,http://medford.trcmaine.org/,,,,,Piscataquis
 Piscataquis,Milo,town,https://www.milomaine.org/index.asp?SEC=3233607C-A151-4A54-BA86-71709E7386A2&Type=B_BASIC,,,,,Piscataquis
-Piscataquis,Monson,town,http://monsonmaine.org/,,,,,Piscataquis
+Piscataquis,Monson,town,http://monsonmaine.org/,,"Election June 7, Town meeting June 9",https://monsonmaine.org/,Election and warrant details (under latest posts),Piscataquis
 Piscataquis,Parkman,town,http://parkmanmaine.com/,,,,,Piscataquis
 Piscataquis,Sangerville,town,https://sangervilleme.com/,,,,,Piscataquis
 Piscataquis,Sebec,town,http://townofsebec.com/index.html,,,,,Piscataquis
@@ -428,10 +428,10 @@ Somerset,Palmyra,town,http://www.palmyratown.org/Town_of_Palmyra/Welcome.html,,,
 Somerset,Pittsfield,election,https://www.pittsfield.org/newselections,,,,,Somerset
 Somerset,Pleasant Ridge Plantation,contact info,https://www.maine.gov/local/town.php?t=Pleasant%20Ridge%20Plt,,,,,Somerset
 Somerset,Ripley,contact info,https://www.maine.gov/local/town.php?t=Ripley,,,,,Somerset
-Somerset,Skowhegan,election,https://www.skowhegan.org/148/Elections,,,,,Somerset
+Somerset,Skowhegan,election,https://www.skowhegan.org/148/Elections,,"Selectman, assessor, school board, park commissioner, coverseer of the poor",https://www.skowhegan.org/148/Elections,Sample ballots,Somerset
 Somerset,Smithfield,town,http://www.smithfieldmaine.us/,,,,,Somerset
 Somerset,Solon,election,https://solon.maine.gov/index.asp?SEC=83802050-C7ED-4305-80F3-E6D9A4910D3D,,,,,Somerset
-Somerset,St. Albans,town,https://stalbansme.govoffice2.com/,,,,,Somerset
+Somerset,St. Albans,election,https://townofstalbans.net/pages/elections,,,,,Somerset
 Somerset,Starks,town,http://www.starksme.com/,,Town meeting May 2,https://www.starksme.com/_files/ugd/1de36a_acc117800a644412ac4dbdcdedf403aa.pdf,Town meeting warrant,Somerset
 Somerset,The Forks Plantation,contact info,https://www.maine.gov/local/town.php?t=The%20Forks%20Plt,,,,,Somerset
 Somerset,West Forks Plantation,contact info,https://www.maine.gov/local/town.php?t=West%20Forks%20Plt,,,,,Somerset
@@ -442,12 +442,12 @@ Waldo,Burnham,town,https://burnham-maine.us/,,,,,Waldo
 Waldo,Frankfort,election,https://www.frankfortme.com/town-office/elections-and-voting-annual-town-elections-meeting-state-elections-voter-registration-absentee-voting/,,,,,Waldo
 Waldo,Freedom,town,https://www.freedomme.org/,,,,,Waldo
 Waldo,Islesboro,town,http://townofislesboro.com/town-office/,,,,,Waldo
-Waldo,Jackson,town,http://www.jacksonmaine.net/home,,,,,Waldo
+Waldo,Jackson,town,https://www.jacksonmaine.org/home,,,,,Waldo
 Waldo,Knox,town,http://knoxmaine.com/,,,,,Waldo
 Waldo,Liberty,town,http://www.libertymaine.us/,,,,,Waldo
 Waldo,Lincolnville,election,https://www.town.lincolnville.me.us/index.asp?Type=B_BASIC&SEC={16A09510-61D4-4B52-9C77-CA97DC839854},,,,,Waldo
 Waldo,Monroe,town,https://townofmonroe.me/,,,,,Waldo
-Waldo,Montville,town,http://montvillemaine.org,Town Office porch,,,,Waldo
+Waldo,Montville,town,http://montvillemaine.org,Town Office porch,School budget hearing May 25,,,Waldo
 Waldo,Morrill,town,https://www.morrillme.org/,,,,,Waldo
 Waldo,Northport,election,http://www.northportmaine.org/content/4094/Elections_and_Voter_Registrations/,,,,,Waldo
 Waldo,Palermo,election,https://www.townofpalermo.org/town-administration/meetings-elections,,,,,Waldo
@@ -458,14 +458,14 @@ Waldo,Stockton Springs,town,http://www.stocktonsprings.org/,,,,,Waldo
 Waldo,Swanville,town,https://www.swanvillemaine.org/,,,,,Waldo
 Waldo,Thorndike,election,https://thorndikeme.com/index.asp?SEC=D42E5C62-C8F2-412D-B91D-13F3D6B81396,,,,,Waldo
 Waldo,Troy,contact info,https://www.maine.gov/local/town.php?t=Troy,,,,,Waldo
-Waldo,Unity,town,https://unityme.org/,,,,,Waldo
+Waldo,Unity,town,https://unityme.org/,,Town meeting June 4,https://unityme.org/,Town meeting warrant and ordinances (in header banner),Waldo
 Waldo,Waldo,town,http://www.townofwaldo.com/,,,,,Waldo
 Waldo,Winterport,town,https://www.winterportmaine.gov/,,,,,Waldo
 Washington,Addison,town,http://www.addisonmaine.org/,,,,,Washington
-Washington,Alexander,town,http://www.alexandermaine.com/,,,,,Washington
-Washington,Baileyville,town,http://baileyville.org/,,,,,Washington
+Washington,Alexander,election,https://www.alexandermaine.com/elections.html,,,,,Washington
+Washington,Baileyville,contact info,https://www.maine.gov/local/town.php?t=Baileyville,,,,,Washington
 Washington,Beals,contact info,https://www.maine.gov/local/town.php?t=Beals,,,,,Washington
-Washington,Beddington,town,https://www.emainehosting.com/BeddingtonMaine/,,,,,Washington
+Washington,Beddington,town,https://www.beddingtonmaine.org/,,,,,Washington
 Washington,Calais,election,https://www.calaismaine.org/voting/,,,,,Washington
 Washington,Charlotte,contact info,https://www.maine.gov/local/town.php?t=Charlotte,,,,,Washington
 Washington,Cherryfield,town,http://www.cherryfieldmaine.us/town-information/,,,,,Washington
@@ -480,7 +480,7 @@ Washington,Deblois,contact info,https://www.maine.gov/local/town.php?t=Deblois,,
 Washington,Dennysville,contact info,https://www.maine.gov/local/town.php?t=Dennysville,,,,,Washington
 Washington,East Machias,Facebook,https://www.facebook.com/eastmachias/,,,,,Washington
 Washington,Eastport,election,https://www.eastport-me.gov/city-clerks-office/pages/elections-voting-information,,,,,Washington
-Washington,Grand Lake Stream Plantation,town,https://grand-lake-stream.org/government/voting/,,,,,Washington
+Washington,Grand Lake Stream Plantation,Facebook,https://www.facebook.com/GrandLakeStreamMaine/,,,,,Washington
 Washington,Harrington,town,https://www.harringtonmaine.com/,,,,,Washington
 Washington,Indian Township Reservation,tribe,https://www.passamaquoddy.com/?page_id=492,,,,,Washington
 Washington,Jonesboro,Facebook,https://www.facebook.com/TownofJonesboroMaine/?rf=1693839290858783,,School budget meeting May 12,,,Washington
