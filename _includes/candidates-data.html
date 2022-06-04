@@ -19,7 +19,7 @@
     {% assign candidate-data = site.data.candidates.[page.datafile] %}
     {% for candidates in candidate-data %}
       {% if candidates.Party == "D" %}
-      {% if candidates.Contested == "Y" %}
+      {% if candidates.Type == "C" %}
         <tr>
           <td>{{ candidates.County }} {{ candidates.Office }}</td>
           <td>{{ candidates.Dist }}</td>
@@ -67,7 +67,7 @@
     <tbody>
     {% for candidates in candidate-data %}
       {% if candidates.Party == "D" %}
-      {% if candidates.Contested == "N" %}
+      {% if candidates.Type == "U" %}
         <tr>
           <td>{{ candidates.County }} {{ candidates.Office }}</td>
           <td>{{ candidates.Dist }}</td>
