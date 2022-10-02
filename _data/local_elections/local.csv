@@ -3,7 +3,7 @@ Androscoggin,Auburn,election,http://www.auburnmaine.gov/pages/government/electio
 Androscoggin,Durham,town,https://www.durhamme.com/,,,,,Androscoggin
 Androscoggin,Greene,election,https://www.townofgreene.net/elections,,,,,Androscoggin
 Androscoggin,Leeds,town,https://sites.google.com/site/townofleedsmaine/,,,,,Androscoggin
-Androscoggin,Lewiston,election,https://www.lewistonmaine.gov/117/Elections,City Hall - Park Street entrance door,,,,Androscoggin
+Androscoggin,Lewiston,election,https://www.lewistonmaine.gov/117/Elections,City Hall - Park Street entrance door,Local candidates,https://www.lewistonmaine.gov/DocumentCenter/View/14446/Lewiston-Ballot-Candidate-List-11-8-2022,Candidate List,Androscoggin
 Androscoggin,Lisbon,election,https://www.lisbonme.org/election-information,,,,,Androscoggin
 Androscoggin,Livermore,town,http://livermoremaine.org/,,,,,Androscoggin
 Androscoggin,Livermore Falls,town,http://lfme.org/,,,,,Androscoggin
@@ -81,14 +81,14 @@ Aroostook,Weston,town,https://townofwestonnet.ipower.com/,,,,,Aroostook
 Aroostook,Winterville Plantation,contact info,https://www.maine.gov/local/town.php?t=Winterville%20Plt,,,,,Aroostook
 Aroostook,Woodland,town,https://www.townofwoodland.org/,,,,,Aroostook
 Cumberland,Baldwin,town,https://www.baldwinmaine.org/,,,,,Cumberland
-Cumberland,Bridgton,election,https://bridgtonmaine.org/elections/,,,,,Cumberland
+Cumberland,Bridgton,election,https://bridgtonmaine.org/elections/,,"Solid waste, dog control, fireworks, solar energy",https://bridgtonmaine.org/documents/november-8-2022-special-town-meeting-warrant/,Town Meeting Warrant,Cumberland
 Cumberland,Brunswick,election,http://www.brunswickme.org/286/Elections,Town Hall - near front door,,,,Cumberland
-Cumberland,Cape Elizabeth,election,https://www.capeelizabeth.com/departments/TownClerkOffice,,,,,Cumberland
+Cumberland,Cape Elizabeth,election,https://www.capeelizabeth.com/departments/TownClerkOffice/ElectionsVoting,,,,,Cumberland
 Cumberland,Casco,town,https://www.cascomaine.org/,,,,,Cumberland
 Cumberland,Chebeague Island,town,https://www.townofchebeagueisland.org/index.asp?SEC=B2029461-C627-4F96-935B-2F581C655FFA&Type=B_BASIC,,,,,Cumberland
 Cumberland,Cumberland,election,https://www.cumberlandmaine.com/election,,,,,Cumberland
 Cumberland,Falmouth,election,https://www.falmouthme.org/town-clerk/pages/election-information,"Town Hall - in the front, to left of the main entrance",,,,Cumberland
-Cumberland,Freeport,election,https://www.freeportmaine.com/town-clerk/pages/election-services,Town Hall - outside the main entrance at 30 Main Street before Election Day. Ballots returned on Election Day must be returned in person to the high school gym at 30 Holbrook Street.,,,,Cumberland
+Cumberland,Freeport,election,https://www.freeportmaine.com/town-clerk/pages/election-services,Town Hall - outside the main entrance at 30 Main Street before Election Day. Ballots returned on Election Day must be returned in person to the high school gym at 30 Holbrook Street.,Local candidates,https://www.freeportmaine.com/town-clerk/pages/elections-and-voter-registration-services,Candidate List,Cumberland
 Cumberland,Frye Island,town,http://www.fryeisland.com/,,,,,Cumberland
 Cumberland,Gorham,election,https://www.gorham-me.org/town-clerk/pages/election-voting-information,Municipal Center,,,,Cumberland
 Cumberland,Gray,election,https://www.graymaine.org/elections,Town Hall - front door,,,,Cumberland
@@ -98,12 +98,12 @@ Cumberland,Long Island,election,http://townoflongisland.us/wp/?page_id=181,,,,,C
 Cumberland,Naples,town,https://www.townofnaples.org/index.asp?SEC=66A4DD28-4C0C-443B-876C-2D418D5B1EAB,,,,,Cumberland
 Cumberland,New Gloucester,election,https://www.newgloucester.com/index.asp?Type=B_BASIC&SEC={AB7D0D21-9C89-4C15-9D6F-DE687764863E},,,,,Cumberland
 Cumberland,North Yarmouth,election,https://www.northyarmouth.org/town-clerk/pages/elections-voter-registration,Town Office - inside,,,,Cumberland
-Cumberland,Portland,election,https://www.portlandmaine.gov/325/Elections-Voting,Merrill Auditorium lobby,,,,Cumberland
+Cumberland,Portland,election,https://www.portlandmaine.gov/172/Elections-Voting,Merrill Auditorium lobby,"Short-term rentals, rent increase notices, minimum wage, cruise ships",https://content.civicplus.com/api/assets/7826484d-3bd6-48cb-90d6-43c541be417a,Sample Ballot,Cumberland
 Cumberland,Pownal,election,https://www.pownalmaine.org/index.asp?Type=B_LIST&SEC={3290832E-1DCD-43A2-B2C3-331F9445751F},Town Office - inside,,,,Cumberland
 Cumberland,Raymond,election,https://www.raymondmaine.org/town-office/voters/elections,,,,,Cumberland
 Cumberland,Scarborough,election,https://www.scarboroughmaine.org/departments/town-clerk/elections/,,,,,Cumberland
 Cumberland,Sebago,town,https://www.townofsebago.org/,,,,,Cumberland
-Cumberland,South Portland,election,https://www.southportland.org/departments/city-clerk/elections-voter-registration/,,,,,Cumberland
+Cumberland,South Portland,election,https://www.southportland.org/departments/city-clerk/elections-voter-registration/,,Local Candidates,https://www.southportland.org/departments/city-clerk/elections-voter-registration/,Sample Ballots,Cumberland
 Cumberland,Standish,election,https://www.standish.org/town-clerk/pages/election-general-information,,,,,Cumberland
 Cumberland,Westbrook,election,https://www.westbrookmaine.com/181/Elections-Voting,In front of City Hall at 2 York Street,,,,Cumberland
 Cumberland,Windham,election,http://www.windhammaine.us/125/Voter-Information,,,,,Cumberland
@@ -148,7 +148,7 @@ Hancock,Frenchboro,town,http://frenchboro.maine.gov/,,,,,Hancock
 Hancock,Gouldsboro,town,http://www.gouldsborotown.com/,,,,,Hancock
 Hancock,Great Pond,town,https://www.emainehosting.com/TownofGreatPond/,,,,,Hancock
 Hancock,Hancock,election,https://hancockmaine.org/town-clerk/elections/,,,,,Hancock
-Hancock,Lamoine,town,http://www.lamoine-me.gov/,,,,,Hancock
+Hancock,Lamoine,town,http://www.lamoine-me.gov/,,Municipal election ordinance,https://www.lamoine-me.gov/special-town-meeting-referendum-november-8-2022/,Referendum Details,Hancock
 Hancock,Mariaville,town,https://www.mariavilleme.gov/elections,,,,,Hancock
 Hancock,Mount Desert,election,https://www.mtdesert.org/town-clerk/pages/elections-voting,,,,,Hancock
 Hancock,Orland,town,https://townoforland.org/election-information/,,,,,Hancock
@@ -168,11 +168,11 @@ Hancock,Verona Island,town,http://www.veroname.org/,,,,,Hancock
 Hancock,Waltham,contact info,https://www.maine.gov/local/town.php?t=Waltham,,,,,Hancock
 Hancock,Winter Harbor,town,https://winterharbortown.com/,,,,,Hancock
 Kennebec,Albion,town,https://townofalbionmaine.com/,,,,,Kennebec
-Kennebec,Augusta,election,http://www.augustamaine.gov/businesses/city_government/elections.php,,,,,Kennebec
-Kennebec,Belgrade,election,https://www.townofbelgrade.com/voterregistration,Town Office,,,,Kennebec
+Kennebec,Augusta,election,http://www.augustamaine.gov/businesses/city_government/elections.php,,City streets & facilities bond,https://www.augustamaine.gov/businesses/city_government/elections.php,Sample Ballots,Kennebec
+Kennebec,Belgrade,election,https://www.townofbelgrade.com/voterregistration,Town Office,"Water system, commercial development review, first-responders memorial, road paving",https://www.townofbelgrade.com/voting,List of Articles,Kennebec
 Kennebec,Benton,election,https://www.bentonmaine.info/elections,,,,,Kennebec
 Kennebec,Chelsea,town,https://chelseamaine.org/,,,,,Kennebec
-Kennebec,China,election,https://china.govoffice.com/elections,,,,,Kennebec
+Kennebec,China,election,https://china.govoffice.com/elections,,"Broadband internet, defibrillator for China Rescue, radio tower improvements, municipal building heat pumps, senior fuel assistance, municipal cemetary fence repair, quorum requirement",https://china.govoffice.com/vertical/sites/%7B57BBD0A3-55D7-4C7C-8E42-8D085FC781A3%7D/uploads/Specimen_Ballot_11.8.2022.pdf,Sample Ballot,Kennebec
 Kennebec,Clinton,town,http://www.clinton-me.us,,,,,Kennebec
 Kennebec,Farmingdale,election,https://www.farmingdalemaine.org/index.asp?SEC=645DE9BE-E94D-4525-BF14-931B69726E98&Type=B_BASIC,,,,,Kennebec
 Kennebec,Fayette,town,https://www.fayettemaine.org/,,,,,Kennebec
@@ -194,7 +194,7 @@ Kennebec,Waterville,election,http://www.waterville-me.gov/clerk/general-election
 Kennebec,Wayne,election,https://www.waynemaine.org/index.asp?SEC=43D7D0BA-39F4-4F39-9A5A-7E6A6771A5F0&Type=B_LIST,,,,,Kennebec
 Kennebec,West Gardiner,election,https://www.westgardinermaine.org/index.asp?SEC=0179D3F9-2CBC-49BF-890C-7999303630A9&Type=B_BASIC,,,,,Kennebec
 Kennebec,Windsor,town,http://windsor.maine.gov/,,,,,Kennebec
-Kennebec,Winslow,town,http://www.winslow-me.gov/,,,,,Kennebec
+Kennebec,Winslow,election,https://www.winslow-me.gov/departments/town_clerk/elections___voting/index.php,,,,,Kennebec
 Kennebec,Winthrop,election,https://www.winthropmaine.org/town-clerk/pages/voting-election-information,Town Office at 17 Highland Avenue,,,,Kennebec
 Knox,Appleton,town,https://appleton.maine.gov/,,,,,Knox
 Knox,Camden,election,https://www.camdenmaine.gov/town_clerk/elections___voter_registration.php,"Entrance door of Camden Town Office, 29 Elm Street",,,,Knox
@@ -206,7 +206,7 @@ Knox,Matinicus Isle Plantation,town,https://matinicusplantation.com/election-inf
 Knox,North Haven,town,http://www.northhavenmaine.org/,,,,,Knox
 Knox,Owls Head,town,https://www.owlshead.maine.gov/government/elections-information/,,,,,Knox
 Knox,Rockland,election,https://rocklandmaine.gov/municipal/departments/clerks-office/voting/,,,,,Knox
-Knox,Rockport,election,https://rockportmaine.gov/elections,,,,,Knox
+Knox,Rockport,election,https://rockportmaine.gov/elections,,"Large vessel mooring, parking, hotel size, sewer for new subdivisions, application processing time, downtown development, Route 90 development, town charter",https://rockportmaine.gov/vertical/sites/%7B6F0724F7-400D-4D0B-B299-FF5E21F5B92A%7D/uploads/November_2022_Town_Meeting_Warrant.pdf,Town Meeting Warrant,Knox
 Knox,South Thomaston,town,https://souththomaston.me/voting-and-elections/,,,,,Knox
 Knox,St. George,election,https://www.stgeorgemaine.com/elections,,,,,Knox
 Knox,Thomaston,town,https://thomastonmaine.gov/index.asp?SEC=126CAC0D-8642-4F02-8010-5BB0C1D51B6A,,,,,Knox
@@ -275,7 +275,7 @@ Oxford,West Paris,election,https://www.westparisme.com/index.asp?SEC=19147DB6-D2
 Oxford,Woodstock,town,http://woodstockmaine.net/,,,,,Oxford
 Penobscot,Alton,Facebook,https://www.facebook.com/Town-of-Alton-321335587904880/,,,,,Penobscot
 Penobscot,Argyle,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
-Penobscot,Bangor,election,https://www.bangormaine.gov/election,City Hall,,,,Penobscot
+Penobscot,Bangor,election,https://www.bangormaine.gov/election,City Hall,"City council, school committee",https://www.bangormaine.gov/filestorage/318/326/614/sampleballot.pdf,Sample Ballot,Penobscot
 Penobscot,Bradford,town,http://www.bradfordmaine.org,,,,,Penobscot
 Penobscot,Bradley,election,https://www.townofbradley.net/voter-information/,Municipal Building,,,,Penobscot
 Penobscot,Brewer,election,https://brewermaine.gov/city-clerk/register-to-vote/,,,,,Penobscot
@@ -514,13 +514,13 @@ York,Biddeford,town,https://www.biddefordmaine.org/,Next to the back stairs of C
 York,Buxton,election,https://www.buxton.me.us/registrar-voters,Municipal Clerk - inside,,,,York
 York,Cornish,town,http://cornishme.com,,,,,York
 York,Dayton,town,http://www.dayton-me.gov,,,,,York
-York,Eliot,election,https://www.eliotmaine.org/election-information-november-2-2021,Town Office - 24hr,,,,York
+York,Eliot,election,https://www.eliotmaine.org/election-information-november-2-2021,Town Office - 24hr,"Subdivision & site plans, solar energy, town fee schedule, erosion & sediment control, marijuana establishment licenses",https://www.eliotmaine.org/election-information-november-8-2022/pages/election-material-november-8-2022-state-general-election,Election Material,York
 York,Hollis,election,https://www.hollismaine.org/town-clerk/pages/elections,,,,,York
 York,Kennebunk,election,https://www.kennebunkmaine.us/444/Election-and-Town-Meeting-Information,,,,,York
 York,Kennebunkport,election,https://www.kennebunkportme.gov/town-clerk/pages/elections-and-voting,,,,,York
 York,Kittery,election,http://www.kitteryme.gov/town-clerk/pages/voting-elections,,,,,York
 York,Lebanon,election,https://www.lebanon-me.org/town-clerk-tax-collector/pages/election-information,,,,,York
-York,Limerick,town,http://www.limerickme.org/index.html,,,,,York
+York,Limerick,town,http://www.limerickme.org/index.html,,"Disbursement procedures, fire and emergency services, fire ordinance amendments,",http://www.limerickme.org/index.html,Election Material,York
 York,Limington,town,http://www.limington.net/,No,,,,York
 York,Lyman,election,http://lyman-me.gov/town-clerk/,,,,,York
 York,Newfield,election,https://newfieldme.org/departments/registrar-of-voters/,Town Office - next to entrance,,,,York
@@ -531,7 +531,7 @@ York,Parsonsfield,town,http://www.parsonsfield.org/,,,,,York
 York,Saco,election,https://www.sacomaine.org/departments/city_clerk/elections_and_voting.php,On the Cutts Avenue side of City Hall,,,,York
 York,Sanford,election,https://www.sanfordmaine.org/electioninfo,,,,,York
 York,Shapleigh,town,http://www.shapleigh.net,,,,,York
-York,South Berwick,election,https://www.southberwickmaine.org/departments/town_clerk/index.php,,,,,York
+York,South Berwick,election,https://www.southberwickmaine.org/departments/town_clerk/index.php,,Salmon Falls River project,https://cms6.revize.com/revize/southberwick/Town%20Ballot%2011082022.pdf,Sample Ballot,York
 York,Waterboro,election,http://www.waterboro-me.gov/information_center/index.php#elections,,,,,York
 York,Wells,election,http://www.wellstown.org/440/Town-Meeting-Election-Info,,,,,York
 York,York,election,https://www.yorkmaine.org/240/Election-Referendum-Documents,,,,,York
