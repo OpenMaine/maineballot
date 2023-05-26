@@ -142,7 +142,7 @@ Hancock,Dedham,election,https://www.dedhamme.org/index.asp?SEC=F6196C83-D62F-40D
 Hancock,Deer Isle,town,https://www.townofdeerisle.org/,Town Office,,,,Hancock
 Hancock,Eastbrook,town,https://www.eastbrookme.com/,,,,,Hancock
 Hancock,Ellsworth,election,https://www.ellsworthmaine.gov/elections/,Church Street entrance lobby of City Hall,,,,Hancock
-Hancock,Fletcher's Landing Township,election,https://www.ellsworthmaine.gov/services/voter-registration/#ffs-tabbed-11,Church Street entrance lobby of City Hall,,,,Hancock
+Hancock,Fletcher's Landing Township,election,https://www.ellsworthmaine.gov/elections/,Church Street entrance lobby of City Hall,,,,Hancock
 Hancock,Franklin,town,https://www.franklinmaine.com/site/,,,,,Hancock
 Hancock,Frenchboro,town,http://frenchboro.maine.gov/,,,,,Hancock
 Hancock,Gouldsboro,town,http://www.gouldsborotown.com/,,,,,Hancock
@@ -396,7 +396,6 @@ Sagadahoc,Bath,election,http://www.cityofbath.com/Elections/,City Hall,,,,Sagada
 Sagadahoc,Bowdoin,town,https://bowdoinme.com/,,,,,Sagadahoc
 Sagadahoc,Bowdoinham,election,https://www.bowdoinham.com/elections,,,,,Sagadahoc
 Sagadahoc,Georgetown,town,http://www.georgetownme.com/,,,,,Sagadahoc
-Sagadahoc,Perkins Township (Swan Island),(Sagadahoc County unorganized terrorities),http://www.richmondmaine.com/swan-island-info-richmond-maine.aspx,,,,,Sagadahoc
 Sagadahoc,Phippsburg,election,https://phippsburg.com/,,,,,Sagadahoc
 Sagadahoc,Richmond,town,https://www.richmondmaine.com/,,,,,Sagadahoc
 Sagadahoc,Topsham,election,https://www.topshammaine.com/?SEC=5F5D9F59-DAB4-4BCD-9A94-D793724D801F,Town Hall - parking lot,,,,Sagadahoc
@@ -488,7 +487,7 @@ Washington,Jonesport,election,https://www.townofjonesport.com/office/voter-info.
 Washington,Lubec,town,https://townoflubec.com/,,,,,Washington
 Washington,Machias,election,https://machiasme.org/departments-staff/town-clerk/election-services/,,,,,Washington
 Washington,Machiasport,town,https://machiasport.org/,,,,,Washington
-Washington,Marshfield,town,https://www.marshfieldme.org/,,,,,Washington
+Washington,Marshfield,Facebook,https://www.facebook.com/marshfieldmaine/,,,,,Washington
 Washington,Meddybemps,contact info,https://www.maine.gov/local/town.php?t=Meddybemps,,,,,Washington
 Washington,Milbridge,town,https://townofmilbridge.webs.com/,,,,,Washington
 Washington,Northfield,town,https://www.northfieldme.com/,,,,,Washington
@@ -535,6 +534,16 @@ York,South Berwick,election,https://www.southberwickmaine.org/departments/town_c
 York,Waterboro,election,http://www.waterboro-me.gov/information_center/index.php#elections,,,,,York
 York,Wells,election,http://www.wellstown.org/440/Town-Meeting-Election-Info,,,,,York
 York,York,election,https://www.yorkmaine.org/240/Election-Referendum-Documents,,,,,York
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
 ,,,,,,,,
 ,,,,,,,,
 ,,,,,,,,
