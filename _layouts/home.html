@@ -10,7 +10,6 @@ layout: default
 <div class="archive text-center">
   <p class="home-ballots-header content-lrg-b text-center">What's On Your Ballot?</p>
   <p class="home-ballots-header content-med-b">State ballot questions</p>
-  <p>There are no statewide questions on the November ballot.</p> 
   {% for post in paginator.posts reversed %}
   {% if post.election == site.data.elections.current_election %}
   {% include archive-single.html type="grid" %}
