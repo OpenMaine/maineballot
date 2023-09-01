@@ -31,6 +31,10 @@
     padding-left: calc(calc((2.5rem/2) - .25rem)*2);
 }
 
+li.ab-ballot-list-item {
+    margin-left: 0.3rem;
+}
+
 .ab-ballot-list-item::before {
     flex-direction: row;
     align-items: center;
