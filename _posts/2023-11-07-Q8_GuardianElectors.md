@@ -1,5 +1,5 @@
 ---
-title:  "Question 8: Allowing Persons Under Guardianship for Mental Illness to Vote"
+title:  "Question 8: Voting Under Mental Illness Guardianship"
 excerpt: 
 election: 2023-11-07
 header:
@@ -20,7 +20,7 @@ last_modified_at: 2023-08-13 T12:32:00-05:00
 
 
 ## Ballot question
-* Do you favor amending the Constitution of Maine to remove a provision prohibiting a person under guardianship for reasons of mental illness from voting for Governor, Senators and Representatives, which the United States District Court for the District of Maine found violates the United States Constitution and federal law?
+Do you favor amending the Constitution of Maine to remove a provision prohibiting a person under guardianship for reasons of mental illness from voting for Governor, Senators and Representatives, which the United States District Court for the District of Maine found violates the United States Constitution and federal law?
 
 {% include yes-no-table.html %}
 

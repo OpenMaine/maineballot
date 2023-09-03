@@ -1,5 +1,5 @@
 ---
-title:  "Question 2: Create Pine Tree Power Company"
+title:  "Question 2: Foreign Campaign Spending"
 excerpt: 
 election: 2023-11-07
 header:
@@ -20,7 +20,7 @@ last_modified_at: 2023-08-13 T12:17:00-05:00
 
 
 ## Ballot question
-* Do you want to create a new power company governed by an elected board to acquire and operate existing for-profit electricity transmission and distribution facilities in Maine?
+Do you want to ban foreign governments and entities that they own, control, or influence from making campaign contributions or financing communications for or against candidates or ballot questions?
 
 {% include yes-no-table.html %}
 

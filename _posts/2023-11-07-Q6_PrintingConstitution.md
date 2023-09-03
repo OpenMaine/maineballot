@@ -20,7 +20,7 @@ last_modified_at: 2023-08-13 T12:27:00-05:00
 
 
 ## Ballot question
-* Do you favor amending the Constitution of Maine to require that all of the provisions of the Constitution be included in the official printed copies of the Constitution prepared by the Secretary of State?
+Do you favor amending the Constitution of Maine to require that all of the provisions of the Constitution be included in the official printed copies of the Constitution prepared by the Secretary of State?
 
 {% include yes-no-table.html %}
 

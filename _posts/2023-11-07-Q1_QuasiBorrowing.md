@@ -20,7 +20,7 @@ last_modified_at: 2023-08-13 T12:08:00-05:00
 
 
 ## Ballot question
-* Do you want to bar some quasi-governmental entities and all consumer-owned electric utilities from taking on more than $1 billion in debt unless they get statewide voter approval?
+Do you want to bar some quasi-governmental entities and all consumer-owned electric utilities from taking on more than $1 billion in debt unless they get statewide voter approval?
 
 {% include yes-no-table.html %}
 

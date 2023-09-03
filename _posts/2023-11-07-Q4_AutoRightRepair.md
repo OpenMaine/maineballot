@@ -1,5 +1,5 @@
 ---
-title:  "Question 4: Requiring Automotive Right to Repair"
+title:  "Question 4: Automotive Right to Repair"
 excerpt: 
 election: 2023-11-07
 header:
@@ -20,7 +20,7 @@ last_modified_at: 2023-08-13 T12:17:00-05:00
 
 
 ## Ballot question
-* Do you want to require vehicle manufacturers to standardize on-board diagnostic systems and provide remote access to those systems and mechanical data to owners and independent repair facilities?
+Do you want to require vehicle manufacturers to standardize on-board diagnostic systems and provide remote access to those systems and mechanical data to owners and independent repair facilities?
 
 {% include yes-no-table.html %}
 

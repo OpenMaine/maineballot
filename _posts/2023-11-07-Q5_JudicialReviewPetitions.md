@@ -1,5 +1,5 @@
 ---
-title:  "Question 5: Modifying Time Frame for Judicial Review of Ballot Petitions"
+title:  "Question 5: Petition Timing"
 excerpt: 
 election: 2023-11-07
 header:
@@ -20,7 +20,7 @@ last_modified_at: 2023-08-13 T12:23:00-05:00
 
 
 ## Ballot question
-* Do you favor amending the Constitution of Maine to change the time period for judicial review of the validity of written petitions from within 100 days from the date of filing to within 100 business days from the date of filing of a written petition in the office of the Secretary of State, with an exception for petitions filed within 30 calendar days before or after a general election?
+Do you favor amending the Constitution of Maine to change the time period for judicial review of the validity of written petitions from within 100 days from the date of filing to within 100 business days from the date of filing of a written petition in the office of the Secretary of State, with an exception for petitions filed within 30 calendar days before or after a general election?
 
 {% include yes-no-table.html %}
 

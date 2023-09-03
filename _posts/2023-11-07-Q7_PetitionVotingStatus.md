@@ -1,5 +1,5 @@
 ---
-title:  "Question 7: Voting Status for Citizen's Intiatives or People's Veto"
+title:  "Question 7: Petition Circulation Rules"
 excerpt: 
 election: 2023-11-07
 header:
@@ -20,7 +20,7 @@ last_modified_at: 2023-08-13 T12:32:00-05:00
 
 
 ## Ballot question
-* Do you favor amending the Constitution of Maine to remove a provision requiring a circulator of a citizen's initiative or people's veto petition to be a resident of Maine and a registered voter in Maine, requirements that have been ruled unconstitutional in federal court?
+Do you favor amending the Constitution of Maine to remove a provision requiring a circulator of a citizen's initiative or people's veto petition to be a resident of Maine and a registered voter in Maine, requirements that have been ruled unconstitutional in federal court?
 
 {% include yes-no-table.html %}
 
