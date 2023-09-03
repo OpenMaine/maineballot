@@ -3,10 +3,10 @@ title:  "Question 1: Borrowing by Government-controlled Entities and Utilities"
 excerpt: 
 election: 2023-11-07
 header:
-  overlay_image: /assets/img/2021_11/Transmission.jpg
-  teaser: /assets/img/2021_11/Transmission.jpg
+  overlay_image: /assets/img/2023_11/Q2_Euro_coins_and_banknotes.jpeg
+  teaser: /assets/img/2023_11/Q2_Euro_coins_and_banknotes.jpeg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-  image_description: Electric transmission line
+  image_description: International Money
 search: true
 categories:
 - November 2023 Election
