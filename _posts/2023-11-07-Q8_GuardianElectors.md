@@ -3,10 +3,10 @@ title:  "Question 8: Voting Under Mental Illness Guardianship"
 excerpt: 
 election: 2023-11-07
 header:
-  overlay_image: /assets/img/2021_11/Transmission.jpg
-  teaser: /assets/img/2021_11/Transmission.jpg
+  overlay_image: /assets/img/2018_06/Question1_RankedChoice.jpg
+  teaser: /assets/img/2018_06/Question1_RankedChoice.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-  image_description: Electric transmission line
+  image_description: Ballot being filled out
 search: true
 categories:
 - November 2023 Election
