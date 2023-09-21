@@ -102,7 +102,6 @@ analytics:
   provider               : google # false (default), "google", "custom"
   google:
     tracking_id          : G-FRBHPKMW0S
-    anonymize_ip         : # true, false (default)
 
 
 # Site Author
