@@ -61,9 +61,12 @@ The primary arguments against this referendum are:
 [Portland Press Herald Article](https://www.pressherald.com/2023/10/06/questions-5-through-8-what-you-need-to-know-about-the-proposed-constitutional-amendments/)
 
 ## References
-[^1]: 1. Maine State Legislature. [RESOLUTION, Proposing an Amendment to the Constitution of
+[^1]: Maine State Legislature. [RESOLUTION, Proposing an Amendment to the Constitution of
 Maine to Align the Proceedings for Circulating Written Petitions for
 People's Vetoes and Direct Initiatives with Federal Law](https://legislature.maine.gov/bills/getPDF.asp?paper=SP0597&item=1&snum=131).  Accessed October 1, 2023.
+
 [^2]: Ballotpedia State Desk. [Maine Question 7, Remove Residency Requirement for Initiative Petition Circulators Amendment (2023)](https://ballotpedia.org/Maine_Question_7,_Remove_Residency_Requirement_for_Initiative_Petition_Circulators_Amendment_(2023)). Accessed September 23, 2023.
+
 [^3]: Bellows, Shenna. [Maine Citizen's Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide23.pdf). Accessed October 1, 2023.
+
 [^4]: Ohm, Rachel. [Questions 5 through 8: What you need to know about the proposed constitutional amendments](https://www.pressherald.com/2023/10/06/questions-5-through-8-what-you-need-to-know-about-the-proposed-constitutional-amendments/). Portland Press Herald. Accessed October 6, 2023.
