@@ -19,7 +19,7 @@ no_vote: I don't want to allow those under guardianship for mental illness to vo
 last_modified_at: 2023-10-06 T12:32:00-05:00
 ---
 ## The gist
-This amendment would remove text from Article II Section 1 of the Maine Constitution that violates the Due Process Clause and the Equal Protection Clause found in the United States Constitution[^1]. The sentence of relevance in the Maine Constitution is bolded, "Every citizen of the United States of the age of 18 years and upwards, excepting persons under guardianship for reasons of mental illness, having his or her residence established in this State, shall be an elector for Governor, Senators and Representatives, in the city, town or plantation where his or her residence has been established, if he or she continues to reside in this State; and the elections shall be by written ballot."
+This amendment would remove text from Article II Section 1 of the Maine Constitution that violates the Due Process Clause and the Equal Protection Clause found in the United States Constitution[^1]. The sentence of relevance in the Maine Constitution is bolded, "Every citizen of the United States of the age of 18 years and upwards, excepting persons under guardianship for reasons of mental illness, having his or her residence established in this State, shall be an elector for Governor, Senators and Representatives, in the city, town or plantation where his or her residence has been established, if he or she continues to reside in this State; and the elections shall be by written ballot."[^5]
 
 ## Ballot question
 Do you favor amending the Constitution of Maine to remove a provision prohibiting a person under guardianship for reasons of mental illness from voting for Governor, Senators and Representatives, which the United States District Court for the District of Maine found violates the United States Constitution and federal law?
@@ -63,7 +63,8 @@ No major opposition.
 
 ## Further reading
 [Full Text](https://legislature.maine.gov/bills/getPDF.asp?paper=SP0658&item=3&snum=131)<br>
-[Ballotpedia Atricle](https://ballotpedia.org/Maine_Question_8,_Allow_Individuals_Under_Guardianship_for_Reasons_of_Mental_Illness_to_Vote_in_Elections_Amendment_(2023))
+[Ballotpedia Atricle](https://ballotpedia.org/Maine_Question_8,_Allow_Individuals_Under_Guardianship_for_Reasons_of_Mental_Illness_to_Vote_in_Elections_Amendment_(2023))<br>
+[Portland Press Herald Article](https://www.pressherald.com/2023/10/06/questions-5-through-8-what-you-need-to-know-about-the-proposed-constitutional-amendments/)
 
 
 ## References
