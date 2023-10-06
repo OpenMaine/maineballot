@@ -99,10 +99,9 @@ collections:
 
 # Analytics
 analytics:
-  provider               : google # false (default), "google", "google-universal", "custom"
+  provider               : google # false (default), "google", "custom"
   google:
-    tracking_id          : UA-132541994-1 
-    anonymize_ip         : # true, false (default)
+    tracking_id          : G-FRBHPKMW0S
 
 
 # Site Author
