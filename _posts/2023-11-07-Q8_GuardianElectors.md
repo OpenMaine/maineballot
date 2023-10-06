@@ -19,7 +19,7 @@ no_vote: I don't want to allow those under guardianship for mental illness to vo
 last_modified_at: 2023-10-06 T12:32:00-05:00
 ---
 ## The gist
-This amendment would remove text from Article II Section 1 of the Maine Constitution that violates the Due Process Clause and the Equal Protection Clause found in the United States Constitution[1]. The sentence of relevance in the Maine Constitution is bolded, "Every citizen of the United States of the age of 18 years and upwards, excepting persons under guardianship for reasons of mental illness, having his or her residence established in this State, shall be an elector for Governor, Senators and Representatives, in the city, town or plantation where his or her residence has been established, if he or she continues to reside in this State; and the elections shall be by written ballot."
+This amendment would remove text from Article II Section 1 of the Maine Constitution that violates the Due Process Clause and the Equal Protection Clause found in the United States Constitution[^1]. The sentence of relevance in the Maine Constitution is bolded, "Every citizen of the United States of the age of 18 years and upwards, excepting persons under guardianship for reasons of mental illness, having his or her residence established in this State, shall be an elector for Governor, Senators and Representatives, in the city, town or plantation where his or her residence has been established, if he or she continues to reside in this State; and the elections shall be by written ballot."
 
 ## Ballot question
 Do you favor amending the Constitution of Maine to remove a provision prohibiting a person under guardianship for reasons of mental illness from voting for Governor, Senators and Representatives, which the United States District Court for the District of Maine found violates the United States Constitution and federal law?
@@ -28,7 +28,7 @@ Do you favor amending the Constitution of Maine to remove a provision prohibitin
 
 
 ## Tell me more
-Guardianship is a legal relationship where one person is appointed by a court to manage the personal affairs of another person[2]. A Guardianship can be created over the objection of the person in question. 
+Guardianship is a legal relationship where one person is appointed by a court to manage the personal affairs of another person[^2]. A Guardianship can be created over the objection of the person in question. 
 
 There are two types of guardianship in Maine: limited and full. In _Doe vs Rowe_, the three plaintiffs were under full guardianship. Probate court can make exceptions to allow for a person to vote in elections, but it must be specifically requested at the time the person is placed under guardianship. Further motions can be put forth to modify a guardianship at a later date. The theme of _Doe vs Rowe_ is that the loss of voting privilege was not always communicated at the time that guardianship was implemented.
 
@@ -36,7 +36,7 @@ The restriction of voting by persons under guardianship due to reasons of mental
 
 Maine Legislative Document (L.D.) 1653, was introduced by Senator Craig Hickman on April 13th, 2023. This bill was successful in passing the Maine Legislature with the required supermajority to be placed on the November 2023 ballot.
 
-Testimony given during the public hearing period came from the Legal Services for the Elderly (LSE) and a concerned citizen. LSE argued in favor of LD 1653 making a distinction in the full categorical exclusion of those under guardianship and the need to ensure that those that have the right to vote also need to have the capacity to vote[3]. The concerned citizen's testimony was not in favor and emphasized that voters must be of sound mind to be able to understand the issues at hand[4].
+Testimony given during the public hearing period came from the Legal Services for the Elderly (LSE) and a concerned citizen. LSE argued in favor of LD 1653 making a distinction in the full categorical exclusion of those under guardianship and the need to ensure that those that have the right to vote also need to have the capacity to vote[^3]. The concerned citizen's testimony was not in favor and emphasized that voters must be of sound mind to be able to understand the issues at hand[^4].
 
 This question is a **constitutional amendment**, which, if passed, would make a change to the state constitution
 
@@ -52,9 +52,8 @@ The primary arguments for this referendum are:
 The primary arguments against this referendum are:
 * Probate Court, as part of the determination of placing someone under guardianship, could possibly allow someone to vote who is not of sound mind.
 
-## Who cares [6]
+## Who cares [^6]
 ### Support
-*Support
 * Disability Rights Maine
 * Legal Services for the Elderly
 * Bill (LD 1653) Sponsors and Co-sponsors
