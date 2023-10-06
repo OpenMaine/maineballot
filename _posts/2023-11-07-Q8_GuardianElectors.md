@@ -68,12 +68,14 @@ The primary arguments against this referendum are:
 No major opposition.
 
 ## Further reading
-[Full Text](https://legislature.maine.gov/bills/getPDF.asp?paper=SP0658&item=3&snum=131)
+[Full Text](https://legislature.maine.gov/bills/getPDF.asp?paper=SP0658&item=3&snum=131)<br>
 [Ballotpedia Atricle](https://ballotpedia.org/Maine_Question_8,_Allow_Individuals_Under_Guardianship_for_Reasons_of_Mental_Illness_to_Vote_in_Elections_Amendment_(2023))
+
+{^5][^7]}
 
 ## References
 [^1]: Doe v. Rowe, [156 F. Supp. 2d 35 (D. Me. 2001)](https://casetext.com/case/doe-v-rowe). Accessed 3 September 2023.
-[^2]: Mainelse.org. (2021). [Conservatorship & Guardianship | Maine Legal Services for the Elderly](https://mainelse.org/handbook/planning-future/conservatorship-guardianship#:~:text=Yes%2C%20in%20Maine%20there%20are,all%20areas%20of%20your%20life). Accessed 3 September 2023.
+[^2]: Mainelse.org. (2021). [Conservatorship & Guardianship: Maine Legal Services for the Elderly](https://mainelse.org/handbook/planning-future/conservatorship-guardianship#:~:text=Yes%2C%20in%20Maine%20there%20are,all%20areas%20of%20your%20life). Accessed 3 September 2023.
 [^3]: Maine State Legislature. (26 April 2023). [Testimony of John Brautigam, Esq., Legal Services for the Elderly](https://legislature.maine.gov/bills/getTestimonyDoc.asp?id=172973). Accessed 3 September 2023.
 [^4]: Maine State Legislature. (n.d.) [Testimony to oppose LD 1653](https://legislature.maine.gov/bills/getTestimonyDoc.asp?id=10018790). Accessed 3 September 2023.
 [^5]: Bellows, Shenna. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide23.pdf). Accessed October 3, 2023.
