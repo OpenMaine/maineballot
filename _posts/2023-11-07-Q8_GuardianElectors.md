@@ -38,7 +38,7 @@ Maine Legislative Document (L.D.) 1653, was introduced by Senator Craig Hickman 
 
 Testimony given during the public hearing period came from the Legal Services for the Elderly (LSE) and a concerned citizen. LSE argued in favor of LD 1653 making a distinction in the full categorical exclusion of those under guardianship and the need to ensure that those that have the right to vote also need to have the capacity to vote[^3]. The concerned citizen's testimony was not in favor and emphasized that voters must be of sound mind to be able to understand the issues at hand[^4].
 
-This question is a **constitutional amendment**, which, if passed, would make a change to the state constitution
+This question is a **constitutional amendment**, which, if passed, would make a change to the state constitution.
 
 ## Follow the money
 There's no money directly involved with this referendum. 
@@ -56,13 +56,7 @@ The primary arguments against this referendum are:
 ### Support
 * Disability Rights Maine
 * Legal Services for the Elderly
-* Bill (LD 1653) Sponsors and Co-sponsors
-** Senator Craig Hickman (Sponsor)
-** Senator Stacy Brenner
-** Representative Karen Montell
-** Senator Cameron Reny
-** Representative Morgan Reilly
-** Representative Laura Supica 
+* Bill (LD 1653) Sponsors and Co-sponsors: Senator Craig Hickman (Sponsor), Senator Stacy Brenner, Representative Karen Montell, Senator Cameron Reny, Representative Morgan Reilly, Representative Laura Supica 
 
 ### Opposition
 No major opposition.
@@ -71,7 +65,6 @@ No major opposition.
 [Full Text](https://legislature.maine.gov/bills/getPDF.asp?paper=SP0658&item=3&snum=131)<br>
 [Ballotpedia Atricle](https://ballotpedia.org/Maine_Question_8,_Allow_Individuals_Under_Guardianship_for_Reasons_of_Mental_Illness_to_Vote_in_Elections_Amendment_(2023))
 
-{^5][^7]}
 
 ## References
 [^1]: Doe v. Rowe, [156 F. Supp. 2d 35 (D. Me. 2001)](https://casetext.com/case/doe-v-rowe). Accessed 3 September 2023.
