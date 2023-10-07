@@ -19,7 +19,7 @@ no_vote: I don't want to require voter approval for spending by the specified go
 last_modified_at: 2023-10-07 T12:08:00-05:00
 ---
 ## The gist
-This citizen's initiative would require voter approval for spending over $1 billion by certain government-controlled entities and utilities. The initiative was started in response to the bills to create a consumer-owned utility (see [Question 3](/2023-11-07-Q3_PineTreePower.md)).
+This citizen's initiative would require voter approval for spending over $1 billion by certain government-controlled entities and utilities. The initiative was started in response to the bills to create a consumer-owned utility (see [Question 3](_posts/2023-11-07-Q3_PineTreePower.md)).
 
 ## Ballot question
 Do you want to bar some quasi-governmental entities and all consumer-owned electric utilities from taking on more than $1 billion in debt unless they get statewide voter approval?[^4]
@@ -47,7 +47,7 @@ The primary arguments for this referendum are:
 
 ## Cons
 The primary arguments against this referendum are:
-* It could be seen as a way to discourage the creation of a consumer-owned utility (see [Question 3](/2023-11-07-Q3_PineTreePower.md)).
+* It could be seen as a way to discourage the creation of a consumer-owned utility (see [Question 3](_posts/2023-11-07-Q3_PineTreePower.md)).
 
 ## Who cares[^2]
 ### Support
