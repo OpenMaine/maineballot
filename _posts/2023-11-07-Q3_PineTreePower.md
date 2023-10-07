@@ -82,7 +82,7 @@ The primary arguments against this referendum are:
 ### Public comment
 During the public comment period, no comments were submitted in support or opposition of question 3.
 
-## General Support
+### General Support
 * [Sierra Club](https://www.sierraclub.org/maine/blog/2023/09/sierra-club-maine-2023-ballot-initiative-voter-guide)
 * [Maine State Nurses Association](https://mainebeacon.com/maine-nurses-union-backs-plan-to-oust-cmp-versant/)
 * [Maine People's Alliance](https://mainebeacon.com/sierra-club-endorses-measure-to-replace-cmp-versant-with-consumer-owned-utility/)
@@ -90,19 +90,19 @@ During the public comment period, no comments were submitted in support or oppos
 * [Natural Resources Council of Maine](https://www.nrcm.org/blog/case-for-public-power/?eType=EmailBlastContent&eId=5d941bfc-344f-4ad1-8386-e89c12ea19cb)
 * [United States Senator Bernie Sanders (I-VT)](https://www.mainepublic.org/politics/2023-07-27/bernie-sanders-endorses-plan-to-create-nonprofit-electric-utility-in-maine)
 
-## General Opposition
+### General Opposition
 * [International Brotherhood of Electrical Workers (IBEW)](https://www.mainepublic.org/politics/2023-10-05/heres-everything-we-know-about-the-referendum-to-replace-cmp-and-versant-with-pine-tree-power)
 * [Maine AFL-CIO](https://wgan.com/news/074470-two-labor-groups-advocate-against-pine-tree-power/)
 * [Portland Community Chamber of Commerce](https://www.pressherald.com/2023/09/14/portland-chamber-slams-public-power-proposal-as-activists-demonstrate/)
 * [Maine Governor Janet Mills (D-ME)](https://www.bangordailynews.com/2023/09/20/politics/janet-mills-utility-takeover/)
 
-## Campaign Financing
+### Campaign Financing
 Ballotpedia reports that there are three Political Action Committees (PACs) registered for this ballot measure[^2]. Two are in opposition and one is in support.
 
-### Support PACs
+#### Support PACs
 * [Our Power](https://ourpowermaine.org/): As of 30 September, 2023, Ballotpedia reported contributions of $1.07 million with expenditures of $1.01 million.
 
-### Opposition PACs
+#### Opposition PACs
 * [Maine Affordable Energy](https://maineaffordableenergy.org/)
 * [Maine Energy Progress](https://www.maineenergyprogress.com/)
 * Combined contributions of $35.5 million and expenditures of $29.6 million
