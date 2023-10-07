@@ -3,7 +3,7 @@ layout: archive
 title: "Local elections"
 author_profile: false
 datafile: local
-ballot_description: "What's on the June 2023 ballot"
+ballot_description: "What's on the November 2023 ballot"
 permalink: /local
 search_for: town
 search_column: 2
