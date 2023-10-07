@@ -38,7 +38,7 @@ There's no money directly involved with this referendum, but it is expected to r
 ## Pros
 The primary arguments for this referendum are:
 * It would reduce the burden on small elections staff. [^3]
-* It would take into account the busy season for the Secretary of State's Office. {^4]
+* It would take into account the busy season for the Secretary of State's Office. [^4]
 
 ## Cons
 The primary arguments against this referendum are:
