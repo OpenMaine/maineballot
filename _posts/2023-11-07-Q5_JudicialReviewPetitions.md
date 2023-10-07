@@ -64,7 +64,7 @@ The primary arguments against this referendum are:
 [Portland Press Herald Article](https://www.pressherald.com/2023/10/06/questions-5-through-8-what-you-need-to-know-about-the-proposed-constitutional-amendments/)
 
 ## References
-[^1]: Maine State Legislature. [RESOLUTION, Proposing an Amendment to the Constitution of Maine Regarding the Timing of Judicial Review of theDetermination of the Validity of Written Petitions](https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP0648&item=1&snum=131). Accessed October 7, 2023.
+[^1]: Maine State Legislature. [RESOLUTION, Proposing an Amendment to the Constitution of Maine Regarding the Timing of Judicial Review of the Determination of the Validity of Written Petitions](https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP0648&item=1&snum=131). Accessed October 7, 2023.
 [^2]: Bellows, Shenna. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide23.pdf). Accessed October 7, 2023.
 [^3]: Ballotpedia State Desk. [Maine Question 5, Change Time Period of Judicial Review of Initiative Petitions Amendment (2023)](https://ballotpedia.org/Maine_Question_5,_Change_Time_Period_of_Judicial_Review_of_Initiative_Petitions_Amendment_(2023)). Ballotpedia. Accessed October 7, 2023.
 [^4]: Ohm, Rachel. [Questions 5 through 8: What you need to know about the proposed constitutional amendments](https://www.pressherald.com/2023/10/06/questions-5-through-8-what-you-need-to-know-about-the-proposed-constitutional-amendments/). Portland Press Herald. Accessed October 7, 2023.
