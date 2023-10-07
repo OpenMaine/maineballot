@@ -34,7 +34,7 @@ Federal courts have already ruled that the residency requirement for petitioners
 This question is a **constitutional amendment**, which, if passed, would make a change to the state constitution.
 
 ## Follow the money
-There's no money directly involved with this referendum. 
+There's no money directly involved with this referendum.  [^3]
 
 ## Pros
 The primary arguments for this referendum are:

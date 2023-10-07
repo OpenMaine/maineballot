@@ -4,9 +4,9 @@ excerpt: This measure would add sections of the constitution related to Indian t
 election: 2023-11-07
 header:
   overlay_image: /assets/img/2023_11/Q6_Printer.jpeg
-  teaser: /assets/img/2023_11/Q6_Printer.jpeg
+  teaser: /assets/img/2023_11/Q6_Constitution.jpeg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-  image_description: Printer
+  image_description: Constitution
 search: true
 categories:
 - November 2023 Election
@@ -34,7 +34,7 @@ The proposed resolution would revert the change made in Article X, Section 7 and
 This question is a **constitutional amendment**, which, if passed, would make a change to the state constitution.
 
 ## Follow the money
-There's no money directly involved with this referendum.
+There's no money directly involved with this referendum.[^3]
 
 ## Pros
 The primary arguments for this referendum are:
@@ -67,7 +67,7 @@ The primary arguments against this referendum are:
 
 ## References
 [^1]: Maine State Legislature. [RESOLUTION, Proposing an Amendment to Article X of the Constitution of Maine Regarding the Publication of Maine Indian Treaty Obligations](https://legislature.maine.gov/bills/getPDF.asp?paper=HP0048&item=1&snum=131). Accessed October 1, 2023.
-[^2]: allotpedia State Desk. [Maine Question 6, Require Indian Treaty Obligations and Other Constitutional Provisions Included in Official Printing Amendment (2023)](https://ballotpedia.org/Maine_Question_6,_Require_Indian_Treaty_Obligations_and_Other_Constitutional_Provisions_Included_in_Official_Printing_Amendment_(2023)). Ballotpedia. Accessed October 1, 2023.
-[^3]: [Bellows, Shenna. Maine Citizen's Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide23.pdf) Accessed October 1, 2023.
+[^2]: Ballotpedia State Desk. [Maine Question 6, Require Indian Treaty Obligations and Other Constitutional Provisions Included in Official Printing Amendment (2023)](https://ballotpedia.org/Maine_Question_6,_Require_Indian_Treaty_Obligations_and_Other_Constitutional_Provisions_Included_in_Official_Printing_Amendment_(2023)). Ballotpedia. Accessed October 1, 2023.
+[^3]: Bellows, Shenna. [Maine Citizen's Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide23.pdf) Accessed October 1, 2023.
 [^4]: Ohm, Rachel. [Questions 5 through 8: What you need to know about the proposed constitutional amendments](https://www.pressherald.com/2023/10/06/questions-5-through-8-what-you-need-to-know-about-the-proposed-constitutional-amendments/). Portland Press Herald. Accessed October 6, 2023.
 
