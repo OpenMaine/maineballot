@@ -61,8 +61,8 @@ The primary arguments against this referendum are:
 * Maine Gov. Janet T. Mills (D) 
 
 ## Further reading
-[Full text](https://legislature.maine.gov/bills/getPDF.asp?paper=HP0048&item=1&snum=131)
-[Ballotpedia article](https://ballotpedia.org/Maine_Question_6,_Require_Indian_Treaty_Obligations_and_Other_Constitutional_Provisions_Included_in_Official_Printing_Amendment_(2023))
+[Full text](https://legislature.maine.gov/bills/getPDF.asp?paper=HP0048&item=1&snum=131)<br>
+[Ballotpedia article](https://ballotpedia.org/Maine_Question_6,_Require_Indian_Treaty_Obligations_and_Other_Constitutional_Provisions_Included_in_Official_Printing_Amendment_(2023))<br>
 [Portland Press Herald Article](https://www.pressherald.com/2023/10/06/questions-5-through-8-what-you-need-to-know-about-the-proposed-constitutional-amendments/)
 
 ## References
