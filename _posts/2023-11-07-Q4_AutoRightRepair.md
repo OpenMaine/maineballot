@@ -1,6 +1,6 @@
 ---
 title:  "Question 4: Automotive Right to Repair"
-excerpt: This measure would require vehicles to have standardized on-board diagnotics systems and allow owners and independent repair facilities to access those diagnostics.
+excerpt: This measure would require vehicles to have standardized on-board diagnostics systems and allow owners and independent repair facilities to access those diagnostics.
 election: 2023-11-07
 header:
   overlay_image: /assets/img/2023_11/Q4_Auto_Mechanic.jpeg
@@ -19,7 +19,7 @@ no_vote: I don't want vehicle owners and repair facilities to have access to sta
 last_modified_at: 2023-10-07 T12:17:00-05:00
 ---
 ## The gist
-This citizen's initiative would require vehicles to have standardized on-board diagnotics systems and allow owners and independent repair facilities to access those diagnostics.
+This citizen's initiative would require vehicles to have standardized on-board diagnostics systems and allow owners and independent repair facilities to access those diagnostics.
 
 ## Ballot question
 Do you want to require vehicle manufacturers to standardize on-board diagnostic systems and provide remote access to those systems and mechanical data to owners and independent repair facilities?[^1]
@@ -28,7 +28,7 @@ Do you want to require vehicle manufacturers to standardize on-board diagnostic 
 
 
 ## Tell me more
-New vehicles would have to use standardized telematics (wireless) diagnostic systems and won't have to provide access to security systems. The provision will also give vehicle owners and independent repair shops the right to sue manufacurers that don't comply with the law.[^2]
+New vehicles would have to use standardized telematics (wireless) diagnostic systems and won't have to provide access to security systems. The provision will also give vehicle owners and independent repair shops the right to sue manufacturers that don't comply with the law.[^2]
 
 The requirements for access to diagnostics will depend on the model year of the vehicle: [^2]
 * 2018 or later: Vehicles will be required to have diagnostics that can be accessed using a personal computer. 
@@ -69,6 +69,3 @@ The primary arguments against this referendum are:
 
 ## References
 [^1]: Maine Secretary of State. [An Act Regarding Automotive Right to Repair](https://www.maine.gov/sos/cec/elec/citizens/Right%20to%20Repair%20Leg%20FINAL.pdf). Accessed October 6, 2023.
-[^2]: Bellows, Shenna. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide23.pdf). Accessed October 6, 2023.
-[^3]: Ballotpedia State Desk. [Maine Question 4, "Right to Repair Law" Vehicle Data Access Requirement Initiative (2023)](https://ballotpedia.org/Maine_Question_4,_%22Right_to_Repair_Law%22_Vehicle_Data_Access_Requirement_Initiative_(2023)). Ballotpedia. Accessed October 6, 2023.
-[^4]: Neufeld, Kay. [Question 4: What you need to know about the right-to-repair referendum](https://www.pressherald.com/2023/10/05/question-4-who-should-have-the-right-to-repair-your-car/). Portland Press Herald. Accessed October 6, 2023.
