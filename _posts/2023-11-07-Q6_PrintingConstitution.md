@@ -3,7 +3,7 @@ title:  "Question 6: Printing the Maine Constitution with all Provisions"
 excerpt: This measure would add sections of the constitution related to Indian treaty obligation back into printed copies of the constitution.
 election: 2023-11-07
 header:
-  overlay_image: /assets/img/2023_11/Constitution.jpeg
+  overlay_image: /assets/img/2023_11/Q6_Constitution.jpeg
   teaser: /assets/img/2023_11/Q6_Constitution.jpeg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   image_description: Constitution
