@@ -1,6 +1,6 @@
 ---
 title:  "Question 6: Printing the Maine Constitution with all Provisions"
-excerpt: This measure would add sections of the constitution related to Indian treaty obligation back into printed copies of the constitution.
+excerpt: This measure would add sections of the constitution related to Indian Treaty Obligations back into printed copies of the constitution.
 election: 2023-11-07
 header:
   overlay_image: /assets/img/2023_11/Q6_Constitution.jpeg
@@ -18,7 +18,7 @@ no_vote: I want to keep the constitution as is.
 last_modified_at: 2023-10-06 T12:27:00-05:00
 ---
 ## The gist
-This constitutional amendment would amend the Constitution of Maine to require that official printed copies include the whole document, including section related to Indian treaty obligations that were removed in 1876.
+This constitutional amendment would amend the Constitution of Maine to require that official printed copies include the whole document, including sections related to Indian Treaty Obligations that were removed in 1876.
 
 ## Ballot question
 Do you favor amending the Constitution of Maine to require that all of the provisions of the Constitution be included in the official printed copies of the Constitution prepared by the Secretary of State?[^1]
