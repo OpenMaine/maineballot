@@ -32,7 +32,7 @@ Guardianship is a legal relationship where one person is appointed by a court to
 
 There are two types of guardianship in Maine: limited and full. In _Doe vs Rowe_, the three plaintiffs were under full guardianship. Probate court can make exceptions to allow for a person to vote in elections, but it must be specifically requested at the time the person is placed under guardianship. Further motions can be put forth to modify a guardianship at a later date. The theme of _Doe vs Rowe_ is that the loss of voting privilege was not always communicated at the time that guardianship was implemented.
 
-The restriction of voting by persons under guardianship due to reasons of mental illness was added to the Maine Constitution in 1965. Prior to the approval of the 1965 amendment, the Maine Constitution restricted voting to "paupers and persons under guardianship". There have been many attempts to remove this language either through legislative action in Maine law or ballot referendums (1997 and 2000), but all have them been unsuccessful so far.
+The restriction of voting by persons under guardianship due to reasons of mental illness was added to the Maine Constitution in 1965. Prior to the approval of the 1965 amendment, the Maine Constitution restricted voting to "paupers and persons under guardianship". There have been many attempts to remove this language either through legislative action in Maine law or ballot referendums (1997 and 2000), but all have been unsuccessful so far.
 
 Maine Legislative Document (L.D.) 1653, was introduced by Senator Craig Hickman on April 13th, 2023. This bill passed the Maine Legislature with the required supermajority to be placed on the November 2023 ballot.
 
