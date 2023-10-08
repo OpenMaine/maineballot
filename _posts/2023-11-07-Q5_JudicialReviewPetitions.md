@@ -26,7 +26,7 @@ Do you favor amending the Constitution of Maine to change the time period for ju
 
 
 ## Tell me more
-This measure would increase the time the Secretary of State's Office has to review whether petitions have enough signatures. It would also allow more time for courts to review challenges. The proposal is to increase the time from 100 calendar days to 100 business days, effective providing about 40 additional calendar days. [^4]
+This measure would increase the time the Secretary of State's Office has to review whether petitions have enough signatures. It would also allow more time for courts to review challenges. The proposal is to increase the time from 100 calendar days to 100 business days, effectively providing about 40 additional calendar days. [^4]
 
 It would also take into account the busy season around the November election by postponing the start date for the review to 30 days after the election if petitions are filed within 30 days before a November election date. [^3]
 
