@@ -69,6 +69,6 @@ The primary arguments against this referendum are:
 
 ## References
 [^1]: Maine Secretary of State. [An Act Regarding Automotive Right to Repair](https://www.maine.gov/sos/cec/elec/citizens/Right%20to%20Repair%20Leg%20FINAL.pdf). Accessed October 6, 2023.
-[^2]: Bellows, Shenna. Maine Citizen’s Guide to the Referendum Election. Accessed October 6, 2023.
+[^2]: ellows, Shenna. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide23.pdf). Accessed October 6, 2023.
 [^3]: Ballotpedia State Desk. [Maine Question 4, "Right to Repair Law" Vehicle Data Access Requirement Initiative (2023)](https://ballotpedia.org/Maine_Question_4,_%22Right_to_Repair_Law%22_Vehicle_Data_Access_Requirement_Initiative_(2023)). Ballotpedia. Accessed October 6, 2023.
-[^4]: Neufeld, Kay. Question 4: What you need to know about the right-to-repair referendum. Portland Press Herald. Accessed October 6, 2023.
+[^4]: Neufeld, Kay. [Question 4: What you need to know about the right-to-repair referendum](https://www.pressherald.com/2023/10/05/question-4-who-should-have-the-right-to-repair-your-car/). Portland Press Herald. Accessed October 6, 2023.
