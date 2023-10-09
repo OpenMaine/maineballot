@@ -62,8 +62,8 @@ The primary arguments against this referendum are:
 * Maine Association of Broadcasters
 
 ## Further reading
-[Full text](https://www.maine.gov/sos/cec/elec/citizens/Prohibit%20Campaign%20Spending%20by%20Foreign.pdf)<br>
-[Ballotpedia article](https://ballotpedia.org/Maine_Question_2,_Prohibit_Foreign_Spending_in_Elections_Initiative_(2023))<br>
+[Full Text](https://www.maine.gov/sos/cec/elec/citizens/Prohibit%20Campaign%20Spending%20by%20Foreign.pdf)<br>
+[Ballotpedia Article](https://ballotpedia.org/Maine_Question_2,_Prohibit_Foreign_Spending_in_Elections_Initiative_(2023))<br>
 [Portland Press Herald Article](https://www.pressherald.com/2023/10/03/question-2-what-you-need-to-know-about-the-foreign-campaign-spending-ban/)
 
 ## References

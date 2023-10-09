@@ -108,8 +108,8 @@ Ballotpedia reports that there are three Political Action Committees (PACs) regi
 * Combined contributions of $35.5 million and expenditures of $29.6 million
 
 ## Further reading
-[Full text](https://www.maine.gov/sos/cec/elec/citizens/Pine%20Tree%20Power%20Petition.pdf)<br>
-[Ballotpedia article](https://ballotpedia.org/Maine_Question_3,_Pine_Tree_Power_Company_Initiative_(2023))<br>
+[Full Text](https://www.maine.gov/sos/cec/elec/citizens/Pine%20Tree%20Power%20Petition.pdf)<br>
+[Ballotpedia Article](https://ballotpedia.org/Maine_Question_3,_Pine_Tree_Power_Company_Initiative_(2023))<br>
 [Portland Press Herald Article](https://www.pressherald.com/2023/10/02/question-3-voters-could-reshape-maines-energy-landscape/)<br>
 [Office of the Public Advocate Report](https://www.maine.gov/meopa/sites/maine.gov.meopa/files/inline-files/Pine%20Tree%20Power%20Fact%20Sheet.pdf)
 

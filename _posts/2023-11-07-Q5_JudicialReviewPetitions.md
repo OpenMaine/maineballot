@@ -59,8 +59,8 @@ The primary arguments against this referendum are:
 
 
 ## Further reading
-[Full text](https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP0648&item=1&snum=131)<br>
-[Ballotpedia article](https://ballotpedia.org/Maine_Question_5,_Change_Time_Period_of_Judicial_Review_of_Initiative_Petitions_Amendment_(2023))<br>
+[Full Text](https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP0648&item=1&snum=131)<br>
+[Ballotpedia Article](https://ballotpedia.org/Maine_Question_5,_Change_Time_Period_of_Judicial_Review_of_Initiative_Petitions_Amendment_(2023))<br>
 [Portland Press Herald Article](https://www.pressherald.com/2023/10/06/questions-5-through-8-what-you-need-to-know-about-the-proposed-constitutional-amendments/)
 
 ## References

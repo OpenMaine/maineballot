@@ -1,0 +1,29 @@
+
+{% include table-search.html %}
+
+<table>
+    <thead>
+        <tr>
+        <th>County</th>
+        <th>City or town</th>
+        <th>Election website</th>
+        <th>Ballot drop box</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for local in site.data.local_elections[page.datafile] %}
+      <tr>
+        <td>{{ local.county }}</td>
+        <td>{{ local.city }}</td>
+        <td>
+          {% if local.website %}
+              <a href="{{ local.website }}">
+                  {{ local.city }} {{ local.type }} website
+              </a>
+          {% endif %}
+        </td>
+        <td>{{ local.drop }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+</table>
