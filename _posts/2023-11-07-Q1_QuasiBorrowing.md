@@ -61,7 +61,7 @@ There is no registered opposition.
 
 ## Further reading
 [Full Text](https://www.maine.gov/sos/cec/elec/citizens/VoterApprovalBorrowingFINAL11.10.pdf)<br>
-[Ballotpedia Atricle](https://ballotpedia.org/Maine_Question_1,_Voter_Approval_of_Borrowing_Above_$1_Billion_by_State_Entities_and_Electric_Cooperatives_Initiative_(2023))<br>
+[Ballotpedia Article](https://ballotpedia.org/Maine_Question_1,_Voter_Approval_of_Borrowing_Above_$1_Billion_by_State_Entities_and_Electric_Cooperatives_Initiative_(2023))<br>
 [Portland Press Herald Article](https://www.pressherald.com/2023/10/02/question-1-voters-could-have-a-say-in-certain-big-spending/)
 
 ## References

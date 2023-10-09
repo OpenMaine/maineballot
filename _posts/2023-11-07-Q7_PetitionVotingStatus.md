@@ -27,7 +27,7 @@ Do you favor amending the Constitution of Maine to remove a provision requiring 
 
 
 ## Tell me more
-Currently the Maine Constitution requires anyone collecting signatures for People’s Vetoe and Direct Initiative petitions to be a resident and registered voter in Maine.  This resolution would remove the requirement and align Maine’s constitution with federal law.
+Currently the Maine Constitution requires anyone collecting signatures for People’s Veto and Direct Initiative petitions to be a resident and registered voter in Maine.  This resolution would remove the requirement and align Maine’s constitution with federal law.
 
 Federal courts have already ruled that the residency requirement for petitioners is unconstitutional and can’t be enforced by the state of Maine.[^3]
 
@@ -56,8 +56,8 @@ The primary arguments against this referendum are:
 * An argument against made by Garland, ME party co-chair, Linda Haskell (R)[^2]
 
 ## Further reading
-[Full text](https://legislature.maine.gov/bills/getPDF.asp?paper=SP0597&item=1&snum=131)<br>
-[Ballotpedia article](https://ballotpedia.org/Maine_Question_7,_Remove_Residency_Requirement_for_Initiative_Petition_Circulators_Amendment_(2023))<br>
+[Full Text](https://legislature.maine.gov/bills/getPDF.asp?paper=SP0597&item=1&snum=131)<br>
+[Ballotpedia Article](https://ballotpedia.org/Maine_Question_7,_Remove_Residency_Requirement_for_Initiative_Petition_Circulators_Amendment_(2023))<br>
 [Portland Press Herald Article](https://www.pressherald.com/2023/10/06/questions-5-through-8-what-you-need-to-know-about-the-proposed-constitutional-amendments/)
 
 ## References

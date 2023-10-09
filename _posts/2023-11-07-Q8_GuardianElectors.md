@@ -63,7 +63,7 @@ No major opposition.
 
 ## Further reading
 [Full Text](https://legislature.maine.gov/bills/getPDF.asp?paper=SP0658&item=3&snum=131)<br>
-[Ballotpedia Atricle](https://ballotpedia.org/Maine_Question_8,_Allow_Individuals_Under_Guardianship_for_Reasons_of_Mental_Illness_to_Vote_in_Elections_Amendment_(2023))<br>
+[Ballotpedia Article](https://ballotpedia.org/Maine_Question_8,_Allow_Individuals_Under_Guardianship_for_Reasons_of_Mental_Illness_to_Vote_in_Elections_Amendment_(2023))<br>
 [Portland Press Herald Article](https://www.pressherald.com/2023/10/06/questions-5-through-8-what-you-need-to-know-about-the-proposed-constitutional-amendments/)
 
 

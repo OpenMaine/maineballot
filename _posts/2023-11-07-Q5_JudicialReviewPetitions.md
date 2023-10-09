@@ -17,7 +17,7 @@ no_vote: I don't want to keep the review time as it currently is.
 last_modified_at: 2023-10-07 T12:23:00-05:00
 ---
 ## The gist
-This measure would increase the amount of time the Secretary of State's Office and judicial branch have to review signatures for citizen's initiatives and people's vetos from 100 calendar days to 100 business days. It would also move the start date for the review period to 30 days after a November election if petitions are filed within 30 days before the election. [^2]
+This measure would increase the amount of time the Secretary of State's Office and judicial branch have to review signatures for citizen's initiatives and people's vetoes from 100 calendar days to 100 business days. It would also move the start date for the review period to 30 days after a November election if petitions are filed within 30 days before the election. [^2]
 
 ## Ballot question
 Do you favor amending the Constitution of Maine to change the time period for judicial review of the validity of written petitions from within 100 days from the date of filing to within 100 business days from the date of filing of a written petition in the office of the Secretary of State, with an exception for petitions filed within 30 calendar days before or after a general election?[^2]
@@ -59,8 +59,8 @@ The primary arguments against this referendum are:
 
 
 ## Further reading
-[Full text](https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP0648&item=1&snum=131)<br>
-[Ballotpedia article](https://ballotpedia.org/Maine_Question_5,_Change_Time_Period_of_Judicial_Review_of_Initiative_Petitions_Amendment_(2023))<br>
+[Full Text](https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP0648&item=1&snum=131)<br>
+[Ballotpedia Article](https://ballotpedia.org/Maine_Question_5,_Change_Time_Period_of_Judicial_Review_of_Initiative_Petitions_Amendment_(2023))<br>
 [Portland Press Herald Article](https://www.pressherald.com/2023/10/06/questions-5-through-8-what-you-need-to-know-about-the-proposed-constitutional-amendments/)
 
 ## References

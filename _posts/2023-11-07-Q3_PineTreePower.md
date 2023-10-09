@@ -64,7 +64,7 @@ The official fiscal impact statement discusses costs related to the Public Utili
 
 Any litigation arising from the purchasing of assets may also be passed on to consumers.
 
-Costs related to the Maine Clean Election program for any candidates applying to the 13-person governing board are estimated to be $335,450 and $273,750 for the first two fiscal years after implementation. Revenue from candidate contributions are estimated at $13,900 and $9,900 for the first two fiscal years. The lower pace of elections regarding board members will drop clean election costs to $110,764 or $166,145 depending on 2 or 3 member election cycles.
+Costs related to the Maine Clean Election program for any candidates applying to the 13-person governing board are estimated to be $335,450 and $273,750 for the first two fiscal years after implementation. Revenue from candidate contributions is estimated at $13,900 and $9,900 for the first two fiscal years. The lower pace of elections regarding board members will drop clean election costs to $110,764 or $166,145 depending on 2 or 3 member election cycles.
 
 ## Pros
 The primary arguments for this referendum are:
@@ -108,8 +108,8 @@ Ballotpedia reports that there are three Political Action Committees (PACs) regi
 * Combined contributions of $35.5 million and expenditures of $29.6 million
 
 ## Further reading
-[Full text](https://www.maine.gov/sos/cec/elec/citizens/Pine%20Tree%20Power%20Petition.pdf)<br>
-[Ballotpedia article](https://ballotpedia.org/Maine_Question_3,_Pine_Tree_Power_Company_Initiative_(2023))<br>
+[Full Text](https://www.maine.gov/sos/cec/elec/citizens/Pine%20Tree%20Power%20Petition.pdf)<br>
+[Ballotpedia Article](https://ballotpedia.org/Maine_Question_3,_Pine_Tree_Power_Company_Initiative_(2023))<br>
 [Portland Press Herald Article](https://www.pressherald.com/2023/10/02/question-3-voters-could-reshape-maines-energy-landscape/)<br>
 [Office of the Public Advocate Report](https://www.maine.gov/meopa/sites/maine.gov.meopa/files/inline-files/Pine%20Tree%20Power%20Fact%20Sheet.pdf)
 

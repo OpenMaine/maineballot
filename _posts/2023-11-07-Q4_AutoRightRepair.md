@@ -63,8 +63,8 @@ The primary arguments against this referendum are:
 * The Automotive Service Association
 
 ## Further reading
-[Full text](https://www.maine.gov/sos/cec/elec/citizens/Right%20to%20Repair%20Leg%20FINAL.pdf)<br>
-[Ballotpedia article](https://ballotpedia.org/Maine_Question_4,_%22Right_to_Repair_Law%22_Vehicle_Data_Access_Requirement_Initiative_(2023))<br>
+[Full Text](https://www.maine.gov/sos/cec/elec/citizens/Right%20to%20Repair%20Leg%20FINAL.pdf)<br>
+[Ballotpedia Article](https://ballotpedia.org/Maine_Question_4,_%22Right_to_Repair_Law%22_Vehicle_Data_Access_Requirement_Initiative_(2023))<br>
 [Portland Press Herald Article](https://www.pressherald.com/2023/10/05/question-4-who-should-have-the-right-to-repair-your-car/)
 
 ## References
