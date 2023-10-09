@@ -8,6 +8,8 @@
         <th>City or town</th>
         <th>Election website</th>
         <th>Ballot drop box</th>
+        <th>{{ page.ballot_description }}</th>
+        <th>Sample ballot or warrant</th>
         </tr>
     </thead>
     <tbody>
@@ -23,6 +25,20 @@
           {% endif %}
         </td>
         <td>{{ local.drop }}</td>
+        <td>{{ local.ballot }}</td>
+        <td>
+          {% if local.ballot_link %}
+            {% if local.ballot_link contains "/assets/docs/" %}
+              <a href="{{ local.ballot_link | relative_url }}">
+                {{ local.ballot_link_text }}
+              </a>
+            {% else %}
+              <a href="{{ local.ballot_link }}">
+                {{ local.ballot_link_text }}
+              </a>
+            {% endif %}
+          {% endif %}
+        </td>
       </tr>
     {% endfor %}
     </tbody>
