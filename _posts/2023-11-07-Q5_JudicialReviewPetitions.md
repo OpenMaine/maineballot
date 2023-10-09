@@ -1,0 +1,70 @@
+---
+title:  "Question 5: Petition Timing"
+excerpt: This measure would increase the amount of time to review signatures for citizen's initiatives and people's vetos.
+election: 2023-11-07
+header:
+  overlay_image: /assets/img/2023_11/Q5_Clipboard.jpeg
+  teaser: /assets/img/2023_11/Q5_Clipboard.jpeg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  image_description: Clipboard with a pencil
+search: true
+categories:
+- November 2023 Election
+tags:
+- Constitutional Amendment
+yes_vote: I want to allow more time to review petition signatures.
+no_vote: I don't want to keep the review time as it currently is.
+last_modified_at: 2023-10-07 T12:23:00-05:00
+---
+## The gist
+This measure would increase the amount of time the Secretary of State's Office and judicial branch have to review signatures for citizen's initiatives and people's vetos from 100 calendar days to 100 business days. It would also move the start date for the review period to 30 days after a November election if petitions are filed within 30 days before the election. [^2]
+
+## Ballot question
+Do you favor amending the Constitution of Maine to change the time period for judicial review of the validity of written petitions from within 100 days from the date of filing to within 100 business days from the date of filing of a written petition in the office of the Secretary of State, with an exception for petitions filed within 30 calendar days before or after a general election?[^2]
+
+{% include yes-no-table.html %}
+
+
+## Tell me more
+This measure would increase the time the Secretary of State's Office has to review whether petitions have enough signatures. It would also allow more time for courts to review challenges. The proposal is to increase the time from 100 calendar days to 100 business days, effectively providing about 40 additional calendar days. [^4]
+
+It would also take into account the busy season around the November election by postponing the start date for the review to 30 days after the election if petitions are filed within 30 days before a November election date. [^3]
+
+This question is a **constitutional amendment**, which, if passed, would make a change to the state constitution.
+
+## Follow the money
+There's no money directly involved with this referendum, but it is expected to reduce overtime costs. [^4]
+
+## Pros
+The primary arguments for this referendum are:
+* It would reduce the burden on small elections staff. [^3]
+* It would take into account the busy season for the Secretary of State's Office. [^4]
+
+## Cons
+The primary arguments against this referendum are:
+* It would take longer to review petitions.
+
+## Who cares [^3]
+### Support
+* State Sen. Richard Bennett
+* State Sen. Nicole Grohoski
+* State Sen. Craig Hickman
+* State Rep. David Boyer
+* State Rep. Morgan Rielly
+* State Rep. Shelley Rudnicki
+* State Rep. Laura Supica
+
+### Opposition
+* There is no registered opposition.
+
+
+## Further reading
+[Full text](https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP0648&item=1&snum=131)<br>
+[Ballotpedia article](https://ballotpedia.org/Maine_Question_5,_Change_Time_Period_of_Judicial_Review_of_Initiative_Petitions_Amendment_(2023))<br>
+[Portland Press Herald Article](https://www.pressherald.com/2023/10/06/questions-5-through-8-what-you-need-to-know-about-the-proposed-constitutional-amendments/)
+
+## References
+[^1]: Maine State Legislature. [RESOLUTION, Proposing an Amendment to the Constitution of Maine Regarding the Timing of Judicial Review of the Determination of the Validity of Written Petitions](https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP0648&item=1&snum=131). Accessed October 7, 2023.
+[^2]: Bellows, Shenna. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide23.pdf). Accessed October 7, 2023.
+[^3]: Ballotpedia State Desk. [Maine Question 5, Change Time Period of Judicial Review of Initiative Petitions Amendment (2023)](https://ballotpedia.org/Maine_Question_5,_Change_Time_Period_of_Judicial_Review_of_Initiative_Petitions_Amendment_(2023)). Ballotpedia. Accessed October 7, 2023.
+[^4]: Ohm, Rachel. [Questions 5 through 8: What you need to know about the proposed constitutional amendments](https://www.pressherald.com/2023/10/06/questions-5-through-8-what-you-need-to-know-about-the-proposed-constitutional-amendments/). Portland Press Herald. Accessed October 7, 2023.
