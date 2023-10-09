@@ -64,7 +64,7 @@ The official fiscal impact statement discusses costs related to the Public Utili
 
 Any litigation arising from the purchasing of assets may also be passed on to consumers.
 
-Costs related to the Maine Clean Election program for any candidates applying to the 13-person governing board are estimated to be $335,450 and $273,750 for the first two fiscal years after implementation. Revenue from candidate contributions are estimated at $13,900 and $9,900 for the first two fiscal years. The lower pace of elections regarding board members will drop clean election costs to $110,764 or $166,145 depending on 2 or 3 member election cycles.
+Costs related to the Maine Clean Election program for any candidates applying to the 13-person governing board are estimated to be $335,450 and $273,750 for the first two fiscal years after implementation. Revenue from candidate contributions is estimated at $13,900 and $9,900 for the first two fiscal years. The lower pace of elections regarding board members will drop clean election costs to $110,764 or $166,145 depending on 2 or 3 member election cycles.
 
 ## Pros
 The primary arguments for this referendum are:
