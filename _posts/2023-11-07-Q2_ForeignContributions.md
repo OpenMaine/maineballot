@@ -19,7 +19,7 @@ no_vote: I don't want to prevent foreign influence in elections for candidates a
 last_modified_at: 2023-10-07 T12:17:00-05:00
 ---
 ## The gist
-This citizen's initiative would prohibit foreign influcen in elections for candidates and ballot questions.
+This citizen's initiative would prohibit foreign influence in elections for candidates and ballot questions.
 
 ## Ballot question
 Do you want to ban foreign governments and entities that they own, control, or influence from making campaign contributions or financing communications for or against candidates or ballot questions?[^1]
