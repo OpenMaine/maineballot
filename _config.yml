@@ -20,7 +20,7 @@ title                    : "Maine Ballot"
 title_separator          : "-"
 name                     : "Shannon McHarg"
 description              : "Ballot questions for Maine elections."
-url                      : https://maineballot.org
+url                      : "https://maineballot.org"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -71,7 +71,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : "gqHgkOyPBANMIktwSO-L23jON_rj7qk1PJRfsYpfvmY"
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
@@ -99,9 +99,9 @@ collections:
 
 # Analytics
 analytics:
-  provider               : google # false (default), "google", "custom"
+  provider               : "google" # false (default), "google", "custom"
   google:
-    tracking_id          : G-FRBHPKMW0S
+    tracking_id          : "G-FRBHPKMW0S"
 
 
 # Site Author
