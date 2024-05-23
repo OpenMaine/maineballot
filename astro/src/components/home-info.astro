@@ -1,0 +1,28 @@
+---
+import voteByMail from '../assets/img/Other/mail_sm.png'
+import earlyVoting from '../assets/img/Other/early-vote_sm.png'
+import { Image } from 'astro:assets'
+---
+
+<div class="dark-blue flex">
+  <div class="flex-column">
+    <div class="flex-cell text-white"><Image src={voteByMail} loading="eager" class="img-home-info align-left"
+        alt="Vote by Mail" /><span style="font-weight:bold;">Vote by Mail</span><br />
+        <!--Since the June election is municipal only, you cannot use the state's tool for requesting an absentee ballot. Check your <a href="/local" class="home-banner-link">local election website</a> for information about requesting an absentee ballot.-->
+      Anyone registered to vote in Maine can <a href="https://www.maine.gov/cgi-bin/online/AbsenteeBallot/index.pl" class="home-banner-link">request an absentee ballot</a> and return it to your municipal clerk's
+        office either by mail or in person. You can also now <a href="https://apps.web.maine.gov/cgi-bin/online/AbsenteeBallot/ballot_status.pl" class="home-banner-link">check the status of your absentee ballot</a>.
+    </div>
+  </div>
+  <div class="flex-column">
+    <div class="flex-cell text-white">
+      <Image src={earlyVoting} loading="eager" class="img-home-info align-left" alt="Vote Early Calendar" /><span
+        style="font-weight:bold;">Early Voting</span><br />
+        You can also vote early at your <a href="https://www.maine.gov/sos/cec/elec/munic.html" class="home-banner-link"> municipal clerk's office</a>.
+    </div>
+  </div>
+</div>
+<div class="medium-blue full-wide text-center">
+  <div class="text-white content-med-b">
+    <p>More about how to <a href="/vote" class="home-banner-link">vote in Maine</a></p>
+  </div>
+</div>

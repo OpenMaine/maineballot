@@ -1,0 +1,11 @@
+---
+import elections from '../data/elections.json'
+import dayjs from 'dayjs'
+---
+<div class="medium-blue full-wide">
+  <p class="text-center">
+    <span class="content-med-b text-white">The next Maine election is</span><br />
+    <span class="content-lrg-b text-white">{dayjs(elections.current_election).format("MMMM D, YYYY")}</span><br/>
+    <span class="content-sm-b text-white">Presidential Primary</span><br/>
+  </p>
+</div>

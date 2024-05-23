@@ -1,0 +1,41 @@
+---
+import elections from '../data/elections.json'
+import ElectionDay from '../components/election-day.astro';
+import HomeInfo from '../components/home-info.astro';
+
+import { getCollection } from 'astro:content';
+import ArchiveSingle from '../components/archive-single.astro';
+import Layout from '../layouts/Layout.astro';
+
+const allPosts = await getCollection('posts');
+
+---
+<Layout title="Maine Ballot">
+  <ElectionDay />
+  <HomeInfo />
+  <div class="archive text-center">
+    <div class="archive text-center">
+      <p class="home-ballots-header content-lrg-b text-center">What's On Your Ballot?</p>
+      <p class="home-ballots-header content-med-b">State ballot questions</p>
+      <p>There are no state ballot questions for the March election.</p>
+
+    { allPosts.filter((post) => post.data.election === new Date(elections.current_election))
+    .map(post => (
+      <ArchiveSingle post={post} layout="grid" />
+      ))
+    }
+  <!--{% include paginator.html %}-->
+  <hr class="home-hr">
+  <p class="home-ballots-header content-med-b">Local ballot questions</p>
+  <p>We have links to local election websites and basic information about what's on the ballot and ballot drop box locations for counties, cities, and towns. <br />
+    <a href="/local">Find information about your local election</a>.</p>
+    <hr class="home-hr">
+  <!--  <p class="home-ballots-header content-med-b">State and county candidates</p>
+
+<p>We have a list of candidates for statewide and county races with links to candidate information. <br><a href="/candidates">Find your candidates</a>.</p>
+<hr class="home-hr">
+<p class="home-ballots-header content-med-b">School board incumbents and candidates</p>
+
+<p>We have a list of school board incumbents and candidates. <br><a href="https://docs.google.com/spreadsheets/d/1fYuBvfk9G-IhSXUiDaEPYMCDbdkX37c9nz4DrultViA/edit?usp=sharing"">View school board incumbent and candidate spreadsheet</a>.</p>
+</div> -->
+</Layout>

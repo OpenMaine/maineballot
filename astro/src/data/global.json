@@ -1,0 +1,126 @@
+{
+  "locale": "en-US",
+  "title": "Maine Ballot",
+  "title_separator": "-",
+  "name": "Shannon McHarg",
+  "description": "Ballot questions for Maine elections.",
+  "url": "https://maineballot.org",
+  "baseurl": null,
+  "repository": null,
+  "teaser": null,
+  "words_per_minute": 200,
+  "comments": {
+      "provider": null,
+      "disqus": {
+          "shortname": null
+      },
+      "discourse": {
+          "server": null
+      },
+      "facebook": {
+          "appid": null,
+          "num_posts": null,
+          "colorscheme": null
+      }
+  },
+  "staticman": {
+      "allowedFields": null,
+      "branch": null,
+      "commitMessage": null,
+      "filename": null,
+      "format": null,
+      "moderation": null,
+      "path": null,
+      "requiredFields": null,
+      "transforms": {
+          "email": null
+      },
+      "generatedFields": {
+          "date": {
+              "type": null,
+              "options": {
+                  "format": null
+              }
+          }
+      },
+      "endpoint": null
+  },
+  "reCaptcha": {
+      "siteKey": null,
+      "secret": null
+  },
+  "atom_feed": {
+      "path": null
+  },
+  "search": null,
+  "search_full_content": null,
+  "search_provider": null,
+  "algolia": {
+      "application_id": null,
+      "index_name": null,
+      "search_only_api_key": null,
+      "powered_by": null
+  },
+  "google": {
+      "search_engine_id": null,
+      "instant_search": null
+  },
+  "google_site_verification": "gqHgkOyPBANMIktwSO-L23jON_rj7qk1PJRfsYpfvmY",
+  "bing_site_verification": null,
+  "yandex_site_verification": null,
+  "naver_site_verification": null,
+  "twitter": {
+      "username": null
+  },
+  "facebook": {
+      "username": null,
+      "app_id": null,
+      "publisher": null
+  },
+  "og_image": null,
+  "social": {
+      "type": null,
+      "name": null,
+      "links": null
+  },
+  "collections": {
+      "local-archive": {
+          "output": true
+      },
+      "candidates-archive": {
+          "output": true
+      }
+  },
+  "analytics": {
+      "provider": "google",
+      "google": {
+          "tracking_id": "G-FRBHPKMW0S"
+      }
+  },
+  "author": {
+      "name": "Shannon McHarg",
+      "avatar": null,
+      "bio": "A user experience designer living in Maine who wants to make it easier to understand what you've voting for or against.",
+      "location": "Brunswick, Maine",
+      "email": null,
+      "links": [
+          {
+              "label": "Email",
+              "icon": "fas fa-fw fa-envelope-square"
+          },
+          {
+              "label": "Website",
+              "icon": "fas fa-fw fa-link"
+          },
+          {
+              "label": "Twitter",
+              "icon": "fab fa-fw fa-twitter-square"
+          },
+          {
+              "label": "GitHub",
+              "icon": "fab fa-fw fa-github"
+          }
+      ]
+  },
+  "footer": null
+}
