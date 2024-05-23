@@ -47,12 +47,10 @@ import global from '../data/global.json'
 <!-- end social media cards -->
 
 {
-  global.analytics.provider === 'google'
-? (
+  global.analytics.provider === 'google' ? (
     <>
       <link rel="preconnect" href="https://www.googletagmanager.com" />
       <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
     </>
-  )
-: null
+  ) : null
 }

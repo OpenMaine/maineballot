@@ -19,7 +19,7 @@ import logo from '../assets/img/logo.jpg'
         </a>
         <ul class="visible-links">
           {
-            navigation.main.map(link => (
+            navigation.main.map((link) => (
               <li class="masthead__menu-item">
                 <a href={link.url}>{link.title}</a>
               </li>
@@ -28,8 +28,7 @@ import logo from '../assets/img/logo.jpg'
         </ul>
 
         {
-          global.search
-? (
+          global.search ? (
             <button class="search__toggle" type="button">
               <svg
                 class="icon"
@@ -44,8 +43,7 @@ import logo from '../assets/img/logo.jpg'
                 />
               </svg>
             </button>
-          )
-: null
+          ) : null
         }
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle Menu</span>

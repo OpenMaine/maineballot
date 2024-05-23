@@ -6,7 +6,7 @@ const allPosts = await getCollection('posts')
 
 <ul>
   {
-    allPosts.map(post => (
+    allPosts.map((post) => (
       <li>
         <a href={`/ballot-measure/${post.slug}`}>{post.data.title}</a>
       </li>

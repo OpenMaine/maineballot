@@ -3,7 +3,6 @@ import { getCollection } from 'astro:content'
 import elections from '../data/elections.json'
 import ElectionDay from '../components/election-day.astro'
 import HomeInfo from '../components/home-info.astro'
-
 import ArchiveSingle from '../components/archive-single.astro'
 import Layout from '../layouts/Layout.astro'
 
@@ -24,10 +23,10 @@ const allPosts = await getCollection('posts')
       {
         allPosts
           .filter(
-            post =>
+            (post) =>
               post.data.election === new Date(elections.current_election),
           )
-          .map(post => <ArchiveSingle post={post} layout="grid" />)
+          .map((post) => <ArchiveSingle post={post} layout="grid" />)
       }
       <!--{% include paginator.html %}-->
       <hr class="home-hr" />
