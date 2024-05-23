@@ -8,33 +8,19 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "lint": "eslint '**/*.{astro,js,jsx,ts,tsx,md,mdx,json}' --ignore-pattern .gitignore .",
-    "pretty": "prettier --write . --plugin=prettier-plugin-astro"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@astrojs/check": "^0.7.0",
     "@astrojs/tailwind": "^5.1.0",
-    "@t3-oss/env-core": "^0.10.1",
     "astro": "^4.9.1",
     "dayjs": "^1.11.11",
     "sass": "^1.77.2",
-    "tailwindcss": "^3.4.3",
-    "typescript": "^5.4.5",
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.18.1",
-    "@typescript-eslint/parser": "^7.10.0",
-    "astro-eslint-parser": "^0.16.3",
-    "eslint": "^8.57.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-astro": "^0.31.4",
-    "eslint-plugin-jsx-a11y": "^6.8.0",
-    "eslint-plugin-mdx": "^3.1.5",
-    "eslint-plugin-prettier": "^5.1.3",
-    "eslint-plugin-tailwindcss": "^3.17.0",
-    "prettier": "^3.2.5",
-    "prettier-plugin-astro": "^0.13.0",
-    "prettier-plugin-tailwindcss": "^0.5.14"
+    "@t3-oss/env-core": "^0.10.1",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5"
   }
 }

@@ -1,38 +1,48 @@
 {
   "name": "minimal-mistakes",
+  "type": "module",
   "version": "4.13.0",
   "description": "Minimal Mistakes 2 column Jekyll theme.",
+  "author": "Michael Rose",
+  "license": "MIT",
+  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
   "repository": {
     "type": "git",
     "url": "git://github.com/mmistakes/minimal-mistakes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
   },
   "keywords": [
     "jekyll",
     "theme",
     "minimal"
   ],
-  "author": "Michael Rose",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
-  },
-  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
   "engines": {
     "node": ">= 0.10.0"
-  },
-  "devDependencies": {
-    "npm-run-all": "^1.7.0",
-    "onchange": "^7.1.0",
-    "uglify-js": "^2.6.1"
   },
   "scripts": {
     "uglify": "uglifyjs assets/js/vendor/jquery/jquery-3.7.1.min.js assets/js/plugins/jquery.fitvids.js assets/js/plugins/jquery.greedy-navigation.js assets/js/plugins/jquery.magnific-popup.js assets/js/plugins/jquery.smooth-scroll.min.js assets/js/table-search.js assets/js/_main.js -c -m -o assets/js/main.min.js",
     "add-banner": "node banner.js",
     "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
-    "build:js": "npm run uglify && npm run add-banner"
+    "build:js": "npm run uglify && npm run add-banner",
+    "lint": "eslint 'astro/src/**/*.{astro,js,jsx,ts,tsx,md,mdx,json}'"
   },
   "dependencies": {
+    "astro": "^4.9.1",
     "braces": "^3.0.2",
     "minimist": "^1.2.6"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.18.1",
+    "astro-eslint-parser": "^0.16.3",
+    "eslint": "^8.56.0",
+    "eslint-plugin-astro": "^0.31.4",
+    "eslint-plugin-format": "^0.1.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "npm-run-all": "^1.7.0",
+    "onchange": "^7.1.0",
+    "prettier-plugin-astro": "^0.13.0",
+    "uglify-js": "^2.6.1"
   }
 }

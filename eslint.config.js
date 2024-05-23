@@ -1,14 +1,17 @@
 import antfu from '@antfu/eslint-config'
 
 export default antfu({
-  astro: true,
-  typescript: {
-    tsconfigPath: 'tsconfig.json',
+  // formatters: true, // this can be uncommented when astro is no longer in a nested dir, @antfu/eslint-config looks for astro to be installed and will automatically enable
+  formatters: {
+    astro: 'prettier',
+    css: 'prettier',
+    html: 'prettier',
+    markdown: 'prettier',
   },
+  astro: true,
   ignores: [
     // # build output
     'dist/',
-
     // # generated types
     '.astro/',
 
@@ -27,7 +30,6 @@ export default antfu({
 
     // # macOS-specific files
     '.DS_Store',
-
-    'src/assets/js/*',
+    'astro/src/assets/*',
   ],
 })
