@@ -26,7 +26,8 @@
     "add-banner": "node banner.js",
     "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
     "build:js": "npm run uglify && npm run add-banner",
-    "lint": "eslint 'astro/src/**/*.{astro,js,jsx,ts,tsx,md,mdx,json}'"
+    "lint": "eslint 'astro/src/**/*.{astro,js,jsx,ts,tsx,md,mdx,json}'",
+    "prepare": "husky"
   },
   "dependencies": {
     "astro": "^4.9.1",
@@ -40,9 +41,14 @@
     "eslint-plugin-astro": "^0.31.4",
     "eslint-plugin-format": "^0.1.1",
     "eslint-plugin-jsx-a11y": "^6.8.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.4",
     "npm-run-all": "^1.7.0",
     "onchange": "^7.1.0",
     "prettier-plugin-astro": "^0.13.0",
     "uglify-js": "^2.6.1"
+  },
+  "lint-staged": {
+    "astro/src/**/*.{astro,js,jsx,ts,tsx,md,mdx,json}": "eslint --fix"
   }
 }
