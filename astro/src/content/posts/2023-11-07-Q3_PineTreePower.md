@@ -1,5 +1,5 @@
 ---
-title:  "Question 3: Consumer-owned Utility"
+title: 'Question 3: Consumer-owned Utility'
 excerpt: This measure would create a consumer-owned utility.
 election: 2023-11-07
 header:
@@ -9,14 +9,15 @@ header:
   image_description: Electric transmission line
 search: true
 categories:
-- November 2023 Election
+  - November 2023 Election
 tags:
-- Citizen's Initiative
-- Electricity
+  - Citizen's Initiative
+  - Electricity
 yes_vote: I am in favor of the creation of a consumer owned electric utility that would replace Central Maine Power and Versant Power.
 no_vote: I don't want Central Maine Power and Versant Power to be replaced with a consumer owned electric utility.
 last_modified_at: 2023-08-13 T12:17:00-05:00
 ---
+
 ## The gist
 
 This citizen initiative would require the investor-owned utilities, mainly Central Maine Power and Versant Power, to sell their distribution and transmission facilities to a new consumer-owned company. The consumer-owned company would be known as the Pine Tree Power Company and would be managed by an executive board composed of 7 elected representatives and 6 expert members.
@@ -74,17 +75,17 @@ Costs related to the Maine Clean Election program for any candidates applying to
 
 The primary arguments for this referendum are:
 
-* Local control of the utility when compared to CMP, a subsidiary of Avangrid through Iberdrola in Spain, and Versant, part of ENMAX in Canada
-* A responsive company that has more consumer input through elected representatives
-* Potential for reduced electricity rates or more system reliability through a reduced need to incentivize profits
-* Lower interest rate costs for borrowing money to upgrade and expand the grid
+- Local control of the utility when compared to CMP, a subsidiary of Avangrid through Iberdrola in Spain, and Versant, part of ENMAX in Canada
+- A responsive company that has more consumer input through elected representatives
+- Potential for reduced electricity rates or more system reliability through a reduced need to incentivize profits
+- Lower interest rate costs for borrowing money to upgrade and expand the grid
 
 ## Cons
 
 The primary arguments against this referendum are:
 
-* Savings through lower interest rates may not help greatly with the projected steep initial upfront purchasing of assets
-* The proposed Pine Tree Power Executive Board may still delay system improvements if it would help keep rate costs down and consequently may worsen system reliability
+- Savings through lower interest rates may not help greatly with the projected steep initial upfront purchasing of assets
+- The proposed Pine Tree Power Executive Board may still delay system improvements if it would help keep rate costs down and consequently may worsen system reliability
 
 ## Who cares
 
@@ -94,19 +95,19 @@ During the public comment period, no comments were submitted in support or oppos
 
 ### General Support
 
-* [Sierra Club](https://www.sierraclub.org/maine/blog/2023/09/sierra-club-maine-2023-ballot-initiative-voter-guide)
-* [Maine State Nurses Association](https://mainebeacon.com/maine-nurses-union-backs-plan-to-oust-cmp-versant/)
-* [Maine People's Alliance](https://mainebeacon.com/sierra-club-endorses-measure-to-replace-cmp-versant-with-consumer-owned-utility/)
-* [350.org](https://350.org/pine-tree-endorsement/)
-* [Natural Resources Council of Maine](https://www.nrcm.org/blog/case-for-public-power/?eType=EmailBlastContent&eId=5d941bfc-344f-4ad1-8386-e89c12ea19cb)
-* [United States Senator Bernie Sanders (I-VT)](https://www.mainepublic.org/politics/2023-07-27/bernie-sanders-endorses-plan-to-create-nonprofit-electric-utility-in-maine)
+- [Sierra Club](https://www.sierraclub.org/maine/blog/2023/09/sierra-club-maine-2023-ballot-initiative-voter-guide)
+- [Maine State Nurses Association](https://mainebeacon.com/maine-nurses-union-backs-plan-to-oust-cmp-versant/)
+- [Maine People's Alliance](https://mainebeacon.com/sierra-club-endorses-measure-to-replace-cmp-versant-with-consumer-owned-utility/)
+- [350.org](https://350.org/pine-tree-endorsement/)
+- [Natural Resources Council of Maine](https://www.nrcm.org/blog/case-for-public-power/?eType=EmailBlastContent&eId=5d941bfc-344f-4ad1-8386-e89c12ea19cb)
+- [United States Senator Bernie Sanders (I-VT)](https://www.mainepublic.org/politics/2023-07-27/bernie-sanders-endorses-plan-to-create-nonprofit-electric-utility-in-maine)
 
 ### General Opposition
 
-* [International Brotherhood of Electrical Workers (IBEW)](https://www.mainepublic.org/politics/2023-10-05/heres-everything-we-know-about-the-referendum-to-replace-cmp-and-versant-with-pine-tree-power)
-* [Maine AFL-CIO](https://wgan.com/news/074470-two-labor-groups-advocate-against-pine-tree-power/)
-* [Portland Community Chamber of Commerce](https://www.pressherald.com/2023/09/14/portland-chamber-slams-public-power-proposal-as-activists-demonstrate/)
-* [Maine Governor Janet Mills (D-ME)](https://www.bangordailynews.com/2023/09/20/politics/janet-mills-utility-takeover/)
+- [International Brotherhood of Electrical Workers (IBEW)](https://www.mainepublic.org/politics/2023-10-05/heres-everything-we-know-about-the-referendum-to-replace-cmp-and-versant-with-pine-tree-power)
+- [Maine AFL-CIO](https://wgan.com/news/074470-two-labor-groups-advocate-against-pine-tree-power/)
+- [Portland Community Chamber of Commerce](https://www.pressherald.com/2023/09/14/portland-chamber-slams-public-power-proposal-as-activists-demonstrate/)
+- [Maine Governor Janet Mills (D-ME)](https://www.bangordailynews.com/2023/09/20/politics/janet-mills-utility-takeover/)
 
 ### Campaign Financing
 
@@ -114,25 +115,25 @@ Ballotpedia reports that there are three Political Action Committees (PACs) regi
 
 #### Support PACs
 
-* [Our Power](https://ourpowermaine.org/): As of 30 September, 2023, Ballotpedia reported contributions of $1.07 million with expenditures of $1.01 million.
+- [Our Power](https://ourpowermaine.org/): As of 30 September, 2023, Ballotpedia reported contributions of $1.07 million with expenditures of $1.01 million.
 
 #### Opposition PACs
 
-* [Maine Affordable Energy](https://maineaffordableenergy.org/)
-* [Maine Energy Progress](https://www.maineenergyprogress.com/)
-* Combined contributions of $35.5 million and expenditures of $29.6 million
+- [Maine Affordable Energy](https://maineaffordableenergy.org/)
+- [Maine Energy Progress](https://www.maineenergyprogress.com/)
+- Combined contributions of $35.5 million and expenditures of $29.6 million
 
 ## Further reading
 
 [Full Text](https://www.maine.gov/sos/cec/elec/citizens/Pine%20Tree%20Power%20Petition.pdf)<br>
-[Ballotpedia Article](https://ballotpedia.org/Maine_Question_3,_Pine_Tree_Power_Company_Initiative_(2023))<br>
+[Ballotpedia Article](<https://ballotpedia.org/Maine_Question_3,_Pine_Tree_Power_Company_Initiative_(2023)>)<br>
 [Portland Press Herald Article](https://www.pressherald.com/2023/10/02/question-3-voters-could-reshape-maines-energy-landscape/)<br>
 [Office of the Public Advocate Report](https://www.maine.gov/meopa/sites/maine.gov.meopa/files/inline-files/Pine%20Tree%20Power%20Fact%20Sheet.pdf)
 
 ## References
 
 [^1]: Maine Secretary of State. [An Act To Create the Pine Tree Power Company, a Nonprofit, Customer-owned Utility](https://www.maine.gov/sos/cec/elec/citizens/Pine%20Tree%20Power%20Petition.pdf). Accessed October 7, 2023.
-[^2]: Ballotpedia State Desk. [Maine Question 3, Pine Tree Power Company Initiative (2023)](https://ballotpedia.org/Maine_Question_3,_Pine_Tree_Power_Company_Initiative_(2023)). Ballotpedia. Accessed October 7, 2023.
+[^2]: Ballotpedia State Desk. [Maine Question 3, Pine Tree Power Company Initiative (2023)](<https://ballotpedia.org/Maine_Question_3,_Pine_Tree_Power_Company_Initiative_(2023)>). Ballotpedia. Accessed October 7, 2023.
 [^3]: Bellows, Shenna. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide23.pdf). Accessed October 7, 2023.
 [^4]: Singer, Stephen. [Question 3: What you need to know about the Pine Tree Power referendum](https://www.pressherald.com/2023/10/02/question-3-voters-could-reshape-maines-energy-landscape/). Portland Press Herald. Accessed October 7, 2023.
 [^6]: Versant Power's electricity and transmission assets are consolidated into Enmax's (the parent company) investor report[^7]. Versant Power's segment was estimated by calculating the percent difference of the distribution volume of Enmax Power and Versant Power. This was then applied to the Property, Plant, and Equipment financial report total.

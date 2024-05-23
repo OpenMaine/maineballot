@@ -1,11 +1,15 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection } from 'astro:content'
 
-const allPosts = await getCollection("posts")
+const allPosts = await getCollection('posts')
 ---
 
 <ul>
-  {allPosts.map(post => (
-    <li><a href={`/ballot-measure/${post.slug}`}>{post.data.title}</a></li>
-  ))}
+  {
+    allPosts.map(post => (
+      <li>
+        <a href={`/ballot-measure/${post.slug}`}>{post.data.title}</a>
+      </li>
+    ))
+  }
 </ul>

@@ -3,9 +3,7 @@
   "compilerOptions": {
     "resolveJsonModule": true,
     "allowJs": true,
-    "esModuleInterop": true,
+    "esModuleInterop": true
   },
-  "exclude": [
-    "./src/assets/js/**.*"
-  ]
+  "exclude": ["./src/assets/js/**.*"]
 }

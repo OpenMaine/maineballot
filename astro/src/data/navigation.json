@@ -1,24 +1,24 @@
 {
-"main": [
-  {
-    "title": "Home",
-    "url": "/"
-  },
-  {
-    "title": "How to vote in Maine",
-    "url": "/vote/"
-  },
-  {
-    "title": "Archive",
-    "url": "/archive/"
-  },
-  {
-    "title": "How bonds work",
-    "url": "/bonds/"
-  },
-  {
-    "title": "About",
-    "url": "/about/"
-  }
-]
+  "main": [
+    {
+      "title": "Home",
+      "url": "/"
+    },
+    {
+      "title": "How to vote in Maine",
+      "url": "/vote/"
+    },
+    {
+      "title": "Archive",
+      "url": "/archive/"
+    },
+    {
+      "title": "How bonds work",
+      "url": "/bonds/"
+    },
+    {
+      "title": "About",
+      "url": "/about/"
+    }
+  ]
 }

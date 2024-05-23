@@ -1,5 +1,5 @@
 ---
-title:  "Question 8: Voting Under Mental Illness Guardianship"
+title: 'Question 8: Voting Under Mental Illness Guardianship'
 excerpt: This measure would allow people under guardianship for mental illness to vote in elections for governor, senators, and representatives.
 election: 2023-11-07
 header:
@@ -9,15 +9,16 @@ header:
   image_description: Ballot being filled out
 search: true
 categories:
-- November 2023 Election
+  - November 2023 Election
 tags:
-- Constitutional Amendment
-- Mental Illness
-- Guardianship
+  - Constitutional Amendment
+  - Mental Illness
+  - Guardianship
 yes_vote: I am in favor of allowing those under guardianship for mental illness to vote for governor, senators, and representatives.
 no_vote: I don't want to allow those under guardianship for mental illness to vote for governor, senators, and representatives
 last_modified_at: 2023-10-06 T12:32:00-05:00
 ---
+
 ## The gist
 
 This amendment would remove text from Article II Section 1 of the Maine Constitution that violates the Due Process Clause and the Equal Protection Clause found in the United States Constitution[^1]. The sentence of relevance in the Maine Constitution is bolded, "Every citizen of the United States of the age of 18 years and upwards, excepting persons under guardianship for reasons of mental illness, having his or her residence established in this State, shall be an elector for Governor, Senators and Representatives, in the city, town or plantation where his or her residence has been established, if he or she continues to reside in this State; and the elections shall be by written ballot."[^5]
@@ -50,22 +51,22 @@ There's no money directly involved with this referendum.[^3]
 
 The primary arguments for this referendum are:
 
-* The state no longer enforces the provision in the Maine Constitution after resolution of the lawsuit _Doe v. Rowe_; therefore, the language should be removed.
-* The Maine Constitution violates the Due Process and Equal Protection Clauses of the United States Constitution.
+- The state no longer enforces the provision in the Maine Constitution after resolution of the lawsuit _Doe v. Rowe_; therefore, the language should be removed.
+- The Maine Constitution violates the Due Process and Equal Protection Clauses of the United States Constitution.
 
 ## Cons
 
 The primary arguments against this referendum are:
 
-* Probate Court, as part of the determination of placing someone under guardianship, could possibly allow someone to vote who is not of sound mind.
+- Probate Court, as part of the determination of placing someone under guardianship, could possibly allow someone to vote who is not of sound mind.
 
 ## Who cares [^6]
 
 ### Support
 
-* Disability Rights Maine
-* Legal Services for the Elderly
-* Bill (LD 1653) Sponsors and Co-sponsors: Senator Craig Hickman (Sponsor), Senator Stacy Brenner, Representative Karen Montell, Senator Cameron Reny, Representative Morgan Reilly, Representative Laura Supica
+- Disability Rights Maine
+- Legal Services for the Elderly
+- Bill (LD 1653) Sponsors and Co-sponsors: Senator Craig Hickman (Sponsor), Senator Stacy Brenner, Representative Karen Montell, Senator Cameron Reny, Representative Morgan Reilly, Representative Laura Supica
 
 ### Opposition
 
@@ -74,7 +75,7 @@ No major opposition.
 ## Further reading
 
 [Full Text](https://legislature.maine.gov/bills/getPDF.asp?paper=SP0658&item=3&snum=131)<br>
-[Ballotpedia Article](https://ballotpedia.org/Maine_Question_8,_Allow_Individuals_Under_Guardianship_for_Reasons_of_Mental_Illness_to_Vote_in_Elections_Amendment_(2023))<br>
+[Ballotpedia Article](<https://ballotpedia.org/Maine_Question_8,_Allow_Individuals_Under_Guardianship_for_Reasons_of_Mental_Illness_to_Vote_in_Elections_Amendment_(2023)>)<br>
 [Portland Press Herald Article](https://www.pressherald.com/2023/10/06/questions-5-through-8-what-you-need-to-know-about-the-proposed-constitutional-amendments/)
 
 ## References
@@ -84,5 +85,5 @@ No major opposition.
 [^3]: Maine State Legislature. (26 April 2023). [Testimony of John Brautigam, Esq., Legal Services for the Elderly](https://legislature.maine.gov/bills/getTestimonyDoc.asp?id=172973). Accessed 3 September 2023.
 [^4]: Maine State Legislature. (n.d.) [Testimony to oppose LD 1653](https://legislature.maine.gov/bills/getTestimonyDoc.asp?id=10018790). Accessed 3 September 2023.
 [^5]: Bellows, Shenna. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide23.pdf). Accessed October 3, 2023.
-[^6]: Ballotpedia State Desk. [Maine Question 8, Allow Individuals Under Guardianship for Reasons of Mental Illness to Vote in Elections Amendment (2023)](https://ballotpedia.org/Maine_Question_8_Allow_Individuals_Under_Guardianship_for_Reasons_of_Mental_Illness_to_Vote_in_Elections_Amendment_(2023)). Accessed October 2, 2023.
+[^6]: Ballotpedia State Desk. [Maine Question 8, Allow Individuals Under Guardianship for Reasons of Mental Illness to Vote in Elections Amendment (2023)](<https://ballotpedia.org/Maine_Question_8_Allow_Individuals_Under_Guardianship_for_Reasons_of_Mental_Illness_to_Vote_in_Elections_Amendment_(2023)>). Accessed October 2, 2023.
 [^8]: Maine Secretary of State. [Proposing an Amendment to the Constitution of Maine to Allow Persons Under Guardianship for Mental Illness to Be Electors](https://legislature.maine.gov/bills/getPDF.asp?paper=SP0658&item=3&snum=131). Accessed October 6, 2023.<br>
