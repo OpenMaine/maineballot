@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "astro": "^4.9.1",
+    "astro-seo": "^0.8.3",
     "braces": "^3.0.2",
     "minimist": "^1.2.6"
   },

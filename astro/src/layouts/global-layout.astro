@@ -1,0 +1,97 @@
+---
+import CustomHead from '#components/custom-head.astro'
+import Footer from '#components/footer.astro'
+import CustomFooter from '#components/custom-footer.astro'
+import Masthead from '#components/masthead.astro'
+import GoogleAnalytics from '#components/global/google-analytics.astro'
+import { SEO } from 'astro-seo'
+
+import '../assets/css/main.scss'
+
+import type { z } from 'zod'
+import { SITE_META } from '#utils/constants'
+import type { siteMetaSchema } from '#utils/types'
+import { env } from '#utils/env-vars'
+
+type SiteMetaProps = z.infer<typeof siteMetaSchema>
+
+interface Props extends Partial<SiteMetaProps> {}
+
+const {
+  title,
+  description = SITE_META.description,
+  image = new URL('og.jpg', Astro.url.origin).href,
+} = Astro.props
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+
+    <GoogleAnalytics />
+
+    <SEO
+      charset="UTF-8"
+      title={title}
+      titleDefault={SITE_META.siteTitle}
+      titleTemplate={`%s — ${SITE_META.siteTitle}`}
+      description={description}
+      openGraph={{
+        basic: {
+          title: title || SITE_META.siteTitle,
+          type: 'Website',
+          image,
+          url: Astro.url,
+        },
+        optional: {
+          description,
+          locale: 'en_US',
+          siteName: SITE_META.siteTitle,
+        },
+        image: {
+          width: 1200,
+          height: 630,
+        },
+      }}
+      twitter={{
+        card: 'summary_large_image',
+        title,
+        description,
+        image,
+      }}
+      extend={{
+        link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+        meta: [
+          { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+          { name: 'generator', content: Astro.generator },
+          {
+            name: 'google-site-verification',
+            content: env.GOOGLE_SITE_VERIFICATION,
+          },
+        ],
+      }}
+    />
+  </head>
+  <body class="layout--home">
+    <Masthead />
+
+    <div class="initial-content">
+      <slot />
+    </div>
+
+    <div class="page__footer">
+      <footer>
+        <CustomFooter />
+        <Footer />
+      </footer>
+    </div>
+
+    <script src="../assets/js/main.min.js"></script>
+  </body>
+</html>

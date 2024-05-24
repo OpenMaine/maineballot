@@ -1,10 +1,10 @@
 ---
-import global from '../data/global.json'
+import { SITE_META } from '#utils/constants'
 ---
 
 <div class="page__footer-copyright">
   &copy; {new Date().getFullYear()}
-  {global.title}. Powered by<a href="https://jekyllrb.com" rel="nofollow"
+  {SITE_META.siteTitle}. Powered by<a href="https://jekyllrb.com" rel="nofollow"
     >Jekyll</a
   > &amp; <a
     href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/"

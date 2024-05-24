@@ -1,15 +1,15 @@
 ---
 import { getCollection } from 'astro:content'
-import elections from '../data/elections.json'
 import ElectionDay from '../components/election-day.astro'
 import HomeInfo from '../components/home-info.astro'
 import ArchiveSingle from '../components/archive-single.astro'
-import Layout from '../layouts/Layout.astro'
+import { ELECTIONS } from '../utils/constants'
+import GlobalLayout from '../layouts/global-layout.astro'
 
 const allPosts = await getCollection('posts')
 ---
 
-<Layout title="Maine Ballot">
+<GlobalLayout>
   <ElectionDay />
   <HomeInfo />
   <div class="archive text-center">
@@ -24,7 +24,7 @@ const allPosts = await getCollection('posts')
         allPosts
           .filter(
             (post) =>
-              post.data.election === new Date(elections.current_election),
+              post.data.election === new Date(ELECTIONS.current_election),
           )
           .map((post) => <ArchiveSingle post={post} layout="grid" />)
       }
@@ -47,5 +47,5 @@ const allPosts = await getCollection('posts')
 <p>We have a list of school board incumbents and candidates. <br><a href="https://docs.google.com/spreadsheets/d/1fYuBvfk9G-IhSXUiDaEPYMCDbdkX37c9nz4DrultViA/edit?usp=sharing"">View school board incumbent and candidate spreadsheet</a>.</p>
 </div> -->
     </div>
-  </div></Layout
->
+  </div>
+</GlobalLayout>

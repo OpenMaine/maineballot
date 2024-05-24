@@ -1,5 +1,5 @@
 ---
-import global from '../data/global.json'
+import { GLOBAL } from '../utils/constants'
 ---
 
 <!-- start custom head snippets -->
@@ -45,12 +45,3 @@ import global from '../data/global.json'
   content="The goal of MaineBallot.org is to provide concise, non-partisan information to make it easy to understand the ballot questions pending in Maine."
 />
 <!-- end social media cards -->
-
-{
-  global.analytics.provider === 'google' ? (
-    <>
-      <link rel="preconnect" href="https://www.googletagmanager.com" />
-      <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-    </>
-  ) : null
-}

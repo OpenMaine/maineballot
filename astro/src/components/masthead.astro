@@ -1,8 +1,7 @@
 ---
 import { Image } from 'astro:assets'
-import global from '../data/global.json'
-import navigation from '../data/navigation.json'
 import logo from '../assets/img/logo.jpg'
+import { GLOBAL, NAVIGATION } from '../utils/constants'
 ---
 
 <div class="masthead">
@@ -19,7 +18,7 @@ import logo from '../assets/img/logo.jpg'
         </a>
         <ul class="visible-links">
           {
-            navigation.main.map((link) => (
+            NAVIGATION.main.map((link) => (
               <li class="masthead__menu-item">
                 <a href={link.url}>{link.title}</a>
               </li>
@@ -27,8 +26,8 @@ import logo from '../assets/img/logo.jpg'
           }
         </ul>
 
-        {
-          global.search ? (
+        <!-- {
+          GLOBAL.search ? (
             <button class="search__toggle" type="button">
               <svg
                 class="icon"
@@ -44,7 +43,8 @@ import logo from '../assets/img/logo.jpg'
               </svg>
             </button>
           ) : null
-        }
+        } -->
+
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle Menu</span>
           <div class="navicon"></div>
