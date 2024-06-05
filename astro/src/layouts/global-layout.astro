@@ -1,14 +1,11 @@
 ---
-import CustomHead from '#components/custom-head.astro'
+import type { z } from 'zod'
 import Footer from '#components/footer.astro'
 import CustomFooter from '#components/custom-footer.astro'
 import Masthead from '#components/masthead.astro'
-import GoogleAnalytics from '#components/global/google-analytics.astro'
 import { SEO } from 'astro-seo'
 
-import '../assets/css/main.scss'
-
-import type { z } from 'zod'
+import GoogleAnalytics from '#components/global/google-analytics.astro'
 import { SITE_META } from '#utils/constants'
 import type { siteMetaSchema } from '#utils/types'
 import { env } from '#utils/env-vars'
@@ -32,6 +29,8 @@ const {
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+
     <title>{title}</title>
 
     <GoogleAnalytics />
@@ -78,20 +77,18 @@ const {
       }}
     />
   </head>
-  <body class="layout--home">
+  <body>
     <Masthead />
 
-    <div class="initial-content">
+    <div>
       <slot />
     </div>
 
-    <div class="page__footer">
+    <div>
       <footer>
         <CustomFooter />
         <Footer />
       </footer>
     </div>
-
-    <script src="../assets/js/main.min.js"></script>
   </body>
 </html>

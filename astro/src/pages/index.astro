@@ -1,10 +1,10 @@
 ---
 import { getCollection } from 'astro:content'
-import ElectionDay from '../components/election-day.astro'
-import HomeInfo from '../components/home-info.astro'
-import ArchiveSingle from '../components/archive-single.astro'
-import { ELECTIONS } from '../utils/constants'
-import GlobalLayout from '../layouts/global-layout.astro'
+import ElectionDay from '#components/election-day.astro'
+import HomeInfo from '#components/home-info.astro'
+import ArchiveSingle from '#components/archive-single.astro'
+import { ELECTIONS } from '#utils/constants'
+import GlobalLayout from '#layouts/global-layout.astro'
 
 const allPosts = await getCollection('posts')
 ---
