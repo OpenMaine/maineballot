@@ -19,8 +19,8 @@ import { env } from '#utils/env-vars'
   if (isProd) {
     ;(() => {
       window.dataLayer = window.dataLayer || []
-      function gtag() {
-        dataLayer.push(arguments)
+      function gtag(...args) {
+        dataLayer.push(args)
       }
       gtag('js', new Date())
       gtag('config', GOOGLE_MEASUREMENT_ID)

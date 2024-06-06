@@ -20,19 +20,23 @@ const teaser = post.data.header.teaser || GLOBAL.teaser
     itemtype="http://schema.org/CreativeWork"
   >
     {
-      layout === 'grid' && teaser.src ? (
+      layout === 'grid' && teaser.src
+? (
         <div>
           <Image src={teaser} alt="" />
         </div>
-      ) : null
+      )
+: null
     }
     <h2 class="archive__item-title" itemprop="headline">
       <!-- {
         post.link ? (
           <a href="{{ post.link }}">{{ post.title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
         ) : ( -->
-      <a href=`/ballot-measure/${post.slug}` rel="permalink"
-        >{post.data.title}</a
+      <a
+        href=`/ballot-measure/${post.slug}`
+        rel="permalink"
+      >{post.data.title}</a
       >
       <!-- )
       } -->
@@ -41,11 +45,13 @@ const teaser = post.data.header.teaser || GLOBAL.teaser
       <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     ) : null} -->
     {
-      post.data.excerpt ? (
+      post.data.excerpt
+? (
         <p class="archive__item-excerpt" itemprop="description">
           {post.data.excerpt}
         </p>
-      ) : null
+      )
+: null
     }
   </article>
 </div>
