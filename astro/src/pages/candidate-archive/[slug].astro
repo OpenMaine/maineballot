@@ -1,0 +1,11 @@
+---
+import { getCollection } from 'astro:content'
+
+export async function getStaticPaths() {
+  const allCandidates = await getCollection('candidates')
+  return allCandidates.map(post => ({
+    params: { slug: post.slug },
+    props: { post },
+  }))
+}
+---

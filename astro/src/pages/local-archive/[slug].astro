@@ -1,0 +1,11 @@
+---
+import { getCollection } from 'astro:content'
+
+export async function getStaticPaths() {
+  const allLocal = await getCollection('local')
+  return allLocal.map(post => ({
+    params: { slug: post.slug },
+    props: { post },
+  }))
+}
+---
