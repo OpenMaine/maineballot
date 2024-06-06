@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "State & county candidates"
 author_profile: false
 datafile: candidates-2020-11
