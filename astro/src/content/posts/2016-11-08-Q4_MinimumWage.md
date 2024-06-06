@@ -1,22 +1,23 @@
 ---
 title: 'Question 4: Minimum Wage'
-excerpt: This approved measure raises the minimum wage by $1 a year until it gets to $12 in 2020.
-election: 2017-06-13
+excerpt: >-
+  This approved measure raises the minimum wage by $1 a year until it gets to
+  $12 in 2020.
+electionDate: 2017-06-13
 header:
   overlay_image: ../../assets/img/2016_11/Question4_MinimumWage.jpg
   teaser: ../../assets/img/2016_11/Question4_MinimumWage.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: Money
 search: true
-categories:
-  - November 2016 Election
+election: november-2016-election
 tags:
-  - Wages
-  - Citizen Initiative
-  - Passed
+  - wages
+  - citizen-initiative
+  - passed
 yes_vote: I am in favor of raising the minimum wage.
 no_vote: I want to keep the minimum wage as is.
-last_modified_at: 2019-01-08 T08:06:00-05:00
+lastModifiedDate: 2019-01-08
 ---
 
 ## Results
@@ -43,12 +44,12 @@ This bill would raise the minimum wage from $7.50 by $1 per year until it gets t
 <br><br>
 **Note:** The costs don't include the cost to increase state worker wages as part of increasing the minimum wage.
 
-### The money will be used to:
+### The money will be used to
 
 - Print and mail posters and publications
 - Compliance, education, and outreach
 
-### The money will be coming from:
+### The money will be coming from
 
 - General Fund appropriation
 
@@ -79,6 +80,6 @@ The primary arguments against this referendum are:
 
 ## References
 
-[^1]: Ballotpedia State Desk. [Maine Minimum Wage Increase, Question 4 (2016)](<https://ballotpedia.org/Maine_Minimum_Wage_Increase,_Question_4_(2016)>). Ballotpedia. Accessed October 24, 2016.
 [^2]: Dunlop, M. [Maine Citizen's Guide to the Referendum Election](http://www.state.me.us/sos/cec/elec/upcoming/citizensguide2016.pdf). Accessed October 7, 2016.
+
 [^3]: Maine PBN. [Debate: Ballot Question 4](http://mainepublic.org/post/debate-ballot-question-4). Maine Calling. Accessed November 7, 2016.

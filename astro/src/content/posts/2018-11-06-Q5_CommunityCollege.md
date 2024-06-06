@@ -1,22 +1,23 @@
 ---
 title: 'Question 5: Community Colleges'
-excerpt: This approved measure allows the state to borrow $15 million to upgrade facilities at Maine’s community colleges.
-election: 2018-11-06
+excerpt: >-
+  This approved measure allows the state to borrow $15 million to upgrade
+  facilities at Maine’s community colleges.
+electionDate: 2018-11-06
 header:
   overlay_image: ../../assets/img/2018_11/Question5_CommunityCollege.jpg
   teaser: ../../assets/img/2018_11/Question5_CommunityCollege.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: Community college building
 search: true
-categories:
-  - November 2018 Election
+election: november-2018-election
 tags:
-  - Education
-  - Bond
-  - Passed
+  - education
+  - bond
+  - passed
 yes_vote: I support borrowing money for community college facility upgrades.
 no_vote: I do not want to borrow money for community college facility upgrades.
-last_modified_at: 2019-01-07 T08:06:00-05:00
+lastModifiedDate: 2019-01-07
 ---
 
 ## Results
@@ -45,7 +46,7 @@ Principal: $15,000,000
 <br>Interest: $4,125,000 (assumes 5.0% over 10 years)
 <br>Total cost: $19,125,000[^4]
 
-### The money will be used to:
+### The money will be used to
 
 - $4,275,100 to Southern Maine Community College for “facility repairs, energy efficiencies, space for student support and remediation, information technology system, and instructional and library services.”[^1]
 - $2,503,755 to Central Maine Community College for “instructional laboratories, information technology infrastructure, and heating and ventilating systems.”[^1]
@@ -55,7 +56,7 @@ Principal: $15,000,000
 - $1,165,119 to Northern Maine Community College for “diesel hydraulics program laboratory, information technology infrastructure, heating and ventilation systems, energy efficiencies, and classroom renovations.”[^1]
 - $885,853 to Washington County Community College for “instructional laboratories, information technology systems, and instructional technologies.”[^1]
 
-### The money will be coming from:
+### The money will be coming from
 
 - A $15 million bond issued by the state and paid back through the budget and taxes over 10 years.
 
@@ -86,6 +87,9 @@ Nobody has registered support or opposition to this bond. [^1]
 ## References
 
 [^1]: Ballotpedia State Desk. [Maine Question 5, Community Colleges Bond Issue (2018)](<https://ballotpedia.org/Maine_Question_5,_Community_Colleges_Bond_Issue_(2018)>). Ballotpedia. Accessed October 11, 2018.
+
 [^2]: Maine State Legislature. [L.D. 836](http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP0585&item=2&snum=128). Accessed October 11, 2018.
+
 [^3]: League of Women Voters. [League of Women Voters, Maine 2018 General Election Voter Guide (2018)](http://www.lwvme.org/files/VG_2018_Statewide.pdf). Accessed October 11, 2018.
+
 [^4]: Dunlap, Matthew. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide.pdf). Accessed October 11, 2018.

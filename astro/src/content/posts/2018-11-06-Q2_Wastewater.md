@@ -1,22 +1,27 @@
 ---
 title: 'Question 2: Wastewater'
-excerpt: This approved measure allows the state to borrow $30 million to improve water quality.
-election: 2018-11-06
+excerpt: >-
+  This approved measure allows the state to borrow $30 million to improve water
+  quality.
+electionDate: 2018-11-06
 header:
   overlay_image: ../../assets/img/2018_11/Question2_Wastewater.jpg
   teaser: ../../assets/img/2018_11/Question2_Wastewater.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: Wastewater coming out of a pipe
 search: true
-categories:
-  - November 2018 Election
+election: november-2018-election
 tags:
-  - Water
-  - Bond
-  - Passed
-yes_vote: I am in favor of issuing a $30 million bond to fund wastewater infrastructure improvements.
-no_vote: I don't want to issue a $30 million bond to fund wastewater infrastructure improvements.
-last_modified_at: 2019-01-07 T08:06:00-05:00
+  - water
+  - bond
+  - passed
+yes_vote: >-
+  I am in favor of issuing a $30 million bond to fund wastewater infrastructure
+  improvements.
+no_vote: >-
+  I don't want to issue a $30 million bond to fund wastewater infrastructure
+  improvements.
+lastModifiedDate: 2019-01-07
 ---
 
 ## Results
@@ -45,13 +50,13 @@ Principal: $30,000,000
 <br>Interest: $8,250,000 (assumes 5.0% over 10 years)
 <br>Total cost: $38,250,000[^4]
 
-### The money will be used to:
+### The money will be used to
 
 - $27.65 million for wastewater treatment facility planning and construction for areas that affect high-value shellfish resources[^4]
 - $2 million for a small community grant program to help towns replace broken septic systems that are causing pollution[^4]
 - $350,000 for homeowners to fix their disposal systems[^4]
 
-### The money will be coming from:
+### The money will be coming from
 
 - $30 million bond issued by the state and paid back through the budget and taxes over 10 years.
 
@@ -84,6 +89,9 @@ Nobody has registered support or opposition to this bond.[^1]
 ## References
 
 [^1]: Ballotpedia State Desk. [Maine Question 2, Wastewater Infrastructure Bond Issue (2018)](<https://ballotpedia.org/Maine_Question_2,_Wastewater_Infrastructure_Bond_Issue_(2018)>)). Ballotpedia. Accessed October 11, 2018.
+
 [^2]: Maine State Legislature. [H.P. 1034](http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP1034&item=1&snum=128). Accessed October 11, 2018.
+
 [^3]: League of Women Voters. [League of Women Voters, Maine 2018 General Election Voter Guide (2018)](http://www.lwvme.org/files/VG_2018_Statewide.pdf). Accessed October 11, 2018.
+
 [^4]: Dunlap, Matthew. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide.pdf). Accessed October 11, 2018.

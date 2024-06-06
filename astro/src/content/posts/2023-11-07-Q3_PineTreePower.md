@@ -1,21 +1,24 @@
 ---
 title: 'Question 3: Consumer-owned Utility'
 excerpt: This measure would create a consumer-owned utility.
-election: 2023-11-07
+electionDate: 2023-11-07
 header:
   overlay_image: ../../assets/img/2021_11/Transmission.jpg
   teaser: ../../assets/img/2021_11/Transmission.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: Electric transmission line
 search: true
-categories:
-  - November 2023 Election
+election: november-2023-election
 tags:
-  - Citizen's Initiative
-  - Electricity
-yes_vote: I am in favor of the creation of a consumer owned electric utility that would replace Central Maine Power and Versant Power.
-no_vote: I don't want Central Maine Power and Versant Power to be replaced with a consumer owned electric utility.
-last_modified_at: 2023-08-13 T12:17:00-05:00
+  - citizens-initiative
+  - electricity
+yes_vote: >-
+  I am in favor of the creation of a consumer owned electric utility that would
+  replace Central Maine Power and Versant Power.
+no_vote: >-
+  I don't want Central Maine Power and Versant Power to be replaced with a
+  consumer owned electric utility.
+lastModifiedDate: 2023-08-13
 ---
 
 ## The gist
@@ -133,8 +136,13 @@ Ballotpedia reports that there are three Political Action Committees (PACs) regi
 ## References
 
 [^1]: Maine Secretary of State. [An Act To Create the Pine Tree Power Company, a Nonprofit, Customer-owned Utility](https://www.maine.gov/sos/cec/elec/citizens/Pine%20Tree%20Power%20Petition.pdf). Accessed October 7, 2023.
+
 [^2]: Ballotpedia State Desk. [Maine Question 3, Pine Tree Power Company Initiative (2023)](<https://ballotpedia.org/Maine_Question_3,_Pine_Tree_Power_Company_Initiative_(2023)>). Ballotpedia. Accessed October 7, 2023.
+
 [^3]: Bellows, Shenna. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide23.pdf). Accessed October 7, 2023.
+
 [^4]: Singer, Stephen. [Question 3: What you need to know about the Pine Tree Power referendum](https://www.pressherald.com/2023/10/02/question-3-voters-could-reshape-maines-energy-landscape/). Portland Press Herald. Accessed October 7, 2023.
+
 [^6]: Versant Power's electricity and transmission assets are consolidated into Enmax's (the parent company) investor report[^7]. Versant Power's segment was estimated by calculating the percent difference of the distribution volume of Enmax Power and Versant Power. This was then applied to the Property, Plant, and Equipment financial report total.
+
 [^7]: Enmax. [2022 ENMAX Financial Report](https://www.enmax.com/AboutUsSite/Reports/2022-ENMAX-Financial-Report.pdf). Accessed October 7, 2023.

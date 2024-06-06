@@ -1,22 +1,21 @@
 ---
 title: 'Question 1: Ranked-Choice Voting'
 excerpt: This approved measure enacts ranked-choice voting for some elections.
-election: 2018-06-12
+electionDate: 2018-06-12
 search: true
 header:
   overlay_image: ../../assets/img/2018_06/Question1_RankedChoice.jpg
   teaser: ../../assets/img/2018_06/Question1_RankedChoice.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: Ballot being filled out
-categories:
-  - June 2018 Election
+election: june-2018-election
 tags:
-  - Ranked-Choice
-  - Citizen Initiative
-  - Passed
+  - ranked-choice
+  - citizen-initiative
+  - passed
 yes_vote: I am in favor of ranked-choice voting.
 no_vote: I want to keep elections the way they are.
-last_modified_at: 2019-01-07 T08:06:00-05:00
+lastModifiedDate: 2019-01-07
 ---
 
 ## Results
@@ -66,14 +65,14 @@ The costs in this section are from the 2016 referendum question. No new numbers 
 <br><br>**2017-18 Costs:** $837,270[^4]
 <br>**2018-19 Costs:** $714,388[^4]
 
-### The money will be used to:
+### The money will be used to
 
 - Print additional ballot pages
 - Update ballot tabulating machines
 - Contract 2 limited-period Special Deputy positions to oversee the process
 - Pay overtime and fuel costs to secure and return election ballots.
 
-### The money will be coming from:
+### The money will be coming from
 
 - General Fund appropriation
 - Highway Fund allocation
@@ -109,7 +108,9 @@ The primary arguments against this referendum are:
 ## References
 
 [^1]: Ballotpedia State Desk. [Maine Question 1, Ranked-Choice Voting Delayed Enactment and Automatic Repeal Referendum (June 2018)](<https://ballotpedia.org/Maine_Question_1,_Ranked-Choice_Voting_Delayed_Enactment_and_Automatic_Repeal_Referendum_(June_2018)>). Ballotpedia. Accessed May 20, 2018.
+
 [^2]: Dunlop, M. [Maine Citizen's Guide to the Special Referendum Election](http://www.maine.gov/sos/cec/elec/upcoming/pdf/guide618.pdf). Accessed May 20, 2018.
-[^3]: Ballotpedia State Desk, [Maine Ranked Choice Voting Initiative, Question 5 (2016)](<https://ballotpedia.org/Maine_Ranked_Choice_Voting_Initiative,_Question_5_(2016)>). Ballotpedia. Accessed October 7, 2016.
+
 [^4]: Dunlop, M. [Maine Citizen's Guide to the Referendum Election](http://www.state.me.us/sos/cec/elec/upcoming/citizensguide2016.pdf). Accessed October 7, 2016.
+
 [^5]: Hayes, T., [Ranked Choice restores majority rule](http://www.sunjournal.com/news/columns-analysis/2016/09/25/ranked-choice-restores-majority-rule/1997089). Sun Journal, September 25, 2016. Accessed October 7, 2016

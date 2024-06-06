@@ -1,22 +1,27 @@
 ---
 title: 'Question 8: Voting Under Mental Illness Guardianship'
-excerpt: This measure would allow people under guardianship for mental illness to vote in elections for governor, senators, and representatives.
-election: 2023-11-07
+excerpt: >-
+  This measure would allow people under guardianship for mental illness to vote
+  in elections for governor, senators, and representatives.
+electionDate: 2023-11-07
 header:
   overlay_image: ../../assets/img/2018_06/Question1_RankedChoice.jpg
   teaser: ../../assets/img/2018_06/Question1_RankedChoice.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: Ballot being filled out
 search: true
-categories:
-  - November 2023 Election
+election: november-2023-election
 tags:
-  - Constitutional Amendment
-  - Mental Illness
-  - Guardianship
-yes_vote: I am in favor of allowing those under guardianship for mental illness to vote for governor, senators, and representatives.
-no_vote: I don't want to allow those under guardianship for mental illness to vote for governor, senators, and representatives
-last_modified_at: 2023-10-06 T12:32:00-05:00
+  - constitutional-amendment
+  - mental-illness
+  - guardianship
+yes_vote: >-
+  I am in favor of allowing those under guardianship for mental illness to vote
+  for governor, senators, and representatives.
+no_vote: >-
+  I don't want to allow those under guardianship for mental illness to vote for
+  governor, senators, and representatives
+lastModifiedDate: 2023-10-06
 ---
 
 ## The gist
@@ -81,9 +86,15 @@ No major opposition.
 ## References
 
 [^1]: Doe v. Rowe, [156 F. Supp. 2d 35 (D. Me. 2001)](https://casetext.com/case/doe-v-rowe). Accessed 3 September 2023.
+
 [^2]: Mainelse.org. (2021). [Conservatorship & Guardianship: Maine Legal Services for the Elderly](https://mainelse.org/handbook/planning-future/conservatorship-guardianship#:~:text=Yes%2C%20in%20Maine%20there%20are,all%20areas%20of%20your%20life). Accessed 3 September 2023.
+
 [^3]: Maine State Legislature. (26 April 2023). [Testimony of John Brautigam, Esq., Legal Services for the Elderly](https://legislature.maine.gov/bills/getTestimonyDoc.asp?id=172973). Accessed 3 September 2023.
+
 [^4]: Maine State Legislature. (n.d.) [Testimony to oppose LD 1653](https://legislature.maine.gov/bills/getTestimonyDoc.asp?id=10018790). Accessed 3 September 2023.
+
 [^5]: Bellows, Shenna. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide23.pdf). Accessed October 3, 2023.
+
 [^6]: Ballotpedia State Desk. [Maine Question 8, Allow Individuals Under Guardianship for Reasons of Mental Illness to Vote in Elections Amendment (2023)](<https://ballotpedia.org/Maine_Question_8_Allow_Individuals_Under_Guardianship_for_Reasons_of_Mental_Illness_to_Vote_in_Elections_Amendment_(2023)>). Accessed October 2, 2023.
+
 [^8]: Maine Secretary of State. [Proposing an Amendment to the Constitution of Maine to Allow Persons Under Guardianship for Mental Illness to Be Electors](https://legislature.maine.gov/bills/getPDF.asp?paper=SP0658&item=3&snum=131). Accessed October 6, 2023.<br>

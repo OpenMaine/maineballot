@@ -1,23 +1,28 @@
 ---
 title: 'Question 2: Alternative Signatures'
-excerpt: This approved measure allows people with disabilities to sign petitions using alternative signatures.
-election: 2019-11-05
+excerpt: >-
+  This approved measure allows people with disabilities to sign petitions using
+  alternative signatures.
+electionDate: 2019-11-05
 header:
   overlay_image: ../../assets/img/2019_11/alt-signature.jpg
   teaser: ../../assets/img/2019_11/alt-signature.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: Rubber stamp
 search: true
-categories:
-  - November 2019 Election
+election: november-2019-election
 tags:
-  - Constitutional Resolution
-  - Accessibility
-  - Petitions
-  - Passed
-yes_vote: I want to allow people with disabilities to sign petitions using an alternative signature.
-no_vote: I want to keep the requirement for everyone to use an original signature for petitions.
-last_modified_at: 2019-08-30 T08:06:00-05:00
+  - constitutional-resolution
+  - accessibility
+  - petitions
+  - passed
+yes_vote: >-
+  I want to allow people with disabilities to sign petitions using an
+  alternative signature.
+no_vote: >-
+  I want to keep the requirement for everyone to use an original signature for
+  petitions.
+lastModifiedDate: 2019-08-30
 ---
 
 ## Results
@@ -71,5 +76,7 @@ Nobody has registered support or opposition to this change.[^3]
 ## References
 
 [^1]: Maine State Legislature. [H.P. 1049 - L.D. 1437](https://www.maine.gov/sos/cec/elec/upcoming/pdf/ld1437.pdf). Accessed August 30, 2019.
+
 [^2]: Ballotpedia State Desk. [Maine Allow for Alternative Initiative Signatures for Persons with Disabilities Amendment (2019)](<https://ballotpedia.org/Maine_Allow_for_Alternative_Initiative_Signatures_for_Persons_with_Disabilities_Amendment_(2019)>). Ballotpedia. Accessed August 30, 2019.
+
 [^3]: Dunlap, Matthew. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide19.pdf). Accessed September 16, 2019.

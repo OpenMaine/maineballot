@@ -1,23 +1,24 @@
 ---
 title: 'Question 3: Right to Food'
 excerpt: This resolution would give citizens the explicit right to grow their own food.
-election: 2021-11-02
+electionDate: 2021-11-02
 header:
   overlay_image: ../../assets/img/2021_11/Food.jpg
   teaser: ../../assets/img/2021_11/Food.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: Cut squash with a pile of squash seeds
 search: true
-categories:
-  - November 2021 Election
+election: november-2021-election
 tags:
-  - Food
-  - Constitutional Resolution
-  - Passed
-
-yes_vote: I am in favor of amending the state constitution so that all individuals have the right to grow, raise, harvest, produce and consume the food of their choosing.
+  - food
+  - constitutional-resolution
+  - passed
+yes_vote: >-
+  I am in favor of amending the state constitution so that all individuals have
+  the right to grow, raise, harvest, produce and consume the food of their
+  choosing.
 no_vote: I don't want to amend the state constitution.
-last_modified_at: 2021-10-02 T08:06:00-05:00
+lastModifiedDate: 2021-10-02
 ---
 
 ## The gist
@@ -90,5 +91,7 @@ The primary arguments against this referendum are:
 ## References
 
 [^1]: Maine State Legislature. [RESOLUTION, Proposing an Amendment to the Constitution of Maine To Establish a Right to Food](http://legislature.maine.gov/ros/LawsOfMaine/breeze/Law/getDocById/?docId=78982). Accessed October 2, 2021.
+
 [^2]: Ballotpedia State Desk. [Maine Question 3, Right to Produce, Harvest, and Consume Food Amendment (2021)](<https://ballotpedia.org/Maine_Question_3,_Right_to_Produce,_Harvest,_and_Consume_Food_Amendment_(2021)>). Ballotpedia. Accessed October 2, 2021.
+
 [^3]: Bellows, Shenna. [Maine Citizen's Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/11-21citizensguide.pdf). Accessed October 2, 2021.

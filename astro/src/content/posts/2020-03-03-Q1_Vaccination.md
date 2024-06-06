@@ -1,24 +1,29 @@
 ---
 title: 'Question 1: Vaccinations'
-excerpt: This failed measure would have allowed parents to continue to refuse vaccinations for their children for religious or philosophical reasons.
-election: 2020-03-03
+excerpt: >-
+  This failed measure would have allowed parents to continue to refuse
+  vaccinations for their children for religious or philosophical reasons.
+electionDate: 2020-03-03
 header:
   overlay_image: ../../assets/img/2020_03/Vaccine.jpg
   teaser: ../../assets/img/2020_03/Vaccine.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: Someone receiving a shot in the arm
 search: true
-categories:
-  - March 2020 Election
+election: march-2020-election
 tags:
-  - Referendum
-  - Veto referendum
-  - Vaccination
-  - Religion
-  - Did Not Pass
-yes_vote: I want to allow religious or philosophical exemptions to the requirement for children to be vaccinated to attend school.
-no_vote: I want to require all children to be vaccinated to attend school, except for those with a medical reason not to be vaccinated.
-last_modified_at: 2020-01-16 T08:06:00-05:00
+  - referendum
+  - veto-referendum
+  - vaccination
+  - religion
+  - did-not-pass
+yes_vote: >-
+  I want to allow religious or philosophical exemptions to the requirement for
+  children to be vaccinated to attend school.
+no_vote: >-
+  I want to require all children to be vaccinated to attend school, except for
+  those with a medical reason not to be vaccinated.
+lastModifiedDate: 2020-01-16
 ---
 
 ## Results
@@ -90,8 +95,13 @@ Opposition:[^2]
 ## References
 
 [^1]: Maine State Legislature. [H.P. 586 - L.D. 798](https://www.maine.gov/sos/cec/elec/upcoming/pdf/pl2019c154.pdf). Accessed January 8, 2020.
+
 [^2]: Ballotpedia State Desk. [Maine Question 1, Religious and Philosophical Vaccination Exemptions Referendum (March 2020)](<https://ballotpedia.org/Maine_Question_1,_Religious_and_Philosophical_Vaccination_Exemptions_Referendum_(March_2020)>). Ballotpedia. Accessed January 8, 2020.
+
 [^3]: Shepard, Michale. [Maine will vote on effort to repeal new school vaccine requirement in March 2020](https://bangordailynews.com/2019/10/17/politics/maine-will-vote-on-effort-to-repeal-new-school-vaccine-requirement-in-march-2020/). Bangor Daily News. Accessed January 8, 2020.
+
 [^4]: Lawlor, Joe. [Vaccine bill passed by lawmakers likely headed for statewide vote](https://www.pressherald.com/2019/09/18/vaccine-opponents-submit-peoples-veto-petitions/). Portland Press Herald. Accessed January 8, 2020.
+
 [^5]: Lawlor, Joe. [Health experts alarmed by record rate of opt-outs for school-required vaccinations](https://www.pressherald.com/2019/04/05/vaccine-coverage-worsens-among-maine-schoolchildren-making-state-vulnerable-to-measles-pertussis-and-other-infectious-diseases/?rel=related). Portland Press Herald. Accessed January 8, 2020.
+
 [^6]: American Academy of Pediatrics. [Elimination of non-medical vaccine exemptions ranked top priority at Annual Leadership Forum](https://www.aappublications.org/news/2019/03/16/alfresolutions031619) AAP News. Accessed January 14, 2020.

@@ -1,23 +1,32 @@
 ---
 title: 'Question 1: Electric Transmission Line'
-excerpt: This measure would halt construction of the New England Clean Energy Connect (NECEC) and require a 2/3 majority to approve similar projects back as far as 2014.
-election: 2021-11-02
+excerpt: >-
+  This measure would halt construction of the New England Clean Energy Connect
+  (NECEC) and require a 2/3 majority to approve similar projects back as far as
+  2014.
+electionDate: 2021-11-02
 header:
   overlay_image: ../../assets/img/2021_11/Transmission.jpg
   teaser: ../../assets/img/2021_11/Transmission.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: Electric transmission line
 search: true
-categories:
-  - November 2021 Election
+election: november-2021-election
 tags:
-  - Electricity
-  - Citizen's initiative
-  - Retroactive
-  - Passed
-yes_vote: I don't want NECEC to construct a high-impact electric transmission line in the Upper Kennebec region and require a 2/3 majority vote for similar projects retroactively to 2020 for projects anywhere in Maine and 2014 for projects on public land.
-no_vote: I want to allow the NECEC to continue construction of the high-impact electric transmission line in the Upper Kennebec region and I want the legislative rules for approval of such projects to stay the way they are.
-last_modified_at: 2021-10-02 T08:06:00-05:00
+  - electricity
+  - citizens-initiative
+  - retroactive
+  - passed
+yes_vote: >-
+  I don't want NECEC to construct a high-impact electric transmission line in
+  the Upper Kennebec region and require a 2/3 majority vote for similar projects
+  retroactively to 2020 for projects anywhere in Maine and 2014 for projects on
+  public land.
+no_vote: >-
+  I want to allow the NECEC to continue construction of the high-impact electric
+  transmission line in the Upper Kennebec region and I want the legislative
+  rules for approval of such projects to stay the way they are.
+lastModifiedDate: 2021-10-02
 ---
 
 ## The gist
@@ -101,6 +110,7 @@ The primary arguments against this referendum are:
 ## References
 
 [^1]: Maine State Legislature. [Sec. 1. 12 MRSA §1852, sub-§4](https://www.maine.gov/sos/cec/elec/citizens/line.pdf). Accessed September 25 2021.
+
 [^2]: Ballotpedia State Desk. [Maine Question 1, Electric Transmission Line Restrictions and Legislative Approval Initiative (2021)](<https://ballotpedia.org/Maine_Question_1,_Electric_Transmission_Line_Restrictions_and_Legislative_Approval_Initiative_(2021)>). Ballotpedia. Accessed September 25, 2021.
-[^3]: NewsCenter Maine. [Ballot Question 1 explained](https://www.newscentermaine.com/article/news/politics/ballot-question-1-explained-high-impact-transmission-cmp-central-maine-power-corridor-new-england-clean-energy-corridor/97-8d9808c3-380e-4d37-b0c7-d78870f22d1a)
+
 [^4]: Bellows, Shenna. [Maine Citizen's Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/11-21citizensguide.pdf). Accessed October 2, 2021.

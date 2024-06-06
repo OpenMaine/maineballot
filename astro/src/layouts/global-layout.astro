@@ -1,13 +1,12 @@
 ---
 import type { z } from 'zod'
+import { SEO } from 'astro-seo'
+import type { siteMetaSchema } from '#utils/types'
 import Footer from '#components/footer.astro'
 import CustomFooter from '#components/custom-footer.astro'
 import Masthead from '#components/masthead.astro'
-import { SEO } from 'astro-seo'
-
 import GoogleAnalytics from '#components/global/google-analytics.astro'
 import { SITE_META } from '#utils/constants'
-import type { siteMetaSchema } from '#utils/types'
 import { env } from '#utils/env-vars'
 
 type SiteMetaProps = z.infer<typeof siteMetaSchema>

@@ -1,22 +1,21 @@
 ---
 title: 'Question 5: Ranked-Choice Voting'
 excerpt: This approved measure enacts ranked-choice voting for some elections.
-election: 2017-06-13
+electionDate: 2017-06-13
 header:
   overlay_image: ../../assets/img/2016_11/Question5_RankedChoice.jpg
   teaser: ../../assets/img/2016_11/Question5_RankedChoice.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: Ballot being filled out
 search: true
-categories:
-  - November 2016 Election
+election: november-2016-election
 tags:
-  - Ranked-Choice
-  - Citizen Initiative
-  - Passed
+  - ranked-choice
+  - citizen-initiative
+  - passed
 yes_vote: I am in favor of ranked-choice voting.
 no_vote: I want to keep elections the way they are.
-last_modified_at: 2019-01-08 T08:06:00-05:00
+lastModifiedDate: 2019-01-08
 ---
 
 ## Results
@@ -53,14 +52,14 @@ How ranked-choice voting works:
 <br><br>
 **Note:** The Maine Office of Fiscal and Program Review fiscal statement says that most of the expenditures are ongoing[^2], but some of them (i.e. updating ballot machines) are likely one-time. The Maine State Treasurer, Terry Hayes cited $500,000 as the cost in an Op-Ed, but it isn't clear where that number came from or whether it's the startup costs or ongoing costs.[^3]
 
-### The money will be used to:
+### The money will be used to
 
 - Print additional ballot pages
 - Update ballot tabulating machines
 - Contract 2 limited-period Special Deputy positions to oversee the process
 - Pay overtime and fuel costs to secure and return election ballots.
 
-### The money will be coming from:
+### The money will be coming from
 
 - General Fund appropriation
 - Highway Fund allocation
@@ -93,7 +92,6 @@ The primary arguments against this referendum are:
 
 ## References
 
-[^1]: Ballotpedia State Desk. [Maine Ranked Choice Voting Initiative, Question 5 (2016)](<https://ballotpedia.org/Maine_Ranked_Choice_Voting_Initiative,_Question_5_(2016)>). Ballotpedia. Accessed October 7, 2016.
 [^2]: Dunlop, M. [Maine Citizen's Guide to the Referendum Election](http://www.state.me.us/sos/cec/elec/upcoming/citizensguide2016.pdf). Accessed October 7, 2016.
+
 [^3]: Hayes, T., [Ranked Choice restores majority rule](http://www.sunjournal.com/news/columns-analysis/2016/09/25/ranked-choice-restores-majority-rule/1997089). Sun Journal, September 25, 2016. Accessed October 7, 2016
-[^4]: Maine PBN. [Debate: Ballot Question 5](http://mainepublic.org/post/debate-ballot-question-5). Maine Calling. Accessed November 7, 2016.

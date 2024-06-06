@@ -1,22 +1,27 @@
 ---
 title: 'Question 2: Foreign Campaign Spending'
-excerpt: This measure would prohibit foreign influence in elections for candidates and ballot questions.
-election: 2023-11-07
+excerpt: >-
+  This measure would prohibit foreign influence in elections for candidates and
+  ballot questions.
+electionDate: 2023-11-07
 header:
   overlay_image: ../../assets/img/2023_11/Q2_Euro_coins_and_banknotes.jpeg
   teaser: ../../assets/img/2023_11/Q2_Euro_coins_and_banknotes.jpeg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: International Money
 search: true
-categories:
-  - November 2023 Election
+election: november-2023-election
 tags:
-  - Citizen's Initiative
-  - Elections
-  - Foreign Influence
-yes_vote: I want to prevent foreign influence in elections for candidates and ballot questions.
-no_vote: I don't want to prevent foreign influence in elections for candidates and ballot questions.
-last_modified_at: 2023-10-07 T12:17:00-05:00
+  - citizens-initiative
+  - elections
+  - foreign-influence
+yes_vote: >-
+  I want to prevent foreign influence in elections for candidates and ballot
+  questions.
+no_vote: >-
+  I don't want to prevent foreign influence in elections for candidates and
+  ballot questions.
+lastModifiedDate: 2023-10-07
 ---
 
 ## The gist
@@ -81,6 +86,9 @@ The primary arguments against this referendum are:
 ## References
 
 [^1]: Maine Secretary of State. [An Act To Prohibit Campaign Spending by Foreign Governments and Promote an Anticorruption Amendment to the United States Constitution](https://www.maine.gov/sos/cec/elec/citizens/Prohibit%20Campaign%20Spending%20by%20Foreign.pdf). Accessed October 6, 2023.
+
 [^2]: Bellows, Shenna. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide23.pdf). Accessed October 6, 2023.
+
 [^3]: Ballotpedia State Desk. [Maine Question 2, Prohibit Foreign Spending in Elections Initiative (2023)](<https://ballotpedia.org/Maine_Question_2,_Prohibit_Foreign_Spending_in_Elections_Initiative_(2023)>). Ballotpedia. Accessed October 6, 2023
+
 [^4]: Billings, Randy. [Question 2: What you need to know about the foreign campaign spending ban](https://www.pressherald.com/2023/10/03/question-2-what-you-need-to-know-about-the-foreign-campaign-spending-ban/). Portland Press Herald. Accessed October 6, 2023.

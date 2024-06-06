@@ -1,22 +1,27 @@
 ---
 title: 'Question 3: Transportation'
-excerpt: This approved measure allows the state to borrow $106 million for transportation improvements.
-election: 2018-11-06
+excerpt: >-
+  This approved measure allows the state to borrow $106 million for
+  transportation improvements.
+electionDate: 2018-11-06
 header:
   overlay_image: ../../assets/img/2018_11/Question3Transportation.jpg
   teaser: ../../assets/img/2018_11/Question3Transportation.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: Road in need of repair
 search: true
-categories:
-  - November 2018 Election
+election: november-2018-election
 tags:
-  - Transportation
-  - Bond
-  - Passed
-yes_vote: I am in favor of issuing the $106 million bond to address infrastructure improvements.
-no_vote: I do not want Maine to borrow $106 million to address infrastructure improvements.
-last_modified_at: 2019-01-07 T08:06:00-05:00
+  - transportation
+  - bond
+  - passed
+yes_vote: >-
+  I am in favor of issuing the $106 million bond to address infrastructure
+  improvements.
+no_vote: >-
+  I do not want Maine to borrow $106 million to address infrastructure
+  improvements.
+lastModifiedDate: 2019-01-07
 ---
 
 ## Results
@@ -45,14 +50,14 @@ Principal: $106,000,000
 <br>Interest: $29,150,000 (assumes 5.0% over 10 years)
 <br>Total cost: $135,150,000[^4]
 
-### The money will be used to:
+### The money will be used to
 
 - $80 million (plus $88 million in matching funds) for highways, secondary roads, and bridges[^4]
 - $20 million (plus $49 million in matching funds) for projects that “preserve public safety or otherwise demonstrate high economic value in terms of transportation” for things like ports, railroads, airports, bicycle, and walking trails[^4]
 - $5 million (plus some matching funds) to fund a Department of Environmental Protection grant program for upgrading fish and wildlife habitats[^4]
 - $1 million for improving a pier at Maine Maritime Academy[^4]
 
-### The money will be coming from:
+### The money will be coming from
 
 - $106 million bond issued by the state and paid back through the budget and taxes over 10 years.[^4]
 - $137 million matching funds from the federal government and other sources[^4]
@@ -86,7 +91,11 @@ Nobody has registered support or opposition to this bond.[^1]
 ## References
 
 [^1]: Ballotpedia State Desk. [Maine Question 3, Transportation Bond Issue (2018)](<https://ballotpedia.org/Maine_Question_3,_Transportation_Bond_Issue_(2018)>). Ballotpedia. Accessed October 11, 2018.
+
 [^2]: Maine State Legislature. [L.D. 1815](http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=SP0682&item=2&snum=128). Accessed October 11, 2018.
+
 [^3]: League of Women Voters. [League of Women Voters, Maine 2018 General Election Voter Guide (2018)](http://www.lwvme.org/files/VG_2018_Statewide.pdf). Accessed October 11, 2018.
+
 [^4]: Dunlap, Matthew. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide.pdf). Accessed October 11, 2018.
+
 [^5]: McGuire, Peter. [Question 3 asks voters to approve $105 million bond for roads and bridges](https://www.pressherald.com/2017/11/05/question-3-asks-voters-to-approve-105-million-bond-for-roads-and-bridges/). Portland Press Herald. Accessed October 21, 2018.

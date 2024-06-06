@@ -1,22 +1,28 @@
 ---
 title: 'Question 4: Automotive Right to Repair'
-excerpt: This measure would require vehicles to have standardized on-board diagnostics systems and allow owners and independent repair facilities to access those diagnostics.
-election: 2023-11-07
+excerpt: >-
+  This measure would require vehicles to have standardized on-board diagnostics
+  systems and allow owners and independent repair facilities to access those
+  diagnostics.
+electionDate: 2023-11-07
 header:
   overlay_image: ../../assets/img/2023_11/Q4_Auto_Mechanic.jpeg
   teaser: ../../assets/img/2023_11/Q4_Auto_Mechanic.jpeg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: Person repairing an automobile
 search: true
-categories:
-  - November 2023 Election
+election: november-2023-election
 tags:
-  - Citizen's Initiative
-  - Vehicles
-  - Right to Repair
-yes_vote: I want vehicle owners and repair facilities to have access to standardized vehicle diagnostics.
-no_vote: I don't want vehicle owners and repair facilities to have access to standardized vehicle diagnostics.
-last_modified_at: 2023-10-07 T12:17:00-05:00
+  - citizens-initiative
+  - vehicles
+  - right-to-repair
+yes_vote: >-
+  I want vehicle owners and repair facilities to have access to standardized
+  vehicle diagnostics.
+no_vote: >-
+  I don't want vehicle owners and repair facilities to have access to
+  standardized vehicle diagnostics.
+lastModifiedDate: 2023-10-07
 ---
 
 ## The gist
@@ -83,6 +89,9 @@ The primary arguments against this referendum are:
 ## References
 
 [^1]: Maine Secretary of State. [An Act Regarding Automotive Right to Repair](https://www.maine.gov/sos/cec/elec/citizens/Right%20to%20Repair%20Leg%20FINAL.pdf). Accessed October 6, 2023.
+
 [^2]: Bellows, Shenna. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide23.pdf). Accessed October 6, 2023.
+
 [^3]: Ballotpedia State Desk. [Maine Question 4, "Right to Repair Law" Vehicle Data Access Requirement Initiative (2023)](<https://ballotpedia.org/Maine_Question_4,_%22Right_to_Repair_Law%22_Vehicle_Data_Access_Requirement_Initiative_(2023)>). Ballotpedia. Accessed October 6, 2023.
+
 [^4]: Neufeld, Kay. [Question 4: What you need to know about the right-to-repair referendum](https://www.pressherald.com/2023/10/05/question-4-who-should-have-the-right-to-repair-your-car/). Portland Press Herald. Accessed October 6, 2023.

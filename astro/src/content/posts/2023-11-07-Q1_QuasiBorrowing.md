@@ -1,22 +1,27 @@
 ---
 title: 'Question 1: Borrowing by Government-controlled Entities and Utilities'
-excerpt: This measure would require voter approval for large spending by certain government-controlled entities and utilities.
-election: 2023-11-07
+excerpt: >-
+  This measure would require voter approval for large spending by certain
+  government-controlled entities and utilities.
+electionDate: 2023-11-07
 header:
   overlay_image: ../../assets/img/2016_11/Question4_MinimumWage.jpg
   teaser: ../../assets/img/2016_11/Question4_MinimumWage.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: Money
 search: true
-categories:
-  - November 2023 Election
+election: november-2023-election
 tags:
-  - Citizen's Initiative
-  - Consumer Utility
-  - Borrowing
-yes_vote: I want to require voter approval for spending by the specified government-controlled entities and utilities over $1 billion.
-no_vote: I don't want to require voter approval for spending by the specified government-controlled entities and utilities over $1 billion.
-last_modified_at: 2023-10-07 T12:08:00-05:00
+  - citizens-initiative
+  - consumer-utility
+  - borrowing
+yes_vote: >-
+  I want to require voter approval for spending by the specified
+  government-controlled entities and utilities over $1 billion.
+no_vote: >-
+  I don't want to require voter approval for spending by the specified
+  government-controlled entities and utilities over $1 billion.
+lastModifiedDate: 2023-10-07
 ---
 
 ## The gist
@@ -79,6 +84,9 @@ There is no registered opposition.
 ## References
 
 [^1]: Bellows, Shenna. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide23.pdf). Accessed October 6, 2023.
+
 [^2]: Ballotpedia State Desk. [Maine Question 1, Voter Approval of Borrowing Above $1 Billion by State Entities and Electric Cooperatives Initiative (2023)](<https://ballotpedia.org/Maine_Question_1,_Voter_Approval_of_Borrowing_Above_$1_Billion_by_State_Entities_and_Electric_Cooperatives_Initiative_(2023)>). Ballotpedia. Accessed October 6, 2023.
+
 [^3]: Singer, Stephen. [Question 1: Voters would have a say in certain big spending](https://www.pressherald.com/2023/10/02/question-1-voters-could-have-a-say-in-certain-big-spending/). Portland Press Herald. Accessed October 6, 2023.
+
 [^4]: Maine Secretary of State [An Act To Require Voter Approval of Certain Borrowing by Government-controlled Entities and Utilities and To Provide Voters More Information Regarding that Borrowing](https://www.maine.gov/sos/cec/elec/citizens/VoterApprovalBorrowingFINAL11.10.pdf). Accessed October 6, 2023.

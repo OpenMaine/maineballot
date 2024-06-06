@@ -1,22 +1,23 @@
 ---
 title: 'Question 6: Transportation'
-excerpt: This approved measure allows the state to borrow $100 million for transportation infrastructure.
-election: 2017-06-13
+excerpt: >-
+  This approved measure allows the state to borrow $100 million for
+  transportation infrastructure.
+electionDate: 2017-06-13
 header:
   overlay_image: ../../assets/img/2016_11/Question6_Transportation.jpg
   teaser: ../../assets/img/2016_11/Question6_Transportation.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: Road in need of repair
 search: true
-categories:
-  - November 2016 Election
+election: november-2016-election
 tags:
-  - Transportation
-  - Bond
-  - Passed
+  - transportation
+  - bond
+  - passed
 yes_vote: I am in favor of issuing a bond to pay for transportation maintenance.
 no_vote: I don't want to issue a bond to pay for transportation maintenance.
-last_modified_at: 2019-01-08 T08:06:00-05:00
+lastModifiedDate: 2019-01-08
 ---
 
 ## Results
@@ -42,12 +43,12 @@ This referendum will allow the state to take advantage of $137 million in federa
 **Principal:** $100 million[^2]
 <br>**Interest:** $33 million[^2]
 
-### The money will be used to:
+### The money will be used to
 
 - 80% to build or repair highways, secondary roads, and bridges
 - 20% to complete projects that relate to other types of transportation, such as ports, railroads, public transportation, bikes, and pedestrian trails.
 
-### The money will be coming from:
+### The money will be coming from
 
 - A bond issued by the state.
 - $137 million in federal matching funds and 50% matching funds coming from municipalities who benefit from the work.
@@ -72,5 +73,4 @@ The primary arguments against this referendum are:
 
 ## References
 
-[^1]: Ballotpedia State Desk. [Maine Transportation Bond, Question 6 (2016)](<https://ballotpedia.org/Maine_Transportation_Bond,_Question_6_(2016)>). Ballotpedia. Accessed October 7, 2016.
 [^2]: Dunlop, M. [Maine Citizen's Guide to the Referendum Election](http://www.state.me.us/sos/cec/elec/upcoming/citizensguide2016.pdf). Accessed October 7, 2016.

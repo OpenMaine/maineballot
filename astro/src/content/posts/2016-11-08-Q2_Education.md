@@ -1,22 +1,21 @@
 ---
 title: 'Question 2: Education Funding'
 excerpt: This approved measure created a fund to increase teacher salaries.
-election: 2017-06-13
+electionDate: 2017-06-13
 header:
   overlay_image: ../../assets/img/2016_11/Question2_Education.jpg
   teaser: ../../assets/img/2016_11/Question2_Education.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: Elementary school classroom chairs
 search: true
-categories:
-  - November 2016 Election
+election: november-2016-election
 tags:
-  - Education
-  - Citizen Initiative
-  - Passed
+  - education
+  - citizen-initiative
+  - passed
 yes_vote: I am in favor of creating a new tax to pay for teach salaries.
 no_vote: I don't want to create a new tax to pay for teacher salaries.
-last_modified_at: 2019-01-08 T08:06:00-05:00
+lastModifiedDate: 2019-01-08
 ---
 
 ## Results
@@ -41,12 +40,12 @@ This referendum would take the money raised by the new 3% tax on income above $2
 
 **Annual Revenue:** $142 million (with an estimated $12 million increase each year)[^2]
 
-### The money will be used to:
+### The money will be used to
 
 - Fund the Fund to Advance Public Kindergarten to Grade 12 Education.
 - Money from the fund will be used to pay for "direct support for student learning", which means it has to be used to pay teachers or buy supplies for the classroom.
 
-### The money will be coming from:
+### The money will be coming from
 
 - A 3% tax on income above $200,000
 
@@ -74,7 +73,3 @@ The primary arguments against this referendum are:
 <br>Maine PBN Maine Calling Debate: [Audio](http://mainepublic.org/post/debate-ballot-question-2) (52:48) | [Video](http://video.mainepublic.org/video/2365874988/) (49:49)
 
 ## References
-
-[^1]: Ballotpedia State Desk. [Maine Tax on Incomes Exceeding $200,000 for Public Education, Question 2 (2016)](<https://ballotpedia.org/Maine_Tax_on_Incomes_Exceeding_$200,000_for_Public_Education,_Question_2_(2016)>). Ballotpedia. Accessed October 24, 2016.
-[^2]: Dunlop, M. [Maine Citizen's Guide to the Referendum Election](http://www.state.me.us/sos/cec/elec/upcoming/citizensguide2016.pdf). Accessed October 7, 2016.
-[^3]: Maine PBN. [Debate: Ballot Question 2](http://mainepublic.org/post/debate-ballot-question-2#stream/0). Maine Calling. Accessed November 7, 2016.

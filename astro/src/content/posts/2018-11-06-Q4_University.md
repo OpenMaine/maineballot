@@ -1,22 +1,27 @@
 ---
 title: 'Question 4: University of Maine'
-excerpt: This approved measure allows the state to borrow $49 million to improve University of Maine campuses.
-election: 2018-11-06
+excerpt: >-
+  This approved measure allows the state to borrow $49 million to improve
+  University of Maine campuses.
+electionDate: 2018-11-06
 header:
   overlay_image: ../../assets/img/2018_11/Question4_University.jpg
   teaser: ../../assets/img/2018_11/Question4_University.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: Students at graduation in caps and gowns
 search: true
-categories:
-  - November 2018 Election
+election: november-2018-election
 tags:
-  - Education
-  - Bond
-  - Passed
-yes_vote: I support borrowing money for University of Maine facility and infrastructure upgrades.
-no_vote: I do not want to borrow money for University of Maine facility and infrastructure upgrades.
-last_modified_at: 2019-01-07 T08:06:00-05:00
+  - education
+  - bond
+  - passed
+yes_vote: >-
+  I support borrowing money for University of Maine facility and infrastructure
+  upgrades.
+no_vote: >-
+  I do not want to borrow money for University of Maine facility and
+  infrastructure upgrades.
+lastModifiedDate: 2019-01-07
 ---
 
 ## Results
@@ -45,11 +50,11 @@ Principal: $49,000,000
 <br>Interest: $13,475,000 (assumes 5.0% over 10 years)
 <br>Total cost: $62,475,000[^4]
 
-### The money will be used to:
+### The money will be used to
 
 - Pay for improvements to dormitories, laboratories, and classrooms for STEM (science, technology, engineering, and math) programs, nursing, and childcare programs, career centers, and facilities for first-generation and non-traditional students at University of Maine system campuses.[^4]
 
-### The money will be coming from:
+### The money will be coming from
 
 - $49 million bond issued by the state and paid back through the budget and taxes over 10 years.[^4]
 - $49 million in matching funds from public and private sources.[^4]
@@ -94,7 +99,11 @@ Commencement Exercises University of Maine Orono 05132017 by Regan Vercruysse, [
 ## References
 
 [^1]: Ballotpedia State Desk. [Maine Question 4, University of Maine System Bond Issue (2018)](<https://ballotpedia.org/Maine_Question_4,_University_of_Maine_System_Bond_Issue_(2018)>). Ballotpedia. Accessed October 11, 2018.
+
 [^2]: Maine State Legislature. [H.P. 585 - L.D. 836](http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP0585&item=3&snum=128). Accessed October 11, 2018.
+
 [^3]: League of Women Voters. [League of Women Voters, Maine 2018 General Election Voter Guide (2018)](http://www.lwvme.org/files/VG_2018_Statewide.pdf). Accessed October 11, 2018.
+
 [^4]: Dunlap, Matthew. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide.pdf). Accessed October 11, 2018.
+
 [^5]: Feinberg, Robbie. [University Officials Say That Question 4 Can Help Address Maine Labor Shortage](http://www.mainepublic.org/post/university-officials-say-question-4-can-help-address-maine-labor-shortage#stream/0). Maine Public. Accessed October 21, 2018.

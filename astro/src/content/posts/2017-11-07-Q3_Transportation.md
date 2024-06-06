@@ -1,22 +1,23 @@
 ---
 title: 'Question 3: Transportation'
-excerpt: This approved measure allows the state to borrow $105 million for transportation infrastructure.
-election: 2017-11-07
+excerpt: >-
+  This approved measure allows the state to borrow $105 million for
+  transportation infrastructure.
+electionDate: 2017-11-07
 header:
   overlay_image: ../../assets/img/2017_11/Question3_Transportation.jpg
   teaser: ../../assets/img/2017_11/Question3_Transportation.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: Road in need of repair
 search: true
-categories:
-  - November 2017 Election
+election: november-2017-election
 tags:
-  - Transportation
-  - Bond
-  - Passed
+  - transportation
+  - bond
+  - passed
 yes_vote: I am in favor of issuing a bond to pay for transportation maintenance.
 no_vote: I don't want to issue a bond to pay for transportation maintenance.
-last_modified_at: 2019-01-08 T08:06:00-05:00
+lastModifiedDate: 2019-01-08
 ---
 
 ## Results
@@ -42,14 +43,14 @@ This referendum will allow the state to take advantage of $137 million in federa
 **Principal:** $105 million[^3]
 <br>**Interest:** $29 million[^3]
 
-### The money will be used to:
+### The money will be used to
 
 - $80 million to build or repair highways and bridges[^2]
 - $80 million to repair or acquire facilities and equipment for other types of transportation, such as ports, aviation, rail, and trails[^2]
   <br>Department of Environmental Protection:
 - $5 million for a competitive grant program that provides matching funds to upgrade culverts at streams to protect wildlife[^2]
 
-### The money will be coming from:
+### The money will be coming from
 
 - A bond issued by the state
 - $137 million in federal matching funds
@@ -77,6 +78,6 @@ The primary arguments against this referendum are:
 
 ## References
 
-[^1]: Ballotpedia State Desk. [Maine Question 3, Transportation Bond Issue (2017)](<https://ballotpedia.org/Maine_Question_3,_Transportation_Bond_Issue_(2017)>). Ballotpedia. Accessed September 19, 2017.
 [^2]: [S.P. 543 - L.D. 1552](http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=SP0543&item=4&snum=128). Accessed September 19, 2017
+
 [^3]: Dunlop, M. [Maine Citizen's Guide to the Referendum Election](http://www.maine.gov/sos/cec/elec/upcoming/citizensguide2017.pdf). Accessed October 5, 2017.

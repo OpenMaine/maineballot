@@ -1,22 +1,21 @@
 ---
 title: 'Question 1: Recreational Marijuana'
 excerpt: This approved measure legalized marijuana for recreational use.
-election: 2017-06-13
+electionDate: 2017-06-13
 header:
   overlay_image: ../../assets/img/2016_11/Question1_Marijuana.jpg
   teaser: ../../assets/img/2016_11/Question1_Marijuana.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: Marijuana leaves
 search: true
-categories:
-  - November 2016 Election
+election: november-2016-election
 tags:
-  - Marijuana
-  - Citizen Initiative
-  - Passed
+  - marijuana
+  - citizen-initiative
+  - passed
 yes_vote: I am in favor of legalizing the recreational use of marijuana.
 no_vote: I don't want to legalize the recreational use of marijuana.
-last_modified_at: 2019-01-08 T08:06:00-05:00
+lastModifiedDate: 2019-01-08
 ---
 
 ## Results
@@ -71,5 +70,7 @@ The primary arguments against this referendum are:
 ## References
 
 [^2]: Dunlop, M. [Maine Citizen's Guide to the Referendum Election](http://www.state.me.us/sos/cec/elec/upcoming/citizensguide2016.pdf). Accessed October 7, 2016.
+
 [^3]: Colorado Department of Transportation. [Drugged Driving Statistics](https://www.codot.gov/safety/alcohol-and-impaired-driving/druggeddriving/drugged-driver-statistics/view). Accessed October 24, 2016.
+
 [^4]: Mills, J. [Maine AG: Regulating marijuana like alcohol is not what Question 1 does](http://www.centralmaine.com/2016/10/23/maine-ag-regulating-marijuana-like-alcohol-is-not-what-question-1-does/). centralmaine.com. Accessed October 24. 2016.

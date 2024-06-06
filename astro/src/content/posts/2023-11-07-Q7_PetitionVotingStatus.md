@@ -1,21 +1,24 @@
 ---
 title: 'Question 7: Petition Circulation Rules'
-excerpt: This measure would remove the requirement for people circulating petitions to be Maine residents who are registered to vote.
-election: 2023-11-07
+excerpt: >-
+  This measure would remove the requirement for people circulating petitions to
+  be Maine residents who are registered to vote.
+electionDate: 2023-11-07
 header:
   overlay_image: ../../assets/img/2023_11/Q5_Clipboard.jpeg
   teaser: ../../assets/img/2023_11/Q5_Clipboard.jpeg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: Clipboard with a pencil
 search: true
-categories:
-  - November 2023 Election
+election: november-2023-election
 tags:
-  - Constitutional Amendment
-  - Petitions
-yes_vote: I am in favor of removing the residency and registration requirements for petition circulators from the Maine Constitution.
+  - constitutional-amendment
+  - petitions
+yes_vote: >-
+  I am in favor of removing the residency and registration requirements for
+  petition circulators from the Maine Constitution.
 no_vote: I don't want this change to the Maine Constitution.
-last_modified_at: 2023-10-06 T12:32:00-05:00
+lastModifiedDate: 2023-10-06
 ---
 
 ## The gist
@@ -75,6 +78,7 @@ The primary arguments against this referendum are:
 ## References
 
 [^1]: Maine State Legislature. [RESOLUTION, Proposing an Amendment to the Constitution of Maine to Align the Proceedings for Circulating Written Petitions for People's Vetoes and Direct Initiatives with Federal Law](https://legislature.maine.gov/bills/getPDF.asp?paper=SP0597&item=1&snum=131). Accessed October 1, 2023.
+
 [^2]: Ballotpedia State Desk. [Maine Question 7, Remove Residency Requirement for Initiative Petition Circulators Amendment (2023)](<https://ballotpedia.org/Maine_Question_7,_Remove_Residency_Requirement_for_Initiative_Petition_Circulators_Amendment_(2023)>). Accessed September 23, 2023.
+
 [^3]: Bellows, Shenna. [Maine Citizen's Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide23.pdf). Accessed October 1, 2023.
-[^4]: Ohm, Rachel. [Questions 5 through 8: What you need to know about the proposed constitutional amendments](https://www.pressherald.com/2023/10/06/questions-5-through-8-what-you-need-to-know-about-the-proposed-constitutional-amendments/). Portland Press Herald. Accessed October 6, 2023.

@@ -1,7 +1,7 @@
 ---
 import { Image } from 'astro:assets'
 import logo from '#assets/img/logo.jpg'
-import { GLOBAL, NAVIGATION } from '#utils/constants'
+import { NAVIGATION } from '#utils/constants'
 ---
 
 <div class="masthead">
@@ -18,7 +18,7 @@ import { GLOBAL, NAVIGATION } from '#utils/constants'
         </a>
         <ul class="visible-links">
           {
-            NAVIGATION.main.map((link) => (
+            NAVIGATION.main.map(link => (
               <li class="masthead__menu-item">
                 <a href={link.url}>{link.title}</a>
               </li>

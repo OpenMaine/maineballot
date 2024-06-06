@@ -76,8 +76,8 @@ export const NAVIGATION = {
 }
 
 export const ELECTIONS = {
-  current_election: '2024-03-05',
-  past_elections: {
+  currentElectionDate: '2024-03-05',
+  pastElectionDates: {
     2016: ['2016-11-08'],
     2017: ['2017-06-13', '2017-11-07'],
     2018: ['2018-06-12', '2018-11-06'],

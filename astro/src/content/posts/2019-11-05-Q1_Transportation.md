@@ -1,22 +1,27 @@
 ---
 title: 'Question 1: Transportation'
-excerpt: This approved measure allows the state to borrow $105 million for transportation improvements.
-election: 2019-11-05
+excerpt: >-
+  This approved measure allows the state to borrow $105 million for
+  transportation improvements.
+electionDate: 2019-11-05
 header:
   overlay_image: ../../assets/img/2018_11/Question3Transportation.jpg
   teaser: ../../assets/img/2018_11/Question3Transportation.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: Road in need of repair
 search: true
-categories:
-  - November 2019 Election
+election: november-2019-election
 tags:
-  - Transportation
-  - Bond
-  - Passed
-yes_vote: I am in favor of issuing the $105 million bond to address infrastructure improvements.
-no_vote: I do not want Maine to borrow $105 million to address infrastructure improvements.
-last_modified_at: 2019-09-16 T08:06:00-05:00
+  - transportation
+  - bond
+  - passed
+yes_vote: >-
+  I am in favor of issuing the $105 million bond to address infrastructure
+  improvements.
+no_vote: >-
+  I do not want Maine to borrow $105 million to address infrastructure
+  improvements.
+lastModifiedDate: 2019-09-16
 ---
 
 ## Results
@@ -45,14 +50,14 @@ Principal: $105,000,000
 <br>Interest: $28,875,000 (assumes 5.0% over 10 years)
 <br>Total cost: $133,875,000[^3]
 
-### The money will be used to:
+### The money will be used to
 
 - $85 million for high priority highways and bridges [^3]
 - $15 million for projects that “preserve public safety or otherwise have demonstrated high transportation value” for things like ports, railroads, airports, bicycle, and walking trails[^3]
 - $4 million to fund a Department of Environmental Protection grant program for upgrading fish and wildlife habitats[^3]
 - $1 million for improving a wharf at the Gulf of Maine Research Institute[^3]
 
-### The money will be coming from:
+### The money will be coming from
 
 - $105 million bond issued by the state and paid back through the budget and taxes over 10 years.[^3]
 - $137 million in matching funds from federal and local governments[^3]
@@ -86,5 +91,7 @@ Nobody has registered support or opposition to this bond.[^3]
 ## References
 
 [^1]: Maine State Legislature. [H.P. 1049 - L.D. 1437](https://www1.maine.gov/sos/cec/elec/upcoming/pdf/ld1437.pdf). Accessed September 16, 2019.
+
 [^2]: Ballotpedia State Desk. [Maine Transportation Infrastructure Bond Issue (2019)](<https://ballotpedia.org/Maine_Transportation_Infrastructure_Bond_Issue_(2019)>). Ballotpedia. Accessed September 16, 2019.
+
 [^3]: Dunlap, Matthew. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide19.pdf). Accessed September 16, 2019.

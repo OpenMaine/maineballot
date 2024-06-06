@@ -1,22 +1,27 @@
 ---
 title: 'Question 2: Transportation'
-excerpt: This approved measure would allow the state to borrow $105 million for transportation improvements.
-election: 2020-07-14
+excerpt: >-
+  This approved measure would allow the state to borrow $105 million for
+  transportation improvements.
+electionDate: 2020-07-14
 header:
   overlay_image: ../../assets/img/2018_11/Question3Transportation.jpg
   teaser: ../../assets/img/2018_11/Question3Transportation.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_filter: 0.5
   image_description: Road in need of repair
 search: true
-categories:
-  - July 2020 Election
+election: july-2020-election
 tags:
-  - Transportation
-  - Bond
-  - Passed
-yes_vote: I am in favor of issuing the $105 million bond to address infrastructure improvements.
-no_vote: I do not want Maine to borrow $105 million to address infrastructure improvements.
-last_modified_at: 2020-06-10 T08:06:00-05:00
+  - transportation
+  - bond
+  - passed
+yes_vote: >-
+  I am in favor of issuing the $105 million bond to address infrastructure
+  improvements.
+no_vote: >-
+  I do not want Maine to borrow $105 million to address infrastructure
+  improvements.
+lastModifiedDate: 2020-06-10
 ---
 
 ## Results
@@ -45,12 +50,12 @@ Principal: $106,000,000
 <br>Interest: $29,150,000 (assumes 5.0% over 10 years)
 <br>Total cost: $135,150,000[^3]
 
-### The money will be used to:
+### The money will be used to
 
 - $90 million for highways, bridges, and MaineDOT's Municipal Partnership Initiative (MPI) [^2]
 - $15 million for multimodal facilities and equipment related to transit, freight and passenger railroads, aviation, ports, harbors, marine transportation, and active transportation projects [^2]
 
-### The money will be coming from:
+### The money will be coming from
 
 - $105 million bond issued by the state and paid back through the budget and taxes over 10 years.[^2]
 - $275million in matching funds from federal and other funds. [^2]
@@ -82,5 +87,7 @@ Nobody has registered support or opposition to this bond.
 ## References
 
 [^1]: Maine State Legislature. [An Act To Authorize a General Fund Bond Issue for Infrastructure To Improve Transportation and Internet Connections](https://legislature.maine.gov/legis/bills/bills_129th/chapters/PUBLIC673.asp). Accessed June 3, 2020.
+
 [^2]: Ballotpedia State Desk. [Maine Question 2, Transportation Infrastructure Bond Issue (July 2020)](<https://ballotpedia.org/Maine_Question_2,_Transportation_Infrastructure_Bond_Issue_(July_2020)>). Ballotpedia. Accessed June 3, 2020.
+
 [^3]: Treasurer of State. [Treasury Statement](https://www.maine.gov/sos/cec/elec/upcoming/pdf/treasstatement2020.pdf). Accessed June 10, 2020.
