@@ -1,22 +1,5 @@
-import type { CollectionEntry, CollectionKey, ContentEntryMap, DataEntryMap, ValidContentEntrySlug } from 'astro:content'
+import type { CollectionEntry, CollectionKey } from 'astro:content'
 import { match } from 'ts-pattern'
-
-export function getUrl<C extends CollectionKey>(
-  collection: C,
-  slug: C extends keyof ContentEntryMap
-    ? ValidContentEntrySlug<C>
-    : C extends keyof DataEntryMap
-      ? keyof DataEntryMap[C]
-      : never,
-) {
-  return match<CollectionKey>(collection)
-    .with('candidates', () => `/candidates-archive/${slug}`)
-    .with('posts', () => `/ballot-measure/${slug}`)
-    .with('local', () => `/local-archive/${slug}`)
-    .with('elections', () => `/elections/${slug}`)
-    .with('tags', () => `/tags/${slug}`)
-    .exhaustive()
-}
 
 export function getEntryUrl(
   entry: CollectionEntry<CollectionKey>,
