@@ -1,6 +1,8 @@
 ---
 import { getCollection } from 'astro:content'
 
+import { getEntryUrl } from '#utils/get-url'
+
 export async function getStaticPaths() {
   const allLocal = await getCollection('local')
   return allLocal.map(post => ({
@@ -8,4 +10,11 @@ export async function getStaticPaths() {
     props: { post },
   }))
 }
+
+const allLocal = await getCollection('local')
+
 ---
+
+<div>
+  <a href={getEntryUrl(allLocal[0])}>Test</a>
+</div>
