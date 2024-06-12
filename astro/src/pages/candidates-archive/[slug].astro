@@ -1,11 +1,85 @@
 ---
 import { getCollection } from 'astro:content'
+import {
+  createColumnHelper,
+  createTable,
+  getCoreRowModel,
+} from '@tanstack/table-core'
+import { z } from 'zod'
+import candidateData from '#data/candidates/candidates.csv'
+import { candidateDataSchema } from '#utils/types'
 
 export async function getStaticPaths() {
   const allCandidates = await getCollection('candidates')
-  return allCandidates.map(post => ({
+  return allCandidates.map((post) => ({
     params: { slug: post.slug },
     props: { post },
   }))
 }
+
+type Data = z.infer<typeof candidateDataSchema>
+const validData = z.array(candidateDataSchema).parse(candidateData)
+
+const columnHelper = createColumnHelper<Data>()
+
+const columns = [
+  columnHelper.accessor('Office', {
+    header: 'Office',
+  }),
+  columnHelper.accessor('Dist', {
+    header: 'District',
+  }),
+  columnHelper.accessor('Party', {
+    header: 'Party',
+  }),
+  columnHelper.accessor('ballotpedia', {
+    header: 'Ballotpedia',
+  }),
+  columnHelper.accessor('website', {
+    header: 'Campaign website',
+  }),
+  columnHelper.accessor('comparison', {
+    header: 'Comparison',
+  }),
+]
+
+const table = createTable({
+  data: validData,
+  columns,
+  getCoreRowModel: getCoreRowModel(),
+  state: {
+    columnPinning: {
+      left: [],
+    },
+  }, // Dummy state
+  onStateChange: () => {}, // noop
+  renderFallbackValue: null,
+})
 ---
+
+<div>hello</div>
+
+<table>
+  <thead>
+    {
+      table.getHeaderGroups().map((headerGroup) => (
+        <tr>
+          {headerGroup.headers.map((header) => (
+            <th>{header.column.columnDef.header}</th>
+          ))}
+        </tr>
+      ))
+    }
+  </thead>
+  <tbody>
+    {
+      table.getRowModel().rows.map((row) => (
+        <tr>
+          {row.getVisibleCells().map((cell) => (
+            <td>{cell.getContext().renderValue()}</td>
+          ))}
+        </tr>
+      ))
+    }
+  </tbody>
+</table>
