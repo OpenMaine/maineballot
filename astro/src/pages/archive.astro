@@ -1,37 +1,48 @@
 ---
 import { getCollection, getEntry } from 'astro:content'
+import { getEntryUrl } from '#utils/get-url'
 
 const allEelections = await getCollection('elections')
 
 const stateElections = (
   await Promise.all(
-  allEelections.map(async elect => ({
+    allEelections.map(async (elect) => ({
       slug: elect.id,
       data: elect.data,
       posts: (
-        await getCollection('posts', ({ data }) =>
-          data.election.id === elect.id)
+        await getCollection(
+          'posts',
+          ({ data }) => data.election.id === elect.id,
+        )
       ).sort(
         (a, b) =>
-          new Date(b.data.electionDate).getTime()
-            - new Date(a.data.electionDate).getTime()
-            || a.slug.localeCompare(b.slug),
+          new Date(b.data.electionDate).getTime() -
+            new Date(a.data.electionDate).getTime() ||
+          a.slug.localeCompare(b.slug),
       ),
     })),
-)).filter(elect => elect.posts.length > 0)
+  )
+)
+  .filter((elect) => elect.posts.length > 0)
   .sort(
-    (a, b) => new Date(b.data.electionDate).getTime() - new Date(a.data.electionDate).getTime(),
+    (a, b) =>
+      new Date(b.data.electionDate).getTime() -
+      new Date(a.data.electionDate).getTime(),
   )
 
-const localElections = await Promise.all((await getCollection('local')).map(async local => ({
-  ...local,
-  election: await getEntry(local.data.election),
-})))
+const localElections = await Promise.all(
+  (await getCollection('local')).map(async (local) => ({
+    ...local,
+    election: await getEntry(local.data.election),
+  })),
+)
 
-const candidates = await Promise.all((await getCollection('candidates')).map(async local => ({
-  ...local,
-  election: await getEntry(local.data.election),
-})))
+const candidates = await Promise.all(
+  (await getCollection('candidates')).map(async (local) => ({
+    ...local,
+    election: await getEntry(local.data.election),
+  })),
+)
 ---
 
 <div class="mx-auto w-full max-w-5xl space-y-4">
@@ -46,16 +57,16 @@ const candidates = await Promise.all((await getCollection('candidates')).map(asy
       </div>
       <div class="space-y-16">
         {
-          stateElections.map(tag => (
+          stateElections.map((tag) => (
             <div>
               <div class="mb-4">
                 <h3 class="text-lg font-bold">{tag.data.title}</h3>
               </div>
               <ul class="list-disc space-y-8">
-                {tag.posts.map(post => (
+                {tag.posts.map((post) => (
                   <li>
                     <div class="mb-1">
-                      <a class="text-lg underline" href={post.slug}>
+                      <a class="text-lg underline" href={getEntryUrl(post)}>
                         {post.data.title}
                       </a>
                     </div>
@@ -77,13 +88,15 @@ const candidates = await Promise.all((await getCollection('candidates')).map(asy
       </div>
       <div>
         <ul class="list-disc space-y-2">
-          {localElections.map(cand => (
-            <li>
-              <a class="text-lg underline" href={cand.slug}>
-                {cand.election.data.title}
-              </a>
-            </li>
-          ))}
+          {
+            localElections.map((elect) => (
+              <li>
+                <a class="text-lg underline" href={getEntryUrl(elect)}>
+                  {elect.election.data.title}
+                </a>
+              </li>
+            ))
+          }
         </ul>
       </div>
     </div>
@@ -94,16 +107,17 @@ const candidates = await Promise.all((await getCollection('candidates')).map(asy
       </div>
       <div>
         <ul class="list-disc space-y-2">
-          {candidates.map(cand => (
-            <li>
-              <a class="text-lg underline" href={cand.slug}>
-                {cand.election.data.title}
-              </a>
-            </li>
-          ))}
+          {
+            candidates.map((cand) => (
+              <li>
+                <a class="text-lg underline" href={getEntryUrl(cand)}>
+                  {cand.election.data.title}
+                </a>
+              </li>
+            ))
+          }
         </ul>
       </div>
     </div>
-
   </div>
 </div>
