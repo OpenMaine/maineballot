@@ -8,15 +8,6 @@ export const GLOBAL = {
   baseurl: null,
   repository: null,
   teaser: null,
-  words_per_minute: 200,
-  collections: {
-    'local-archive': {
-      output: true,
-    },
-    'candidates-archive': {
-      output: true,
-    },
-  },
   author: {
     name: 'Shannon McHarg',
     avatar: null,

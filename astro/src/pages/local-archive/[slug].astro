@@ -5,14 +5,13 @@ import { getEntryUrl } from '#utils/get-url'
 
 export async function getStaticPaths() {
   const allLocal = await getCollection('local')
-  return allLocal.map(post => ({
+  return allLocal.map((post) => ({
     params: { slug: post.slug },
     props: { post },
   }))
 }
 
 const allLocal = await getCollection('local')
-
 ---
 
 <div>

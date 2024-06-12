@@ -23,11 +23,11 @@ const allPosts = await getCollection('posts')
       {
         allPosts
           .filter(
-            post =>
-              post.data.electionDate
-              === new Date(ELECTIONS.currentElectionDate),
+            (post) =>
+              post.data.electionDate ===
+              new Date(ELECTIONS.currentElectionDate),
           )
-          .map(post => <ArchiveSingle post={post} layout="grid" />)
+          .map((post) => <ArchiveSingle post={post} layout="grid" />)
       }
       <!--{% include paginator.html %}-->
       <hr class="home-hr" />

@@ -3,6 +3,7 @@ import tailwind from 'eslint-plugin-tailwindcss'
 
 export default antfu(
   {
+    formatters: true,
     astro: true,
     ignores: [
       // # build output
