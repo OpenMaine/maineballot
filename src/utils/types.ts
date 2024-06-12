@@ -25,5 +25,5 @@ export const candidateDataSchema = z.object({
 
 // https://docs.astro.build/en/reference/api-reference/#other-files
 export interface CustomDataFile {
-  default: Record<string, any>
+  default: any[]
 }

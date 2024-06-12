@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content'
 import { z } from 'zod'
 import { candidateDataSchema } from '#utils/types'
 import { CandidatesTable } from '#components/react/candidates-table'
+import candidateData from '#data/candidates/candidates-2020-11.csv'
 import { type CustomDataFile } from '#utils/types'
 
 export async function getStaticPaths() {
@@ -13,16 +14,18 @@ export async function getStaticPaths() {
   }))
 }
 
-const modules = import.meta.glob<CustomDataFile>(`../../data/candidates/*.csv`)
 const datafile = Astro.props.post.data.datafile
+const modules = import.meta.glob<CustomDataFile>(`../../data/candidates/*.csv`)
 
-if (!modules[datafile]) {
+let data = []
+if (modules.hasOwnProperty(datafile)) {
+  data = (await modules[datafile]()).default
+} else {
   throw new Error(
     `"${datafile}" does not exist in glob: "../../data/candidates/*.csv"`,
   )
 }
 
-const candidateData = (await modules[datafile]()).default
 const validData = z
   .array(candidateDataSchema)
   .parse(candidateData)
@@ -44,7 +47,7 @@ const uncontestedCandidates = validData.filter((d) => d.Type === 'U')
       There are more than one candidate for these races and you can rank the
       candidates, so you might need to do some research before making a choice.
     </p>
-    <!-- <CandidatesTable data={rcvCandidates} client:load /> -->
+    <CandidatesTable data={rcvCandidates} client:load />
   </div>
   <div>
     <h2 class="text-3xl font-bold mb-2">Contested Races</h2>
@@ -53,7 +56,7 @@ const uncontestedCandidates = validData.filter((d) => d.Type === 'U')
       one candidate, so you might need to do some research before making a
       choice.
     </p>
-    <!-- <CandidatesTable data={contestedCandidates} client:load /> -->
+    <CandidatesTable data={contestedCandidates} client:load />
   </div>
   <div>
     <h2 class="text-3xl font-bold mb-2">Uncontested Races</h2>
@@ -61,6 +64,6 @@ const uncontestedCandidates = validData.filter((d) => d.Type === 'U')
       There is only one candidate for these races, so you just need to fill in
       the oval or write-in another candidate.
     </p>
-    <!-- <CandidatesTable data={uncontestedCandidates} client:load /> -->
+    <CandidatesTable data={uncontestedCandidates} client:load />
   </div>
 </div>
