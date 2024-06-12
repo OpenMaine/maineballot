@@ -15,10 +15,15 @@ export const candidateDataSchema = z.object({
   FirstName: z.string(),
   MiddleName: z.string(),
   Suffix: z.string(),
-  Type: z.string(),
+  Type: z.enum(['RCV', 'C', 'U']),
   ballotpedia: z.string(),
   website: z.string(),
   website_text: z.string(),
   comparison: z.string(),
   comparison_text: z.string(),
 })
+
+// https://docs.astro.build/en/reference/api-reference/#other-files
+export interface CustomDataFile {
+  default: Record<string, any>
+}

@@ -1,7 +1,7 @@
 ---
 title: "State & county candidates"
 author_profile: false
-datafile: candidates-2020-11
+datafile: "../../data/candidates/candidates-2020-11.csv"
 search_for: candidate
 search_column: 4
 election: november-2020-election

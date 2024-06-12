@@ -27,6 +27,7 @@ const candidatesCollection = defineCollection({
   schema: z.object({
     title: z.string(),
     election: reference('elections'),
+    datafile: z.string(),
   }),
 })
 

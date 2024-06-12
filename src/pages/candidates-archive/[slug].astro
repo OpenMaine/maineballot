@@ -1,13 +1,9 @@
 ---
 import { getCollection } from 'astro:content'
-import {
-  createColumnHelper,
-  createTable,
-  getCoreRowModel,
-} from '@tanstack/table-core'
 import { z } from 'zod'
-import candidateData from '#data/candidates/candidates.csv'
 import { candidateDataSchema } from '#utils/types'
+import { CandidatesTable } from '#components/react/candidates-table'
+import { type CustomDataFile } from '#utils/types'
 
 export async function getStaticPaths() {
   const allCandidates = await getCollection('candidates')
@@ -17,69 +13,54 @@ export async function getStaticPaths() {
   }))
 }
 
-type Data = z.infer<typeof candidateDataSchema>
-const validData = z.array(candidateDataSchema).parse(candidateData)
+const modules = import.meta.glob<CustomDataFile>(`../../data/candidates/*.csv`)
+const datafile = Astro.props.post.data.datafile
 
-const columnHelper = createColumnHelper<Data>()
+if (!modules[datafile]) {
+  throw new Error(
+    `"${datafile}" does not exist in glob: "../../data/candidates/*.csv"`,
+  )
+}
 
-const columns = [
-  columnHelper.accessor('Office', {
-    header: 'Office',
-  }),
-  columnHelper.accessor('Dist', {
-    header: 'District',
-  }),
-  columnHelper.accessor('Party', {
-    header: 'Party',
-  }),
-  columnHelper.accessor('ballotpedia', {
-    header: 'Ballotpedia',
-  }),
-  columnHelper.accessor('website', {
-    header: 'Campaign website',
-  }),
-  columnHelper.accessor('comparison', {
-    header: 'Comparison',
-  }),
-]
+const candidateData = (await modules[datafile]()).default
+const validData = z
+  .array(candidateDataSchema)
+  .parse(candidateData)
+  .sort((a, b) =>
+    `${a.FirstName} ${a.LastName}`.localeCompare(
+      `${b.FirstName} ${b.LastName}`,
+    ),
+  )
 
-const table = createTable({
-  data: validData,
-  columns,
-  getCoreRowModel: getCoreRowModel(),
-  state: {
-    columnPinning: {
-      left: [],
-    },
-  }, // Dummy state
-  onStateChange: () => {}, // noop
-  renderFallbackValue: null,
-})
+const rcvCandidates = validData.filter((d) => d.Type === 'RCV')
+const contestedCandidates = validData.filter((d) => d.Type === 'C')
+const uncontestedCandidates = validData.filter((d) => d.Type === 'U')
 ---
 
-<div>hello</div>
-
-<table>
-  <thead>
-    {
-      table.getHeaderGroups().map((headerGroup) => (
-        <tr>
-          {headerGroup.headers.map((header) => (
-            <th>{header.column.columnDef.header}</th>
-          ))}
-        </tr>
-      ))
-    }
-  </thead>
-  <tbody>
-    {
-      table.getRowModel().rows.map((row) => (
-        <tr>
-          {row.getVisibleCells().map((cell) => (
-            <td>{cell.getContext().renderValue()}</td>
-          ))}
-        </tr>
-      ))
-    }
-  </tbody>
-</table>
+<div class="mx-auto px-3 max-w-7xl space-y-32">
+  <div>
+    <h2 class="text-3xl font-bold mb-2">Ranked-Choice Races</h2>
+    <p class="mb-4">
+      There are more than one candidate for these races and you can rank the
+      candidates, so you might need to do some research before making a choice.
+    </p>
+    <!-- <CandidatesTable data={rcvCandidates} client:load /> -->
+  </div>
+  <div>
+    <h2 class="text-3xl font-bold mb-2">Contested Races</h2>
+    <p class="mb-4">
+      There are more than one candidate for these races and you can only select
+      one candidate, so you might need to do some research before making a
+      choice.
+    </p>
+    <!-- <CandidatesTable data={contestedCandidates} client:load /> -->
+  </div>
+  <div>
+    <h2 class="text-3xl font-bold mb-2">Uncontested Races</h2>
+    <p class="mb-4">
+      There is only one candidate for these races, so you just need to fill in
+      the oval or write-in another candidate.
+    </p>
+    <!-- <CandidatesTable data={uncontestedCandidates} client:load /> -->
+  </div>
+</div>
