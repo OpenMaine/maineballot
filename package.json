@@ -1,43 +1,36 @@
 {
-  "name": "minimal-mistakes",
+  "name": "maineballot",
   "type": "module",
-  "version": "4.13.0",
-  "description": "Minimal Mistakes 2 column Jekyll theme.",
-  "author": "Michael Rose",
-  "license": "MIT",
-  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mmistakes/minimal-mistakes.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
-  },
-  "keywords": [
-    "jekyll",
-    "theme",
-    "minimal"
-  ],
-  "engines": {
-    "node": ">= 0.10.0"
-  },
+  "version": "1.0.0",
   "scripts": {
-    "uglify": "uglifyjs assets/js/vendor/jquery/jquery-3.7.1.min.js assets/js/plugins/jquery.fitvids.js assets/js/plugins/jquery.greedy-navigation.js assets/js/plugins/jquery.magnific-popup.js assets/js/plugins/jquery.smooth-scroll.min.js assets/js/table-search.js assets/js/_main.js -c -m -o assets/js/main.min.js",
-    "add-banner": "node banner.js",
-    "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
-    "build:js": "npm run uglify && npm run add-banner",
-    "lint": "eslint 'astro/src/**/*.{astro,js,jsx,ts,tsx,md,mdx,json}'",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint": "eslint 'src/**/*.{astro,js,jsx,ts,tsx,md,mdx,json}'",
     "prepare": "husky"
   },
   "dependencies": {
+    "@astrojs/check": "^0.7.0",
+    "@astrojs/sitemap": "^3.1.5",
+    "@astrojs/tailwind": "^5.1.0",
+    "@tanstack/table-core": "^8.17.3",
     "astro": "^4.9.1",
-    "astro-seo": "^0.8.3",
-    "braces": "^3.0.2",
-    "minimist": "^1.2.6"
+    "astro-seo": "^0.8.4",
+    "csv-parse": "^5.5.6",
+    "dayjs": "^1.11.11",
+    "gray-matter": "^4.0.3",
+    "reading-time": "^1.5.0",
+    "tailwindcss": "^3.4.3",
+    "ts-pattern": "^5.1.2",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.21.1",
-    "eslint": "^8.57.0",
+    "@rollup/plugin-dsv": "^3.0.4",
+    "@t3-oss/env-core": "^0.10.1",
+    "eslint": "^9.4.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-astro": "^1.2.0",
     "eslint-plugin-format": "^0.1.1",
@@ -45,10 +38,8 @@
     "eslint-plugin-tailwindcss": "^3.17.1",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.4",
-    "npm-run-all": "^1.7.0",
-    "onchange": "^7.1.0",
     "prettier-plugin-astro": "^0.13.0",
-    "uglify-js": "^2.6.1"
+    "typescript": "^5.4.5"
   },
   "lint-staged": {
     "astro/src/**/*.{astro,js,jsx,ts,tsx,md,mdx,json}": "eslint --fix"
