@@ -30,18 +30,30 @@ const stateElections = (
       new Date(a.data.electionDate).getTime(),
   )
 
-const localElections = await Promise.all(
-  (await getCollection('local')).map(async (local) => ({
-    ...local,
-    election: await getEntry(local.data.election),
-  })),
+const localElections = (
+  await Promise.all(
+    (await getCollection('local')).map(async (local) => ({
+      ...local,
+      election: await getEntry(local.data.election),
+    })),
+  )
+).sort(
+  (a, b) =>
+    new Date(b.election.data.electionDate).getTime() -
+    new Date(a.election.data.electionDate).getTime(),
 )
 
-const candidates = await Promise.all(
-  (await getCollection('candidates')).map(async (local) => ({
-    ...local,
-    election: await getEntry(local.data.election),
-  })),
+const candidates = (
+  await Promise.all(
+    (await getCollection('candidates')).map(async (local) => ({
+      ...local,
+      election: await getEntry(local.data.election),
+    })),
+  )
+).sort(
+  (a, b) =>
+    new Date(b.election.data.electionDate).getTime() -
+    new Date(a.election.data.electionDate).getTime(),
 )
 ---
 
