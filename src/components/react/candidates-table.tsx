@@ -13,14 +13,24 @@ import type { candidateDataSchema } from '#utils/types'
 
 type CandidateData = z.infer<typeof candidateDataSchema>
 
-export function CandidatesTable({ data }: { data: CandidateData[] }) {
+const defaultColumnVisibility = {
+  Office: true,
+  Dist: true,
+  Party: true,
+  fullName: true,
+  ballotpedia: true,
+  website: true,
+  comparison: true,
+}
+
+export function CandidatesTable({ data, columnVisibility = defaultColumnVisibility }: {
+  data: CandidateData[]
+  columnVisibility?: Partial<typeof defaultColumnVisibility>
+}) {
   const columnHelper = createColumnHelper<CandidateData>()
   const columns = [
     columnHelper.accessor('Office', {
       header: 'Office',
-    }),
-    columnHelper.accessor('Type', {
-      header: 'Type',
     }),
     columnHelper.accessor('Dist', {
       header: 'District',
@@ -29,12 +39,6 @@ export function CandidatesTable({ data }: { data: CandidateData[] }) {
     columnHelper.accessor('Party', {
       header: 'Party',
       enableSorting: true,
-    }),
-    columnHelper.accessor('FirstName', {
-      header: 'first',
-    }),
-    columnHelper.accessor('LastName', {
-      header: 'last',
     }),
     columnHelper.accessor(row => `${row.FirstName} ${row.LastName}`, {
       id: 'fullName',
@@ -71,6 +75,12 @@ export function CandidatesTable({ data }: { data: CandidateData[] }) {
     onSortingChange: setSorting,
     state: {
       sorting,
+    },
+    initialState: {
+      columnVisibility: {
+        ...defaultColumnVisibility,
+        ...columnVisibility,
+      },
     },
     isMultiSortEvent: () => true,
   })

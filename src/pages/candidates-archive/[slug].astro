@@ -59,6 +59,13 @@ const uncontestedCandidates = validData.filter((d) => d.Type === 'U')
       There is only one candidate for these races, so you just need to fill in
       the oval or write-in another candidate.
     </p>
-    <CandidatesTable data={uncontestedCandidates} client:load />
+    <CandidatesTable
+      data={uncontestedCandidates}
+      columnVisibility={{
+        comparison: false,
+        website: false,
+      }}
+      client:load
+    />
   </div>
 </div>
