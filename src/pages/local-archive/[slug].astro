@@ -2,6 +2,8 @@
 import { getCollection } from 'astro:content'
 
 import { getEntryUrl } from '#utils/get-url'
+import GlobalLayout from '#layouts/global-layout.astro'
+import ContentLayout from '#layouts/content-layout.astro'
 
 export async function getStaticPaths() {
   const allLocal = await getCollection('local')
@@ -14,6 +16,10 @@ export async function getStaticPaths() {
 const allLocal = await getCollection('local')
 ---
 
-<div>
-  <a href={getEntryUrl(allLocal[0])}>Test</a>
-</div>
+<GlobalLayout>
+  <ContentLayout>
+    <div>
+      <a href={getEntryUrl(allLocal[0])}>Test</a>
+    </div>
+  </ContentLayout>
+</GlobalLayout>

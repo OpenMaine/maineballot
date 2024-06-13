@@ -1,4 +1,6 @@
 ---
+import ContentLayout from '#layouts/content-layout.astro'
+import GlobalLayout from '#layouts/global-layout.astro'
 import { getCollection } from 'astro:content'
 
 export async function getStaticPaths() {
@@ -13,8 +15,12 @@ const { post } = Astro.props
 const { Content } = await post.render()
 ---
 
-<div>
-  <pre>{ JSON.stringify(post, null, 2) }</pre>
+<GlobalLayout>
+  <ContentLayout>
+    <div>
+      <pre>{ JSON.stringify(post, null, 2) }</pre>
 
-  <Content />
-</div>
+      <Content />
+    </div>
+  </ContentLayout>
+</GlobalLayout>

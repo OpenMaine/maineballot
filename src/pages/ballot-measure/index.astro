@@ -1,15 +1,21 @@
 ---
+import ContentLayout from '#layouts/content-layout.astro'
+import GlobalLayout from '#layouts/global-layout.astro'
 import { getCollection } from 'astro:content'
 
 const allPosts = await getCollection('posts')
 ---
 
-<ul>
-  {
-    allPosts.map((post) => (
-      <li>
-        <a href={`/ballot-measure/${post.slug}`}>{post.data.title}</a>
-      </li>
-    ))
-  }
-</ul>
+<GlobalLayout>
+  <ContentLayout>
+    <ul>
+      {
+        allPosts.map((post) => (
+          <li>
+            <a href={`/ballot-measure/${post.slug}`}>{post.data.title}</a>
+          </li>
+        ))
+      }
+    </ul>
+  </ContentLayout>
+</GlobalLayout>

@@ -2,6 +2,8 @@
 import { getCollection } from 'astro:content'
 import dayjs from 'dayjs'
 import { getReadingTime } from '#utils/get-reading-time'
+import GlobalLayout from '#layouts/global-layout.astro'
+import ContentLayout from '#layouts/content-layout.astro'
 
 const allTags = await getCollection('tags')
 
@@ -27,56 +29,58 @@ const tags = (
 )
 ---
 
-<div class="mx-auto w-full max-w-5xl space-y-4">
-  <ul class="grid grid-cols-3 gap-x-12 divide-y">
-    {
-      tags.map((tag) => (
-        <li class="block h-12">
-          <a
-            href={tag.slug}
-            class="flex size-full items-center justify-between"
-          >
-            <span>{tag.data.title}</span>
-            <span>{tag.posts.length}</span>
-          </a>
-        </li>
-      ))
-    }
-  </ul>
+<GlobalLayout>
+  <ContentLayout>
+    <ul class="grid grid-cols-3 gap-x-12 divide-y">
+      {
+        tags.map((tag) => (
+          <li class="block h-12">
+            <a
+              href={tag.slug}
+              class="flex size-full items-center justify-between"
+            >
+              <span>{tag.data.title}</span>
+              <span>{tag.posts.length}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
 
-  <div class="space-y-16">
-    {
-      tags.map((tag) => (
-        <div>
-          <div class="mb-4">
-            <h2 class="text-lg font-bold">{tag.data.title}</h2>
-          </div>
-          <div class="space-y-8">
-            {tag.posts.map((post) => (
-              <div>
-                <div class="mb-1">
-                  <span>
-                    {dayjs(post.data.electionDate).format('MMMM D, YYYY')}
-                  </span>
-                </div>
-                <div class="mb-1">
-                  <h3 class="text-2xl font-bold">
-                    <a class="underline" href={post.slug}>
-                      {post.data.title}
-                    </a>
-                  </h3>
-                </div>
-                <div class="mb-1">
-                  <span>{getReadingTime(post.body)}</span>
-                </div>
+    <div class="space-y-16">
+      {
+        tags.map((tag) => (
+          <div>
+            <div class="mb-4">
+              <h2 class="text-lg font-bold">{tag.data.title}</h2>
+            </div>
+            <div class="space-y-8">
+              {tag.posts.map((post) => (
                 <div>
-                  <p>{post.data.excerpt}</p>
+                  <div class="mb-1">
+                    <span>
+                      {dayjs(post.data.electionDate).format('MMMM D, YYYY')}
+                    </span>
+                  </div>
+                  <div class="mb-1">
+                    <h3 class="text-2xl font-bold">
+                      <a class="underline" href={post.slug}>
+                        {post.data.title}
+                      </a>
+                    </h3>
+                  </div>
+                  <div class="mb-1">
+                    <span>{getReadingTime(post.body)}</span>
+                  </div>
+                  <div>
+                    <p>{post.data.excerpt}</p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
-      ))
-    }
-  </div>
-</div>
+        ))
+      }
+    </div>
+  </ContentLayout>
+</GlobalLayout>

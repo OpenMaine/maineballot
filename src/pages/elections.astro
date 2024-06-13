@@ -1,6 +1,8 @@
 ---
 import { getCollection } from 'astro:content'
 import { getReadingTime } from '#utils/get-reading-time'
+import GlobalLayout from '#layouts/global-layout.astro'
+import ContentLayout from '#layouts/content-layout.astro'
 
 const allEelections = await getCollection('elections')
 
@@ -29,51 +31,53 @@ const elections = (
 )
 ---
 
-<div class="mx-auto w-full max-w-5xl space-y-4">
-  <ul class="grid grid-cols-3 gap-x-12 divide-y">
-    {
-      elections.map((cat) => (
-        <li class="block h-12">
-          <a
-            href={cat.slug}
-            class="flex size-full items-center justify-between"
-          >
-            <span>{cat.data.title}</span>
-            <span>{cat.posts.length}</span>
-          </a>
-        </li>
-      ))
-    }
-  </ul>
+<GlobalLayout>
+  <ContentLayout>
+    <ul class="grid grid-cols-3 gap-x-12 divide-y">
+      {
+        elections.map((cat) => (
+          <li class="block h-12">
+            <a
+              href={cat.slug}
+              class="flex size-full items-center justify-between"
+            >
+              <span>{cat.data.title}</span>
+              <span>{cat.posts.length}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
 
-  <div class="space-y-16">
-    {
-      elections.map((cat) => (
-        <div>
-          <div class="mb-4">
-            <h2 class="text-lg font-bold">{cat.data.title}</h2>
-          </div>
-          <div class="space-y-8">
-            {cat.posts.map((post) => (
-              <div>
-                <div class="mb-1">
-                  <h3 class="text-2xl font-bold">
-                    <a class="underline" href={post.slug}>
-                      {post.data.title}
-                    </a>
-                  </h3>
-                </div>
-                <div class="mb-1">
-                  <span>{getReadingTime(post.body)}</span>
-                </div>
+    <div class="space-y-16">
+      {
+        elections.map((cat) => (
+          <div>
+            <div class="mb-4">
+              <h2 class="text-lg font-bold">{cat.data.title}</h2>
+            </div>
+            <div class="space-y-8">
+              {cat.posts.map((post) => (
                 <div>
-                  <p>{post.data.excerpt}</p>
+                  <div class="mb-1">
+                    <h3 class="text-2xl font-bold">
+                      <a class="underline" href={post.slug}>
+                        {post.data.title}
+                      </a>
+                    </h3>
+                  </div>
+                  <div class="mb-1">
+                    <span>{getReadingTime(post.body)}</span>
+                  </div>
+                  <div>
+                    <p>{post.data.excerpt}</p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
-      ))
-    }
-  </div>
-</div>
+        ))
+      }
+    </div>
+  </ContentLayout>
+</GlobalLayout>
