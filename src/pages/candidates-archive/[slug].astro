@@ -3,7 +3,6 @@ import { getCollection } from 'astro:content'
 import { z } from 'zod'
 import { candidateDataSchema } from '#utils/types'
 import { CandidatesTable } from '#components/react/candidates-table'
-import candidateData from '#data/candidates/candidates-2020-11.csv'
 import { type CustomDataFile } from '#utils/types'
 
 export async function getStaticPaths() {
@@ -17,23 +16,19 @@ export async function getStaticPaths() {
 const datafile = Astro.props.post.data.datafile
 const modules = import.meta.glob<CustomDataFile>(`../../data/candidates/*.csv`)
 
-let data = []
-if (modules.hasOwnProperty(datafile)) {
-  data = (await modules[datafile]()).default
-} else {
+if (!modules[datafile]) {
   throw new Error(
     `"${datafile}" does not exist in glob: "../../data/candidates/*.csv"`,
   )
 }
-
-const validData = z
+const candidateData = (await modules[datafile]()).default
+const { data: validData, error } = z
   .array(candidateDataSchema)
-  .parse(candidateData)
-  .sort((a, b) =>
-    `${a.FirstName} ${a.LastName}`.localeCompare(
-      `${b.FirstName} ${b.LastName}`,
-    ),
-  )
+  .safeParse(candidateData)
+
+if (error) {
+  throw new Error(error.message)
+}
 
 const rcvCandidates = validData.filter((d) => d.Type === 'RCV')
 const contestedCandidates = validData.filter((d) => d.Type === 'C')
