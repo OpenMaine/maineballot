@@ -9,7 +9,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "lint": "eslint 'src/**/*.{astro,js,jsx,ts,tsx,md,mdx,json}'",
-    "prepare": "husky"
+    "prepare": "node .husky/install.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.7.0",
