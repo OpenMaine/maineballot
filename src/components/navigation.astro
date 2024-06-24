@@ -6,13 +6,13 @@ import { MobileMenu } from './react/mobile-menu'
 ---
 
 <div class="mx-auto max-w-7xl px-6">
-  <div class="py-9">
+  <div class="py-8">
     <nav id="nav" class="flex items-center">
       <a class="site-title" href="/">
         <Image
           src={logo}
           loading="eager"
-          class="w-72"
+          class="w-60 md:w-72 xl:w-80"
           alt="The Maine Ballot, Understanding Maine's Ballot Questions with hand submitting a ballot"
         />
       </a>
@@ -20,7 +20,10 @@ import { MobileMenu } from './react/mobile-menu'
         {
           NAVIGATION.main.map((link) => (
             <li class="flex">
-              <a href={link.url} class="p-2">
+              <a
+                href={link.url}
+                class="p-2 block text-lg text-gray-500 xl:text-xl before:absolute before:h-1 before:inset-x-2 before:bottom-1 before:bg-gray-500 relative before:transition-transform before:scale-x-0 hover:before:scale-x-100"
+              >
                 {link.title}
               </a>
             </li>

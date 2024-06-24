@@ -2,28 +2,35 @@
 import { SITE_META } from '#utils/constants'
 ---
 
-<div class="mx-auto max-w-7xl px-6">
-  <div>
-    <p>
-      MaineBallot.org was created by Shannon McHarg, a user experience designer
-      living in Maine, and is supported by <a href="http://openmaine.org/"
-        >OpenMaine</a
-      > volunteers.
-    </p>
-    <p>
-      <a href="/about">Learn more about the project here.</a>
-    </p>
-  </div>
+<div class="bg-neutral-100">
+  <div class="mx-auto max-w-7xl px-6 py-7">
+    <div>
+      <p class="text-sm lg:text-base mb-4 text-neutral-600">
+        MaineBallot.org was created by Shannon McHarg, a user experience
+        designer living in Maine, and is supported by <a
+          href="http://openmaine.org/"
+          class="underline">OpenMaine</a
+        > volunteers.
+      </p>
+      <p class="text-sm lg:text-base mb-4 text-neutral-600">
+        <a href="/about" class="underline">Learn more about the project here.</a
+        >
+      </p>
+    </div>
 
-  <div>
-    <p>
-      &copy; {new Date().getFullYear()}
-      {SITE_META.siteTitle}. Powered by
-      <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp;
-      <a
-        href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/"
-        rel="nofollow">Minimal Mistakes</a
-      >.
-    </p>
+    <div>
+      <p class="text-sm lg:text-base text-neutral-600">
+        &copy; {new Date().getFullYear()}
+        {SITE_META.siteTitle}. Powered by
+        <a href="https://jekyllrb.com" class="underline" rel="nofollow"
+          >Jekyll</a
+        > &amp;
+        <a
+          href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/"
+          class="underline"
+          rel="nofollow">Minimal Mistakes</a
+        >.
+      </p>
+    </div>
   </div>
 </div>

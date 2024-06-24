@@ -20,7 +20,7 @@ const {
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-full">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Astro description" />
@@ -75,14 +75,16 @@ const {
       }}
     />
   </head>
-  <body>
-    <Navigation />
+  <body class="flex flex-col h-full">
+    <div class="w-full">
+      <Navigation />
+    </div>
 
-    <main>
+    <main class="w-full">
       <slot />
     </main>
 
-    <footer>
+    <footer class="w-full mt-auto">
       <Footer />
     </footer>
   </body>
