@@ -1,0 +1,9 @@
+[context.main]
+command = "jekyll build"
+publish = "_site"
+environment = { JEKYLL_ENV = "production" }
+
+[context.astro]
+command = "npm run build"
+publish = "dist"
+environment = { NODE_ENV = "production", NODE_VERSION = "20.3.0" }
