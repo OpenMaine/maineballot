@@ -1,0 +1,139 @@
+---
+import { getCollection, getEntry } from 'astro:content'
+import { getEntryUrl } from '#utils/get-url'
+import GlobalLayout from '#layouts/global-layout.astro'
+import ContentLayout from '#layouts/content-layout.astro'
+
+const allEelections = await getCollection('elections')
+
+const stateElections = (
+  await Promise.all(
+    allEelections.map(async (elect) => ({
+      slug: elect.id,
+      data: elect.data,
+      posts: (
+        await getCollection(
+          'posts',
+          ({ data }) => data.election.id === elect.id,
+        )
+      ).sort(
+        (a, b) =>
+          new Date(b.data.electionDate).getTime() -
+            new Date(a.data.electionDate).getTime() ||
+          a.slug.localeCompare(b.slug),
+      ),
+    })),
+  )
+)
+  .filter((elect) => elect.posts.length > 0)
+  .sort(
+    (a, b) =>
+      new Date(b.data.electionDate).getTime() -
+      new Date(a.data.electionDate).getTime(),
+  )
+
+const localElections = (
+  await Promise.all(
+    (await getCollection('local')).map(async (local) => ({
+      ...local,
+      election: await getEntry(local.data.election),
+    })),
+  )
+).sort(
+  (a, b) =>
+    new Date(b.election.data.electionDate).getTime() -
+    new Date(a.election.data.electionDate).getTime(),
+)
+
+const candidates = (
+  await Promise.all(
+    (await getCollection('candidates')).map(async (local) => ({
+      ...local,
+      election: await getEntry(local.data.election),
+    })),
+  )
+).sort(
+  (a, b) =>
+    new Date(b.election.data.electionDate).getTime() -
+    new Date(a.election.data.electionDate).getTime(),
+)
+---
+
+<GlobalLayout>
+  <ContentLayout>
+    <div class="mb-12">
+      <h1 class="text-3xl font-bold">Elections</h1>
+    </div>
+
+    <div class="space-y-24">
+      <div>
+        <div class="mb-8">
+          <h2 class="text-2xl font-bold">State Elections</h2>
+        </div>
+        <div class="space-y-16">
+          {
+            stateElections.map((tag) => (
+              <div>
+                <div class="mb-4">
+                  <h3 class="text-lg font-bold">{tag.data.title}</h3>
+                </div>
+                <ul class="list-disc space-y-8">
+                  {tag.posts.map((post) => (
+                    <li>
+                      <div class="mb-1">
+                        <a class="text-lg underline" href={getEntryUrl(post)}>
+                          {post.data.title}
+                        </a>
+                      </div>
+                      <div>
+                        <p>{post.data.excerpt}</p>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+
+      <div>
+        <div class="mb-8">
+          <h2 class="text-2xl font-bold">Local Elections</h2>
+        </div>
+        <div>
+          <ul class="list-disc space-y-2">
+            {
+              localElections.map((elect) => (
+                <li>
+                  <a class="text-lg underline" href={getEntryUrl(elect)}>
+                    {elect.election.data.title}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <div class="mb-8">
+          <h2 class="text-2xl font-bold">Candidate</h2>
+        </div>
+        <div>
+          <ul class="list-disc space-y-2">
+            {
+              candidates.map((cand) => (
+                <li>
+                  <a class="text-lg underline" href={getEntryUrl(cand)}>
+                    {cand.election.data.title}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </div>
+    </div>
+  </ContentLayout>
+</GlobalLayout>

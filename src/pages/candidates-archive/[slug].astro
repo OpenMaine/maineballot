@@ -1,0 +1,76 @@
+---
+import { getCollection } from 'astro:content'
+import { z } from 'zod'
+import { candidateDataSchema } from '#utils/types'
+import { CandidatesTable } from '#components/react/candidates-table'
+import { type CustomDataFile } from '#utils/types'
+import GlobalLayout from '#layouts/global-layout.astro'
+import ContentLayout from '#layouts/content-layout.astro'
+
+export async function getStaticPaths() {
+  const allCandidates = await getCollection('candidates')
+  return allCandidates.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }))
+}
+
+const datafile = Astro.props.post.data.datafile
+const modules = import.meta.glob<CustomDataFile>(`../../data/candidates/*.csv`)
+
+if (!modules[datafile]) {
+  throw new Error(
+    `"${datafile}" does not exist in glob: "../../data/candidates/*.csv"`,
+  )
+}
+const candidateData = (await modules[datafile]()).default
+const { data: validData, error } = z
+  .array(candidateDataSchema)
+  .safeParse(candidateData)
+
+if (error) {
+  throw new Error(error.message)
+}
+
+const rcvCandidates = validData.filter((d) => d.Type === 'RCV')
+const contestedCandidates = validData.filter((d) => d.Type === 'C')
+const uncontestedCandidates = validData.filter((d) => d.Type === 'U')
+---
+
+<GlobalLayout>
+  <ContentLayout class="space-y-32">
+    <div>
+      <h2 class="text-3xl font-bold mb-2">Ranked-Choice Races</h2>
+      <p class="mb-4">
+        There are more than one candidate for these races and you can rank the
+        candidates, so you might need to do some research before making a
+        choice.
+      </p>
+      <CandidatesTable data={rcvCandidates} client:load />
+    </div>
+    <div>
+      <h2 class="text-3xl font-bold mb-2">Contested Races</h2>
+      <p class="mb-4">
+        There are more than one candidate for these races and you can only
+        select one candidate, so you might need to do some research before
+        making a choice.
+      </p>
+      <CandidatesTable data={contestedCandidates} client:load />
+    </div>
+    <div>
+      <h2 class="text-3xl font-bold mb-2">Uncontested Races</h2>
+      <p class="mb-4">
+        There is only one candidate for these races, so you just need to fill in
+        the oval or write-in another candidate.
+      </p>
+      <CandidatesTable
+        data={uncontestedCandidates}
+        columnVisibility={{
+          comparison: false,
+          website: false,
+        }}
+        client:load
+      />
+    </div>
+  </ContentLayout>
+</GlobalLayout>

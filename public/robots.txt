@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maineballot.org/sitemap-index.xml

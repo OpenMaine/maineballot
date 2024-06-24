@@ -1,0 +1,25 @@
+---
+import { getCollection } from 'astro:content'
+
+import { getEntryUrl } from '#utils/get-url'
+import GlobalLayout from '#layouts/global-layout.astro'
+import ContentLayout from '#layouts/content-layout.astro'
+
+export async function getStaticPaths() {
+  const allLocal = await getCollection('local')
+  return allLocal.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }))
+}
+
+const allLocal = await getCollection('local')
+---
+
+<GlobalLayout>
+  <ContentLayout>
+    <div>
+      <a href={getEntryUrl(allLocal[0])}>Test</a>
+    </div>
+  </ContentLayout>
+</GlobalLayout>

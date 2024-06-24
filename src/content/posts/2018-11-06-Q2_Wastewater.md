@@ -1,0 +1,97 @@
+---
+title: 'Question 2: Wastewater'
+excerpt: >-
+  This approved measure allows the state to borrow $30 million to improve water
+  quality.
+electionDate: 2018-11-06
+header:
+  overlay_image: ../../assets/img/2018_11/Question2_Wastewater.jpg
+  teaser: ../../assets/img/2018_11/Question2_Wastewater.jpg
+  overlay_filter: 0.5
+  image_description: Wastewater coming out of a pipe
+search: true
+election: november-2018-election
+tags:
+  - water
+  - bond
+  - passed
+yes_vote: >-
+  I am in favor of issuing a $30 million bond to fund wastewater infrastructure
+  improvements.
+no_vote: >-
+  I don't want to issue a $30 million bond to fund wastewater infrastructure
+  improvements.
+lastModifiedDate: 2019-01-07
+---
+
+## Results
+
+This measure passed.
+
+## The gist
+
+Passing this question would allow the state to borrow $30 million to improve water quality.
+
+## Ballot question
+
+“Do you favor a $30,000,000 bond issue to improve water quality, support the planning and construction of wastewater treatment facilities and assist homeowners whose homes are served by substandard or malfunctioning wastewater treatment systems?”[^2]
+
+{% include yes-no-table.html %}
+
+## Tell me more
+
+Passing this question would provide funds to towns, wastewater facilities, and homeowners, primarily in areas that affect the coast and shell fishing areas to fix broken wastewater disposal systems.
+
+This is a **bond issue** -- if voters approve the bond, it means that the State of Maine is allowed to borrow money for the project described in the ballot question and has to pay it back over 10 years.[^3] [Learn more about how bonds work](/bonds).
+
+## Follow the money
+
+Principal: $30,000,000
+<br>Interest: $8,250,000 (assumes 5.0% over 10 years)
+<br>Total cost: $38,250,000[^4]
+
+### The money will be used to
+
+- $27.65 million for wastewater treatment facility planning and construction for areas that affect high-value shellfish resources[^4]
+- $2 million for a small community grant program to help towns replace broken septic systems that are causing pollution[^4]
+- $350,000 for homeowners to fix their disposal systems[^4]
+
+### The money will be coming from
+
+- $30 million bond issued by the state and paid back through the budget and taxes over 10 years.
+
+## Pros
+
+The primary arguments for this referendum are:
+
+- Wastewater issues affect the entire community, not just those who have broken systems.
+- Wastewater is a problem for coastal waters and shellfish supplies.
+- Individual landowners don’t have an incentive to make these expensive improvements themselves because they don’t have a direct impact.
+- Infrastructure improvements cost less the sooner they are made.
+- Interest rates are currently low, making it a good time to invest.[^3]
+
+## Cons
+
+The primary arguments against this referendum are:
+
+- There isn’t a lot of information about which communities will benefit from these improvements.
+- Maine already has $106,258,509 in outstanding bond debt that this will add to and it could lead to increased taxes.[^4]
+
+## Who cares
+
+Nobody has registered support or opposition to this bond.[^1]
+
+## Further reading
+
+[Full Text](http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP1034&item=1&snum=128)
+<br>[Ballotpedia Article](<https://ballotpedia.org/Maine_Question_2,_Wastewater_Infrastructure_Bond_Issue_(2018)>)
+
+## References
+
+[^1]: Ballotpedia State Desk. [Maine Question 2, Wastewater Infrastructure Bond Issue (2018)](<https://ballotpedia.org/Maine_Question_2,_Wastewater_Infrastructure_Bond_Issue_(2018)>)). Ballotpedia. Accessed October 11, 2018.
+
+[^2]: Maine State Legislature. [H.P. 1034](http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP1034&item=1&snum=128). Accessed October 11, 2018.
+
+[^3]: League of Women Voters. [League of Women Voters, Maine 2018 General Election Voter Guide (2018)](http://www.lwvme.org/files/VG_2018_Statewide.pdf). Accessed October 11, 2018.
+
+[^4]: Dunlap, Matthew. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/cec/elec/upcoming/pdf/citizensguide.pdf). Accessed October 11, 2018.
