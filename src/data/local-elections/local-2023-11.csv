@@ -2,82 +2,83 @@ county,city,type,website,drop,ballot,ballot_link,ballot_link_text,sorting county
 Androscoggin,Auburn,election,http://www.auburnmaine.gov/pages/government/election-and-voting,,,,,Androscoggin
 Androscoggin,Durham,town,https://www.durhamme.com/,,,,,Androscoggin
 Androscoggin,Greene,election,https://www.townofgreene.net/elections,,,,,Androscoggin
-Androscoggin,Leeds,town,https://townofleeds.com/,,,,,Androscoggin
+Androscoggin,Leeds,town,https://sites.google.com/site/townofleedsmaine/,,,,,Androscoggin
 Androscoggin,Lewiston,election,https://www.lewistonmaine.gov/117/Elections,City Hall - Park Street entrance door,,,,Androscoggin
 Androscoggin,Lisbon,election,https://www.lisbonme.org/election-information,Town hall,,,,Androscoggin
 Androscoggin,Livermore,town,http://livermoremaine.org/,,,,,Androscoggin
 Androscoggin,Livermore Falls,election,http://lfme.org/elections/,,,,,Androscoggin
-Androscoggin,Mechanic Falls,town,https://www.mechanicfalls.org/,,,,,Androscoggin
+Androscoggin,Mechanic Falls,town,https://mechanicfalls.govoffice.com/,,,,,Androscoggin
 Androscoggin,Minot,election,https://minotme.org/index.asp?SEC=8CA67442-D60D-4CCD-B5C0-F0C162FD0658&DE=3DD12AA1-1B1B-4844-AB38-AD2EA80C2324,Town hall main entrance,,,,Androscoggin
 Androscoggin,Poland,town,https://www.polandtownoffice.org/,,,,,Androscoggin
 Androscoggin,Sabattus,town,https://www.sabattus.org/,,,,,Androscoggin
 Androscoggin,Turner,town,https://www.turnermaine.com/,,,,,Androscoggin
 Androscoggin,Wales,Facebook,https://www.facebook.com/Town-of-Wales-Maine-105105240896391/,,,,,Androscoggin
-Aroostook,Allagash,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=allagash&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=%3Cstrong%3ESorry%2C+no+matches+were+found+for+that+town.+%3C%2Fstrong%3E,,,,,Aroostook
+Aroostook,Allagash,contact info,https://www.maine.gov/local/town.php?t=Allagash,,,,,Aroostook
 Aroostook,Amity,town,http://townofamity.com/,,,,,Aroostook
 Aroostook,Ashland,town,http://townofashland.org/,,,,,Aroostook
-Aroostook,Blaine,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=blaine&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
+Aroostook,Bancroft,contact info,https://www.maine.gov/local/town.php?t=Bancroft,,,,,Aroostook
+Aroostook,Blaine,contact info,https://www.maine.gov/local/town.php?t=Blaine,,,,,Aroostook
 Aroostook,Bridgewater,Facebook,https://www.facebook.com/bridgewatermaine/,,,,,Aroostook
 Aroostook,Caribou,election,https://www.cariboumaine.org/elections/,,,,,Aroostook
-Aroostook,Cary Plantation,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=cary&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=%3Cstrong%3ESorry%2C+no+matches+were+found+for+that+town.+%3C%2Fstrong%3E,,,,,Aroostook
-Aroostook,Castle Hill,town,https://mapleton.me/,,,,,Aroostook
-Aroostook,Caswell,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=caswell&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
+Aroostook,Cary Plantation,contact info,https://www.maine.gov/local/town.php?t=Cary%20Plt,,,,,Aroostook
+Aroostook,Castle Hill,town,https://www.maine.gov/local/town.php?t=Castle%20Hill,,,,,Aroostook
+Aroostook,Caswell,contact info,https://www.maine.gov/local/town.php?t=Caswell,,,,,Aroostook
 Aroostook,Chapman,town,https://www.mapleton.me/#,,,,,Aroostook
-Aroostook,Crystal,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=crystal&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
-Aroostook,Cyr Plantation,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=cyr+plantation&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
-Aroostook,Dyer Brook,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=dyer+brook&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
+Aroostook,Crystal,contact info,https://www.maine.gov/local/town.php?t=Crystal,,,,,Aroostook
+Aroostook,Cyr Plantation,contact info,https://cyrplantation.com/,,,,,Aroostook
+Aroostook,Dyer Brook,contact info,https://www.maine.gov/local/town.php?t=Dyer%20Brook,,,,,Aroostook
 Aroostook,Eagle Lake,election,https://www.townofeaglelake.org/registering-to-vote,,,,,Aroostook
 Aroostook,Easton,election,https://www.eastonme.com/municipal-departments/elections-voting/,,,,,Aroostook
 Aroostook,Fort Fairfield,town,http://www.fortfairfield.org/,,,,,Aroostook
 Aroostook,Fort Kent,town,http://www.fortkent.org/,,,,,Aroostook
 Aroostook,Frenchville,town,https://www.frenchville.org/,,,,,Aroostook
-Aroostook,Garfield Plantation,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=garfield+plantation&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
-Aroostook,Glenwood Plantation,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=glenwood+plantation&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
+Aroostook,Garfield Plantation,contact info,https://www.maine.gov/local/town.php?t=Garfield%20Plt,,,,,Aroostook
+Aroostook,Glenwood Plantation,contact info,https://www.maine.gov/local/town.php?t=Glenwood%20Plt,,,,,Aroostook
 Aroostook,Grand Isle,town,https://grandislemaine.com/,,,,,Aroostook
-Aroostook,Hamlin,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=hamlin&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
-Aroostook,Hammond,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=hammond&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
-Aroostook,Haynesville,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=haynesville&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
-Aroostook,Hersey,town,https://www.pattenmaine.org/hersey,,,,,Aroostook
-Aroostook,Hodgdon,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=hodgdon&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
+Aroostook,Hamlin,contact info,https://www.maine.gov/local/town.php?t=Hamlin,,,,,Aroostook
+Aroostook,Hammond,contact info,https://www.maine.gov/local/town.php?t=Hammond,,,,,Aroostook
+Aroostook,Haynesville,contact info,https://www.maine.gov/local/town.php?t=Haynesville,,,,,Aroostook
+Aroostook,Hersey,contact info,https://www.maine.gov/local/town.php?t=Hersey,,,,,Aroostook
+Aroostook,Hodgdon,contact info,https://www.maine.gov/local/town.php?t=Hodgdon,,,,,Aroostook
 Aroostook,Houlton,town,http://www.houlton-maine.com/,,,,,Aroostook
 Aroostook,Island Falls,town,https://www.islandfallsme.us/,,,,,Aroostook
 Aroostook,Limestone,town,http://www.limestonemaine.org/,,,,,Aroostook
-Aroostook,Linneus,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=linneus&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
+Aroostook,Linneus,contact info,https://www.maine.gov/local/town.php?t=Linneus,,,,,Aroostook
 Aroostook,Littleton,Facebook,https://www.facebook.com/pages/Littleton-Town-Office/1065409710159142,,,,,Aroostook
 Aroostook,Ludlow,Facebook,https://www.facebook.com/pages/Ludlow-Town-Office/452966878460576,,,,,Aroostook
-Aroostook,Macwahoc Plantation,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=macwahoc&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
+Aroostook,Macwahoc Plantation,contact info,https://www.maine.gov/local/town.php?t=Macwahoc%20Plt,,,,,Aroostook
 Aroostook,Madawaska,town,http://townofmadawaska.com,,,,,Aroostook
 Aroostook,Mapleton,town,https://www.mapleton.me/#,,,,,Aroostook
 Aroostook,Mars Hill,election,https://marshillmaine.org/voter-election-information/,,,,,Aroostook
-Aroostook,Masardis,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=masardis&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
+Aroostook,Masardis,contact info,https://www.maine.gov/local/town.php?t=Masardis,,,,,Aroostook
 Aroostook,Merrill,town,https://merrill.aroostook.me.us/,,,,,Aroostook
-Aroostook,Monticello,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=monticello&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
-Aroostook,Moro Plantation,town,https://www.pattenmaine.org/moro-plantation,,,,,Aroostook
+Aroostook,Monticello,contact info,https://www.maine.gov/local/town.php?t=Monticello,,,,,Aroostook
+Aroostook,Moro Plantation,contact info,https://www.maine.gov/local/town.php?t=Moro%20Plt,,,,,Aroostook
 Aroostook,Nashville Plantation,election,https://www.townofportage.org/town-government/office-personnel/office-of-the-clerk.html,,,,,Aroostook
-Aroostook,New Canada,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=canada&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
+Aroostook,New Canada,contact info,https://www.maine.gov/local/town.php?t=New%20Canada,,,,,Aroostook
 Aroostook,New Limerick,Facebook,https://www.facebook.com/pages/category/Town-Hall/New-Limerick-TOWN-Office-104291707931619/,,,,,Aroostook
-Aroostook,New Sweden,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=sweden&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
+Aroostook,New Sweden,contact info,https://www.maine.gov/local/town.php?t=New%20Sweden,,,,,Aroostook
 Aroostook,Oakfield,town,https://www.oakfieldme.org/,,,,,Aroostook
 Aroostook,Orient,town,http://www.orientmaine.org/,,,,,Aroostook
-Aroostook,Oxbow Plantation,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=oxbow&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
-Aroostook,Perham,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=perham&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
+Aroostook,Oxbow Plantation,contact info,https://www.maine.gov/local/town.php?t=Oxbow%20Plt,,,,,Aroostook
+Aroostook,Perham,contact info,https://www.maine.gov/local/town.php?t=Perham,,,,,Aroostook
 Aroostook,Portage Lake,election,https://www.townofportage.org/town-government/office-personnel/office-of-the-clerk.html,,,,,Aroostook
-Aroostook,Presque Isle,town,https://presqueislemaine.gov/,,,,,Aroostook
-Aroostook,Reed Plantation,town,https://reedplt.me/,,,,,Aroostook
-Aroostook,Sherman,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=sherman&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
-Aroostook,Smyrna,town,https://smyrna.aroostook.me.us/,,,,,Aroostook
+Aroostook,Presque Isle,election,http://presqueislemaine.gov/city-clerks-office/,,,,,Aroostook
+Aroostook,Reed Plantation,contact info,https://www.maine.gov/local/town.php?t=Reed%20Plt,,,,,Aroostook
+Aroostook,Sherman,contact info,https://www.maine.gov/local/town.php?t=Sherman,,,,,Aroostook
+Aroostook,Smyrna,town,https://www.aroostook.me.us/smyrna/,,,,,Aroostook
 Aroostook,St. Agatha,election,https://www.stagatha.com/news-events/town-elections.html,,,,,Aroostook
 Aroostook,St. Francis,town,http://stfrancisme.com/,,,,,Aroostook
-Aroostook,St. John Plantation,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=john&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
-Aroostook,Stockholm,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=stockholm&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
+Aroostook,St. John Plantation,contact info,https://www.maine.gov/local/town.php?t=Saint%20John%20Plt,,,,,Aroostook
+Aroostook,Stockholm,contact info,https://www.maine.gov/local/town.php?t=Stockholm,,,,,Aroostook
 Aroostook,Van Buren,town,http://www.vanburenmaine.com/,,,,,Aroostook
-Aroostook,Wade,town,https://www.washburnmaine.org/town-of-wade/,,,,,Aroostook
+Aroostook,Wade,contact info,https://www.maine.gov/local/town.php?t=Wade,,,,,Aroostook
 Aroostook,Wallagrass,Facebook,https://www.facebook.com/townofwallagrass/,,,,,Aroostook
 Aroostook,Washburn,election,https://www.washburnmaine.org/municipal-departments/elections-voting/,,,,,Aroostook
-Aroostook,Westfield,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=westfield&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
-Aroostook,Westmanland,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=westmanland&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
+Aroostook,Westfield,contact info,https://www.maine.gov/local/town.php?t=Westfield,,,,,Aroostook
+Aroostook,Westmanland,contact info,https://www.maine.gov/local/town.php?t=Westmanland,,,,,Aroostook
 Aroostook,Weston,town,https://townofwestonnet.ipower.com/,,,,,Aroostook
-Aroostook,Winterville Plantation,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=winterville&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Aroostook
+Aroostook,Winterville Plantation,contact info,https://www.maine.gov/local/town.php?t=Winterville%20Plt,,,,,Aroostook
 Aroostook,Woodland,town,https://www.townofwoodland.org/,,,,,Aroostook
 Cumberland,Baldwin,town,https://www.baldwinmaine.org/,,,,,Cumberland
 Cumberland,Bridgton,election,https://bridgtonmaine.org/elections/,,,,,Cumberland
@@ -107,29 +108,29 @@ Cumberland,Standish,election,https://www.standish.org/town-clerk/pages/election-
 Cumberland,Westbrook,election,https://www.westbrookmaine.com/181/Elections-Voting,In front of City Hall at 2 York Street,,,,Cumberland
 Cumberland,Windham,election,http://www.windhammaine.us/125/Voter-Information,,,,,Cumberland
 Cumberland,Yarmouth,election,https://yarmouth.me.us/elections,Town Hall or Voting Place - inside,,,,Cumberland
-Franklin,Avon,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=avon&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Franklin
+Franklin,Avon,contact info,https://www.maine.gov/local/town.php?t=Avon,,,,,Franklin
 Franklin,Carrabassett Valley,town,http://www.carrabassettvalley.org/,,,,,Franklin
-Franklin,Carthage,town,https://www.franklincountymaine.org/members/profile/town-of-carthage,,,,,Franklin
+Franklin,Carthage,contact info,https://www.maine.gov/local/town.php?t=Carthage,,,,,Franklin
 Franklin,Chesterville,town,https://www.townofchesterville.me/,,,,,Franklin
-Franklin,Coplin Plantation,town,https://www.coplinplantation.maine.gov/,,,,,Franklin
+Franklin,Coplin Plantation,contact info,https://www.maine.gov/local/town.php?t=Coplin%20Plt,,,,,Franklin
 Franklin,Dallas Plantation,election,https://dallasplantation.com/government/voter-registration/,,,,,Franklin
 Franklin,Eustis,election,https://eustismaine.org/departments/registrar-of-voters/,,,,,Franklin
 Franklin,Farmington,election,https://www.farmington-maine.org/voting-and-elections,,,,,Franklin
-Franklin,Industry,town,https://www.townofindustry.com/,,,,,Franklin
+Franklin,Industry,election,https://www.townofindustry.com/elections,,,,,Franklin
 Franklin,Jay,town,http://www.jay-maine.org/,,,,,Franklin
 Franklin,Kingfield,election,http://www.kingfield.me/1005-2/,,,,,Franklin
 Franklin,New Sharon,town,https://www.newsharon.maine.gov/,,,,,Franklin
 Franklin,New Vineyard,town,http://www.newvineyardme.org/,,,,,Franklin
-Franklin,Phillips,town,https://phillipsmaine.com/,,,,,Franklin
+Franklin,Phillips,contact info,https://www.maine.gov/local/town.php?t=Phillips,,,,,Franklin
 Franklin,Rangeley,election,https://townofrangeley.com/185/Elections-Voter-Registration,,,,,Franklin
-Franklin,Rangeley Plantation,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=rangeley&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Franklin
-Franklin,Sandy River Plantation,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=sandy&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Franklin
-Franklin,Strong,town,https://strong-maine.com/,,,,,Franklin
+Franklin,Rangeley Plantation,contact info,https://www.maine.gov/local/town.php?t=Rangeley%20Plt,,,,,Franklin
+Franklin,Sandy River Plantation,contact info,https://www.maine.gov/local/town.php?t=Sandy%20River%20Plt,,,,,Franklin
+Franklin,Strong,town,http://strongmaine.com/,,,,,Franklin
 Franklin,Temple,town,https://townoftemple.org/?fbclid=IwAR3pyJXsu2LQvxIpDx2paoXqPwlFMHMfraJdB9IMHMspf1bhzCWqyWkeaqo,,,,,Franklin
 Franklin,Weld,town,http://www.weld-maine.org/,,,,,Franklin
 Franklin,Wilton,town,http://www.wiltonmaine.org,,,,,Franklin
-Hancock,Amherst,town,https://www.amherstme.com/,,,,,Hancock
-Hancock,Aurora,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=aurora&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Hancock
+Hancock,Amherst,town,http://amherstmaine.org/,,,,,Hancock
+Hancock,Aurora,contact info,https://www.maine.gov/local/town.php?t=Aurora,,,,,Hancock
 Hancock,Bar Harbor,election,http://www.barharbormaine.gov/130/Elections---General-Info,,,,,Hancock
 Hancock,Blue Hill,election,https://bluehillme.gov/town-services/clerk-services/elections-voting/,,,,,Hancock
 Hancock,Brooklin,town,https://www.brooklinmaine.com/,,,,,Hancock
@@ -148,14 +149,14 @@ Hancock,Gouldsboro,town,http://www.gouldsborotown.com/,,,,,Hancock
 Hancock,Great Pond,town,https://www.hcpcme.org/greatpond/index.htm,,,,,Hancock
 Hancock,Hancock,election,https://hancockmaine.org,,,,,Hancock
 Hancock,Lamoine,town,http://www.lamoine-me.gov/,,,,,Hancock
-Hancock,Mariaville,town,https://www.mariavilleme.gov/,,,,,Hancock
+Hancock,Mariaville,town,https://www.mariavilleme.gov/elections,,,,,Hancock
 Hancock,Mount Desert,election,https://www.mtdesert.org/town-clerk/pages/elections-voting,,,,,Hancock
 Hancock,Orland,town,https://townoforland.org/election-information/,,,,,Hancock
 Hancock,Osborn,town,https://www.osbornmaine.org/,,,,,Hancock
 Hancock,Otis,town,http://www.townofotis.com/,,,,,Hancock
 Hancock,Penobscot,town,http://www.penobscot-maine.com/,,,,,Hancock
 Hancock,Sedgwick,town,https://www.sedgwickmaine.org/,,,,,Hancock
-Hancock,Sorrento,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=sorrento&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Hancock
+Hancock,Sorrento,contact info,https://www.hcpcme.org/sorrento/index.htm,,,,,Hancock
 Hancock,Southwest Harbor,town,http://www.southwestharbormaine.org/,,,,,Hancock
 Hancock,Stonington,town,https://www.stoningtonmaine.org/,,,,,Hancock
 Hancock,Sullivan,town,https://sullivanmaine.org/,,,,,Hancock
@@ -164,7 +165,7 @@ Hancock,Swans Island,town,http://swansisland.org/,,,,,Hancock
 Hancock,Tremont,town,http://tremont.maine.gov/,,,,,Hancock
 Hancock,Trenton,town,https://www.trentonme.com/,,,,,Hancock
 Hancock,Verona Island,town,http://www.veroname.org/,,,,,Hancock
-Hancock,Waltham,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=waltham&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Hancock
+Hancock,Waltham,contact info,https://www.maine.gov/local/town.php?t=Waltham,,,,,Hancock
 Hancock,Winter Harbor,town,https://winterharbortown.com/,,,,,Hancock
 Kennebec,Albion,town,https://townofalbionmaine.com/,,,,,Kennebec
 Kennebec,Augusta,election,http://www.augustamaine.gov/businesses/city_government/elections.php,,,,,Kennebec
@@ -186,7 +187,7 @@ Kennebec,Pittston,election,https://www.pittstonmaine.org/index.asp?SEC=818A26C9-
 Kennebec,Randolph,election,https://www.randolphmaine.org/index.asp?SEC=0D417703-B12A-45DC-93E0-C12009065FCB&Type=B_BASIC,,,,,Kennebec
 Kennebec,Readfield,election,https://www.readfieldmaine.org/votingelectionstown-mtg/pages/voting-information,,,,,Kennebec
 Kennebec,Rome,election,https://romemaine.com/departments/clerk/,,,,,Kennebec
-Kennebec,Sidney,town,https://www.sidneymaine.org/,,,,,Kennebec
+Kennebec,Sidney,election,https://www.sidneymaine.org/index.php/town-business/elections-voting-information.html,,,,,Kennebec
 Kennebec,Vassalboro,town,http://www.vassalboro.net,,,,,Kennebec
 Kennebec,Vienna,town,http://www.viennamaine.org,,,,,Kennebec
 Kennebec,Waterville,election,http://www.waterville-me.gov/clerk/general-election-information-2/,,,,,Kennebec
@@ -198,12 +199,12 @@ Kennebec,Winthrop,election,https://www.winthropmaine.org/town-clerk/pages/voting
 Knox,Appleton,town,https://appleton.maine.gov/,,,,,Knox
 Knox,Camden,election,https://www.camdenmaine.gov/town_clerk/elections___voter_registration.php,"Entrance door of Camden Town Office, 29 Elm Street",,,,Knox
 Knox,Cushing,town,https://www.cushing.maine.gov/,,,,,Knox
-Knox,Friendship,town,https://friendship.maine.gov/,,,,,Knox
+Knox,Friendship,contact info,https://www.maine.gov/local/town.php?t=Friendship,,,,,Knox
 Knox,Hope,town,https://hopemaine.org/,,,,,Knox
 Knox,Isle Au Haut,town,http://www.isleauhautmaine.us/,,,,,Knox
 Knox,Matinicus Isle Plantation,town,https://matinicusplantation.com/election-information/,,,,,Knox
 Knox,North Haven,town,http://www.northhavenmaine.org/,,,,,Knox
-Knox,Owls Head,town,https://www.owlshead.maine.gov/,,,,,Knox
+Knox,Owls Head,town,https://www.owlshead.maine.gov/government/elections-information/,,,,,Knox
 Knox,Rockland,election,https://rocklandmaine.gov/municipal/departments/clerks-office/voting/,,,,,Knox
 Knox,Rockport,election,https://rockportmaine.gov/elections,,,,,Knox
 Knox,South Thomaston,town,https://souththomaston.me/voting-and-elections/,,,,,Knox
@@ -225,8 +226,8 @@ Lincoln,Jefferson,election,https://jeffersonmaine.org/election-information/,,,,,
 Lincoln,Monhegan Island Plantation,town,http://www.monheganplantation.com/,,,,,Lincoln
 Lincoln,Newcastle,election,https://www.newcastlemaine.us/town-clerk/pages/election-information,,,,,Lincoln
 Lincoln,Nobleboro,election,https://www.nobleboro.maine.gov/index.asp?SEC=0A6C6CD7-512A-43E9-B9C2-DD879B3D7ED5,,,,,Lincoln
-Lincoln,Somerville,town,https://www.somervillemaine.org/,,,,,Lincoln
-Lincoln,South Bristol,town,https://sbristolme.gov/,,,,,Lincoln
+Lincoln,Somerville,election,https://www.somervillemaine.org/home/services/registrar-of-voters,,,,,Lincoln
+Lincoln,South Bristol,town,https://www.townofsouthbristol.com/,,,,,Lincoln
 Lincoln,Southport,town,https://www.townofsouthport.org/,,,,,Lincoln
 Lincoln,Waldoboro,election,https://www.waldoboromaine.org/departments/town_clerk/voting_information/index.php,,,,,Lincoln
 Lincoln,Westport Island,election,http://westportisland.us/government/voter-registration,,,,,Lincoln
@@ -247,7 +248,7 @@ Oxford,Hanover,town,http://hanoverme.org/,,,,,Oxford
 Oxford,Hartford,town,https://hartfordmaine.weebly.com/,,,,,Oxford
 Oxford,Hebron,election,https://hebronmaine.org/committees-other-officials/election-faqs/,,,,,Oxford
 Oxford,Hiram,election,https://townofhiram.org/elections,,,,,Oxford
-Oxford,Lincoln Plantation,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=lincoln&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Oxford
+Oxford,Lincoln Plantation,contact info,https://www.maine.gov/local/town.php?t=Lincoln%20Plt,,,,,Oxford
 Oxford,Lovell,town,http://www.lovellmaine.org/,,,,,Oxford
 Oxford,Magalloway Plantation,Facebook,https://www.facebook.com/pages/Magalloway-Plantation-Maine/109272282425174,,,,,Oxford
 Oxford,Mason Township,(Oxford County unorganized territories),https://www.oxfordcounty.org/unorg-territory,,,,,Oxford
@@ -259,7 +260,7 @@ Oxford,Norway,election,https://norwaymaine.com/?page_id=115,,,,,Oxford
 Oxford,Otisfield,election,https://www.otisfieldme.gov/town-clerk/pages/voting-election-information,,,,,Oxford
 Oxford,Oxford,town,https://www.oxfordmaine.org/,Town Office,,,,Oxford
 Oxford,Paris,town,https://parismaine.org/clerks-office/elections-voting/,,,,,Oxford
-Oxford,Peru,town,https://townofperumaine.org/,,,,,Oxford
+Oxford,Peru,contact info,https://www.maine.gov/local/town.php?t=Peru,,,,,Oxford
 Oxford,Porter,election,https://portermaine.org/voter-reg-%26-elections,,,,,Oxford
 Oxford,Roxbury,town,http://www.roxburymaine.com/index.php,,,,,Oxford
 Oxford,Rumford,town,http://www.rumfordme.org/,,,,,Oxford
@@ -268,7 +269,7 @@ Oxford,Stoneham,town,https://stoneham-maine.com/default.html,,,,,Oxford
 Oxford,Stow,town,https://www.stowmaine.us/#!,,,,,Oxford
 Oxford,Sumner,town,https://www.townofsumner.me/,,,,,Oxford
 Oxford,Sweden,election,https://swedenmaine.org/voter-registration/,,,,,Oxford
-Oxford,Upton,town,https://uptonmaine.org/,,,,,Oxford
+Oxford,Upton,contact info,https://www.maine.gov/local/town.php?t=Upton,,,,,Oxford
 Oxford,Waterford,town,https://waterfordme.org/index.php,,,,,Oxford
 Oxford,West Paris,election,https://www.westparisme.com/index.asp?SEC=19147DB6-D2B4-46FE-8C61-8385CF9880BD,,,,,Oxford
 Oxford,Woodstock,town,http://woodstockmaine.net/,,,,,Oxford
@@ -283,7 +284,7 @@ Penobscot,Carmel,town,http://www.townofcarmel.org/,,,,,Penobscot
 Penobscot,Carroll Plantation,Facebook,https://www.facebook.com/pages/Carroll-Plantation-Town-Offices/1504687936419080,,,,,Penobscot
 Penobscot,Cedar Lake Township,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
 Penobscot,Charleston,town,http://www.charlestonmaine.com/,,,,,Penobscot
-Penobscot,Chester,town,https://chesterme.org/,,,,,Penobscot
+Penobscot,Chester,contact info,https://www.maine.gov/local/town.php?t=Chester,,,,,Penobscot
 Penobscot,Clifton,town,https://cliftonme.com/,,,,,Penobscot
 Penobscot,Corinna,election,https://corinna.govoffice.com/index.asp?SEC=E47FF968-670B-444E-A6C7-0BCFCAAA3ADA&Type=B_BASIC,,,,,Penobscot
 Penobscot,Corinth,election,https://www.townofcorinth.com/voting-elections,,,,,Penobscot
@@ -292,9 +293,9 @@ Penobscot,Dixmont,town,https://www.townofdixmont.org/,,,,,Penobscot
 Penobscot,Drew Plantation,Facebook,https://www.facebook.com/pages/Drew-Plantation-Town-Office/260577274122319,,,,,Penobscot
 Penobscot,East Millinocket,town,https://www.eastmillinocket.org/default.aspx,,,,,Penobscot
 Penobscot,Eddington,town,http://www.eddingtonmaine.gov,,,,,Penobscot
-Penobscot,Edinburg,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=edinburg&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Penobscot
-Penobscot,Enfield,town,https://www.enfieldmaine.org/,,,,,Penobscot
-Penobscot,Etna,town,https://sites.google.com/site/townofetna,,,,,Penobscot
+Penobscot,Edinburg,contact info,https://www.maine.gov/local/town.php?t=Edinburg,,,,,Penobscot
+Penobscot,Enfield,election,https://www.townofenfieldmaine.org/meetings___events/voter_registration.php,,,,,Penobscot
+Penobscot,Etna,town,https://sites.google.com/site/townofetna/,,,,,Penobscot
 Penobscot,Exeter,town,http://www.townofexetermaine.com/,,,,,Penobscot
 Penobscot,Garland,town,https://www.garlandmaine.net/,,,,,Penobscot
 Penobscot,Glenburn,election,https://www.glenburn.org/index.asp?Type=B_BASIC&SEC={7E74E00E-6642-419F-A2B2-CE346E84470F},,,,,Penobscot
@@ -312,10 +313,10 @@ Penobscot,Hudson,town,https://hudsonmaine.wordpress.com/,,,,,Penobscot
 Penobscot,Indian Island,tribe,https://www.penobscotnation.org/,,,,,Penobscot
 Penobscot,Indian Ourchase 4,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
 Penobscot,Indian Purchase 3,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
-Penobscot,Kenduskeag,town,https://kenduskeag.org/,,,,,Penobscot
+Penobscot,Kenduskeag,contact info,https://www.maine.gov/local/town.php?t=Kenduskeag,,,,,Penobscot
 Penobscot,Kingman,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
 Penobscot,Lagrange,town,https://www.lagrangeme.com/,,,,,Penobscot
-Penobscot,Lakeville,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=lakeville&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Penobscot
+Penobscot,Lakeville,contact info,https://www.maine.gov/local/town.php?t=Lakeville,,,,,Penobscot
 Penobscot,Lee,town,https://townofleemaine.com/?fbclid=IwAR216TZGttfGoXGDDLBo2T6cabLKE5nO6757yqHbzsuOPWfA9YykHKTtImo,,,,,Penobscot
 Penobscot,Levant,town,http://townoflevant.net/,,,,,Penobscot
 Penobscot,Lincoln,town,https://lincolnmaine.org/,Town Office,,,,Penobscot
@@ -323,7 +324,7 @@ Penobscot,Long A,(Penobscot County unorganized territories),https://www.ut.penob
 Penobscot,Lowell,Facebook,https://www.facebook.com/pages/category/Government-Organization/Town-of-Lowell-Maine-1938921983015278/,,,,,Penobscot
 Penobscot,Mattamiscontis,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
 Penobscot,Mattawamkeag,Facebook,https://www.facebook.com/pages/Town-of-Mattawamkeag/119176698133775,,,,,Penobscot
-Penobscot,Maxfield,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=maxfield&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Penobscot
+Penobscot,Maxfield,contact info,https://www.maine.gov/local/town.php?t=Maxfield,,,,,Penobscot
 Penobscot,Medway,town,https://www.medwaymaine.org/,,,,,Penobscot
 Penobscot,Milford,town,http://www.milfordmaine.org/,,,,,Penobscot
 Penobscot,Millinocket,election,https://millinocket.org/government/public-notices/,,,,,Penobscot
@@ -338,7 +339,7 @@ Penobscot,Patten,town,http://www.pattenmaine.org,,,,,Penobscot
 Penobscot,Plymouth,town,http://www.townofplymouthmaine.com/index.html,,,,,Penobscot
 Penobscot,Prentiss,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
 Penobscot,Pukakon,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
-Penobscot,Seboeis Plantation,town,https://www.seboeisplantationme.com/,,,,,Penobscot
+Penobscot,Seboeis Plantation,contact info,https://www.maine.gov/local/town.php?t=Seboeis%20Plt,,,,,Penobscot
 Penobscot,Soldiertown,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
 Penobscot,Springfield,town,https://springfieldmaine.weebly.com/,,,,,Penobscot
 Penobscot,Stacyville,Facebook,https://www.facebook.com/pages/Town-of-Stacyville/135924309789703,,,,,Penobscot
@@ -366,21 +367,21 @@ Penobscot,T8 R6 WELS,(Penobscot County unorganized territories),https://www.ut.p
 Penobscot,T8 R7 WELS,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
 Penobscot,T8 R8 WELS,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
 Penobscot,TA R7 WELS,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
-Penobscot,Veazie,town,https://www.veazie.net/,,,,,Penobscot
+Penobscot,Veazie,election,https://www.veazie.net/town-clerk/pages/voting-elections,,,,,Penobscot
 Penobscot,Veazie Gore,(Penobscot County unorganized territories),https://www.ut.penobscot-county.net/,,,,,Penobscot
-Penobscot,Webster Plantation,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=webster&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Penobscot
-Penobscot,Winn,Facebook,https://www.facebook.com/groups/274231479284800/,,,,,Penobscot
+Penobscot,Webster Plantation,contact info,https://www.maine.gov/local/town.php?t=Webster%20Plt,,,,,Penobscot
+Penobscot,Winn,town,https://winnmaine.com/index.html,,,,,Penobscot
 Penobscot,Woodville,Facebook,https://www.facebook.com/ResidencesofWoodville/,,,,,Penobscot
 Piscataquis,Abbot,Facebook,https://www.facebook.com/Town-of-Abbot-Maine-433075913559730/,,,,,Piscataquis
-Piscataquis,Atkinson,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=atkinson&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Piscataquis
+Piscataquis,Atkinson,contact info,https://www.maine.gov/local/town.php?t=Atkinson,,,,,Piscataquis
 Piscataquis,Beaver Cove,town,http://www.beavercoveme.com/,,,,,Piscataquis
 Piscataquis,Bowerbank,town,http://bowerbank.trcmaine.org/,,,,,Piscataquis
 Piscataquis,Brownville,town,http://brownville.trcmaine.org/,,,,,Piscataquis
 Piscataquis,Dover-Foxcroft,election,https://dover-foxcroft.org/index.asp?SEC=7C1A7B17-8A72-43D5-AD67-3BC308535303&Type=B_BASIC,Outside front entrance of municipal building,,,,Piscataquis
 Piscataquis,Greenville,election,https://greenvilleme.com/town-office/voter-registration-election-info/,,,,,Piscataquis
 Piscataquis,Guilford,election,https://townofguilford.com/departments/town-office/voter-registration-election-information/,,,,,Piscataquis
-Piscataquis,Kingsbury Plantation,town,https://kingsburyplantation.com/,,,,,Piscataquis
-Piscataquis,Lake View Plantation,town,https://www.lakeviewpltme.org/,,,,,Piscataquis
+Piscataquis,Kingsbury Plantation,contact info,https://www.maine.gov/local/town.php?t=Kingsbury%20Plt,,,,,Piscataquis
+Piscataquis,Lake View Plantation,town,https://www.trcmaine.org/lakeview,,,,,Piscataquis
 Piscataquis,Medford,town,http://medford.trcmaine.org/,,,,,Piscataquis
 Piscataquis,Milo,town,https://www.milomaine.org/index.asp?SEC=3233607C-A151-4A54-BA86-71709E7386A2&Type=B_BASIC,,,,,Piscataquis
 Piscataquis,Monson,town,http://monsonmaine.org/,,,,,Piscataquis
@@ -388,8 +389,8 @@ Piscataquis,Parkman,town,http://parkmanmaine.com/,,,,,Piscataquis
 Piscataquis,Sangerville,town,https://sangervilleme.com/,,,,,Piscataquis
 Piscataquis,Sebec,town,http://townofsebec.com/index.html,,,,,Piscataquis
 Piscataquis,Shirley,town,https://shirleymaine.org/,,,,,Piscataquis
-Piscataquis,Wellington,town,https://www.townofwellington.org/,,,,,Piscataquis
-Piscataquis,Willimantic,town,https://www.willimanticme.com/,,,,,Piscataquis
+Piscataquis,Wellington,contact info,https://www.maine.gov/local/town.php?t=Wellington,,,,,Piscataquis
+Piscataquis,Willimantic,contact info,https://www.maine.gov/local/town.php?t=Willimantic,,,,,Piscataquis
 Sagadahoc,Arrowsic,election,http://www.arrowsic.org/clerk_page.html#elections,,,,,Sagadahoc
 Sagadahoc,Bath,election,http://www.cityofbath.com/Elections/,City Hall,,,,Sagadahoc
 Sagadahoc,Bowdoin,town,https://bowdoinme.com/,,,,,Sagadahoc
@@ -403,44 +404,44 @@ Sagadahoc,Woolwich,town,http://www.woolwich.us/,,,,,Sagadahoc
 Somerset,Anson,town,https://ansonmaine.town/,,,,,Somerset
 Somerset,Athens,town,https://www.athens.maine.gov/,,,,,Somerset
 Somerset,Bingham,town,http://www.binghammaine.org/,,,,,Somerset
-Somerset,Brighton Plantation,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=brighton&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Somerset
+Somerset,Brighton Plantation,contact info,https://www.maine.gov/local/town.php?t=Brighton%20Plt,,,,,Somerset
 Somerset,Cambridge,town,http://cambridgemaine.com/,,,,,Somerset
 Somerset,Canaan,town,https://townofcanaan.com/,,,,,Somerset
 Somerset,Caratunk,Facebook,https://www.facebook.com/caratunk/,,,,,Somerset
-Somerset,Cornville,town,https://townofcornville.com/,,,,,Somerset
-Somerset,Dennistown Plantation,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=dennistown&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Somerset
+Somerset,Cornville,contact info,https://www.maine.gov/local/town.php?t=Cornville,,,,,Somerset
+Somerset,Dennistown Plantation,contact info,https://www.maine.gov/local/town.php?t=Dennistown%20Plt,,,,,Somerset
 Somerset,Detroit,Facebook,https://www.facebook.com/TownofDetroitMaine/?rf=863282867033273,,,,,Somerset
 Somerset,Embden,town,http://embden.maine.gov/,,,,,Somerset
 Somerset,Fairfield,election,http://www.fairfieldme.com/town/pages/voter-registration,Town Office,,,,Somerset
 Somerset,Harmony,Facebook,https://www.facebook.com/permalink.php?id=201376573099&story_fbid=10156041066013100,,,,,Somerset
 Somerset,Hartland,election,https://www.townofhartlandme.com/index.asp?Type=B_BASIC&SEC={27B1D3E0-CAB4-4C58-8AD5-68869CE07D25}&DE={3C08D6FB-91EB-42EB-BCFE-8A999687BBEA},,,,,Somerset
-Somerset,Highland Plantation,town,http://www.highlandplt.com/,,,,,Somerset
+Somerset,Highland Plantation,contact info,https://www.maine.gov/local/town.php?t=Highland%20Plt,,,,,Somerset
 Somerset,Jackman,town,https://jackmanme.net,,,,,Somerset
 Somerset,Madison,town,http://www.madisonmaine.com/,,,,,Somerset
 Somerset,Mercer,election,https://mercermaine.com/election-information/,Outside town office,,,,Somerset
-Somerset,Moose River,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=moose&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Somerset
+Somerset,Moose River,contact info,https://www.maine.gov/local/town.php?t=Moose%20River,,,,,Somerset
 Somerset,Moscow,town,http://home.myfairpoint.net/~DBeane,,,,,Somerset
 Somerset,New Portland,town,http://www.newportlandmaine.org,,,,,Somerset
 Somerset,Norridgewock,town,https://www.townofnorridgewock.com/elections-voting,,,,,Somerset
 Somerset,Palmyra,town,https://palmyratown.org/,,,,,Somerset
 Somerset,Pittsfield,election,https://www.pittsfield.org/newselections,,,,,Somerset
-Somerset,Pleasant Ridge Plantation,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=ridge&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Somerset
-Somerset,Ripley,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=ripley&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Somerset
+Somerset,Pleasant Ridge Plantation,contact info,https://www.maine.gov/local/town.php?t=Pleasant%20Ridge%20Plt,,,,,Somerset
+Somerset,Ripley,contact info,https://www.maine.gov/local/town.php?t=Ripley,,,,,Somerset
 Somerset,Skowhegan,election,https://www.skowhegan.org/148/Elections,,,,,Somerset
 Somerset,Smithfield,town,http://www.smithfieldmaine.us/,,,,,Somerset
 Somerset,Solon,election,https://solon.maine.gov/pages/elections-voting,,,,,Somerset
 Somerset,St. Albans,election,https://townofstalbans.net/pages/elections,,,,,Somerset
 Somerset,Starks,town,http://www.starksme.com/,,,,,Somerset
-Somerset,The Forks Plantation,town,https://theforksplt.org/,,,,,Somerset
-Somerset,West Forks Plantation,town,https://theforksplt.org/,,,,,Somerset
+Somerset,The Forks Plantation,contact info,https://www.maine.gov/local/town.php?t=The%20Forks%20Plt,,,,,Somerset
+Somerset,West Forks Plantation,contact info,https://www.maine.gov/local/town.php?t=West%20Forks%20Plt,,,,,Somerset
 Waldo,Belfast,election,https://www.cityofbelfast.org/117/Voting-Information,City Hall by High Street entrance,,,,Waldo
 Waldo,Belmont,election,https://belmontme.org/,,,,,Waldo
-Waldo,Brooks,town,https://www.brooksme.org/,,,,,Waldo
+Waldo,Brooks,election,https://brooks.govoffice2.com/index.asp?SEC=C5AE112D-6771-4883-A6B5-D64388CABDC6&Type=B_BASIC,,,,,Waldo
 Waldo,Burnham,town,https://burnham-maine.us/,,,,,Waldo
-Waldo,Frankfort,town,https://www.frankfortme.com/,,,,,Waldo
+Waldo,Frankfort,election,https://www.frankfortme.com/town-office/elections-and-voting-annual-town-elections-meeting-state-elections-voter-registration-absentee-voting/,,,,,Waldo
 Waldo,Freedom,town,https://www.freedomme.org/,,,,,Waldo
 Waldo,Islesboro,town,http://townofislesboro.com/town-office/,,,,,Waldo
-Waldo,Jackson,town,https://www.jacksonmaine.org/,,,,,Waldo
+Waldo,Jackson,town,https://www.jacksonmaine.org/home,,,,,Waldo
 Waldo,Knox,town,http://knoxmaine.com/,,,,,Waldo
 Waldo,Liberty,town,http://www.libertymaine.us/,,,,,Waldo
 Waldo,Lincolnville,election,https://www.town.lincolnville.me.us/index.asp?Type=B_BASIC&SEC={16A09510-61D4-4B52-9C77-CA97DC839854},,,,,Waldo
@@ -448,34 +449,34 @@ Waldo,Monroe,town,https://townofmonroe.me/,,,,,Waldo
 Waldo,Montville,town,http://montvillemaine.org,Town Office porch,,,,Waldo
 Waldo,Morrill,town,https://www.morrillme.org/,,,,,Waldo
 Waldo,Northport,election,http://www.northportmaine.org/content/4094/Elections_and_Voter_Registrations/,,,,,Waldo
-Waldo,Palermo,town,https://www.townofpalermo.org/,,,,,Waldo
+Waldo,Palermo,election,https://www.townofpalermo.org/home,,,,,Waldo
 Waldo,Prospect,election,http://www.prospectmaine.org/elections---voting.html,,,,,Waldo
 Waldo,Searsmont,election,https://searsmont.com/index.asp?SEC=9E5C7A14-4412-465D-BC99-8AF27119B059&Type=B_BASIC,,,,,Waldo
 Waldo,Searsport,town,http://searsport.maine.gov/,,,,,Waldo
 Waldo,Stockton Springs,town,http://www.stocktonsprings.org/,,,,,Waldo
 Waldo,Swanville,town,https://www.swanvillemaine.org/,,,,,Waldo
 Waldo,Thorndike,election,https://thorndikeme.com/index.asp?SEC=D42E5C62-C8F2-412D-B91D-13F3D6B81396,,,,,Waldo
-Waldo,Troy,town,https://troyme.org/,,,,,Waldo
+Waldo,Troy,contact info,https://www.maine.gov/local/town.php?t=Troy,,,,,Waldo
 Waldo,Unity,town,https://unityme.org/,,,,,Waldo
 Waldo,Waldo,town,https://townofwaldomaine.com/,,,,,Waldo
 Waldo,Winterport,town,https://www.winterportmaine.gov/,,,,,Waldo
 Washington,Addison,town,http://www.addisonmaine.org/,,,,,Washington
 Washington,Alexander,election,https://www.alexandermaine.com/elections.html,,,,,Washington
-Washington,Baileyville,town,https://baileyvillemaine.com/,,,,,Washington
-Washington,Beals,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=beals&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Washington
+Washington,Baileyville,contact info,https://www.maine.gov/local/town.php?t=Baileyville,,,,,Washington
+Washington,Beals,contact info,https://www.maine.gov/local/town.php?t=Beals,,,,,Washington
 Washington,Beddington,town,https://www.beddingtonmaine.org/,,,,,Washington
 Washington,Calais,election,https://www.calaismaine.org/voting/,,,,,Washington
-Washington,Charlotte,town,https://charlotteme.org/,,,,,Washington
+Washington,Charlotte,contact info,https://www.maine.gov/local/town.php?t=Charlotte,,,,,Washington
 Washington,Cherryfield,town,http://www.cherryfieldmaine.us/town-information/,,,,,Washington
-Washington,Codyville Plantation,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=codyville&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Washington
+Washington,Codyville Plantation,contact info,https://www.maine.gov/local/town.php?t=Codyville%20Plt,,,,,Washington
 Washington,Columbia,Facebook,https://www.facebook.com/Columbia-Maine-750525565066405/,,,,,Washington
 Washington,Columbia Falls,Facebook,https://www.facebook.com/columbiafallsme/,,,,,Washington
-Washington,Cooper,town,http://www.coopermaine.com/,,,,,Washington
-Washington,Crawford,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=crawford&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Washington
+Washington,Cooper,election,https://www.coopermaine.com/elections.html,,,,,Washington
+Washington,Crawford,contact info,https://www.maine.gov/local/town.php?t=Crawford,,,,,Washington
 Washington,Cutler,town,https://www.cutlermaine.net/,,,,,Washington
 Washington,Danforth,town,http://townofdanforthmaine.com/,,,,,Washington
-Washington,Deblois,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=deblois&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Washington
-Washington,Dennysville,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=dennysville&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Washington
+Washington,Deblois,contact info,https://www.maine.gov/local/town.php?t=Deblois,,,,,Washington
+Washington,Dennysville,contact info,https://www.maine.gov/local/town.php?t=Dennysville,,,,,Washington
 Washington,East Machias,Facebook,https://www.facebook.com/eastmachias/,,,,,Washington
 Washington,Eastport,election,https://www.eastport-me.gov/city-clerks-office/pages/elections-voting-information,,,,,Washington
 Washington,Grand Lake Stream Plantation,Facebook,https://www.facebook.com/GrandLakeStreamMaine/,,,,,Washington
@@ -487,7 +488,7 @@ Washington,Lubec,town,https://townoflubec.com/,,,,,Washington
 Washington,Machias,election,https://machiasme.org/departments-staff/town-clerk/election-services/,,,,,Washington
 Washington,Machiasport,town,https://machiasport.org/,,,,,Washington
 Washington,Marshfield,Facebook,https://www.facebook.com/marshfieldmaine/,,,,,Washington
-Washington,Meddybemps,town,https://www.meddybempslake.com/,,,,,Washington
+Washington,Meddybemps,contact info,https://www.maine.gov/local/town.php?t=Meddybemps,,,,,Washington
 Washington,Milbridge,town,https://townofmilbridge.webs.com/,,,,,Washington
 Washington,Northfield,town,https://www.northfieldme.com/,,,,,Washington
 Washington,Pembroke,town,http://www.pembrokemaine.org/,,,,,Washington
@@ -495,11 +496,11 @@ Washington,Perry,town,http://www.perrymaine.org,,,,,Washington
 Washington,Pleasant Point Reservation,tribe,https://www.passamaquoddy.com/?page_id=492,,,,,Washington
 Washington,Princeton,Facebook,https://www.facebook.com/PrincetonMaine/,,,,,Washington
 Washington,Robbinston,town,http://townofrobbinston.org/,,,,,Washington
-Washington,Roque Bluffs,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=roque&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Washington
+Washington,Roque Bluffs,contact info,https://www.maine.gov/local/town.php?t=Roque%20Bluffs,,,,,Washington
 Washington,Steuben,town,https://townofsteuben.com/election-information/,,,,,Washington
 Washington,Talmadge,town,https://talmadge.me/,,,,,Washington
-Washington,Topsfield,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=topsfield&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Washington
-Washington,Vanceboro,contact info,https://www.maine.gov/tools/whatsnew/index.php?k=vanceboro&csearch=Search&v=clerksearch2015&orderby=headline&topic=cec_clerks_registrars&noresult_message=Sorry%2C+no+matches+were+found+for+that+town.+Please+note+that+the+search+is+case+sensitive%2C+i.e.%2C+if+you+search+for+,,,,,Washington
+Washington,Topsfield,contact info,https://www.maine.gov/local/town.php?t=Topsfield,,,,,Washington
+Washington,Vanceboro,contact info,https://www.maine.gov/local/town.php?t=Vanceboro,,,,,Washington
 Washington,Waite,Facebook,https://www.facebook.com/townofwaiteme/,,,,,Washington
 Washington,Wesley,town,http://sites.google.com/site/wesleyevents/wesley-community-events,,,,,Washington
 Washington,Whiting,town,https://www.whitingmaine.com/,,,,,Washington
@@ -532,4 +533,4 @@ York,Shapleigh,town,http://www.shapleigh.net,,,,,York
 York,South Berwick,election,https://www.southberwickmaine.org/departments/town_clerk/index.php,,,,,York
 York,Waterboro,election,http://www.waterboro-me.gov/information_center/index.php#elections,,,,,York
 York,Wells,election,http://www.wellstown.org/440/Town-Meeting-Election-Info,,,,,York
-York,York,town,https://www.yorkmaine.org/,,,,,York
+York,York,election,https://www.yorkmaine.org/240/Election-Referendum-Documents,,,,,York
