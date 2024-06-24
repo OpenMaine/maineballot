@@ -1,44 +1,118 @@
 ---
 import { getCollection } from 'astro:content'
-import ElectionDay from '#components/election-day.astro'
-import HomeInfo from '#components/home-info.astro'
+import { Image } from 'astro:assets'
+import dayjs from 'dayjs'
+
 import ArchiveSingle from '#components/archive-single.astro'
 import { ELECTIONS } from '#utils/constants'
 import GlobalLayout from '#layouts/global-layout.astro'
+import voteByMail from '#assets/img/Other/mail_sm.png'
+import earlyVoting from '#assets/img/Other/early-vote_sm.png'
 
 const allPosts = await getCollection('posts')
+const upcomingElectionDate = new Date(ELECTIONS[0].date)
 ---
 
 <GlobalLayout>
-  <ElectionDay />
-  <HomeInfo />
-  <div class="archive text-center">
-    <div class="archive text-center">
-      <p class="home-ballots-header content-lrg-b text-center">
-        What's On Your Ballot?
+  <div class="bg-[#2f6585]">
+    <div class="text-center py-6 text-white">
+      <p class="font-bold text-2xl mb-2">The next Maine election is</p>
+      <p class="font-bold text-4xl mb-2">
+        {dayjs(upcomingElectionDate).format('MMMM D, YYYY')}
       </p>
-      <p class="home-ballots-header content-med-b">State ballot questions</p>
-      <p>There are no state ballot questions for the March election.</p>
+      <p class="font-bold text-xl">{ELECTIONS[0].title}</p>
+    </div>
+  </div>
+
+  <div class="bg-[#205173]">
+    <div
+      class="lg:grid-cols-2 grid gap-12 max-w-7xl px-6 lg:max-w-screen-2xl mx-auto text-white py-6"
+    >
+      <div class="flex flex-col lg:flex-row gap-4 items-center">
+        <Image
+          src={voteByMail}
+          loading="eager"
+          alt="Vote by Mail"
+          class="w-40 mx-auto"
+        />
+        <div class="text-center lg:text-left grow">
+          <p class="font-bold mb-2 text-lg">Vote by Mail</p>
+          <p>
+            Anyone registered to vote in Maine can <a
+              href="https://www.maine.gov/cgi-bin/online/AbsenteeBallot/index.pl"
+              class="underline text-[#EAE6D2]">request an absentee ballot</a
+            > and return it to your municipal clerk's office either by mail or in
+            person. You can also now <a
+              href="https://apps.web.maine.gov/cgi-bin/online/AbsenteeBallot/ballot_status.pl"
+              class="underline text-[#EAE6D2]"
+              >check the status of your absentee ballot</a
+            >.
+          </p>
+        </div>
+      </div>
+      <div class="flex flex-col lg:flex-row gap-4 items-center">
+        <Image
+          src={earlyVoting}
+          loading="eager"
+          alt="Vote Early Calendar"
+          class="w-40 mx-auto"
+        />
+        <div class="text-center lg:text-left grow">
+          <p class="font-bold mb-2 text-lg">Early Voting</p>
+          <p>
+            You can also vote early at your <a
+              href="https://www.maine.gov/sos/cec/elec/munic.html"
+              class="underline text-[#EAE6D2]"
+            >
+              municipal clerk's office</a
+            >.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-[#2f6585]">
+    <div class="max-w-7xl mx-auto px-6 text-center py-8">
+      <p class="text-xl lg:text-3xl font-bold text-white">
+        More about how to <a href="/vote" class="underline text-[#EAE6D2]"
+          >vote in Maine</a
+        >
+      </p>
+    </div>
+  </div>
+  <div class="pt-12">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h2 class="font-bold text-3xl lg:text-5xl mb-14 text-neutral-500">
+        What's On Your Ballot?
+      </h2>
+      <h3 class="font-bold text-2xl lg:text-3xl mb-9 text-neutral-500">
+        State ballot questions
+      </h3>
+      <p class="text-xl mb-7 text-neutral-500">
+        There are no state ballot questions for the March election.
+      </p>
 
       {
         allPosts
-          .filter(
-            (post) =>
-              post.data.electionDate ===
-              new Date(ELECTIONS.currentElectionDate),
-          )
+          .filter((post) => post.data.electionDate === upcomingElectionDate)
           .map((post) => <ArchiveSingle post={post} layout="grid" />)
       }
-      <!--{% include paginator.html %}-->
-      <hr class="home-hr" />
-      <p class="home-ballots-header content-med-b">Local ballot questions</p>
-      <p>
+      <hr class="w-1/4 h-1 bg-[#2f6585] mx-auto my-6" />
+      <h3 class="font-bold text-2xl lg:text-3xl mb-9 text-neutral-500">
+        Local ballot questions
+      </h3>
+      <p class="text-xl mb-7 text-neutral-500">
         We have links to local election websites and basic information about
         what's on the ballot and ballot drop box locations for counties, cities,
-        and towns. <br />
-        <a href="/local">Find information about your local election</a>.
+        and towns.
       </p>
-      <hr class="home-hr" />
+      <p class="text-xl mb-7">
+        <a href="/local" class="underline text-[#2f7d95]"
+          >Find information about your local election</a
+        >.
+      </p>
+      <hr class="w-1/4 h-1 bg-[#2f6585] mx-auto my-6" />
     </div>
   </div>
 </GlobalLayout>
