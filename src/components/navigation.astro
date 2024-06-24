@@ -3,6 +3,8 @@ import { Image } from 'astro:assets'
 import logo from '#assets/img/logo.jpg'
 import { NAVIGATION } from '#utils/constants'
 import { MobileMenu } from './react/mobile-menu'
+
+const activePath = Astro.url.pathname
 ---
 
 <div class="mx-auto max-w-7xl px-6">
@@ -21,6 +23,7 @@ import { MobileMenu } from './react/mobile-menu'
           NAVIGATION.main.map((link) => (
             <li class="flex">
               <a
+                aria-current={activePath === link.url ? 'page' : undefined}
                 href={link.url}
                 class="p-2 block text-lg text-gray-500 xl:text-xl before:absolute before:h-1 before:inset-x-2 before:bottom-1 before:bg-gray-500 relative before:transition-transform before:scale-x-0 hover:before:scale-x-100"
               >
@@ -32,7 +35,7 @@ import { MobileMenu } from './react/mobile-menu'
       </ul>
 
       <div class="lg:hidden ml-auto">
-        <MobileMenu client:load />
+        <MobileMenu activePath={activePath} client:load />
       </div>
     </nav>
   </div>

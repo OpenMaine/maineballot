@@ -1,9 +1,23 @@
+import * as React from 'react'
 import * as menu from '@zag-js/menu'
 import { normalizeProps, useMachine } from '@zag-js/react'
 import { useId } from 'react'
+import type { TransitionBeforeSwapEvent } from 'astro:transitions/client'
 import { NAVIGATION } from '#utils/constants'
 
-export function MobileMenu() {
+export function MobileMenu({
+  activePath,
+}: {
+  activePath: string
+}) {
+  const [localActivePath, setLocalActivePath] = React.useState(activePath)
+
+  React.useEffect(() => {
+    document.addEventListener('astro:before-swap', (e: TransitionBeforeSwapEvent) => {
+      setLocalActivePath(e.to.pathname)
+    })
+  }, [])
+
   const [state, send] = useMachine(menu.machine({
     id: useId(),
     positioning: {
@@ -25,6 +39,7 @@ export function MobileMenu() {
             NAVIGATION.main.map(link => (
               <a
                 className="block px-5 py-2.5 text-gray-500"
+                aria-current={localActivePath === link.url ? 'page' : undefined}
                 key={link.url}
                 href={link.url}
                 {...api.getItemProps({ value: link.title })}
