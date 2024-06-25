@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content'
 
 import { getEntryUrl } from '#utils/get-url'
 import GlobalLayout from '#layouts/global-layout.astro'
-import ContentLayout from '#layouts/content-layout.astro'
+import Container from '#components/container.astro'
 
 export async function getStaticPaths() {
   const allLocal = await getCollection('local')
@@ -17,9 +17,9 @@ const allLocal = await getCollection('local')
 ---
 
 <GlobalLayout>
-  <ContentLayout>
+  <Container>
     <div>
       <a href={getEntryUrl(allLocal[0])}>Test</a>
     </div>
-  </ContentLayout>
+  </Container>
 </GlobalLayout>

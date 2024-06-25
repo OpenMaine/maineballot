@@ -1,5 +1,5 @@
 ---
-import ContentLayout from '#layouts/content-layout.astro'
+import Container from '#components/container.astro'
 import GlobalLayout from '#layouts/global-layout.astro'
 import { getCollection } from 'astro:content'
 
@@ -7,7 +7,7 @@ const allPosts = await getCollection('posts')
 ---
 
 <GlobalLayout>
-  <ContentLayout>
+  <Container>
     <ul>
       {
         allPosts.map((post) => (
@@ -17,5 +17,5 @@ const allPosts = await getCollection('posts')
         ))
       }
     </ul>
-  </ContentLayout>
+  </Container>
 </GlobalLayout>

@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content'
 import dayjs from 'dayjs'
 import { getReadingTime } from '#utils/get-reading-time'
 import GlobalLayout from '#layouts/global-layout.astro'
-import ContentLayout from '#layouts/content-layout.astro'
+import Container from '#components/container.astro'
 
 const allTags = await getCollection('tags')
 
@@ -30,7 +30,7 @@ const tags = (
 ---
 
 <GlobalLayout>
-  <ContentLayout>
+  <Container>
     <ul class="grid grid-cols-3 gap-x-12 divide-y">
       {
         tags.map((tag) => (
@@ -82,5 +82,5 @@ const tags = (
         ))
       }
     </div>
-  </ContentLayout>
+  </Container>
 </GlobalLayout>

@@ -5,7 +5,7 @@ import { candidateDataSchema } from '#utils/types'
 import { CandidatesTable } from '#components/react/candidates-table'
 import { type CustomDataFile } from '#utils/types'
 import GlobalLayout from '#layouts/global-layout.astro'
-import ContentLayout from '#layouts/content-layout.astro'
+import Container from '#components/container.astro'
 
 export async function getStaticPaths() {
   const allCandidates = await getCollection('candidates')
@@ -38,7 +38,7 @@ const uncontestedCandidates = validData.filter((d) => d.Type === 'U')
 ---
 
 <GlobalLayout>
-  <ContentLayout class="space-y-32">
+  <Container class="space-y-32">
     <div>
       <h2 class="text-3xl font-bold mb-2">Ranked-Choice Races</h2>
       <p class="mb-4">
@@ -72,5 +72,5 @@ const uncontestedCandidates = validData.filter((d) => d.Type === 'U')
         client:load
       />
     </div>
-  </ContentLayout>
+  </Container>
 </GlobalLayout>

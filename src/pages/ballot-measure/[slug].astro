@@ -1,5 +1,5 @@
 ---
-import ContentLayout from '#layouts/content-layout.astro'
+import Container from '#components/container.astro'
 import GlobalLayout from '#layouts/global-layout.astro'
 import { getCollection } from 'astro:content'
 
@@ -16,11 +16,11 @@ const { Content } = await post.render()
 ---
 
 <GlobalLayout>
-  <ContentLayout>
+  <Container>
     <div>
       <pre>{ JSON.stringify(post, null, 2) }</pre>
 
       <Content />
     </div>
-  </ContentLayout>
+  </Container>
 </GlobalLayout>

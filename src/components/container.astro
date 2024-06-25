@@ -2,10 +2,11 @@
 type Props = {
   class?: string
 }
+import { twMerge } from 'tailwind-merge'
 
 const { class: className } = Astro.props
 ---
 
-<div class:list={['mx-auto max-w-7xl px-6', className]}>
+<div class={twMerge('mx-auto max-w-5xl px-6', className)}>
   <slot />
 </div>

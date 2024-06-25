@@ -18,6 +18,7 @@
     "@astrojs/tailwind": "^5.1.0",
     "@rollup/plugin-dsv": "^3.0.4",
     "@t3-oss/env-core": "^0.10.1",
+    "@tailwindcss/typography": "^0.5.13",
     "@tanstack/react-table": "^8.17.3",
     "@tanstack/table-core": "^8.17.3",
     "@zag-js/menu": "^0.56.1",
@@ -30,6 +31,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "reading-time": "^1.5.0",
+    "tailwind-merge": "^2.3.0",
     "tailwindcss": "^3.4.4",
     "ts-pattern": "^5.2.0",
     "zod": "^3.23.8"

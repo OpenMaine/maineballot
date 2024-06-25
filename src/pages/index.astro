@@ -8,20 +8,21 @@ import { ELECTIONS } from '#utils/constants'
 import GlobalLayout from '#layouts/global-layout.astro'
 import voteByMail from '#assets/img/Other/mail_sm.png'
 import earlyVoting from '#assets/img/Other/early-vote_sm.png'
+import Container from '#components/container.astro'
+import Elections from './elections.astro'
 
 const allPosts = await getCollection('posts')
-const upcomingElectionDate = new Date(ELECTIONS[0].date)
 ---
 
 <GlobalLayout>
   <div class="bg-[#2f6585]">
-    <div class="text-center py-6 text-white">
+    <Container class="text-center py-6 text-white">
       <p class="font-bold text-2xl mb-2">The next Maine election is</p>
       <p class="font-bold text-4xl mb-2">
-        {dayjs(upcomingElectionDate).format('MMMM D, YYYY')}
+        {dayjs(ELECTIONS[0].date).format('MMMM D, YYYY')}
       </p>
       <p class="font-bold text-xl">{ELECTIONS[0].title}</p>
-    </div>
+    </Container>
   </div>
 
   <div class="bg-[#205173]">
@@ -72,47 +73,37 @@ const upcomingElectionDate = new Date(ELECTIONS[0].date)
     </div>
   </div>
 
-  <div class="bg-[#2f6585]">
-    <div class="max-w-7xl mx-auto px-6 text-center py-8">
+  <div class="bg-[#2f6585] mb-12">
+    <Container class="text-center py-10">
       <p class="text-xl lg:text-3xl font-bold text-white">
         More about how to <a href="/vote" class="underline text-[#EAE6D2]"
           >vote in Maine</a
         >
       </p>
-    </div>
+    </Container>
   </div>
-  <div class="pt-12">
-    <div class="max-w-7xl mx-auto px-6 text-center">
-      <h2 class="font-bold text-3xl lg:text-5xl mb-14 text-neutral-500">
-        What's On Your Ballot?
-      </h2>
-      <h3 class="font-bold text-2xl lg:text-3xl mb-9 text-neutral-500">
-        State ballot questions
-      </h3>
-      <p class="text-xl mb-7 text-neutral-500">
-        There are no state ballot questions for the March election.
-      </p>
 
-      {
-        allPosts
-          .filter((post) => post.data.electionDate === upcomingElectionDate)
-          .map((post) => <ArchiveSingle post={post} layout="grid" />)
-      }
-      <hr class="w-1/4 h-1 bg-[#2f6585] mx-auto my-6" />
-      <h3 class="font-bold text-2xl lg:text-3xl mb-9 text-neutral-500">
-        Local ballot questions
-      </h3>
-      <p class="text-xl mb-7 text-neutral-500">
-        We have links to local election websites and basic information about
-        what's on the ballot and ballot drop box locations for counties, cities,
-        and towns.
-      </p>
-      <p class="text-xl mb-7">
-        <a href="/local" class="underline text-[#2f7d95]"
-          >Find information about your local election</a
-        >.
-      </p>
-      <hr class="w-1/4 h-1 bg-[#2f6585] mx-auto my-6" />
-    </div>
-  </div>
+  <Container class="prose prose-neutral text-center">
+    <h2>What's On Your Ballot?</h2>
+    <h3>State ballot questions</h3>
+    <p>There are no state ballot questions for the March election.</p>
+    {
+      allPosts
+        .filter(
+          (post) => post.data.electionDate === new Date(ELECTIONS[0].date),
+        )
+        .map((post) => <ArchiveSingle post={post} layout="grid" />)
+    }
+    <hr class="w-1/4 h-1 bg-[#2f6585] mx-auto my-6" />
+    <h3>Local ballot questions</h3>
+    <p>
+      We have links to local election websites and basic information about
+      what's on the ballot and ballot drop box locations for counties, cities,
+      and towns.
+    </p>
+    <p>
+      <a href="/local">Find information about your local election</a>.
+    </p>
+    <hr class="w-1/4 h-1 bg-[#2f6585] mx-auto my-6" />
+  </Container>
 </GlobalLayout>

@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content'
 import { getReadingTime } from '#utils/get-reading-time'
 import GlobalLayout from '#layouts/global-layout.astro'
-import ContentLayout from '#layouts/content-layout.astro'
+import Container from '#components/container.astro'
 
 const allEelections = await getCollection('elections')
 
@@ -32,7 +32,7 @@ const elections = (
 ---
 
 <GlobalLayout>
-  <ContentLayout>
+  <Container>
     <ul class="grid grid-cols-3 gap-x-12 divide-y">
       {
         elections.map((cat) => (
@@ -79,5 +79,5 @@ const elections = (
         ))
       }
     </div>
-  </ContentLayout>
+  </Container>
 </GlobalLayout>
