@@ -61,14 +61,14 @@ const candidates = (
 
 <GlobalLayout>
   <Container class="prose prose-neutral mt-12">
-    <h1 class="text-3xl font-bold">Elections</h1>
-    <h2 class="text-2xl font-bold">State Elections</h2>
+    <h1>Elections</h1>
+    <h2>State Elections</h2>
     <div>
       {
         stateElections.map((tag) => (
           <div>
             <h3>{tag.data.title}</h3>
-            <ul class="list-disc space-y-8">
+            <ul>
               {tag.posts.map((post) => (
                 <li>
                   <a href={getEntryUrl(post)}>{post.data.title}</a>
