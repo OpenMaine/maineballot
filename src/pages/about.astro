@@ -1,0 +1,78 @@
+---
+import Container from '#components/container.astro'
+import GlobalLayout from '#layouts/global-layout.astro'
+import { ELECTIONS } from '#utils/constants'
+import dayjs from 'dayjs'
+---
+
+<GlobalLayout>
+  <Container class="prose prose-neutral mt-12">
+    <h1>About MaineBallot.org</h1>
+    <p>
+      The goal of MaineBallot.org is to provide concise, non-partisan
+      information to make it easy to understand the ballot questions pending in
+      Maine, including the questions at the upcoming election on {
+        dayjs(ELECTIONS[0].date).format('MMMM D, YYYY')
+      }.
+    </p>
+    <p>
+      While MaineBallot.org strives to present all sides of the arguments for
+      and against the pending ballot questions, there is always a potential for
+      error or bias. We encourage you to consult with other sources of
+      information before you vote. Your choice to access these pages constitutes
+      an acknowledgement that the information provided is not legal or voting
+      advice of any kind. We will be updating this site on a regular basis until
+      election day.
+    </p>
+    <p>
+      Please let us know if we missed something or if you have any suggestions
+      to improve our site. Contact us at: <a
+        href="mailto:maineballot@gmail.com?subject=feedback"
+        >maineballot@gmail.com</a
+      >
+    </p>
+    <h2>History / Credits / Contribute</h2>
+    <p>
+      Curious about how this website got started? Listen to the story on the <a
+        href="https://civictech.chat/2019/07/maine-ballot"
+        >Civic Tech Chat podcast</a
+      >.
+    </p>
+    <ul>
+      <li>
+        <a href="/contributors">Contributors</a>
+      </li>
+      <li>
+        <a href="https://goo.gl/forms/FOoMTZQJvsKE13pB2"
+          >Sign up to participate in user research</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://github.com/OpenMaine/maineballot/wiki/How-to-create-your-own-ballot-website"
+          >Copy this site to create your own ballot website</a
+        >
+      </li>
+      <li>
+        <a href="https://github.com/OpenMaine/maineballot"
+          >View source on GitHub</a
+        >
+      </li>
+    </ul>
+    <h2>Image Credits</h2>
+    <ul>
+      <li>
+        Most images on the site are in the public domain or have been purchased
+        and don't require attribution, except:
+      </li>
+      <li>
+        Commencement Exercises University of Maine Orono 05132017 by Regan
+        Vercruysse, Creative Commons 2.0 license, Original Image
+      </li>
+      <li>
+        Graphics from <a href="https://electiontools.org">electiontools.org</a>,
+        Creative Commons Attribution-ShareAlike 4.0 International License
+      </li>
+    </ul>
+  </Container>
+</GlobalLayout>
