@@ -1,6 +1,7 @@
-current_election: 2024-06-11
+current_election: 2024-11-05
 past_elections:
   2024:
+    - 2024-06-11
     - 2024-03-05
   2023:
     - 2023-11-07
