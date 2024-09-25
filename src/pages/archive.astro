@@ -72,7 +72,7 @@ const candidates = (
               {tag.posts.map((post) => (
                 <li>
                   <a href={getEntryUrl(post)}>{post.data.title}</a>
-                  <p>{post.data.excerpt}</p>
+                  <p class="mt-2">{post.data.excerpt}</p>
                 </li>
               ))}
             </ul>
