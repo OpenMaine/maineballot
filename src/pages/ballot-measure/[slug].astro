@@ -1,19 +1,26 @@
 ---
 import Container from '#components/container.astro'
+import YesNoTable from '#components/yes-no-table.astro'
 import GlobalLayout from '#layouts/global-layout.astro'
 import { getReadingTime } from '#utils/get-reading-time'
 import { Image } from 'astro:assets'
+import { getEntry } from 'astro:content'
+import { getEntries } from 'astro:content'
 import { getCollection } from 'astro:content'
+import dayjs from 'dayjs'
 
 export async function getStaticPaths() {
-  const allPosts = await getCollection('posts')
-  return allPosts.map((post) => ({
+  const allBallotMeasures = await getCollection('ballot-measures')
+  return allBallotMeasures.map((post) => ({
     params: { slug: post.slug },
     props: { post },
   }))
 }
 
 const { post } = Astro.props
+const tags = await getEntries(post.data.tags || [])
+const election = await getEntry(post.data.election)
+
 const { Content } = await post.render()
 ---
 
@@ -46,7 +53,54 @@ const { Content } = await post.render()
     </div>
   </div>
 
-  <Container class="prose prose-neutral mt-12">
-    <Content />
+  <Container>
+    <div class="prose prose-neutral my-12">
+      <Content components={{ YesNoTable }} />
+    </div>
+
+    <div class="space-y-2">
+      <div class="flex items-center gap-4">
+        <div class="flex gap-2 items-center text-gray-500">
+          <span class="icon-[fa6-solid--tags] size-5" aria-hidden></span>
+          <span class="font-bold">Tags:</span>
+        </div>
+        <ul class="flex gap-2 list-none">
+          {
+            tags.map((tag) => (
+              <li>
+                <a
+                  class="flex rounded h-9 px-3 items-center border no-underline text-neutral-600 border-neutral-400"
+                  href={`/tags#${tag.id}`}
+                >
+                  {tag.data.title}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+      <div class="flex items-center gap-4">
+        <div class="flex gap-2 items-center text-gray-500">
+          <span class="icon-[fa6-solid--folder-open] size-5" aria-hidden></span>
+          <span class="font-bold">Election:</span>
+        </div>
+        <ul>
+          <li>
+            <a
+              class="flex rounded h-9 px-3 items-center border no-underline text-neutral-600 border-neutral-400"
+              href={`/elections#${election.id}`}>{election.data.title}</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="flex items-center gap-4 h-9">
+        <div class="flex gap-2 items-center text-gray-500">
+          <span class="icon-[fa6-solid--calendar-days] size-5" aria-hidden
+          ></span>
+          <span class="font-bold">Updated: </span>
+        </div>
+        <span>{dayjs(post.data.lastModifiedDate).format('MMMM D, YYYY')}</span>
+      </div>
+    </div>
   </Container>
 </GlobalLayout>

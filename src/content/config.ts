@@ -1,6 +1,6 @@
 import { type ImageFunction, defineCollection, reference, z } from 'astro:content'
 
-const postCollection = defineCollection({
+const ballotMeasureCollection = defineCollection({
   type: 'content',
   schema: ({ image }: { image: ImageFunction }) =>
     z.object({
@@ -56,9 +56,9 @@ const electionCollection = defineCollection({
 })
 
 export const collections = {
-  candidates: candidatesCollection,
-  elections: electionCollection,
-  local: localCollection,
-  posts: postCollection,
-  tags: tagsCollection,
+  'candidates': candidatesCollection,
+  'elections': electionCollection,
+  'local': localCollection,
+  'ballot-measures': ballotMeasureCollection,
+  'tags': tagsCollection,
 }

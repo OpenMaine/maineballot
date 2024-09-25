@@ -1,0 +1,15 @@
+---
+import { getCollection } from 'astro:content'
+
+const allBallotMeasures = await getCollection('ballot-measures')
+---
+
+<ul>
+  {
+    allBallotMeasures.map((bm) => (
+      <li>
+        <a href={`/ballot-measure/${bm.slug}`}>{bm.data.title}</a>
+      </li>
+    ))
+  }
+</ul>
