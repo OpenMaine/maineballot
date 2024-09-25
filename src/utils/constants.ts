@@ -1,39 +1,10 @@
 export const GLOBAL = {
-  locale: 'en-US',
-  title: 'Maine Ballot',
-  title_separator: '-',
-  name: 'Shannon McHarg',
-  description: 'Ballot questions for Maine elections.',
-  url: 'https://maineballot.org',
-  baseurl: null,
-  repository: null,
-  teaser: null,
   author: {
     name: 'Shannon McHarg',
     avatar: null,
     bio: 'A user experience designer living in Maine who wants to make it easier to understand what you\'ve voting for or against.',
     location: 'Brunswick, Maine',
-    email: null,
-    links: [
-      {
-        label: 'Email',
-        icon: 'fas fa-fw fa-envelope-square',
-      },
-      {
-        label: 'Website',
-        icon: 'fas fa-fw fa-link',
-      },
-      {
-        label: 'Twitter',
-        icon: 'fab fa-fw fa-twitter-square',
-      },
-      {
-        label: 'GitHub',
-        icon: 'fab fa-fw fa-github',
-      },
-    ],
   },
-  footer: null,
 }
 
 export const SITE_META = {
