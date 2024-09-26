@@ -64,17 +64,17 @@ const { Content } = await post.render()
 
     <!-- Tags -->
     <div class="space-y-2">
-      <div class="flex items-center gap-4">
+      <div class="flex flex-wrap items-center gap-4">
         <div class="flex gap-2 items-center text-gray-500">
           <span class="icon-[fa6-solid--tags] size-5" aria-hidden></span>
           <span class="font-bold">Tags:</span>
         </div>
-        <ul class="flex gap-2 list-none">
+        <ul class="flex flex-wrap gap-2 list-none">
           {
             tags.map((tag) => (
               <li>
                 <a
-                  class="flex rounded h-9 px-3 items-center border no-underline text-neutral-600 border-neutral-400"
+                  class="flex rounded h-9 px-3 items-center border no-underline text-neutral-600 border-neutral-400 hover:text-[#235e70]"
                   href={`/tags#${tag.id}`}
                 >
                   {tag.data.title}
@@ -84,7 +84,7 @@ const { Content } = await post.render()
           }
         </ul>
       </div>
-      <div class="flex items-center gap-4">
+      <div class="flex flex-wrap items-center gap-4">
         <div class="flex gap-2 items-center text-gray-500">
           <span class="icon-[fa6-solid--folder-open] size-5" aria-hidden></span>
           <span class="font-bold">Election:</span>
@@ -92,7 +92,7 @@ const { Content } = await post.render()
         <ul>
           <li>
             <a
-              class="flex rounded h-9 px-3 items-center border no-underline text-neutral-600 border-neutral-400"
+              class="flex rounded h-9 px-3 items-center border no-underline text-neutral-600 border-neutral-400 hover:text-[#235e70]"
               href={`/elections#${election.id}`}>{election.data.title}</a
             >
           </li>
@@ -111,7 +111,7 @@ const { Content } = await post.render()
     <!-- Share -->
     <div class="mt-12">
       <h2 class="uppercase font-bold mb-2 text-neutral-600">Share on</h2>
-      <div class="flex gap-2">
+      <div class="flex flex-wrap gap-2">
         <ShareButton
           shareText={post.data.title}
           shareUrl={`${import.meta.env.SITE}/ballot-measure/${post.slug}`}
