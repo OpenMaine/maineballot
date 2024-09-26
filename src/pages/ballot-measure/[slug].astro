@@ -1,5 +1,6 @@
 ---
 import Container from '#components/container.astro'
+import ShareButton from '#components/share-button.astro'
 import YesNoTable from '#components/yes-no-table.astro'
 import GlobalLayout from '#layouts/global-layout.astro'
 import { getReadingTime } from '#utils/get-reading-time'
@@ -107,10 +108,33 @@ const { Content } = await post.render()
       </div>
     </div>
 
-    <!-- Related Posts -->
+    <!-- Share -->
+    <div class="mt-12">
+      <h2 class="uppercase font-bold mb-2 text-neutral-600">Share on</h2>
+      <div class="flex gap-2">
+        <ShareButton
+          shareText={post.data.title}
+          shareUrl={`${import.meta.env.SITE}/ballot-measure/${post.slug}`}
+          platform="twitter"
+        />
+        <ShareButton
+          shareUrl={`${import.meta.env.SITE}/ballot-measure/${post.slug}`}
+          platform="facebook"
+        />
+        <ShareButton
+          shareUrl={`${import.meta.env.SITE}/ballot-measure/${post.slug}`}
+          platform="google-plus"
+        />
+        <ShareButton
+          shareUrl={`${import.meta.env.SITE}/ballot-measure/${post.slug}`}
+          platform="linkedin"
+        />
+      </div>
+    </div>
 
     {
       relatedMeasures.length > 0 ? (
+        // <!-- Related Posts -->
         <div class="mt-12">
           <h2 class="uppercase font-bold mb-8 text-neutral-600">
             Related ballot measures

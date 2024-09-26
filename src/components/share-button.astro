@@ -1,0 +1,109 @@
+---
+type Props = {
+  platform: 'facebook' | 'twitter' | 'linkedin' | 'google-plus'
+  shareText?: string
+  shareUrl: string
+}
+
+const { platform, shareText, shareUrl } = Astro.props
+
+const share: Record<
+  Props['platform'],
+  {
+    baseUrl: string
+    params: Record<string, string>
+  }
+> = {
+  facebook: {
+    baseUrl: 'https://www.facebook.com/sharer.php',
+    params: {
+      u: shareUrl,
+    },
+  },
+  twitter: {
+    baseUrl: 'https://twitter.com/intent/tweet',
+    params: {
+      text: shareText ? shareText + '\n\n' : '',
+      url: shareUrl,
+    },
+  },
+  linkedin: {
+    baseUrl: 'https://www.linkedin.com/sharing/share-offsite/',
+    params: {
+      url: shareUrl,
+    },
+  },
+  'google-plus': {
+    baseUrl: 'https://plus.google.com/share',
+    params: {
+      url: shareUrl,
+    },
+  },
+}
+
+const url =
+  share[platform].baseUrl + '?' + new URLSearchParams(share[platform].params)
+
+const handleOnClick = `window.open(
+      '${url}',
+      '',
+      'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=436,width=646',
+    );
+    return false;
+  `.replace(/\s/g, '') // Makes string prettier in the DOM
+
+const baseClasses =
+  'text-white transition-colors h-10 px-4 flex gap-2 items-center rounded font-bold'
+---
+
+{
+  platform === 'facebook' ? (
+    <a
+      href={url}
+      onclick={handleOnClick}
+      target="_blank"
+      rel="nofollow noreferrer"
+      class:list={[baseClasses, 'bg-[#3b5998] hover:bg-[#2f477a]']}
+    >
+      <span class="icon-[fa6-brands--facebook] size-4" aria-hidden />
+      <span class="sr-only">Share on </span>
+      <span>Facebook</span>
+    </a>
+  ) : platform === 'twitter' ? (
+    <a
+      href={url}
+      onclick={handleOnClick}
+      target="_blank"
+      rel="nofollow noreferrer"
+      class:list={[baseClasses, 'bg-[#55acee] hover:bg-[#448abe]']}
+    >
+      <span class="icon-[fa6-brands--twitter] size-4" aria-hidden />
+      <span class="sr-only">Share on </span>
+      <span>Twitter</span>
+    </a>
+  ) : platform === 'linkedin' ? (
+    <a
+      href={url}
+      onclick={handleOnClick}
+      target="_blank"
+      rel="nofollow noreferrer"
+      class:list={[baseClasses, 'bg-[#007bb6] hover:bg-[#006292]']}
+    >
+      <span class="icon-[fa6-brands--linkedin] size-4" aria-hidden />
+      <span class="sr-only">Share on </span>
+      <span>LinkedIn</span>
+    </a>
+  ) : platform === 'google-plus' ? (
+    <a
+      href={url}
+      onclick={handleOnClick}
+      target="_blank"
+      rel="nofollow noreferrer"
+      class:list={[baseClasses, 'bg-[#dd4b39] hover:bg-[#b13c2e]']}
+    >
+      <span class="icon-[fa6-brands--google-plus] size-4" aria-hidden />
+      <span class="sr-only">Share on </span>
+      <span>Google+</span>
+    </a>
+  ) : null
+}
