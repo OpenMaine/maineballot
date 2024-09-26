@@ -20,6 +20,9 @@ export async function getStaticPaths() {
 const { post } = Astro.props
 const tags = await getEntries(post.data.tags || [])
 const election = await getEntry(post.data.election)
+const relatedMeasures = await getCollection('ballot-measures', (bm) => {
+  return bm.data.election.id === election.id && bm.id !== post.id
+})
 
 const { Content } = await post.render()
 ---
@@ -58,6 +61,7 @@ const { Content } = await post.render()
       <Content components={{ YesNoTable }} />
     </div>
 
+    <!-- Tags -->
     <div class="space-y-2">
       <div class="flex items-center gap-4">
         <div class="flex gap-2 items-center text-gray-500">
@@ -102,5 +106,41 @@ const { Content } = await post.render()
         <span>{dayjs(post.data.lastModifiedDate).format('MMMM D, YYYY')}</span>
       </div>
     </div>
+
+    <!-- Related Posts -->
+
+    {
+      relatedMeasures.length > 0 ? (
+        <div class="mt-12">
+          <h2 class="uppercase font-bold mb-8 text-neutral-600">
+            Related ballot measures
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-8 gap-x-4">
+            {relatedMeasures.map((rm) => (
+              <div class="relative">
+                <Image
+                  class="aspect-video rounded mb-2"
+                  src={rm.data.header.overlay_image}
+                  alt={rm.data.header.image_description || ''}
+                />
+                <p class="text-xl font-bold text-neutral-600 mb-1">
+                  <a
+                    class="after:inset-0 after:absolute"
+                    href={`/ballot-measure/${rm.slug}`}
+                  >
+                    {rm.data.title}
+                  </a>
+                </p>
+                <div class="flex items-center gap-1 text-neutral-500 mb-2">
+                  <span class="icon-[fa6-regular--clock] size-3" aria-hidden />
+                  <span class="text-sm">{getReadingTime(rm.body)}</span>
+                </div>
+                <p>{rm.data.excerpt}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      ) : null
+    }
   </Container>
 </GlobalLayout>
