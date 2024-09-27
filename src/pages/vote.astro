@@ -6,16 +6,16 @@ import dayjs from 'dayjs'
 ---
 
 <GlobalLayout>
-  <div class="bg-[#2f6585] mb-16">
-    <div class="text-center py-6 text-white">
+  <div class="bg-[#2f6585]">
+    <Container class="text-center py-10 text-white">
       <p class="font-bold text-2xl mb-2">The next Maine election is</p>
-      <p class="font-bold text-4xl mb-2">
+      <p class="font-bold text-5xl mb-3">
         {dayjs(ELECTIONS.upcoming.date).format('MMMM D, YYYY')}
       </p>
       <p class="font-bold text-xl">{ELECTIONS.upcoming.title}</p>
-    </div>
+    </Container>
   </div>
-  <Container class="prose prose-neutral">
+  <Container class="prose prose-neutral my-20">
     <h1>How to vote in Maine</h1>
     <p>
       People over 18 who have a fixed principal residence in Maine can vote in

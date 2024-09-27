@@ -35,7 +35,7 @@ const elections = (
 ---
 
 <GlobalLayout>
-  <Container class="my-12">
+  <Container class="my-20">
     <h1 class="text-3xl font-bold mb-8 text-neutral-700">All Elections</h1>
 
     <ul class="grid grid-cols-3 gap-x-12">
@@ -54,12 +54,12 @@ const elections = (
       }
     </ul>
 
-    <div class="space-y-16">
+    <div class="space-y-16 mt-12">
       {
         elections.map((elect) => (
           <div>
             <div class="mt-8 mb-4">
-              <h2 id={elect.slug} class="text-lg font-bold text-neutral-500">
+              <h2 id={elect.slug} class="text-xl font-bold text-neutral-500">
                 {elect.data.title}
               </h2>
             </div>
