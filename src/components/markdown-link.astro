@@ -1,11 +1,13 @@
 ---
-type Props = HTMLLinkElement
+import type { HTMLAttributes } from 'astro/types'
+
+type Props = HTMLAttributes<'a'>
 const { href, ...props } = Astro.props
 const site = Astro.site
 
 let isExternal = false
 try {
-  const { hostname } = new URL(href)
+  const { hostname } = new URL(href || '')
   isExternal = hostname !== site?.hostname
 } catch {
   isExternal = false
