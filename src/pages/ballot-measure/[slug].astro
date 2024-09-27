@@ -57,114 +57,119 @@ const { Content } = await post.render()
     </div>
   </div>
 
-  <Container>
-    <div class="prose prose-neutral my-12">
+  <Container class="my-12">
+    <div class="prose prose-neutral">
       <Content components={{ YesNoTable }} />
     </div>
 
-    <!-- Tags -->
-    <div class="space-y-2">
-      <div class="flex flex-wrap items-center gap-4">
-        <div class="flex gap-2 items-center text-gray-500">
-          <span class="icon-[fa6-solid--tags] size-5" aria-hidden></span>
-          <span class="font-bold">Tags:</span>
-        </div>
-        <ul class="flex flex-wrap gap-2 list-none">
-          {
-            tags.map((tag) => (
-              <li>
-                <a
-                  class="flex rounded h-9 px-3 items-center border no-underline text-neutral-600 border-neutral-400 hover:text-[#235e70]"
-                  href={`/tags#${tag.id}`}
-                >
-                  {tag.data.title}
-                </a>
-              </li>
-            ))
-          }
-        </ul>
-      </div>
-      <div class="flex flex-wrap items-center gap-4">
-        <div class="flex gap-2 items-center text-gray-500">
-          <span class="icon-[fa6-solid--folder-open] size-5" aria-hidden></span>
-          <span class="font-bold">Election:</span>
-        </div>
-        <ul>
-          <li>
-            <a
-              class="flex rounded h-9 px-3 items-center border no-underline text-neutral-600 border-neutral-400 hover:text-[#235e70]"
-              href={`/elections#${election.id}`}>{election.data.title}</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div class="flex items-center gap-4 h-9">
-        <div class="flex gap-2 items-center text-gray-500">
-          <span class="icon-[fa6-solid--calendar-days] size-5" aria-hidden
-          ></span>
-          <span class="font-bold">Updated: </span>
-        </div>
-        <span>{dayjs(post.data.lastModifiedDate).format('MMMM D, YYYY')}</span>
-      </div>
-    </div>
-
-    <!-- Share -->
-    <div class="mt-12">
-      <h2 class="uppercase font-bold mb-2 text-neutral-600">Share on</h2>
-      <div class="flex flex-wrap gap-2">
-        <ShareButton
-          shareText={post.data.title}
-          shareUrl={`${import.meta.env.SITE}/ballot-measure/${post.slug}`}
-          platform="twitter"
-        />
-        <ShareButton
-          shareUrl={`${import.meta.env.SITE}/ballot-measure/${post.slug}`}
-          platform="facebook"
-        />
-        <ShareButton
-          shareUrl={`${import.meta.env.SITE}/ballot-measure/${post.slug}`}
-          platform="google-plus"
-        />
-        <ShareButton
-          shareUrl={`${import.meta.env.SITE}/ballot-measure/${post.slug}`}
-          platform="linkedin"
-        />
-      </div>
-    </div>
-
-    {
-      relatedMeasures.length > 0 ? (
-        // <!-- Related Posts -->
-        <div class="mt-12">
-          <h2 class="uppercase font-bold mb-8 text-neutral-600">
-            Related ballot measures
-          </h2>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-8 gap-x-4">
-            {relatedMeasures.map((rm) => (
-              <div class="relative">
-                <Image
-                  class="aspect-video rounded mb-2"
-                  src={rm.data.header.overlay_image}
-                  alt={rm.data.header.image_description || ''}
-                />
-                <p class="text-xl font-bold text-neutral-600 mb-1">
-                  <a
-                    class="after:inset-0 after:absolute"
-                    href={`/ballot-measure/${rm.slug}`}
-                  >
-                    {rm.data.title}
-                  </a>
-                </p>
-                <div class="flex items-center gap-1 text-neutral-500 mb-2">
-                  <span class="icon-[fa6-regular--clock] size-3" aria-hidden />
-                  <span class="text-sm">{getReadingTime(rm.body)}</span>
-                </div>
-                <p>{rm.data.excerpt}</p>
-              </div>
-            ))}
+    <div class="space-y-20 mt-28">
+      <!-- Tags -->
+      <div class="space-y-2">
+        <div class="flex flex-wrap items-center gap-4">
+          <div class="flex gap-2 items-center text-gray-500">
+            <span class="icon-[fa6-solid--tags] size-5" aria-hidden></span>
+            <span class="font-bold">Tags:</span>
           </div>
+          <ul class="flex flex-wrap gap-2 list-none">
+            {
+              tags.map((tag) => (
+                <li>
+                  <a
+                    class="flex rounded h-9 px-3 items-center border no-underline text-neutral-600 border-neutral-400 hover:text-[#235e70]"
+                    href={`/tags#${tag.id}`}
+                  >
+                    {tag.data.title}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
         </div>
-      ) : null
-    }
+        <div class="flex flex-wrap items-center gap-4">
+          <div class="flex gap-2 items-center text-gray-500">
+            <span class="icon-[fa6-solid--folder-open] size-5" aria-hidden
+            ></span>
+            <span class="font-bold">Election:</span>
+          </div>
+          <ul>
+            <li>
+              <a
+                class="flex rounded h-9 px-3 items-center border no-underline text-neutral-600 border-neutral-400 hover:text-[#235e70]"
+                href={`/elections#${election.id}`}>{election.data.title}</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="flex items-center gap-4 h-9">
+          <div class="flex gap-2 items-center text-gray-500">
+            <span class="icon-[fa6-solid--calendar-days] size-5" aria-hidden
+            ></span>
+            <span class="font-bold">Updated: </span>
+          </div>
+          <span>{dayjs(post.data.lastModifiedDate).format('MMMM D, YYYY')}</span
+          >
+        </div>
+      </div>
+      <!-- Share -->
+      <div>
+        <h2 class="uppercase font-bold mb-4 text-neutral-600">Share on</h2>
+        <div class="flex flex-wrap gap-2">
+          <ShareButton
+            shareText={post.data.title}
+            shareUrl={`${import.meta.env.SITE}/ballot-measure/${post.slug}`}
+            platform="twitter"
+          />
+          <ShareButton
+            shareUrl={`${import.meta.env.SITE}/ballot-measure/${post.slug}`}
+            platform="facebook"
+          />
+          <ShareButton
+            shareUrl={`${import.meta.env.SITE}/ballot-measure/${post.slug}`}
+            platform="google-plus"
+          />
+          <ShareButton
+            shareUrl={`${import.meta.env.SITE}/ballot-measure/${post.slug}`}
+            platform="linkedin"
+          />
+        </div>
+      </div>
+      {
+        relatedMeasures.length > 0 ? (
+          // <!-- Related Posts -->
+          <div class="mt-12">
+            <h2 class="uppercase font-bold mb-4 text-neutral-600">
+              Related ballot measures
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-8 gap-x-4">
+              {relatedMeasures.map((rm) => (
+                <div class="relative">
+                  <Image
+                    class="aspect-video rounded mb-2"
+                    src={rm.data.header.overlay_image}
+                    alt={rm.data.header.image_description || ''}
+                  />
+                  <p class="text-xl font-bold text-neutral-600 mb-1">
+                    <a
+                      class="after:inset-0 after:absolute"
+                      href={`/ballot-measure/${rm.slug}`}
+                    >
+                      {rm.data.title}
+                    </a>
+                  </p>
+                  <div class="flex items-center gap-1 text-neutral-500 mb-2">
+                    <span
+                      class="icon-[fa6-regular--clock] size-3"
+                      aria-hidden
+                    />
+                    <span class="text-sm">{getReadingTime(rm.body)}</span>
+                  </div>
+                  <p>{rm.data.excerpt}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        ) : null
+      }
+    </div>
   </Container>
 </GlobalLayout>

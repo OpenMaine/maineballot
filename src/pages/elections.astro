@@ -13,7 +13,7 @@ const elections = (
       data: elect.data,
       posts: (
         await getCollection(
-          'posts',
+          'ballot-measures',
           ({ data }) => data.election.id === elect.id,
         )
       ).sort(
@@ -24,25 +24,29 @@ const elections = (
       ),
     })),
   )
-).sort(
-  (a, b) =>
-    new Date(b.data.electionDate).getTime() -
-    new Date(a.data.electionDate).getTime(),
 )
+  .filter((elect) => elect.posts.length > 0)
+  .sort(
+    (a, b) =>
+      new Date(b.data.electionDate).getTime() -
+      new Date(a.data.electionDate).getTime(),
+  )
 ---
 
 <GlobalLayout>
-  <Container>
-    <ul class="grid grid-cols-3 gap-x-12 divide-y">
+  <Container class="my-12">
+    <h1 class="text-3xl font-bold mb-8 text-neutral-700">All Elections</h1>
+
+    <ul class="grid grid-cols-3 gap-x-12">
       {
         elections.map((cat) => (
-          <li class="block h-12">
+          <li class="block h-12 border-b">
             <a
-              href={cat.slug}
+              href={`#${cat.slug}`}
               class="flex size-full items-center justify-between"
             >
-              <span>{cat.data.title}</span>
-              <span>{cat.posts.length}</span>
+              <span class="font-bold text-gray-800">{cat.data.title}</span>
+              <span class="text-gray-500">{cat.posts.length}</span>
             </a>
           </li>
         ))
@@ -51,23 +55,32 @@ const elections = (
 
     <div class="space-y-16">
       {
-        elections.map((cat) => (
+        elections.map((elect) => (
           <div>
-            <div class="mb-4">
-              <h2 class="text-lg font-bold">{cat.data.title}</h2>
+            <div class="mt-8 mb-4">
+              <h2 id={elect.slug} class="text-lg font-bold text-neutral-500">
+                {elect.data.title}
+              </h2>
             </div>
             <div class="space-y-8">
-              {cat.posts.map((post) => (
+              {elect.posts.map((post) => (
                 <div>
                   <div class="mb-1">
-                    <h3 class="text-2xl font-bold">
-                      <a class="underline" href={post.slug}>
+                    <h3 class="text-2xl font-bold text-[#2f7d95] hover:text-[#235e70]">
+                      <a
+                        class="underline"
+                        href={`/ballot-measure/${post.slug}`}
+                      >
                         {post.data.title}
                       </a>
                     </h3>
                   </div>
-                  <div class="mb-1">
-                    <span>{getReadingTime(post.body)}</span>
+                  <div class="mt-1 flex items-center gap-1 text-neutral-500 mb-2">
+                    <span
+                      class="icon-[fa6-regular--clock] size-3"
+                      aria-hidden
+                    />
+                    <span class="text-sm">{getReadingTime(post.body)}</span>
                   </div>
                   <div>
                     <p>{post.data.excerpt}</p>

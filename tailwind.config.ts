@@ -14,6 +14,8 @@ export default {
           css: {
             '--tw-prose-headings': theme('colors.gray.600'),
             '--tw-prose-body': theme('colors.gray.600'),
+            '--tw-prose-bold': theme('colors.gray.600'),
+            '--tw-prose-quotes': theme('colors.gray.600'),
             '--tw-prose-bullets': theme('colors.gray.600'),
           },
         },
@@ -63,11 +65,23 @@ export default {
               },
             },
             'sup > a': {
-              'fontSize': theme('fontSize.base')[0],
+              'fontSize': 'inherit',
               'textDecoration': 'none',
               '&:hover': {
                 textDecoration: 'underline',
               },
+            },
+            '.footnotes ol': {
+              'font-size': theme('fontSize.base')[0],
+              'line-height': theme('fontSize.lg')[1].lineHeight,
+            },
+            '.footnotes li': {
+              'margin-top': theme('space.4'),
+              'margin-bottom': theme('space.4'),
+            },
+            '.footnotes li p': {
+              'margin-top': theme('space.0'),
+              'margin-bottom': theme('space.0'),
             },
           },
         },
