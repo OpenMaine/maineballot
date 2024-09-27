@@ -5,7 +5,7 @@ import YesNoTable from '#components/yes-no-table.astro'
 import GlobalLayout from '#layouts/global-layout.astro'
 import { getReadingTime } from '#utils/get-reading-time'
 import { getEntryUrl } from '#utils/get-url'
-import { Image, Picture } from 'astro:assets'
+import { Image } from 'astro:assets'
 import { getEntry } from 'astro:content'
 import { getEntries } from 'astro:content'
 import { getCollection } from 'astro:content'
@@ -31,9 +31,7 @@ const { Content } = await ballotMeasure.render()
 
 <GlobalLayout>
   <div class="bg-center bg-no-repeat bg-cover relative">
-    <Picture
-      formats={['avif', 'webp']}
-      sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px`}
+    <Image
       class="absolute size-full inset-0 object-cover z-10"
       src={ballotMeasure.data.header.overlay_image}
       loading="eager"
@@ -153,8 +151,8 @@ const { Content } = await ballotMeasure.render()
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-8 gap-x-4">
               {relatedMeasures.map((rm) => (
                 <div class="relative">
-                  <Picture
-                    formats={['avif', 'webp']}
+                  <Image
+                    loading="lazy"
                     class="aspect-video rounded mb-2"
                     src={rm.data.header.overlay_image}
                     alt={rm.data.header.image_description || ''}
