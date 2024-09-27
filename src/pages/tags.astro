@@ -13,7 +13,7 @@ const tags = (
       slug: tag.id,
       data: tag.data,
       posts: (
-        await getCollection('posts', ({ data }) =>
+        await getCollection('ballot-measures', ({ data }) =>
           data.tags?.some((postTag) => postTag.id === tag.id),
         )
       ).sort(

@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content'
 import { getReadingTime } from '#utils/get-reading-time'
 import GlobalLayout from '#layouts/global-layout.astro'
 import Container from '#components/container.astro'
+import { getEntryUrl } from '#utils/get-url'
 
 const allEelections = await getCollection('elections')
 
@@ -11,7 +12,7 @@ const elections = (
     allEelections.map(async (elect) => ({
       slug: elect.id,
       data: elect.data,
-      posts: (
+      ballotMeasures: (
         await getCollection(
           'ballot-measures',
           ({ data }) => data.election.id === elect.id,
@@ -25,7 +26,7 @@ const elections = (
     })),
   )
 )
-  .filter((elect) => elect.posts.length > 0)
+  .filter((elect) => elect.ballotMeasures.length > 0)
   .sort(
     (a, b) =>
       new Date(b.data.electionDate).getTime() -
@@ -39,14 +40,14 @@ const elections = (
 
     <ul class="grid grid-cols-3 gap-x-12">
       {
-        elections.map((cat) => (
+        elections.map((elect) => (
           <li class="block h-12 border-b">
             <a
-              href={`#${cat.slug}`}
+              href={`#${elect.slug}`}
               class="flex size-full items-center justify-between"
             >
-              <span class="font-bold text-gray-800">{cat.data.title}</span>
-              <span class="text-gray-500">{cat.posts.length}</span>
+              <span class="font-bold text-gray-800">{elect.data.title}</span>
+              <span class="text-gray-500">{elect.ballotMeasures.length}</span>
             </a>
           </li>
         ))
@@ -63,27 +64,24 @@ const elections = (
               </h2>
             </div>
             <div class="space-y-8">
-              {elect.posts.map((post) => (
+              {elect.ballotMeasures.map((bm) => (
                 <div>
                   <div class="mb-1">
                     <h3 class="text-2xl font-bold text-[#2f7d95] hover:text-[#235e70]">
-                      <a
-                        class="underline"
-                        href={`/ballot-measure/${post.slug}`}
-                      >
-                        {post.data.title}
+                      <a class="underline" href={getEntryUrl(bm)}>
+                        {bm.data.title}
                       </a>
                     </h3>
                   </div>
                   <div class="mt-1 flex items-center gap-1 text-neutral-500 mb-2">
                     <span
                       class="icon-[fa6-regular--clock] size-3"
-                      aria-hidden
+                      aria-hidden="true"
                     />
-                    <span class="text-sm">{getReadingTime(post.body)}</span>
+                    <span class="text-sm">{getReadingTime(bm.body)}</span>
                   </div>
                   <div>
-                    <p>{post.data.excerpt}</p>
+                    <p>{bm.data.excerpt}</p>
                   </div>
                 </div>
               ))}

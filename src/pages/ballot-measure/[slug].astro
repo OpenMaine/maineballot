@@ -4,6 +4,7 @@ import ShareButton from '#components/share-button.astro'
 import YesNoTable from '#components/yes-no-table.astro'
 import GlobalLayout from '#layouts/global-layout.astro'
 import { getReadingTime } from '#utils/get-reading-time'
+import { getEntryUrl } from '#utils/get-url'
 import { Image } from 'astro:assets'
 import { getEntry } from 'astro:content'
 import { getEntries } from 'astro:content'
@@ -14,28 +15,28 @@ export async function getStaticPaths() {
   const allBallotMeasures = await getCollection('ballot-measures')
   return allBallotMeasures.map((post) => ({
     params: { slug: post.slug },
-    props: { post },
+    props: { ballotMeasure: post },
   }))
 }
 
-const { post } = Astro.props
-const tags = await getEntries(post.data.tags || [])
-const election = await getEntry(post.data.election)
+const { ballotMeasure } = Astro.props
+const tags = await getEntries(ballotMeasure.data.tags || [])
+const election = await getEntry(ballotMeasure.data.election)
 const relatedMeasures = await getCollection('ballot-measures', (bm) => {
-  return bm.data.election.id === election.id && bm.id !== post.id
+  return bm.data.election.id === election.id && bm.id !== ballotMeasure.id
 })
 
-const { Content } = await post.render()
+const { Content } = await ballotMeasure.render()
 ---
 
 <GlobalLayout>
   <div class="bg-center bg-no-repeat bg-cover relative">
     <Image
       class="absolute size-full inset-0 object-cover z-10"
-      src={post.data.header.overlay_image}
+      src={ballotMeasure.data.header.overlay_image}
       loading="eager"
       alt=""
-      aria-hidden
+      aria-hidden="true"
     />
     <div class="relative z-20 bg-black/50 py-20">
       <div
@@ -44,14 +45,15 @@ const { Content } = await post.render()
         <h1
           class="mb-8 max-w-prose text-5xl font-bold leading-tight text-white"
         >
-          {post.data.title}
+          {ballotMeasure.data.title}
         </h1>
         <p class="text-white text-2xl max-w-prose mb-8">
-          {post.data.excerpt}
+          {ballotMeasure.data.excerpt}
         </p>
         <p class="text-white flex items-center gap-2">
-          <span class="icon-[fa6-regular--clock] size-4" aria-hidden></span>
-          <span>{getReadingTime(post.body)}</span>
+          <span class="icon-[fa6-regular--clock] size-4" aria-hidden="true"
+          ></span>
+          <span>{getReadingTime(ballotMeasure.body)}</span>
         </p>
       </div>
     </div>
@@ -67,7 +69,8 @@ const { Content } = await post.render()
       <div class="space-y-2">
         <div class="flex flex-wrap items-center gap-4">
           <div class="flex gap-2 items-center text-gray-500">
-            <span class="icon-[fa6-solid--tags] size-5" aria-hidden></span>
+            <span class="icon-[fa6-solid--tags] size-5" aria-hidden="true"
+            ></span>
             <span class="font-bold">Tags:</span>
           </div>
           <ul class="flex flex-wrap gap-2 list-none">
@@ -76,7 +79,7 @@ const { Content } = await post.render()
                 <li>
                   <a
                     class="flex rounded h-9 px-3 items-center border no-underline text-neutral-600 border-neutral-400 hover:text-[#235e70]"
-                    href={`/tags#${tag.id}`}
+                    href={getEntryUrl(tag)}
                   >
                     {tag.data.title}
                   </a>
@@ -87,26 +90,31 @@ const { Content } = await post.render()
         </div>
         <div class="flex flex-wrap items-center gap-4">
           <div class="flex gap-2 items-center text-gray-500">
-            <span class="icon-[fa6-solid--folder-open] size-5" aria-hidden
-            ></span>
+            <span
+              class="icon-[fa6-solid--folder-open] size-5"
+              aria-hidden="true"></span>
             <span class="font-bold">Election:</span>
           </div>
           <ul>
             <li>
               <a
                 class="flex rounded h-9 px-3 items-center border no-underline text-neutral-600 border-neutral-400 hover:text-[#235e70]"
-                href={`/elections#${election.id}`}>{election.data.title}</a
+                href={getEntryUrl(election)}>{election.data.title}</a
               >
             </li>
           </ul>
         </div>
         <div class="flex items-center gap-4 h-9">
           <div class="flex gap-2 items-center text-gray-500">
-            <span class="icon-[fa6-solid--calendar-days] size-5" aria-hidden
-            ></span>
+            <span
+              class="icon-[fa6-solid--calendar-days] size-5"
+              aria-hidden="true"></span>
             <span class="font-bold">Updated: </span>
           </div>
-          <span>{dayjs(post.data.lastModifiedDate).format('MMMM D, YYYY')}</span
+          <span
+            >{
+              dayjs(ballotMeasure.data.lastModifiedDate).format('MMMM D, YYYY')
+            }</span
           >
         </div>
       </div>
@@ -115,20 +123,20 @@ const { Content } = await post.render()
         <h2 class="uppercase font-bold mb-4 text-neutral-600">Share on</h2>
         <div class="flex flex-wrap gap-2">
           <ShareButton
-            shareText={post.data.title}
-            shareUrl={`${import.meta.env.SITE}/ballot-measure/${post.slug}`}
+            shareText={ballotMeasure.data.title}
+            shareUrl={import.meta.env.SITE + getEntryUrl(ballotMeasure)}
             platform="twitter"
           />
           <ShareButton
-            shareUrl={`${import.meta.env.SITE}/ballot-measure/${post.slug}`}
+            shareUrl={import.meta.env.SITE + getEntryUrl(ballotMeasure)}
             platform="facebook"
           />
           <ShareButton
-            shareUrl={`${import.meta.env.SITE}/ballot-measure/${post.slug}`}
+            shareUrl={import.meta.env.SITE + getEntryUrl(ballotMeasure)}
             platform="google-plus"
           />
           <ShareButton
-            shareUrl={`${import.meta.env.SITE}/ballot-measure/${post.slug}`}
+            shareUrl={import.meta.env.SITE + getEntryUrl(ballotMeasure)}
             platform="linkedin"
           />
         </div>
@@ -151,7 +159,7 @@ const { Content } = await post.render()
                   <p class="text-xl font-bold text-neutral-600 mb-1">
                     <a
                       class="after:inset-0 after:absolute"
-                      href={`/ballot-measure/${rm.slug}`}
+                      href={getEntryUrl(rm)}
                     >
                       {rm.data.title}
                     </a>
@@ -159,7 +167,7 @@ const { Content } = await post.render()
                   <div class="flex items-center gap-1 text-neutral-500 mb-2">
                     <span
                       class="icon-[fa6-regular--clock] size-3"
-                      aria-hidden
+                      aria-hidden="true"
                     />
                     <span class="text-sm">{getReadingTime(rm.body)}</span>
                   </div>

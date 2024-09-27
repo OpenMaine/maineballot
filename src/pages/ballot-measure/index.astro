@@ -1,4 +1,5 @@
 ---
+import { getEntryUrl } from '#utils/get-url'
 import { getCollection } from 'astro:content'
 
 const allBallotMeasures = await getCollection('ballot-measures')
@@ -8,7 +9,7 @@ const allBallotMeasures = await getCollection('ballot-measures')
   {
     allBallotMeasures.map((bm) => (
       <li>
-        <a href={`/ballot-measure/${bm.slug}`}>{bm.data.title}</a>
+        <a href={getEntryUrl(bm)}>{bm.data.title}</a>
       </li>
     ))
   }

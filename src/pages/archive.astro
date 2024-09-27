@@ -13,7 +13,7 @@ const stateElections = (
       data: elect.data,
       posts: (
         await getCollection(
-          'posts',
+          'ballot-measures',
           ({ data }) => data.election.id === elect.id,
         )
       ).sort(
