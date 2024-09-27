@@ -1,6 +1,6 @@
 ---
 type Props = HTMLLinkElement
-const { href } = Astro.props
+const { href, ...props } = Astro.props
 const site = Astro.site
 
 let isExternal = false
@@ -13,6 +13,7 @@ try {
 ---
 
 <a
+  {...props}
   href={href}
   target={isExternal ? '_blank' : undefined}
   rel={isExternal ? 'noopener' : undefined}><slot /></a

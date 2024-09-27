@@ -57,15 +57,15 @@ export default {
             'ul > li': {
               paddingInlineStart: theme('space.1'),
             },
-            'a[data-footnote-backref]': {
-              'fontFamily': 'sans-serif',
+            'sup > a': {
+              'fontSize': 'inherit',
               'textDecoration': 'none',
               '&:hover': {
                 textDecoration: 'underline',
               },
             },
-            'sup > a': {
-              'fontSize': 'inherit',
+            '.footnotes a[data-footnote-backref]': {
+              'fontFamily': 'sans-serif',
               'textDecoration': 'none',
               '&:hover': {
                 textDecoration: 'underline',
