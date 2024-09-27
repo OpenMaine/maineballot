@@ -1,0 +1,19 @@
+---
+type Props = HTMLLinkElement
+const { href } = Astro.props
+const site = Astro.site
+
+let isExternal = false
+try {
+  const { hostname } = new URL(href)
+  isExternal = hostname !== site?.hostname
+} catch {
+  isExternal = false
+}
+---
+
+<a
+  href={href}
+  target={isExternal ? '_blank' : undefined}
+  rel={isExternal ? 'noopener' : undefined}><slot /></a
+>

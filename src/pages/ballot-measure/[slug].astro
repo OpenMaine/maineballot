@@ -1,5 +1,6 @@
 ---
 import Container from '#components/container.astro'
+import MarkdownLink from '#components/markdown-link.astro'
 import ShareButton from '#components/share-button.astro'
 import YesNoTable from '#components/yes-no-table.astro'
 import GlobalLayout from '#layouts/global-layout.astro'
@@ -61,7 +62,12 @@ const { Content } = await ballotMeasure.render()
 
   <Container class="my-12">
     <div class="prose prose-neutral">
-      <Content components={{ YesNoTable }} />
+      <Content
+        components={{
+          a: MarkdownLink,
+          YesNoTable,
+        }}
+      />
     </div>
 
     <div class="space-y-20 mt-28">
