@@ -1,11 +1,5 @@
 import { z } from 'zod'
 
-export const siteMetaSchema = z.object({
-  title: z.string(),
-  description: z.string(),
-  image: z.string().url(),
-})
-
 export const candidateDataSchema = z.object({
   Office: z.string(),
   Dist: z.string(),
@@ -22,6 +16,36 @@ export const candidateDataSchema = z.object({
   comparison: z.string(),
   comparison_text: z.string(),
 })
+
+export type CandidateData = z.infer<typeof candidateDataSchema>
+
+interface NavigationItem {
+  title: string
+  url: string
+}
+
+export type Navigation = NavigationItem[]
+
+interface ElectionItem {
+  date: string
+  title?: string
+}
+
+export interface Elections {
+  upcoming: Required<ElectionItem>
+  past: ElectionItem[]
+}
+
+export interface SiteMeta {
+  title: string
+  description: string
+}
+
+export interface SiteMetaProps {
+  title: string
+  description: string
+  image: string
+}
 
 // https://docs.astro.build/en/reference/api-reference/#other-files
 export interface CustomDataFile {

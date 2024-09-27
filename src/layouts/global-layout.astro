@@ -1,16 +1,13 @@
 ---
-import type { z } from 'zod'
 import { SEO } from 'astro-seo'
-import type { siteMetaSchema } from '#utils/types'
 import Navigation from '#components/navigation.astro'
 import Footer from '#components/footer.astro'
 import GoogleAnalytics from '#components/global/google-analytics.astro'
 import { SITE_META } from '#utils/constants'
 import { env } from '#utils/env-vars'
+import { type SiteMetaProps } from '#utils/types'
 
-type SiteMetaProps = z.infer<typeof siteMetaSchema>
-
-interface Props extends Partial<SiteMetaProps> {}
+type Props = Partial<SiteMetaProps>
 
 const {
   title,
@@ -36,12 +33,12 @@ const {
     <SEO
       charset="UTF-8"
       title={title}
-      titleDefault={SITE_META.siteTitle}
-      titleTemplate={`%s — ${SITE_META.siteTitle}`}
+      titleDefault={SITE_META.title}
+      titleTemplate={`%s — ${SITE_META.title}`}
       description={description}
       openGraph={{
         basic: {
-          title: title || SITE_META.siteTitle,
+          title: title || SITE_META.title,
           type: 'Website',
           image,
           url: Astro.url,
@@ -49,7 +46,7 @@ const {
         optional: {
           description,
           locale: 'en_US',
-          siteName: SITE_META.siteTitle,
+          siteName: SITE_META.title,
         },
         image: {
           width: 1200,

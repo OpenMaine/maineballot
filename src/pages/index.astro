@@ -11,7 +11,7 @@ import { getEntryUrl } from '#utils/get-url'
 import { getReadingTime } from '#utils/get-reading-time'
 
 const upcomingBallotMeasures = await getCollection('ballot-measures', (bm) => {
-  return bm.data.electionDate === ELECTIONS[0].date
+  return bm.data.electionDate === ELECTIONS.upcoming.date
 })
 ---
 
@@ -20,9 +20,9 @@ const upcomingBallotMeasures = await getCollection('ballot-measures', (bm) => {
     <Container class="text-center py-6 text-white">
       <p class="font-bold text-2xl mb-2">The next Maine election is</p>
       <p class="font-bold text-4xl mb-2">
-        {dayjs(ELECTIONS[0].date).format('MMMM D, YYYY')}
+        {dayjs(ELECTIONS.upcoming.date).format('MMMM D, YYYY')}
       </p>
-      <p class="font-bold text-xl">{ELECTIONS[0].title}</p>
+      <p class="font-bold text-xl">{ELECTIONS.upcoming.title}</p>
     </Container>
   </div>
 

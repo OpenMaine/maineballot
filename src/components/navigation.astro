@@ -20,7 +20,7 @@ const activePath = Astro.url.pathname
       </a>
       <ul class="items-center ml-auto gap-8 hidden lg:flex">
         {
-          NAVIGATION.main.map((link) => (
+          NAVIGATION.map((link) => (
             <li class="flex">
               <a
                 aria-current={activePath === link.url ? 'page' : undefined}

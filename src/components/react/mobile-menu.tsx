@@ -36,7 +36,7 @@ export function MobileMenu({
       <div {...api.getPositionerProps()}>
         <div {...api.getContentProps()} className="hidden divide-y divide-neutral-100 rounded-md border border-neutral-100 bg-white p-1.5 shadow-lg data-[state=open]:block">
           {
-            NAVIGATION.main.map(link => (
+            NAVIGATION.map(link => (
               <a
                 className="block px-5 py-2.5 text-neutral-500"
                 aria-current={localActivePath === link.url ? 'page' : undefined}

@@ -8,10 +8,7 @@ import {
   getSortedRowModel,
   useReactTable,
 } from '@tanstack/react-table'
-import type { z } from 'zod'
-import type { candidateDataSchema } from '#utils/types'
-
-type CandidateData = z.infer<typeof candidateDataSchema>
+import type { CandidateData } from '#utils/types'
 
 const defaultColumnVisibility = {
   Office: true,
