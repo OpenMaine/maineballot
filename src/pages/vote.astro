@@ -10,9 +10,9 @@ import dayjs from 'dayjs'
     <div class="text-center py-6 text-white">
       <p class="font-bold text-2xl mb-2">The next Maine election is</p>
       <p class="font-bold text-4xl mb-2">
-        {dayjs(ELECTIONS[0].date).format('MMMM D, YYYY')}
+        {dayjs(ELECTIONS.upcoming.date).format('MMMM D, YYYY')}
       </p>
-      <p class="font-bold text-xl">{ELECTIONS[0].title}</p>
+      <p class="font-bold text-xl">{ELECTIONS.upcoming.title}</p>
     </div>
   </div>
   <Container class="prose prose-neutral">

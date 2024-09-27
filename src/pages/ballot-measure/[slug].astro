@@ -33,6 +33,7 @@ const { Content } = await ballotMeasure.render()
   <div class="bg-center bg-no-repeat bg-cover relative">
     <Picture
       formats={['avif', 'webp']}
+      sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px`}
       class="absolute size-full inset-0 object-cover z-10"
       src={ballotMeasure.data.header.overlay_image}
       loading="eager"
