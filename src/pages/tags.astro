@@ -30,47 +30,57 @@ const tags = (
 ---
 
 <GlobalLayout>
-  <Container>
-    <ul class="grid grid-cols-3 gap-x-12 divide-y">
+  <Container class="my-20">
+    <h1 class="text-3xl font-bold mb-8 text-neutral-700">
+      Ballot questions by tag
+    </h1>
+
+    <ul class="grid grid-cols-3 gap-x-12">
       {
         tags.map((tag) => (
-          <li class="block h-12">
+          <li class="block h-12 border-b">
             <a
-              href={tag.slug}
+              href={`#${tag.slug}`}
               class="flex size-full items-center justify-between"
             >
-              <span>{tag.data.title}</span>
-              <span>{tag.posts.length}</span>
+              <span class="font-bold text-gray-800"> {tag.data.title}</span>
+              <span class="text-gray-500">{tag.posts.length}</span>
             </a>
           </li>
         ))
       }
     </ul>
 
-    <div class="space-y-16">
+    <div class="space-y-16 mt-12">
       {
         tags.map((tag) => (
           <div>
-            <div class="mb-4">
-              <h2 class="text-lg font-bold">{tag.data.title}</h2>
+            <div class="mt-8 mb-4">
+              <h2 id={tag.slug} class="text-xl font-bold text-neutral-500">
+                {tag.data.title}
+              </h2>
             </div>
             <div class="space-y-8">
               {tag.posts.map((post) => (
                 <div>
                   <div class="mb-1">
-                    <span>
+                    <span class="text-neutral-600">
                       {dayjs(post.data.electionDate).format('MMMM D, YYYY')}
                     </span>
                   </div>
                   <div class="mb-1">
-                    <h3 class="text-2xl font-bold">
+                    <h3 class="text-2xl font-bold text-[#2f7d95] hover:text-[#235e70]">
                       <a class="underline" href={post.slug}>
                         {post.data.title}
                       </a>
                     </h3>
                   </div>
-                  <div class="mb-1">
-                    <span>{getReadingTime(post.body)}</span>
+                  <div class="mt-1 flex items-center gap-1 text-neutral-500 mb-2">
+                    <span
+                      class="icon-[fa6-regular--clock] size-3"
+                      aria-hidden="true"
+                    />
+                    <span class="text-sm">{getReadingTime(post.body)}</span>
                   </div>
                   <div>
                     <p>{post.data.excerpt}</p>
