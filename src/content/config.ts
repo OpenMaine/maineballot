@@ -6,7 +6,7 @@ const ballotMeasureCollection = defineCollection({
     z.object({
       title: z.string(),
       excerpt: z.string(),
-      electionDate: z.date(),
+      electionDate: z.string().date(),
       header: z.object({
         overlay_image: image(),
         teaser: image(),
@@ -18,7 +18,7 @@ const ballotMeasureCollection = defineCollection({
       tags: z.array(reference('tags')).optional(),
       yes_vote: z.string(),
       no_vote: z.string(),
-      lastModifiedDate: z.date(),
+      lastModifiedDate: z.string().date(),
     }),
 })
 
