@@ -1,0 +1,77 @@
+[
+  {
+    "id": "july-2020-election",
+    "title": "July 2020 Election",
+    "date": "2020-7-1"
+  },
+  {
+    "id": "june-2022-election",
+    "title": "June 2022 Election",
+    "date": "2022-6-1"
+  },
+  {
+    "id": "june-2018-election",
+    "title": "June 2018 Election",
+    "date": "2018-6-1"
+  },
+  {
+    "id": "june-2023-election",
+    "title": "June 2023 Election",
+    "date": "2023-6-1"
+  },
+  {
+    "id": "june-2017-election",
+    "title": "June 2017 Election",
+    "date": "2017-6-1"
+  },
+  {
+    "id": "march-2020-election",
+    "title": "March 2020 Election",
+    "date": "2020-3-1"
+  },
+  {
+    "id": "november-2017-election",
+    "title": "November 2017 Election",
+    "date": "2017-11-1"
+  },
+  {
+    "id": "november-2018-election",
+    "title": "November 2018 Election",
+    "date": "2018-11-1"
+  },
+  {
+    "id": "november-2019-election",
+    "title": "November 2019 Election",
+    "date": "2019-11-1"
+  },
+  {
+    "id": "june-2021-election",
+    "title": "June 2021 Election",
+    "date": "2021-6-1"
+  },
+  {
+    "id": "november-2021-election",
+    "title": "November 2021 Election",
+    "date": "2021-11-1"
+  },
+  {
+    "id": "november-2016-election",
+    "title": "November 2016 Election",
+    "date": "2016-11-1"
+  },
+  {
+    "id": "november-2020-election",
+    "title": "November 2020 Election",
+    "date": "2020-11-1"
+  },
+  {
+    "id": "november-2022-election",
+    "title": "November 2022 Election",
+    "date": "2022-11-1"
+  },
+  {
+    "id": "november-2023-election",
+    "title": "November 2023 Election",
+    "date": "2023-11-1"
+  }
+]

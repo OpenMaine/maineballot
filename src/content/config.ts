@@ -1,3 +1,4 @@
+import { file } from 'astro/loaders'
 import { type ImageFunction, defineCollection, reference, z } from 'astro:content'
 
 const ballotMeasureCollection = defineCollection({
@@ -41,17 +42,17 @@ const localCollection = defineCollection({
 })
 
 const tagsCollection = defineCollection({
-  type: 'data',
+  loader: file('src/data/tags.json'),
   schema: z.object({
     title: z.string(),
   }),
 })
 
 const electionCollection = defineCollection({
-  type: 'data',
+  loader: file('src/data/elections.json'),
   schema: z.object({
     title: z.string(),
-    electionDate: z.string().transform(val => new Date(val)),
+    date: z.string().transform(val => new Date(val)),
   }),
 })
 
