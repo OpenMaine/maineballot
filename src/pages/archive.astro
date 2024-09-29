@@ -11,26 +11,16 @@ const stateElections = (
     allEelections.map(async (elect) => ({
       slug: elect.id,
       data: elect.data,
-      posts: (
-        await getCollection(
-          'ballot-measures',
-          ({ data }) => data.election.id === elect.id,
-        )
-      ).sort(
+      posts: (await getCollection('ballot-measures', ({ data }) => data.election.id === elect.id)).sort(
         (a, b) =>
-          new Date(b.data.electionDate).getTime() -
-            new Date(a.data.electionDate).getTime() ||
+          new Date(b.data.electionDate).getTime() - new Date(a.data.electionDate).getTime() ||
           a.slug.localeCompare(b.slug),
       ),
     })),
   )
 )
   .filter((elect) => elect.posts.length > 0)
-  .sort(
-    (a, b) =>
-      new Date(b.data.electionDate).getTime() -
-      new Date(a.data.electionDate).getTime(),
-  )
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
 
 const localElections = (
   await Promise.all(
@@ -39,11 +29,7 @@ const localElections = (
       election: await getEntry(local.data.election),
     })),
   )
-).sort(
-  (a, b) =>
-    new Date(b.election.data.electionDate).getTime() -
-    new Date(a.election.data.electionDate).getTime(),
-)
+).sort((a, b) => new Date(b.election.data.date).getTime() - new Date(a.election.data.date).getTime())
 
 const candidates = (
   await Promise.all(
@@ -52,11 +38,7 @@ const candidates = (
       election: await getEntry(local.data.election),
     })),
   )
-).sort(
-  (a, b) =>
-    new Date(b.election.data.electionDate).getTime() -
-    new Date(a.election.data.electionDate).getTime(),
-)
+).sort((a, b) => new Date(b.election.data.date).getTime() - new Date(a.election.data.date).getTime())
 ---
 
 <GlobalLayout>
