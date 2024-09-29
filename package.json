@@ -26,6 +26,8 @@
     "@tailwindcss/typography": "^0.5.15",
     "@tanstack/react-table": "^8.20.5",
     "@tanstack/table-core": "^8.20.5",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
     "@zag-js/menu": "^0.72.0",
     "@zag-js/react": "^0.72.0",
     "astro": "^5.0.0-beta.2",
@@ -43,8 +45,6 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.27.3",
-    "@types/react": "^18.3.10",
-    "@types/react-dom": "^18.3.0",
     "eslint": "^9.11.1",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-astro": "^1.2.4",
