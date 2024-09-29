@@ -4,6 +4,7 @@ import dayjs from 'dayjs'
 import { getReadingTime } from '#utils/get-reading-time'
 import GlobalLayout from '#layouts/global-layout.astro'
 import Container from '#components/container.astro'
+import { getEntryUrl } from '#utils/get-url'
 
 const allTags = await getCollection('tags')
 
@@ -12,39 +13,29 @@ const tags = (
     allTags.map(async (tag) => ({
       slug: tag.id,
       data: tag.data,
-      posts: (
-        await getCollection('ballot-measures', ({ data }) =>
-          data.tags?.some((postTag) => postTag.id === tag.id),
-        )
+      ballotMeasures: (
+        await getCollection('ballot-measures', ({ data }) => data.tags?.some((postTag) => postTag.id === tag.id))
       ).sort(
         (a, b) =>
-          new Date(b.data.electionDate).getTime() -
-            new Date(a.data.electionDate).getTime() ||
+          new Date(b.data.electionDate).getTime() - new Date(a.data.electionDate).getTime() ||
           a.slug.localeCompare(b.slug),
       ),
     })),
   )
-).sort(
-  (a, b) => b.posts.length - a.posts.length || a.slug.localeCompare(b.slug),
-)
+).sort((a, b) => b.ballotMeasures.length - a.ballotMeasures.length || a.slug.localeCompare(b.slug))
 ---
 
 <GlobalLayout>
   <Container class="my-20">
-    <h1 class="text-3xl font-bold mb-8 text-neutral-700">
-      Ballot questions by tag
-    </h1>
+    <h1 class="text-3xl font-bold mb-8 text-neutral-700">Ballot questions by tag</h1>
 
     <ul class="grid grid-cols-3 gap-x-12">
       {
         tags.map((tag) => (
           <li class="block h-12 border-b">
-            <a
-              href={`#${tag.slug}`}
-              class="flex size-full items-center justify-between"
-            >
+            <a href={`#${tag.slug}`} class="flex size-full items-center justify-between">
               <span class="font-bold text-gray-800"> {tag.data.title}</span>
-              <span class="text-gray-500">{tag.posts.length}</span>
+              <span class="text-gray-500">{tag.ballotMeasures.length}</span>
             </a>
           </li>
         ))
@@ -61,29 +52,24 @@ const tags = (
               </h2>
             </div>
             <div class="space-y-8">
-              {tag.posts.map((post) => (
+              {tag.ballotMeasures.map((bm) => (
                 <div>
                   <div class="mb-1">
-                    <span class="text-neutral-600">
-                      {dayjs(post.data.electionDate).format('MMMM D, YYYY')}
-                    </span>
+                    <span class="text-neutral-600">{dayjs(bm.data.electionDate).format('MMMM D, YYYY')}</span>
                   </div>
                   <div class="mb-1">
                     <h3 class="text-2xl font-bold text-[#2f7d95] hover:text-[#235e70]">
-                      <a class="underline" href={post.slug}>
-                        {post.data.title}
+                      <a class="underline" href={getEntryUrl(bm)}>
+                        {bm.data.title}
                       </a>
                     </h3>
                   </div>
                   <div class="mt-1 flex items-center gap-1 text-neutral-500 mb-2">
-                    <span
-                      class="icon-[fa6-regular--clock] size-3"
-                      aria-hidden="true"
-                    />
-                    <span class="text-sm">{getReadingTime(post.body)}</span>
+                    <span class="icon-[fa6-regular--clock] size-3" aria-hidden="true" />
+                    <span class="text-sm">{getReadingTime(bm.body)}</span>
                   </div>
                   <div>
-                    <p>{post.data.excerpt}</p>
+                    <p>{bm.data.excerpt}</p>
                   </div>
                 </div>
               ))}
