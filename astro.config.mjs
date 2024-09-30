@@ -4,10 +4,12 @@ import { defineConfig, envField } from 'astro/config'
 import dsv from '@rollup/plugin-dsv'
 import mdx from '@astrojs/mdx'
 import react from '@astrojs/react'
+import netlify from '@astrojs/netlify'
 
 // https://astro.build/config
 export default defineConfig({
   site: 'https://maineballot.org',
+
   integrations: [
     tailwind(),
     sitemap(),
@@ -21,6 +23,7 @@ export default defineConfig({
       },
     }),
   ],
+
   markdown: {
     remarkRehype: {
       footnoteLabel: 'References',
@@ -29,11 +32,13 @@ export default defineConfig({
       },
     },
   },
+
   vite: {
     plugins: [
       dsv(),
     ],
   },
+
   env: {
     schema: {
       GOOGLE_MEASUREMENT_ID: envField.string({
@@ -48,4 +53,10 @@ export default defineConfig({
       }),
     },
   },
+
+  output: 'static',
+  adapter: netlify(),
+  // redirects: {
+  //   '/blog/old-post': '/blog/new-post',
+  // },
 })
