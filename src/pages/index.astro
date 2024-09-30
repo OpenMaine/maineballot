@@ -27,38 +27,24 @@ const upcomingBallotMeasures = await getCollection('ballot-measures', (bm) => {
   </div>
 
   <div class="bg-[#205173]">
-    <div
-      class="lg:grid-cols-2 grid gap-x-20 gap-y-12 max-w-7xl px-6 lg:max-w-screen-2xl mx-auto text-white py-10"
-    >
+    <div class="lg:grid-cols-2 grid gap-x-20 gap-y-12 max-w-7xl px-6 lg:max-w-screen-2xl mx-auto text-white py-10">
       <div class="flex flex-col lg:flex-row gap-6 items-center">
-        <Image
-          src={voteByMail}
-          loading="eager"
-          alt="Vote by Mail"
-          class="w-40 mx-auto"
-        />
+        <Image src={voteByMail} loading="eager" alt="Vote by Mail" class="w-40 mx-auto" />
         <div class="text-center lg:text-left grow">
           <p class="font-bold mb-2 text-xl">Vote by Mail</p>
           <p class="text-lg">
             Anyone registered to vote in Maine can <a
               href="https://www.maine.gov/cgi-bin/online/AbsenteeBallot/index.pl"
               class="underline text-[#EAE6D2]">request an absentee ballot</a
-            > and return it to your municipal clerk's office either by mail or in
-            person. You can also now <a
+            > and return it to your municipal clerk's office either by mail or in person. You can also now <a
               href="https://apps.web.maine.gov/cgi-bin/online/AbsenteeBallot/ballot_status.pl"
-              class="underline text-[#EAE6D2]"
-              >check the status of your absentee ballot</a
+              class="underline text-[#EAE6D2]">check the status of your absentee ballot</a
             >.
           </p>
         </div>
       </div>
       <div class="flex flex-col lg:flex-row gap-6 items-center">
-        <Image
-          src={earlyVoting}
-          loading="eager"
-          alt="Vote Early Calendar"
-          class="w-40 mx-auto"
-        />
+        <Image src={earlyVoting} loading="eager" alt="Vote Early Calendar" class="w-40 mx-auto" />
         <div class="text-center lg:text-left grow">
           <p class="font-bold mb-2 text-xl">Early Voting</p>
           <p class="text-lg">
@@ -76,10 +62,8 @@ const upcomingBallotMeasures = await getCollection('ballot-measures', (bm) => {
 
   <div class="bg-[#2f6585] mb-12">
     <Container class="text-center py-10">
-      <p class="text-xl lg:text-3xl font-bold text-white">
-        More about how to <a href="/vote" class="underline text-[#EAE6D2]"
-          >vote in Maine</a
-        >
+      <p class="text-xl lg:text-2xl font-bold text-white">
+        More about how to <a href="/vote" class="underline text-[#EAE6D2]">vote in Maine</a>
       </p>
     </Container>
   </div>
@@ -88,11 +72,7 @@ const upcomingBallotMeasures = await getCollection('ballot-measures', (bm) => {
     <h2>What's On Your Ballot?</h2>
     <h3>State ballot questions</h3>
 
-    {
-      upcomingBallotMeasures.length === 0 ? (
-        <p>There are no state ballot questions for the March election.</p>
-      ) : null
-    }
+    {upcomingBallotMeasures.length === 0 ? <p>There are no state ballot questions for the March election.</p> : null}
   </Container>
 
   {
@@ -114,10 +94,7 @@ const upcomingBallotMeasures = await getCollection('ballot-measures', (bm) => {
               </a>
             </h4>
             <div class="flex items-center justify-center gap-1 text-neutral-500 mb-2">
-              <span
-                class="icon-[fa6-regular--clock] size-3"
-                aria-hidden="true"
-              />
+              <span class="icon-[fa6-regular--clock] size-3" aria-hidden="true" />
               <span class="text-sm">{getReadingTime(bm.body)}</span>
             </div>
             <p class="text-base">{bm.data.excerpt}</p>
@@ -131,9 +108,8 @@ const upcomingBallotMeasures = await getCollection('ballot-measures', (bm) => {
     <hr class="w-1/4 h-1 bg-[#2f6585] mx-auto my-12" />
     <h3>Local ballot questions</h3>
     <p>
-      We have links to local election websites and basic information about
-      what's on the ballot and ballot drop box locations for counties, cities,
-      and towns.
+      We have links to local election websites and basic information about what's on the ballot and ballot drop box
+      locations for counties, cities, and towns.
     </p>
     <p>
       <a href="/local">Find information about your local election</a>.
