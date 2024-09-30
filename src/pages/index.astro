@@ -72,7 +72,11 @@ const upcomingBallotMeasures = await getCollection('ballot-questions', (bm) => {
     <h2>What's On Your Ballot?</h2>
     <h3>State ballot questions</h3>
 
-    {upcomingBallotMeasures.length === 0 ? <p>There are no state ballot questions for the March election.</p> : null}
+    {
+      upcomingBallotMeasures.length === 0 ? (
+        <p>There will be five state ballot questions for the November election. Content coming soon.</p>
+      ) : null
+    }
   </Container>
 
   {
