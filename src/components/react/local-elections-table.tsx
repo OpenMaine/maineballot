@@ -99,11 +99,13 @@ export function LocalElectionsTable({ data, columnVisibility = defaultColumnVisi
                   header.column.getIsSorted() ? 'bg-neutral-100' : '',
                 ])}
                 key={header.id}
-                aria-sort={header.column.getIsSorted() === 'asc'
-                  ? 'ascending'
-                  : header.column.getIsSorted() === 'desc'
-                    ? 'descending'
-                    : 'none'}
+                aria-sort={header.column.getCanSort()
+                  ? undefined
+                  : header.column.getIsSorted() === 'asc'
+                    ? 'ascending'
+                    : header.column.getIsSorted() === 'desc'
+                      ? 'descending'
+                      : 'none'}
               >
                 {header.column.getCanSort()
                   ? (
