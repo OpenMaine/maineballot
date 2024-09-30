@@ -1,10 +1,11 @@
 ---
-import { getCollection } from 'astro:content'
+import { getCollection, getEntry } from 'astro:content'
 import GlobalLayout from '#layouts/global-layout.astro'
 import Container from '#components/container.astro'
 import { LocalElectionsTable } from '#components/react/local-elections-table'
 import { localElectionDataSchema, type CustomDataFile } from '#utils/types'
 import { z } from 'zod'
+import dayjs from 'dayjs'
 
 export async function getStaticPaths() {
   const allLocal = await getCollection('local')
@@ -14,7 +15,9 @@ export async function getStaticPaths() {
   }))
 }
 
-const datafile = Astro.props.post.data.datafile
+const { post } = Astro.props
+
+const datafile = post.data.datafile
 const modules = import.meta.glob<CustomDataFile>(`../../data/local-elections/*.csv`)
 
 if (!modules[datafile]) {
@@ -26,11 +29,16 @@ const { data: validData, error } = z.array(localElectionDataSchema).safeParse(ca
 if (error) {
   throw new Error(error.message)
 }
+
+const { data } = await getEntry('elections', post.data.election.id)
 ---
 
 <GlobalLayout>
   <Container class="my-16">
-    <h1 class="text-3xl font-bold mb-8 text-neutral-700">Local elections</h1>
+    <h1 class="text-4xl font-bold mb-8 text-neutral-700">
+      {dayjs(data.date).format('MMMM YYYY')} Local Election Archive
+    </h1>
+
     <div class="prose prose-neutral">
       <p>
         This is a work in progress list of websites or contact information for city and town elections in Maine. If

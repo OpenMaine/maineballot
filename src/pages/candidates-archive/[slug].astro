@@ -6,6 +6,8 @@ import { CandidatesTable } from '#components/react/candidates-table'
 import { type CustomDataFile } from '#utils/types'
 import GlobalLayout from '#layouts/global-layout.astro'
 import Container from '#components/container.astro'
+import { getEntry } from 'astro:content'
+import dayjs from 'dayjs'
 
 export async function getStaticPaths() {
   const allCandidates = await getCollection('candidates')
@@ -15,7 +17,9 @@ export async function getStaticPaths() {
   }))
 }
 
-const datafile = Astro.props.post.data.datafile
+const { post } = Astro.props
+
+const datafile = post.data.datafile
 const modules = import.meta.glob<CustomDataFile>(`../../data/candidates/*.csv`)
 
 if (!modules[datafile]) {
@@ -31,57 +35,63 @@ if (error) {
 const rcvCandidates = validData.filter((d) => d.Type === 'RCV')
 const contestedCandidates = validData.filter((d) => d.Type === 'C')
 const uncontestedCandidates = validData.filter((d) => d.Type === 'U')
+
+const { data } = await getEntry('elections', post.data.election.id)
 ---
 
 <GlobalLayout>
-  <!-- <Container>
-    <h1>{Astro.props.post.data.election.}</h1>
-    </Container> -->
-  <div class="space-y-20 my-16">
-    <!-- Ranked-choice -->
-    <div>
-      <Container class="prose prose-neutral">
-        <h2 class="text-3xl font-bold mb-2">Ranked-Choice Races</h2>
-        <p class="mb-4">
-          There are more than one candidate for these races and you can rank the candidates, so you might need to do
-          some research before making a choice.
-        </p>
-      </Container>
-      <div class="mx-auto max-w-6xl px-6 prose prose-neutral">
-        <CandidatesTable data={rcvCandidates} client:load />
+  <div class="my-16">
+    <Container>
+      <h1 class="text-4xl font-bold mb-8 text-neutral-700">
+        {dayjs(data.date).format('MMMM YYYY')} Candidate Archive
+      </h1>
+    </Container>
+    <div class="space-y-20">
+      <!-- Ranked-choice -->
+      <div>
+        <Container class="prose prose-neutral">
+          <h2 class="text-3xl font-bold mb-2">Ranked-Choice Races</h2>
+          <p class="mb-4">
+            There are more than one candidate for these races and you can rank the candidates, so you might need to do
+            some research before making a choice.
+          </p>
+        </Container>
+        <div class="mx-auto max-w-6xl px-6 prose prose-neutral">
+          <CandidatesTable data={rcvCandidates} client:load />
+        </div>
       </div>
-    </div>
-    <!-- Contested -->
-    <div>
-      <Container class="prose prose-neutral">
-        <h2 class="text-3xl font-bold mb-2">Contested Races</h2>
-        <p class="mb-4">
-          There are more than one candidate for these races and you can only select one candidate, so you might need to
-          do some research before making a choice.
-        </p>
-      </Container>
-      <div class="mx-auto max-w-6xl px-6 prose prose-neutral">
-        <CandidatesTable data={contestedCandidates} client:load />
+      <!-- Contested -->
+      <div>
+        <Container class="prose prose-neutral">
+          <h2 class="text-3xl font-bold mb-2">Contested Races</h2>
+          <p class="mb-4">
+            There are more than one candidate for these races and you can only select one candidate, so you might need
+            to do some research before making a choice.
+          </p>
+        </Container>
+        <div class="mx-auto max-w-6xl px-6 prose prose-neutral">
+          <CandidatesTable data={contestedCandidates} client:load />
+        </div>
       </div>
-    </div>
-    <!-- Uncontested -->
-    <div>
-      <Container class="prose prose-neutral">
-        <h2 class="text-3xl font-bold mb-2">Uncontested Races</h2>
-        <p class="mb-4">
-          There is only one candidate for these races, so you just need to fill in the oval or write-in another
-          candidate.
-        </p>
-      </Container>
-      <div class="mx-auto max-w-6xl px-6 prose prose-neutral">
-        <CandidatesTable
-          data={uncontestedCandidates}
-          columnVisibility={{
-            comparison: false,
-            website: false,
-          }}
-          client:load
-        />
+      <!-- Uncontested -->
+      <div>
+        <Container class="prose prose-neutral">
+          <h2 class="text-3xl font-bold mb-2">Uncontested Races</h2>
+          <p class="mb-4">
+            There is only one candidate for these races, so you just need to fill in the oval or write-in another
+            candidate.
+          </p>
+        </Container>
+        <div class="mx-auto max-w-6xl px-6 prose prose-neutral">
+          <CandidatesTable
+            data={uncontestedCandidates}
+            columnVisibility={{
+              comparison: false,
+              website: false,
+            }}
+            client:load
+          />
+        </div>
       </div>
     </div>
   </div>
