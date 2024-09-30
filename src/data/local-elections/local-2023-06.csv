@@ -1,4 +1,4 @@
-county,city,type,website,drop,ballot,ballot_link,ballot_link_text,sorting county
+county,city,type,website,drop,ballot,ballot_link,ballot_link_text,sorting_county
 Androscoggin,Auburn,election,http://www.auburnmaine.gov/pages/government/election-and-voting,,,,,Androscoggin
 Androscoggin,Durham,town,https://www.durhamme.com/,,,,,Androscoggin
 Androscoggin,Greene,election,https://www.townofgreene.net/elections,,,,,Androscoggin
@@ -534,16 +534,3 @@ York,South Berwick,election,https://www.southberwickmaine.org/departments/town_c
 York,Waterboro,election,http://www.waterboro-me.gov/information_center/index.php#elections,,,,,York
 York,Wells,election,http://www.wellstown.org/440/Town-Meeting-Election-Info,,,,,York
 York,York,election,https://www.yorkmaine.org/240/Election-Referendum-Documents,,,,,York
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,

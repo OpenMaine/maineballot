@@ -1,4 +1,4 @@
-county,city,type,website,drop,ballot,ballot_link,ballot_link_text,sorting county
+county,city,type,website,drop,ballot,ballot_link,ballot_link_text,sorting_county
 Androscoggin,,county,https://www.androscoggincountymaine.gov/about/about.htm,,,,,Androscoggin
 ,Auburn,election,http://www.auburnmaine.gov/pages/government/election-and-voting,,School budget,https://www.auburnmaine.gov/CMSContent/City_Clerk/Sample%20Ballot%20SBVR%202021.pdf,Sample ballot,Androscoggin
 ,Durham,election,https://www.durhamme.com/election-information,,"Town meeting May 22, school budget election June 8",https://www.durhamme.com/special-open-town-meeting-person-saturday-may-22-900-am,Town meeting and election details,Androscoggin

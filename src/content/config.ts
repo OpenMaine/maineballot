@@ -38,6 +38,7 @@ const localCollection = defineCollection({
     title: z.string(),
     election: reference('elections'),
     description: z.string(),
+    datafile: z.string(),
   }),
 })
 

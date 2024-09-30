@@ -1,4 +1,4 @@
-county,city,type,website,ballot,ballot_link,ballot_link_text,sorting county
+county,city,type,website,ballot,ballot_link,ballot_link_text,sorting_county
 Androscoggin,,county,https://www.androscoggincountymaine.gov/about/about.htm,,,,Androscoggin
 ,Auburn,election,http://www.auburnmaine.gov/pages/government/election-and-voting,School budget,http://www.auburnmaine.gov/CMSContent/City_Clerk/sample%20ballot%20Municipal%20Referendum.pdf,Sample Ballot (pdf),Androscoggin
 ,Durham,election,https://www.durhamme.com/election-information,Municipal budget and school budget vote (not a town hall),../assets/docs/2020-07-14_ballots/Durham.pdf,Sample Ballot (pdf),Androscoggin

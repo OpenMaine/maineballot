@@ -1,6 +1,5 @@
 ---
 title: "State & county candidates"
-author_profile: false
 datafile: "../../data/candidates/candidates-2020-07.csv"
 search_for: candidate
 search_column: 3

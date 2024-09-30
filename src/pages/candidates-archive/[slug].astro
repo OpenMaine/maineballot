@@ -34,38 +34,55 @@ const uncontestedCandidates = validData.filter((d) => d.Type === 'U')
 ---
 
 <GlobalLayout>
-  <Container class="space-y-20 my-20">
+  <!-- <Container>
+    <h1>{Astro.props.post.data.election.}</h1>
+    </Container> -->
+  <div class="space-y-20 my-16">
+    <!-- Ranked-choice -->
     <div>
-      <!-- <h1>{Astro.props.post.data.election.}</h1> -->
-
-      <h2 class="text-3xl font-bold mb-2">Ranked-Choice Races</h2>
-      <p class="mb-4">
-        There are more than one candidate for these races and you can rank the candidates, so you might need to do some
-        research before making a choice.
-      </p>
-      <CandidatesTable data={rcvCandidates} client:load />
+      <Container class="prose prose-neutral">
+        <h2 class="text-3xl font-bold mb-2">Ranked-Choice Races</h2>
+        <p class="mb-4">
+          There are more than one candidate for these races and you can rank the candidates, so you might need to do
+          some research before making a choice.
+        </p>
+      </Container>
+      <div class="mx-auto max-w-6xl px-6 prose prose-neutral">
+        <CandidatesTable data={rcvCandidates} client:load />
+      </div>
     </div>
+    <!-- Contested -->
     <div>
-      <h2 class="text-3xl font-bold mb-2">Contested Races</h2>
-      <p class="mb-4">
-        There are more than one candidate for these races and you can only select one candidate, so you might need to do
-        some research before making a choice.
-      </p>
-      <CandidatesTable data={contestedCandidates} client:load />
+      <Container class="prose prose-neutral">
+        <h2 class="text-3xl font-bold mb-2">Contested Races</h2>
+        <p class="mb-4">
+          There are more than one candidate for these races and you can only select one candidate, so you might need to
+          do some research before making a choice.
+        </p>
+      </Container>
+      <div class="mx-auto max-w-6xl px-6 prose prose-neutral">
+        <CandidatesTable data={contestedCandidates} client:load />
+      </div>
     </div>
+    <!-- Uncontested -->
     <div>
-      <h2 class="text-3xl font-bold mb-2">Uncontested Races</h2>
-      <p class="mb-4">
-        There is only one candidate for these races, so you just need to fill in the oval or write-in another candidate.
-      </p>
-      <CandidatesTable
-        data={uncontestedCandidates}
-        columnVisibility={{
-          comparison: false,
-          website: false,
-        }}
-        client:load
-      />
+      <Container class="prose prose-neutral">
+        <h2 class="text-3xl font-bold mb-2">Uncontested Races</h2>
+        <p class="mb-4">
+          There is only one candidate for these races, so you just need to fill in the oval or write-in another
+          candidate.
+        </p>
+      </Container>
+      <div class="mx-auto max-w-6xl px-6 prose prose-neutral">
+        <CandidatesTable
+          data={uncontestedCandidates}
+          columnVisibility={{
+            comparison: false,
+            website: false,
+          }}
+          client:load
+        />
+      </div>
     </div>
-  </Container>
+  </div>
 </GlobalLayout>

@@ -1,4 +1,4 @@
-county,city,type,website,drop,ballot,ballot_link,ballot_link_text,sorting county
+county,city,type,website,drop,ballot,ballot_link,ballot_link_text,sorting_county
 Androscoggin,Auburn,election,http://www.auburnmaine.gov/pages/government/election-and-voting,,,,,Androscoggin
 Androscoggin,Durham,town,https://www.durhamme.com/,,April 1: Municipal Officers,,,Androscoggin
 Androscoggin,Greene,election,https://www.townofgreene.net/elections,,"Municipal Election, School Budget",,,Androscoggin

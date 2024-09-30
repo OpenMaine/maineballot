@@ -1,9 +1,10 @@
 ---
 import { getCollection } from 'astro:content'
-
-import { getEntryUrl } from '#utils/get-url'
 import GlobalLayout from '#layouts/global-layout.astro'
 import Container from '#components/container.astro'
+import { LocalElectionsTable } from '#components/react/local-elections-table'
+import { localElectionDataSchema, type CustomDataFile } from '#utils/types'
+import { z } from 'zod'
 
 export async function getStaticPaths() {
   const allLocal = await getCollection('local')
@@ -13,13 +14,39 @@ export async function getStaticPaths() {
   }))
 }
 
-const allLocal = await getCollection('local')
+const datafile = Astro.props.post.data.datafile
+const modules = import.meta.glob<CustomDataFile>(`../../data/local-elections/*.csv`)
+
+if (!modules[datafile]) {
+  throw new Error(`"${datafile}" does not exist in glob: "../../data/local-elections/*.csv"`)
+}
+const candidateData = (await modules[datafile]()).default
+const { data: validData, error } = z.array(localElectionDataSchema).safeParse(candidateData)
+
+if (error) {
+  throw new Error(error.message)
+}
 ---
 
 <GlobalLayout>
-  <Container>
-    <div>
-      <a href={getEntryUrl(allLocal[0])}>Test</a>
+  <Container class="my-16">
+    <h1 class="text-3xl font-bold mb-8 text-neutral-700">Local elections</h1>
+    <div class="prose prose-neutral">
+      <p>
+        This is a work in progress list of websites or contact information for city and town elections in Maine. If
+        information about your city or town isn't listed, it likely isn't available on their website. You can send
+        scanned absentee ballots to be included as sample ballots to <a href="mailto:maineballot@gmail.com"
+          >maineballot@gmail.com</a
+        >.
+      </p>
+      <p>
+        For a map of dropbox locations, see the <a href="https://www.lwvme.org/AbsenteeMap"
+          >League of Women Voter's of Maine website</a
+        >.
+      </p>
     </div>
   </Container>
+  <div class="mx-auto max-w-6xl px-6 prose prose-neutral">
+    <LocalElectionsTable data={validData} client:load />
+  </div>
 </GlobalLayout>

@@ -1,4 +1,4 @@
-county,city,type,website,ballot,sorting county
+county,city,type,website,ballot,sorting_county
 Androscoggin,,county,https://www.androscoggincountymaine.gov/about/about.htm,,Androscoggin
 ,Auburn,election,http://www.auburnmaine.gov/pages/government/election-and-voting,"Mayor, city council, school committee",Androscoggin
 ,Durham,election,https://www.durhamme.com/election-information,School budget,Androscoggin
