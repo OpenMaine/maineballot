@@ -1,8 +1,7 @@
 ---
 title: "State & county candidates"
+description: "A list of candidates for state and county level offices for the November 2020 election."
 datafile: "../../data/candidates/candidates-2020-11.csv"
-search_for: candidate
-search_column: 4
 election: november-2020-election
 ---
 

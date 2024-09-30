@@ -27,6 +27,7 @@ const candidatesCollection = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
+    description: z.string(),
     election: reference('elections'),
     datafile: z.string(),
   }),
@@ -36,8 +37,8 @@ const localCollection = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
-    election: reference('elections'),
     description: z.string(),
+    election: reference('elections'),
     datafile: z.string(),
   }),
 })
@@ -61,6 +62,6 @@ export const collections = {
   'candidates': candidatesCollection,
   'elections': electionCollection,
   'local': localCollection,
-  'ballot-measures': ballotMeasureCollection,
+  'ballot-questions': ballotMeasureCollection,
   'tags': tagsCollection,
 }

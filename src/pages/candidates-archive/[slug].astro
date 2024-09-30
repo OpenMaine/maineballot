@@ -19,9 +19,9 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props
 
-const datafile = post.data.datafile
 const modules = import.meta.glob<CustomDataFile>(`../../data/candidates/*.csv`)
 
+const datafile = post.data.datafile
 if (!modules[datafile]) {
   throw new Error(`"${datafile}" does not exist in glob: "../../data/candidates/*.csv"`)
 }
@@ -38,13 +38,15 @@ const uncontestedCandidates = validData.filter((d) => d.Type === 'U')
 
 const { Content } = await post.render()
 const { data } = await getEntry('elections', post.data.election.id)
+
+const pageTitle = `${dayjs(data.date).format('MMMM YYYY')} candidate archive`
 ---
 
-<GlobalLayout>
+<GlobalLayout title={pageTitle} description={post.body.toString()}>
   <div class="my-16">
     <Container>
       <h1 class="text-4xl font-bold mb-8 text-neutral-700">
-        {dayjs(data.date).format('MMMM YYYY')} Candidate Archive
+        {pageTitle}
       </h1>
 
       <div class="prose prose-neutral mb-12">

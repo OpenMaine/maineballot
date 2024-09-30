@@ -11,7 +11,7 @@ const stateElections = (
     allEelections.map(async (elect) => ({
       slug: elect.id,
       data: elect.data,
-      posts: (await getCollection('ballot-measures', ({ data }) => data.election.id === elect.id)).sort(
+      posts: (await getCollection('ballot-questions', ({ data }) => data.election.id === elect.id)).sort(
         (a, b) =>
           new Date(b.data.electionDate).getTime() - new Date(a.data.electionDate).getTime() ||
           a.slug.localeCompare(b.slug),
@@ -41,9 +41,9 @@ const candidates = (
 ).sort((a, b) => new Date(b.election.data.date).getTime() - new Date(a.election.data.date).getTime())
 ---
 
-<GlobalLayout>
+<GlobalLayout title="Elections archive" description="Ballot questions for Maine elections over time.">
   <Container class="my-16">
-    <h1 class="text-4xl font-bold mb-8 text-neutral-700">Elections</h1>
+    <h1 class="text-4xl font-bold mb-8 text-neutral-700">Elections Archive</h1>
 
     <div class="prose prose-neutral">
       <h2>State Elections</h2>

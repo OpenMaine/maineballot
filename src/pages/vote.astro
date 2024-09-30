@@ -5,7 +5,10 @@ import { ELECTIONS } from '#utils/constants'
 import dayjs from 'dayjs'
 ---
 
-<GlobalLayout>
+<GlobalLayout
+  title="How to vote in Maine"
+  description="A list and explanation of the multiple ways you can vote in Maine."
+>
   <div class="bg-[#2f6585]">
     <Container class="text-center py-10 text-white">
       <p class="font-bold text-2xl mb-2">The next Maine election is</p>
@@ -91,17 +94,15 @@ import dayjs from 'dayjs'
         >
       </p>
       <h2>Additional resources</h2>
-      <div>
-        <iframe
-          loading="lazy"
-          class="aspect-video max-w-full"
-          width="560"
-          src="https://www.youtube.com/embed/8lXsFDcmJZQ?si=qJJiEjKixhCy2tcf"
-          title="YouTube embedded video of How to Vote in Maine"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen></iframe>
-      </div>
+      <iframe
+        loading="lazy"
+        class="aspect-video max-w-full"
+        width="560"
+        src="https://www.youtube.com/embed/8lXsFDcmJZQ?si=qJJiEjKixhCy2tcf"
+        title="YouTube embedded video of How to Vote in Maine"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen></iframe>
       <ul>
         <li>
           <a href="https://nerdfighteria.info/v/8lXsFDcmJZQ/">How to Vote in Maine Transcript</a>

@@ -32,12 +32,14 @@ if (error) {
 
 const { Content } = await post.render()
 const { data } = await getEntry('elections', post.data.election.id)
+
+const pageTitle = `${dayjs(data.date).format('MMMM YYYY')} local election archive`
 ---
 
-<GlobalLayout>
+<GlobalLayout title={pageTitle} description={post.data.description}>
   <Container class="my-16">
     <h1 class="text-4xl font-bold mb-8 text-neutral-700">
-      {dayjs(data.date).format('MMMM YYYY')} Local Election Archive
+      {pageTitle}
     </h1>
 
     <div class="prose prose-neutral">
@@ -45,6 +47,6 @@ const { data } = await getEntry('elections', post.data.election.id)
     </div>
   </Container>
   <div class="mx-auto max-w-6xl px-6 prose prose-neutral">
-    <LocalElectionsTable data={validData} client:load />
+    <LocalElectionsTable data={validData} ballotColumnText={post.data.description} client:load />
   </div>
 </GlobalLayout>

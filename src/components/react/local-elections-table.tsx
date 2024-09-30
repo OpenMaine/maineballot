@@ -1,4 +1,3 @@
-import * as React from 'react'
 import {
   type SortDirection,
   createColumnHelper,
@@ -21,9 +20,10 @@ const defaultColumnVisibility = {
   ballot_link_text: true,
 }
 
-export function LocalElectionsTable({ data, columnVisibility = defaultColumnVisibility }: {
+export function LocalElectionsTable({ data, columnVisibility = defaultColumnVisibility, ballotColumnText }: {
   data: LocalElectionData[]
   columnVisibility?: Partial<typeof defaultColumnVisibility>
+  ballotColumnText: string
 }) {
   const columnHelper = createColumnHelper<LocalElectionData>()
   const columns = [
@@ -57,7 +57,7 @@ export function LocalElectionsTable({ data, columnVisibility = defaultColumnVisi
     }),
     columnHelper.accessor('ballot', {
       enableSorting: false,
-      header: 'What\'s on the November 2024 ballot',
+      header: ballotColumnText,
     }),
     columnHelper.display({
       enableSorting: false,

@@ -14,7 +14,7 @@ const tags = (
       slug: tag.id,
       data: tag.data,
       ballotMeasures: (
-        await getCollection('ballot-measures', ({ data }) => data.tags?.some((postTag) => postTag.id === tag.id))
+        await getCollection('ballot-questions', ({ data }) => data.tags?.some((postTag) => postTag.id === tag.id))
       ).sort(
         (a, b) =>
           new Date(b.data.electionDate).getTime() - new Date(a.data.electionDate).getTime() ||
@@ -25,7 +25,7 @@ const tags = (
 ).sort((a, b) => b.ballotMeasures.length - a.ballotMeasures.length || a.slug.localeCompare(b.slug))
 ---
 
-<GlobalLayout>
+<GlobalLayout title="Ballot questions by tag" description="An archive of Maine ballot questions by tag.">
   <Container class="my-16">
     <h1 class="text-4xl font-bold mb-8 text-neutral-700">Ballot questions by tag</h1>
 

@@ -13,9 +13,12 @@ if (error) {
 }
 ---
 
-<GlobalLayout>
+<GlobalLayout
+  title="Local elections"
+  description="A list of websites or contact information for city, town, and local elections in Maine."
+>
   <Container class="my-16">
-    <h1 class="text-4xl font-bold mb-8 text-neutral-700">Local elections</h1>
+    <h1 class="text-4xl font-bold mb-8 text-neutral-700">Local Elections</h1>
 
     <div class="prose prose-neutral">
       <p>
@@ -33,6 +36,6 @@ if (error) {
     </div>
   </Container>
   <div class="mx-auto max-w-6xl px-6 prose prose-neutral">
-    <LocalElectionsTable data={validData} client:load />
+    <LocalElectionsTable data={validData} ballotColumnText="What's on the November 2024 ballot?" client:load />
   </div>
 </GlobalLayout>

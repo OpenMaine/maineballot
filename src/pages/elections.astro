@@ -12,7 +12,7 @@ const elections = (
     allEelections.map(async (elect) => ({
       slug: elect.id,
       data: elect.data,
-      ballotMeasures: (await getCollection('ballot-measures', ({ data }) => data.election.id === elect.id)).sort(
+      ballotMeasures: (await getCollection('ballot-questions', ({ data }) => data.election.id === elect.id)).sort(
         (a, b) =>
           new Date(b.data.electionDate).getTime() - new Date(a.data.electionDate).getTime() ||
           a.slug.localeCompare(b.slug),
@@ -24,7 +24,7 @@ const elections = (
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
 ---
 
-<GlobalLayout>
+<GlobalLayout title="All elections" description="An archive of state elections and ballot questions.">
   <Container class="my-16">
     <h1 class="text-4xl font-bold mb-8 text-neutral-700">All Elections</h1>
 

@@ -55,12 +55,6 @@ export interface SiteMeta {
   description: string
 }
 
-export interface SiteMetaProps {
-  title: string
-  description: string
-  image: string
-}
-
 // https://docs.astro.build/en/reference/api-reference/#other-files
 export interface CustomDataFile {
   default: Record<string, any>

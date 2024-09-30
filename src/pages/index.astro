@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content'
 import { Image } from 'astro:assets'
 import dayjs from 'dayjs'
-import { ELECTIONS } from '#utils/constants'
+import { ELECTIONS, SITE_META } from '#utils/constants'
 import GlobalLayout from '#layouts/global-layout.astro'
 import voteByMail from '#assets/img/Other/mail_sm.png'
 import earlyVoting from '#assets/img/Other/early-vote_sm.png'
@@ -10,12 +10,12 @@ import Container from '#components/container.astro'
 import { getEntryUrl } from '#utils/get-url'
 import { getReadingTime } from '#utils/get-reading-time'
 
-const upcomingBallotMeasures = await getCollection('ballot-measures', (bm) => {
+const upcomingBallotMeasures = await getCollection('ballot-questions', (bm) => {
   return bm.data.electionDate === ELECTIONS.upcoming.date
 })
 ---
 
-<GlobalLayout>
+<GlobalLayout title={SITE_META.title} description={SITE_META.description}>
   <div class="bg-[#2f6585]">
     <Container class="text-center py-10 text-white">
       <p class="font-bold text-2xl mb-2">The next Maine election is</p>

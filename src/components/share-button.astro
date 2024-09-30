@@ -41,8 +41,7 @@ const share: Record<
   },
 }
 
-const url =
-  share[platform].baseUrl + '?' + new URLSearchParams(share[platform].params)
+const url = share[platform].baseUrl + '?' + new URLSearchParams(share[platform].params)
 
 const handleOnClick = `window.open(
       '${url}',
@@ -52,8 +51,7 @@ const handleOnClick = `window.open(
     return false;
   `.replace(/\s/g, '') // Makes string prettier in the DOM
 
-const baseClasses =
-  'text-white transition-colors h-10 px-4 flex gap-2 items-center rounded font-bold'
+const baseClasses = 'text-white transition-colors h-10 px-4 flex gap-2 items-center rounded font-bold'
 ---
 
 {

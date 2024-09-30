@@ -14,9 +14,6 @@ try {
 }
 ---
 
-<a
-  {...props}
-  href={href}
-  target={isExternal ? '_blank' : undefined}
-  rel={isExternal ? 'noopener' : undefined}><slot /></a
+<a {...props} href={href} target={isExternal ? '_blank' : undefined} rel={isExternal ? 'noopener' : undefined}
+  ><slot /></a
 >
