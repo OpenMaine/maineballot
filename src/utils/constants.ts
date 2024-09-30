@@ -1,14 +1,5 @@
 import type { Elections, Navigation, SiteMeta } from './types'
 
-export const GLOBAL = {
-  author: {
-    name: 'Shannon McHarg',
-    avatar: null,
-    bio: 'A user experience designer living in Maine who wants to make it easier to understand what you\'ve voting for or against.',
-    location: 'Brunswick, Maine',
-  },
-}
-
 export const SITE_META: SiteMeta = {
   title: 'Maine Ballot',
   description: 'The goal of MaineBallot.org is to provide concise, non-partisan information to make it easy to understand the ballot questions pending in Maine',
