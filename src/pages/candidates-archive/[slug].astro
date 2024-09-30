@@ -36,6 +36,7 @@ const rcvCandidates = validData.filter((d) => d.Type === 'RCV')
 const contestedCandidates = validData.filter((d) => d.Type === 'C')
 const uncontestedCandidates = validData.filter((d) => d.Type === 'U')
 
+const { Content } = await post.render()
 const { data } = await getEntry('elections', post.data.election.id)
 ---
 
@@ -45,6 +46,10 @@ const { data } = await getEntry('elections', post.data.election.id)
       <h1 class="text-4xl font-bold mb-8 text-neutral-700">
         {dayjs(data.date).format('MMMM YYYY')} Candidate Archive
       </h1>
+
+      <div class="prose prose-neutral mb-12">
+        <Content />
+      </div>
     </Container>
     <div class="space-y-20">
       <!-- Ranked-choice -->
