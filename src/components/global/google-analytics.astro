@@ -1,19 +1,14 @@
 ---
-//  Moved this to its own file because script tags break Astro intellisense: https://github.com/withastro/language-tools/issues/800
-import { env } from '#utils/env-vars'
+import { GOOGLE_MEASUREMENT_ID } from 'astro:env/server'
 ---
 
-<script
-  is:inline
-  async
-  src={`https://www.googletagmanager.com/gtag/js?id=${env.GOOGLE_MEASUREMENT_ID}`}
-></script>
+<script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_MEASUREMENT_ID}`}></script>
 
 <script
   is:inline
   define:vars={{
     isProd: import.meta.env.PROD,
-    GOOGLE_MEASUREMENT_ID: env.GOOGLE_MEASUREMENT_ID,
+    GOOGLE_MEASUREMENT_ID,
   }}
 >
   if (isProd) {

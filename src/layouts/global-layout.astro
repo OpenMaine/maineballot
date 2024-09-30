@@ -4,16 +4,12 @@ import Navigation from '#components/navigation.astro'
 import Footer from '#components/footer.astro'
 import GoogleAnalytics from '#components/global/google-analytics.astro'
 import { SITE_META } from '#utils/constants'
-import { env } from '#utils/env-vars'
 import { type SiteMetaProps } from '#utils/types'
+import { GOOGLE_SITE_VERIFICATION } from 'astro:env/server'
 
 type Props = Partial<SiteMetaProps>
 
-const {
-  title,
-  description = SITE_META.description,
-  image = new URL('og.jpg', Astro.url.origin).href,
-} = Astro.props
+const { title, description = SITE_META.description, image = new URL('og.jpg', Astro.url.origin).href } = Astro.props
 ---
 
 <!doctype html>
@@ -66,7 +62,7 @@ const {
           { name: 'generator', content: Astro.generator },
           {
             name: 'google-site-verification',
-            content: env.GOOGLE_SITE_VERIFICATION,
+            content: GOOGLE_SITE_VERIFICATION,
           },
         ],
       }}

@@ -1,6 +1,6 @@
 import sitemap from '@astrojs/sitemap'
 import tailwind from '@astrojs/tailwind'
-import { defineConfig } from 'astro/config'
+import { defineConfig, envField } from 'astro/config'
 import dsv from '@rollup/plugin-dsv'
 import mdx from '@astrojs/mdx'
 import react from '@astrojs/react'
@@ -21,17 +21,31 @@ export default defineConfig({
       },
     }),
   ],
-  vite: {
-    plugins: [
-      dsv(),
-    ],
-  },
   markdown: {
     remarkRehype: {
       footnoteLabel: 'References',
       footnoteLabelProperties: {
         class: null,
       },
+    },
+  },
+  vite: {
+    plugins: [
+      dsv(),
+    ],
+  },
+  env: {
+    schema: {
+      GOOGLE_MEASUREMENT_ID: envField.string({
+        context: 'server',
+        access: 'public',
+        default: 'G-FRBHPKMW0S',
+      }),
+      GOOGLE_SITE_VERIFICATION: envField.string({
+        context: 'server',
+        access: 'public',
+        default: 'gqHgkOyPBANMIktwSO-L23jON_rj7qk1PJRfsYpfvmY',
+      }),
     },
   },
 })
