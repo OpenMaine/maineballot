@@ -42,47 +42,47 @@ const candidates = (
 ---
 
 <GlobalLayout>
-  <Container class="prose prose-neutral mt-12">
-    <h1>Elections</h1>
-    <h2>State Elections</h2>
-    <div>
-      {
-        stateElections.map((tag) => (
-          <div>
-            <h3>{tag.data.title}</h3>
-            <ul>
-              {tag.posts.map((post) => (
-                <li>
-                  <a href={getEntryUrl(post)}>{post.data.title}</a>
-                  <p class="mt-2">{post.data.excerpt}</p>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))
-      }
+  <Container class="my-16">
+    <h1 class="text-4xl font-bold text-neutral-600 mb-8">Elections</h1>
+    <div class="prose prose-neutral">
+      <h2>State Elections</h2>
+      <div>
+        {
+          stateElections.map((tag) => (
+            <div>
+              <h3>{tag.data.title}</h3>
+              <ul>
+                {tag.posts.map((post) => (
+                  <li>
+                    <a href={getEntryUrl(post)}>{post.data.title}</a>
+                    <p class="mt-2">{post.data.excerpt}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))
+        }
+      </div>
+      <h2>Local Elections</h2>
+      <ul>
+        {
+          localElections.map((elect) => (
+            <li>
+              <a href={getEntryUrl(elect)}>{elect.election.data.title}</a>
+            </li>
+          ))
+        }
+      </ul>
+      <h2>Candidate</h2>
+      <ul>
+        {
+          candidates.map((cand) => (
+            <li>
+              <a href={getEntryUrl(cand)}>{cand.election.data.title}</a>
+            </li>
+          ))
+        }
+      </ul>
     </div>
-
-    <h2>Local Elections</h2>
-    <ul>
-      {
-        localElections.map((elect) => (
-          <li>
-            <a href={getEntryUrl(elect)}>{elect.election.data.title}</a>
-          </li>
-        ))
-      }
-    </ul>
-
-    <h2>Candidate</h2>
-    <ul>
-      {
-        candidates.map((cand) => (
-          <li>
-            <a href={getEntryUrl(cand)}>{cand.election.data.title}</a>
-          </li>
-        ))
-      }
-    </ul>
   </Container>
 </GlobalLayout>

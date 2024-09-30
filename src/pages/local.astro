@@ -1,7 +1,6 @@
 ---
 import Container from '#components/container.astro'
 import GlobalLayout from '#layouts/global-layout.astro'
-import type { CustomDataFile } from '#utils/types'
 import { z } from 'zod'
 import { localElectionDataSchema } from '#utils/types'
 import { LocalElectionsTable } from '#components/react/local-elections-table'
@@ -15,21 +14,24 @@ if (error) {
 ---
 
 <GlobalLayout>
-  <Container class="prose prose-neutral my-20">
-    <h1>Local elections</h1>
-    <p>
-      This is a work in progress list of websites or contact information for city and town elections in Maine. If
-      information about your city or town isn't listed, it likely isn't available on their website. You can send scanned
-      absentee ballots to be included as sample ballots to <a href="mailto:maineballot@gmail.com"
-        >maineballot@gmail.com</a
-      >.
-    </p>
-    <p>
-      For a map of dropbox locations, see the <a href="https://www.lwvme.org/AbsenteeMap"
-        >League of Women Voter's of Maine website</a
-      >.
-    </p>
-
-    <LocalElectionsTable data={validData} client:load />
+  <Container class="my-16">
+    <h1 class="text-3xl font-bold mb-8 text-neutral-700">Local elections</h1>
+    <div class="prose prose-neutral">
+      <p>
+        This is a work in progress list of websites or contact information for city and town elections in Maine. If
+        information about your city or town isn't listed, it likely isn't available on their website. You can send
+        scanned absentee ballots to be included as sample ballots to <a href="mailto:maineballot@gmail.com"
+          >maineballot@gmail.com</a
+        >.
+      </p>
+      <p>
+        For a map of dropbox locations, see the <a href="https://www.lwvme.org/AbsenteeMap"
+          >League of Women Voter's of Maine website</a
+        >.
+      </p>
+    </div>
   </Container>
+  <div class="mx-auto max-w-6xl px-6 prose prose-neutral">
+    <LocalElectionsTable data={validData} client:load />
+  </div>
 </GlobalLayout>
