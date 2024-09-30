@@ -17,7 +17,21 @@ export const candidateDataSchema = z.object({
   comparison_text: z.string(),
 })
 
+export const localElectionDataSchema = z.object({
+  county: z.string(),
+  city: z.string(),
+  type: z.string(),
+  website: z.string(),
+  drop: z.string(),
+  ballot: z.string(),
+  ballot_link: z.string(),
+  ballot_link_text: z.string(),
+  sorting_county: z.string(),
+})
+
 export type CandidateData = z.infer<typeof candidateDataSchema>
+
+export type LocalElectionData = z.infer<typeof localElectionDataSchema>
 
 interface NavigationItem {
   title: string

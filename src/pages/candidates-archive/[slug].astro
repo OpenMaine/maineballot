@@ -19,14 +19,10 @@ const datafile = Astro.props.post.data.datafile
 const modules = import.meta.glob<CustomDataFile>(`../../data/candidates/*.csv`)
 
 if (!modules[datafile]) {
-  throw new Error(
-    `"${datafile}" does not exist in glob: "../../data/candidates/*.csv"`,
-  )
+  throw new Error(`"${datafile}" does not exist in glob: "../../data/candidates/*.csv"`)
 }
 const candidateData = (await modules[datafile]()).default
-const { data: validData, error } = z
-  .array(candidateDataSchema)
-  .safeParse(candidateData)
+const { data: validData, error } = z.array(candidateDataSchema).safeParse(candidateData)
 
 if (error) {
   throw new Error(error.message)
@@ -38,30 +34,29 @@ const uncontestedCandidates = validData.filter((d) => d.Type === 'U')
 ---
 
 <GlobalLayout>
-  <Container class="space-y-32">
+  <Container class="space-y-20 my-20">
     <div>
+      <!-- <h1>{Astro.props.post.data.election.}</h1> -->
+
       <h2 class="text-3xl font-bold mb-2">Ranked-Choice Races</h2>
       <p class="mb-4">
-        There are more than one candidate for these races and you can rank the
-        candidates, so you might need to do some research before making a
-        choice.
+        There are more than one candidate for these races and you can rank the candidates, so you might need to do some
+        research before making a choice.
       </p>
       <CandidatesTable data={rcvCandidates} client:load />
     </div>
     <div>
       <h2 class="text-3xl font-bold mb-2">Contested Races</h2>
       <p class="mb-4">
-        There are more than one candidate for these races and you can only
-        select one candidate, so you might need to do some research before
-        making a choice.
+        There are more than one candidate for these races and you can only select one candidate, so you might need to do
+        some research before making a choice.
       </p>
       <CandidatesTable data={contestedCandidates} client:load />
     </div>
     <div>
       <h2 class="text-3xl font-bold mb-2">Uncontested Races</h2>
       <p class="mb-4">
-        There is only one candidate for these races, so you just need to fill in
-        the oval or write-in another candidate.
+        There is only one candidate for these races, so you just need to fill in the oval or write-in another candidate.
       </p>
       <CandidatesTable
         data={uncontestedCandidates}
