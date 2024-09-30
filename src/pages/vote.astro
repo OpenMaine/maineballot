@@ -11,8 +11,8 @@ import dayjs from 'dayjs'
 >
   <div class="bg-[#2f6585]">
     <Container class="text-center py-10 text-white">
-      <p class="font-bold text-2xl mb-2">The next Maine election is</p>
-      <p class="font-bold text-5xl mb-3">
+      <p class="font-medium text-xl lg:text-2xl mb-2">The next Maine election is</p>
+      <p class="font-bold text-3xl md:text-4xl lg:text-5xl mb-3">
         {dayjs(ELECTIONS.upcoming.date).format('MMMM D, YYYY')}
       </p>
       <p class="font-bold text-xl">{ELECTIONS.upcoming.title}</p>
