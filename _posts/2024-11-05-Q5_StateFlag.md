@@ -1,0 +1,60 @@
+---
+title:  "Question 5: State Flag"
+excerpt: This measure would restore the old pine tree design for the state flag.
+election: 2024-11-05
+header:
+  overlay_image: /assets/img/2024_11/Q5-StateFlag.png
+  teaser: /assets/img/2024_11/Q5-StateFlag.png
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  image_description: Design of the Maine State Flag as depicted in the Maine Citizen’s Guide to the Referendum Election. Displays a large drawn pine tree in the center with a blue, five point start in the top left.
+search: true
+categories:
+- November 2024 Election
+tags:
+- Flag
+yes_vote: I want to change to the Pine Tree Flag.
+no_vote: I want to keep the current flag.
+last_modified_at: 2024-10-05 T12:08:00-05:00
+---
+## The gist
+This measure would restore a [version of the old Pine Tree Flag](https://www.maine.gov/sos/news/2024/Winner%20-%20Maine%20State%20Flag%20Redesign%20Contest.pdf) that was selected as part of a [contest](https://www.maine.gov/sos/news/2024/FlagContestWinningDesignUnveiled.html).[^4]
+
+## Ballot question
+An Act to Restore the Former State of Maine Flag, Do you favor making the former state flag, replaced as the official flag of the State in 1909 and commonly known as the Pine Tree Flag, the official flag of the State?[^4]
+
+{% include yes-no-table.html %}
+
+
+## Tell me more
+People have been flying unofficial versions of the Pine Tree Flag for years. This would make it the official flag. In 2023, the state legislature passed legilsation allowing this referendum question to see whether citizens want the new flag.[^6]
+
+## Follow the money
+The costs to change flags would be absorbed into existing budgets.[^4]
+
+## Pros
+The primary arguments for this referendum are:
+* The Pine Tree Flag is simpler and more recognizable than the current flag.
+* Maine is the pine tree state, so the new flag would reflect that.
+
+## Cons
+The primary arguments against this referendum are:
+* Some think the Pine Tree Flag design looks amateurish.
+* The new design doesn't include as many aspects of Maine's history, such as farming and fishing, as the old one does. [^5]
+
+## Who cares
+There is no registered support or opposition to this measure.
+
+## Further reading
+[Full text](https://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP0054&item=1&snum=131)<br>
+[Ballotpedia article](https://ballotpedia.org/Maine_Question_5,_State_Flag_Referendum_(2024))<br>
+[Portland Press Herald article](https://www.pressherald.com/2024/09/13/at-long-last-mainers-could-vote-for-a-new-state-flag-heres-everything-you-need-to-know/)
+
+## References
+[^1]: Maine State Legislature. [An Act to Restore the Former State of Maine Flag](https://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP0054&item=1&snum=131). Accessed September 29, 2024.
+[^2]: Ballotpedia State Desk. [Maine Question 5, State Flag Referendum (2024)
+](https://ballotpedia.org/Maine_Question_5,_State_Flag_Referendum_(2024)). Ballotpedia. Accessed September 15, 2024.
+[^3]: Maine Secretary of State. [Flag contest winning design unveiled](https://www.maine.gov/sos/news/2024/FlagContestWinningDesignUnveiled.html). Accessed September 29, 2024.
+[^4}: Bellows, Shenna. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/news/2024/2024%20Citizens%20Guide.pdf). Accessed September 29, 2024.
+[^5]: Bouchard, Kelley. [Unfurling the facts in the 1901 Maine state flag debate](https://www.pressherald.com/2023/08/13/unfurling-the-facts-in-the-1901-maine-state-flag-debate/). Portland Press Herald. Accessed September 29, 2024.
+[^6]: Ohm, Rachel. [At long last, Mainers could vote for a new state flag. Here’s everything you need to know.
+](https://www.pressherald.com/2024/09/13/at-long-last-mainers-could-vote-for-a-new-state-flag-heres-everything-you-need-to-know/). Portland Press Herald. Accessed September 29, 2024.
