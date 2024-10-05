@@ -3,8 +3,8 @@ title:  "Question 2: Research & Development Bond"
 excerpt: This $25 million bond would fund research and development at the Maine Technology Institute.
 election: 2024-11-05
 header:
-  overlay_image: /assets/img/2024_11/Question3-Building.jpg
-  teaser: /assets/img/2024_11/Question3-Building.jpg
+  overlay_image: /assets/img/2024_11/Q3-Building.jpg
+  teaser: /assets/img/2024_11/Q3-Building.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   image_description: Guide Hall of the NIST Center for Neutron Research. The NIST Center for Neutron Research (NCNR) serves more customers than all other U.S. neutron facilities combined. Beams of cold, slowed down neutrons pass through guide tubes (blue structures) to reach specialized instruments where they are used as probes to see material structures.
 search: true
