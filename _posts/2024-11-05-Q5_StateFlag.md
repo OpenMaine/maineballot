@@ -3,8 +3,8 @@ title:  "Question 5: State Flag"
 excerpt: This measure would restore the old pine tree design for the state flag.
 election: 2024-11-05
 header:
-  overlay_image: /assets/img/2024_11/Q5-StateFlag.png
-  teaser: /assets/img/2024_11/Q5-StateFlag.png
+  overlay_image: /assets/img/2024_11/Q5-Flag.png
+  teaser: /assets/img/2024_11/Q5-Flag.png
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   image_description: Design of the Maine State Flag as depicted in the Maine Citizen’s Guide to the Referendum Election. Displays a large drawn pine tree in the center with a blue, five point start in the top left.
 search: true
