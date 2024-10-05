@@ -1,69 +1,69 @@
 ---
-title:  "Question 2: Research & Development Bond"
-excerpt: This $25 million bond would fund research and development at the Maine Technology Institute.
+title:  "Question 3: Historic Buildings"
+excerpt: This bond would allow the state to borrow $10 million to restore historic buildings owned by the government or nonprofits.
 election: 2024-11-05
 header:
   overlay_image: /assets/img/2024_11/Q3-Building.jpg
   teaser: /assets/img/2024_11/Q3-Building.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-  image_description: Guide Hall of the NIST Center for Neutron Research. The NIST Center for Neutron Research (NCNR) serves more customers than all other U.S. neutron facilities combined. Beams of cold, slowed down neutrons pass through guide tubes (blue structures) to reach specialized instruments where they are used as probes to see material structures.
+  image_description: Photo of the Lawrence Public Library in Fairfield, Maine. It is a historic brick building that looks kinds of like a castle.
 search: true
 categories:
 - November 2024 Election
 tags:
 - Bond
-- Research and Development
-yes_vote: I want to borrow $25 million for research and development.
-no_vote: I don't want to borrow $25 million for research and development.
+- Historic Preservation
+- Buildings
+yes_vote: I want to borrow $10 million to restore historic buildings.
+no_vote: I don't want to borrow money to restore historic buildings.
 last_modified_at: 2024-10-05 T12:08:00-05:00
 ---
 ## The gist
-This resolution would allow Maine to borrow $25 million for research and development at the Maine Technology Institute. The research would be in the fields of life sciences and biomedical technology, environmental and renewable energy technology, information technology, advanced technologies for forestry and agriculture, aquaculture and marine technology, composites and advanced materials and precision manufacturing. Maine Technology Institute would award the funds to Maine-based businesses through a competitive process and unlock matching funds.[^3]
+This resolution would allow the state to borrow $10 million to restore historic buildings owned by the government or nonprofits, if they can get at least 25% local matching funds.[^3]
 
 ## Ballot question
-An Act to Authorize a General Fund Bond Issue for Research and Development and Commercialization, Do you favor a bond issue of $25,000,000 to provide funds, to be awarded through a competitive process and to leverage matching private and federal funds on at least a one-to-one basis, for research and development and commercialization for Maine-based public and private institutions in support of technological innovation in the targeted sectors of life sciences and biomedical technology, environmental and renewable energy technology, information technology, advanced technologies for forestry and agriculture, aquaculture and marine technology, composites and advanced materials and precision manufacturing?[^3]
+An Act to Authorize a General Fund Bond Issue to Restore Historic Community Buildings, Do you favor a $10,000,000 bond issue to restore historic buildings owned by governmental and nonprofit organizations, with funds being issued contingent on a 25% local match requirement from either private or nonprofit sources?[^3]
 
 {% include yes-no-table.html %}
 
 
 ## Tell me more
-The [Maine Technology Institute](https://www.mainetechnology.org/) is a state-funded nonprofit that supports innovation.[^4]
-
-Award of the funds would be competitive and contingent on a match from federal or private funds on at least a one-to-one basis.[^3]
+The Historic Preservation Commission will decide who gets grants. Only buildings that aren't already eligible for existing historic rehabilitation programs would be eligible.[^4]
 
 This is a **bond issue** – if voters approve the bond, it means that the State of Maine is allowed to borrow money for the project described in the ballot question and has to pay it back over 10 years. [Learn more about how bonds work](https://www.maineballot.org/bonds).
 
 ## Follow the money
-Principal: $25 million
-Interest: $6.875 million
-Total cost: $31.875 million[^3]
+Principal: $10 million
+Interest: $2.75 million
+Total cost: $12.75 million[^3]
 
 ### The money will be used to
-* Award funds to Maine-based businesses for research and development.[^3]
-* Unlock federal or private matching funds.[^3]
+* Restore historic buildings owned by the government or nonprofits.[3]
 
 ### The money will be coming from
-* $100 million bond issued by the state and paid back through the budget and taxes over 10 years.[^3]
-* Matching federal or private funds.[^3]
+* $10 million bond issued by the state and paid back through the budget and taxes over 10 years.[^3]
+* 25% matching funds from local organizations.[^3]
 
 ## Pros
 The primary arguments for this referendum are:
-* Increased innovation in the state.
+* Historic buildings are expensive to restore and this would provide funds to governments and nonprofits who aren't likely to have funds themselves.
+* This would unlock matching funds.
 
 ## Cons
 The primary arguments against this referendum are:
-* The funds may turn into commercial profit for the businesses who receive the funds.
+* This would add to Maine's bond debt.
 
 ## Who cares
 Nobody has registered support or opposition for this bond.
 
 ## Further reading
-[Full text](https://www.mainelegislature.org/legis/bills/getPDF.asp?paper=SP0197&item=1&snum=131)
-[Ballotpedia article](https://ballotpedia.org/Maine_Question_2,_Science_and_Technology_Research_and_Commercialization_Bond_Issue_(2024))
-[Portland Press Herald Article](https://www.pressherald.com/2024/09/17/question-2-asks-voters-to-support-25-million-research-and-development-bond/)
+[Full text](https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP0568&item=1&snum=131)<br>
+[Ballotpedia article](https://ballotpedia.org/Maine_Question_3,_Historic_Community_Buildings_Bond_Issue_(2024))<br>
+[Press Herald Article](https://www.pressherald.com/2024/09/18/question-3-asks-voters-to-support-10-million-bond-for-historic-buildings/)
 
 ## References
-[^1]: Maine State Legislature. [An Act to Authorize a General Fund Bond Issue for Research and Development and Commercialization](https://www.mainelegislature.org/legis/bills/getPDF.asp?paper=SP0197&item=1&snum=131). Accessed October 5, 2024.
-[^2]: Ballotpedia State Desk. [Maine Question 2, Science and Technology Research and Commercialization Bond Issue (2024)](https://ballotpedia.org/Maine_Question_2,_Science_and_Technology_Research_and_Commercialization_Bond_Issue_(2024)). Ballotpedia. Accessed October 5, 2024.
+[^1]: Maine State Legislature. [An Act to Authorize a General Fund Bond Issue to Restore Historic Community Buildings](https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP0568&item=1&snum=131). Accessed October 5, 2024.
+[^2]: Ballotpedia State Desk. [Maine Question 3, Historic Community Buildings Bond Issue (2024)
+](https://ballotpedia.org/Maine_Question_3,_Historic_Community_Buildings_Bond_Issue_(2024)). Ballotpedia. Accessed October 5, 2024.
 [^3]: Bellows, Shenna. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/news/2024/2024%20Citizens%20Guide.pdf). Accessed October 5, 2024.
-[^4]: Ohm, Rachel. [Question 2 asks voters to support $25 million research-and-development bond](https://www.pressherald.com/2024/09/17/question-2-asks-voters-to-support-25-million-research-and-development-bond/). Portland Press Herald. Accessed October 5, 2024.
+[^4]: Billings, Randy. [Question 3 asks voters to support $10 million bond for historic buildings](https://www.pressherald.com/2024/09/18/question-3-asks-voters-to-support-10-million-bond-for-historic-buildings/)
