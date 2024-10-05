@@ -59,7 +59,7 @@ Nobody has registered support or opposition for this bond.
 ## Further reading
 [Full text](https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP0568&item=1&snum=131)<br>
 [Ballotpedia article](https://ballotpedia.org/Maine_Question_3,_Historic_Community_Buildings_Bond_Issue_(2024))<br>
-[Press Herald Article](https://www.pressherald.com/2024/09/18/question-3-asks-voters-to-support-10-million-bond-for-historic-buildings/)
+[Portland Press Herald article](https://www.pressherald.com/2024/09/18/question-3-asks-voters-to-support-10-million-bond-for-historic-buildings/)
 
 ## References
 [^1]: Maine State Legislature. [An Act to Authorize a General Fund Bond Issue to Restore Historic Community Buildings](https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP0568&item=1&snum=131). Accessed October 5, 2024.
