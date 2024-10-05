@@ -51,8 +51,7 @@ There is no registered support or opposition to this measure.
 
 ## References
 [^1]: Maine State Legislature. [An Act to Restore the Former State of Maine Flag](https://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP0054&item=1&snum=131). Accessed September 29, 2024.
-[^2]: Ballotpedia State Desk. [Maine Question 5, State Flag Referendum (2024)
-](https://ballotpedia.org/Maine_Question_5,_State_Flag_Referendum_(2024)). Ballotpedia. Accessed September 15, 2024.
+[^2]: Ballotpedia State Desk. [Maine Question 5, State Flag Referendum (2024)](https://ballotpedia.org/Maine_Question_5,_State_Flag_Referendum_(2024)). Ballotpedia. Accessed September 15, 2024.
 [^3]: Maine Secretary of State. [Flag contest winning design unveiled](https://www.maine.gov/sos/news/2024/FlagContestWinningDesignUnveiled.html). Accessed September 29, 2024.
 [^4}: Bellows, Shenna. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/news/2024/2024%20Citizens%20Guide.pdf). Accessed September 29, 2024.
 [^5]: Bouchard, Kelley. [Unfurling the facts in the 1901 Maine state flag debate](https://www.pressherald.com/2023/08/13/unfurling-the-facts-in-the-1901-maine-state-flag-debate/). Portland Press Herald. Accessed September 29, 2024.
