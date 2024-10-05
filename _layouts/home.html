@@ -10,7 +10,6 @@ layout: default
 <div class="archive text-center">
   <p class="home-ballots-header content-lrg-b text-center">What's On Your Ballot?</p>
   <p class="home-ballots-header content-med-b">State ballot questions</p>
-  <p>There will be five state ballot questions for the November election. Content coming soon.</p>
   {% for post in paginator.posts reversed %}
   {% if post.election == site.data.elections.current_election %}
   {% include archive-single.html type="grid" %}
@@ -19,7 +18,7 @@ layout: default
   <!--{% include paginator.html %}-->
   <hr class="home-hr">
   <p class="home-ballots-header content-med-b">Local ballot questions</p>
-  <p>We have links to local election websites and basic information about what's on the ballot and ballot drop box locations for counties, cities, and towns. <br />
+  <p>We have links to local election websites and ballot drop box locations for counties, cities, and towns. <br />
     <a href="/local">Find information about your local election</a>.</p>
     <hr class="home-hr">
   <!--  <p class="home-ballots-header content-med-b">State and county candidates</p>
