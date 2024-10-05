@@ -174,5 +174,9 @@
   {
     "id": "historic-preservation",
     "title": "Historic Preservation"
+  },
+  {
+    "id": "buildings",
+    "title": "Buildings"
   }
 ]
