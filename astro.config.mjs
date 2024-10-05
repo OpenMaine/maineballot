@@ -55,7 +55,9 @@ export default defineConfig({
   },
 
   output: 'static',
-  adapter: netlify(),
+  adapter: netlify({
+    imageCDN: false,
+  }),
   redirects: {
     '/november%202023%20election/*': '/ballot-question/2023-11-07/:slug',
     '/november%202021%20election/*': '/ballot-question/2021-11-02/:slug',
