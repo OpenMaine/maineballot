@@ -38,7 +38,7 @@ Interest: $2.75 million
 Total cost: $12.75 million[^3]
 
 ### The money will be used to
-* Restore historic buildings owned by the government or nonprofits.[3]
+* Restore historic buildings owned by the government or nonprofits.[^3]
 
 ### The money will be coming from
 * $10 million bond issued by the state and paid back through the budget and taxes over 10 years.[^3]
@@ -63,7 +63,6 @@ Nobody has registered support or opposition for this bond.
 
 ## References
 [^1]: Maine State Legislature. [An Act to Authorize a General Fund Bond Issue to Restore Historic Community Buildings](https://legislature.maine.gov/legis/bills/getPDF.asp?paper=HP0568&item=1&snum=131). Accessed October 5, 2024.
-[^2]: Ballotpedia State Desk. [Maine Question 3, Historic Community Buildings Bond Issue (2024)
-](https://ballotpedia.org/Maine_Question_3,_Historic_Community_Buildings_Bond_Issue_(2024)). Ballotpedia. Accessed October 5, 2024.
+[^2]: Ballotpedia State Desk. [Maine Question 3, Historic Community Buildings Bond Issue (2024)](https://ballotpedia.org/Maine_Question_3,_Historic_Community_Buildings_Bond_Issue_(2024)). Ballotpedia. Accessed October 5, 2024.
 [^3]: Bellows, Shenna. [Maine Citizen’s Guide to the Referendum Election](https://www.maine.gov/sos/news/2024/2024%20Citizens%20Guide.pdf). Accessed October 5, 2024.
 [^4]: Billings, Randy. [Question 3 asks voters to support $10 million bond for historic buildings](https://www.pressherald.com/2024/09/18/question-3-asks-voters-to-support-10-million-bond-for-historic-buildings/)
