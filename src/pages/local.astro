@@ -4,7 +4,7 @@ import GlobalLayout from '#layouts/global-layout.astro'
 import { z } from 'zod'
 import { localElectionDataSchema } from '#utils/types'
 import { LocalElectionsTable } from '#components/react/local-elections-table'
-import electionData from '#data/local-elections/local.csv'
+import electionData from '#data/csv/local-elections/local.csv'
 
 const { data: validData, error } = z.array(localElectionDataSchema).safeParse(electionData)
 

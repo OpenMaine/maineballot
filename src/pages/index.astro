@@ -99,6 +99,7 @@ const upcomingBallotMeasures = await getCollection('ballot-questions', (bm) => {
             </h4>
             <div class="flex items-center justify-center gap-1 text-neutral-500 mb-2">
               <span class="icon-[fa6-regular--clock] size-3" aria-hidden="true" />
+              {/* @ts-expect-error 'body' type is missing in this version of Astro */}
               <span class="text-sm">{getReadingTime(bm.body)}</span>
             </div>
             <p class="text-base">{bm.data.excerpt}</p>

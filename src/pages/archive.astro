@@ -13,8 +13,7 @@ const stateElections = (
       data: elect.data,
       posts: (await getCollection('ballot-questions', ({ data }) => data.election.id === elect.id)).sort(
         (a, b) =>
-          new Date(b.data.electionDate).getTime() - new Date(a.data.electionDate).getTime() ||
-          a.slug.localeCompare(b.slug),
+          new Date(b.data.electionDate).getTime() - new Date(a.data.electionDate).getTime() || a.id.localeCompare(b.id),
       ),
     })),
   )

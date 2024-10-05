@@ -1,5 +1,5 @@
 ---
-import { getCollection, getEntry } from 'astro:content'
+import { getCollection, getEntry, render } from 'astro:content'
 import GlobalLayout from '#layouts/global-layout.astro'
 import Container from '#components/container.astro'
 import { LocalElectionsTable } from '#components/react/local-elections-table'
@@ -10,7 +10,7 @@ import dayjs from 'dayjs'
 export async function getStaticPaths() {
   const allLocal = await getCollection('local')
   return allLocal.map((post) => ({
-    params: { slug: post.slug },
+    params: { slug: post.id },
     props: { post },
   }))
 }
@@ -18,10 +18,10 @@ export async function getStaticPaths() {
 const { post } = Astro.props
 
 const datafile = post.data.datafile
-const modules = import.meta.glob<CustomDataFile>(`../../data/local-elections/*.csv`)
+const modules = import.meta.glob<CustomDataFile>(`../../data/csv/local-elections/*.csv`)
 
 if (!modules[datafile]) {
-  throw new Error(`"${datafile}" does not exist in glob: "../../data/local-elections/*.csv"`)
+  throw new Error(`"${datafile}" does not exist in glob: "../../data/csv/local-elections/*.csv"`)
 }
 const candidateData = (await modules[datafile]()).default
 const { data: validData, error } = z.array(localElectionDataSchema).safeParse(candidateData)
@@ -30,7 +30,7 @@ if (error) {
   throw new Error(error.message)
 }
 
-const { Content } = await post.render()
+const { Content } = await render(post)
 const { data } = await getEntry('elections', post.data.election.id)
 
 const pageTitle = `${dayjs(data.date).format('MMMM YYYY')} local election archive`

@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content'
+import { getCollection, render } from 'astro:content'
 import { z } from 'zod'
 import { candidateDataSchema } from '#utils/types'
 import { CandidatesTable } from '#components/react/candidates-table'
@@ -12,18 +12,18 @@ import dayjs from 'dayjs'
 export async function getStaticPaths() {
   const allCandidates = await getCollection('candidates')
   return allCandidates.map((post) => ({
-    params: { slug: post.slug },
+    params: { slug: post.id },
     props: { post },
   }))
 }
 
 const { post } = Astro.props
 
-const modules = import.meta.glob<CustomDataFile>(`../../data/candidates/*.csv`)
+const modules = import.meta.glob<CustomDataFile>(`../../data/csv/candidates/*.csv`)
 
 const datafile = post.data.datafile
 if (!modules[datafile]) {
-  throw new Error(`"${datafile}" does not exist in glob: "../../data/candidates/*.csv"`)
+  throw new Error(`"${datafile}" does not exist in glob: "../../data/csv/candidates/*.csv"`)
 }
 const candidateData = (await modules[datafile]()).default
 const { data: validData, error } = z.array(candidateDataSchema).safeParse(candidateData)
@@ -36,13 +36,14 @@ const rcvCandidates = validData.filter((d) => d.Type === 'RCV')
 const contestedCandidates = validData.filter((d) => d.Type === 'C')
 const uncontestedCandidates = validData.filter((d) => d.Type === 'U')
 
-const { Content } = await post.render()
+const { Content } = await render(post)
 const { data } = await getEntry('elections', post.data.election.id)
 
 const pageTitle = `${dayjs(data.date).format('MMMM YYYY')} candidate archive`
 ---
 
-<GlobalLayout title={pageTitle} description={post.body.toString()}>
+{/* @ts-expect-error 'body' type is missing in this version of Astro */}
+<GlobalLayout title={pageTitle} description={post.body}>
   <div class="my-16">
     <Container>
       <h1 class="text-4xl font-bold mb-8 text-neutral-700">

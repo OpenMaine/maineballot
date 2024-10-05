@@ -11,18 +11,17 @@ const allTags = await getCollection('tags')
 const tags = (
   await Promise.all(
     allTags.map(async (tag) => ({
-      slug: tag.id,
+      id: tag.id,
       data: tag.data,
       ballotMeasures: (
         await getCollection('ballot-questions', ({ data }) => data.tags?.some((postTag) => postTag.id === tag.id))
       ).sort(
         (a, b) =>
-          new Date(b.data.electionDate).getTime() - new Date(a.data.electionDate).getTime() ||
-          a.slug.localeCompare(b.slug),
+          new Date(b.data.electionDate).getTime() - new Date(a.data.electionDate).getTime() || a.id.localeCompare(b.id),
       ),
     })),
   )
-).sort((a, b) => b.ballotMeasures.length - a.ballotMeasures.length || a.slug.localeCompare(b.slug))
+).sort((a, b) => b.ballotMeasures.length - a.ballotMeasures.length || a.id.localeCompare(b.id))
 ---
 
 <GlobalLayout title="Ballot questions by tag" description="An archive of Maine ballot questions by tag.">
@@ -33,7 +32,7 @@ const tags = (
       {
         tags.map((tag) => (
           <li class="block h-12 border-b">
-            <a href={`#${tag.slug}`} class="flex size-full items-center justify-between">
+            <a href={`#${tag.id}`} class="flex size-full items-center justify-between">
               <span class="font-bold text-gray-800"> {tag.data.title}</span>
               <span class="text-gray-500">{tag.ballotMeasures.length}</span>
             </a>
@@ -47,7 +46,7 @@ const tags = (
         tags.map((tag) => (
           <div>
             <div class="mt-8 mb-4">
-              <h2 id={tag.slug} class="text-xl font-bold text-neutral-500">
+              <h2 id={tag.id} class="text-xl font-bold text-neutral-500">
                 {tag.data.title}
               </h2>
             </div>
@@ -66,6 +65,7 @@ const tags = (
                   </div>
                   <div class="mt-1 flex items-center gap-1 text-neutral-500 mb-2">
                     <span class="icon-[fa6-regular--clock] size-3" aria-hidden="true" />
+                    {/* @ts-expect-error 'body' type is missing in this version of Astro */}
                     <span class="text-sm">{getReadingTime(bm.body)}</span>
                   </div>
                   <div>

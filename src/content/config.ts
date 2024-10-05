@@ -1,8 +1,8 @@
-import { file } from 'astro/loaders'
+import { file, glob } from 'astro/loaders'
 import { type ImageFunction, defineCollection, reference, z } from 'astro:content'
 
 const ballotMeasureCollection = defineCollection({
-  type: 'content',
+  loader: glob({ pattern: '**\/[^_]*.(md|mdx)', base: './src/data/ballot-questions' }),
   schema: ({ image }: { image: ImageFunction }) =>
     z.object({
       title: z.string(),
@@ -24,7 +24,7 @@ const ballotMeasureCollection = defineCollection({
 })
 
 const candidatesCollection = defineCollection({
-  type: 'content',
+  loader: glob({ pattern: '**\/[^_]*.(md|mdx)', base: './src/data/candidates' }),
   schema: z.object({
     title: z.string(),
     description: z.string(),
@@ -34,7 +34,7 @@ const candidatesCollection = defineCollection({
 })
 
 const localCollection = defineCollection({
-  type: 'content',
+  loader: glob({ pattern: '**\/[^_]*.(md|mdx)', base: './src/data/local' }),
   schema: z.object({
     title: z.string(),
     description: z.string(),
