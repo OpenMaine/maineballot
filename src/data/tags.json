@@ -150,5 +150,29 @@
   {
     "id": "water",
     "title": "Water"
+  },
+  {
+    "id": "research-and-development",
+    "title": "Research and Development"
+  },
+  {
+    "id": "super-pac",
+    "title": "Super PAC"
+  },
+  {
+    "id": "campaign-contributions",
+    "title": "Campaign Contributions"
+  },
+  {
+    "id": "trails",
+    "title": "Trails"
+  },
+  {
+    "id": "flag",
+    "title": "Flag"
+  },
+  {
+    "id": "historic-preservation",
+    "title": "Historic Preservation"
   }
 ]

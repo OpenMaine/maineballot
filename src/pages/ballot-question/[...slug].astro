@@ -24,9 +24,11 @@ export async function getStaticPaths() {
 const { ballotMeasure } = Astro.props
 const tags = await getEntries(ballotMeasure.data.tags || [])
 const election = await getEntry(ballotMeasure.data.election)
-const relatedMeasures = await getCollection('ballot-questions', (bm) => {
-  return bm.data.election.id === election.id && bm.id !== ballotMeasure.id
-})
+const relatedMeasures = (
+  await getCollection('ballot-questions', (bm) => {
+    return bm.data.election.id === election.id && bm.id !== ballotMeasure.id
+  })
+).sort((a, b) => a.id.localeCompare(b.id))
 
 const { Content } = await render(ballotMeasure)
 ---

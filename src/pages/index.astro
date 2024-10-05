@@ -10,9 +10,11 @@ import Container from '#components/container.astro'
 import { getEntryUrl } from '#utils/get-url'
 import { getReadingTime } from '#utils/get-reading-time'
 
-const upcomingBallotMeasures = await getCollection('ballot-questions', (bm) => {
-  return bm.data.electionDate === ELECTIONS.upcoming.date
-})
+const upcomingBallotMeasures = (
+  await getCollection('ballot-questions', (bm) => {
+    return bm.data.electionDate === ELECTIONS.upcoming.date
+  })
+).sort((a, b) => a.id.localeCompare(b.id))
 ---
 
 <GlobalLayout title={SITE_META.title} description={SITE_META.description}>
@@ -112,10 +114,7 @@ const upcomingBallotMeasures = await getCollection('ballot-questions', (bm) => {
   <Container class="prose prose-neutral text-center">
     <hr class="w-1/4 h-1 bg-[#2f6585] mx-auto my-12" />
     <h3>Local ballot questions</h3>
-    <p>
-      We have links to local election websites and basic information about what's on the ballot and ballot drop box
-      locations for counties, cities, and towns.
-    </p>
+    <p>We have links to local election websites and ballot drop box locations for counties, cities, and towns.</p>
     <p>
       <a href="/local">Find information about your local election</a>.
     </p>
