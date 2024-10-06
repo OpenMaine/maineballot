@@ -59,6 +59,7 @@ export default defineConfig({
     imageCDN: false,
   }),
   redirects: {
+    '/november%202024%20election/*': '/ballot-question/2024-11-05/:splat',
     '/november%202023%20election/*': '/ballot-question/2023-11-07/:splat',
     '/november%202021%20election/*': '/ballot-question/2021-11-02/:splat',
     '/july%202020%20election/*': '/ballot-question/2020-07-14/:splat',
