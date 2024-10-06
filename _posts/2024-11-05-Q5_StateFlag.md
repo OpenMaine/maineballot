@@ -26,7 +26,7 @@ An Act to Restore the Former State of Maine Flag, Do you favor making the former
 
 
 ## Tell me more
-People have been flying unofficial versions of the Pine Tree Flag for years. This would make it the official flag. In 2023, the state legislature passed legilsation allowing this referendum question to see whether citizens want the new flag.[^6]
+People have been flying unofficial versions of the Pine Tree Flag for years. This would make it the official flag. In 2023, the state legislature passed legislation allowing this referendum question to see whether citizens want the new flag.[^6]
 
 ## Follow the money
 The costs to change flags would be absorbed into existing budgets.[^4]
