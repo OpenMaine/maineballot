@@ -5,6 +5,7 @@ import GoogleAnalytics from '#components/global/google-analytics.astro'
 import { SITE_META } from '#utils/constants'
 import { GOOGLE_SITE_VERIFICATION } from 'astro:env/server'
 import { SEO } from 'astro-seo'
+import { ClientRouter } from 'astro:transitions'
 
 type Props = {
   title: string
@@ -65,6 +66,7 @@ const { title, description = SITE_META.description, image = new URL('og.jpg', As
       }}
     />
 
+    <ClientRouter />
     <GoogleAnalytics />
   </head>
   <body class="flex flex-col h-full">
