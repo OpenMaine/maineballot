@@ -70,6 +70,9 @@ export default defineConfig({
     '/november%202017%20election/*': '/ballot-question/november-2017/:splat',
     '/june%202017%20election/*': '/ballot-question/june-2017/:splat',
     '/november%202016%20election/*': '/ballot-question/november-2016/:splat',
+    //
     '/categories': '/elections',
+    // Random redirects for broken links in the wild
+    '/minimum-wage-1': '/ballot-question/november-2016/q4_minimumwage',
   },
 })
