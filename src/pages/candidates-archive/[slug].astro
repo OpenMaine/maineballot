@@ -42,8 +42,7 @@ const { data } = await getEntry('elections', post.data.election.id)
 const pageTitle = `${dayjs(data.date).format('MMMM YYYY')} candidate archive`
 ---
 
-{/* @ts-expect-error 'body' type is missing in this version of Astro */}
-<GlobalLayout title={pageTitle} description={post.body}>
+<GlobalLayout title={pageTitle} description={post.body || ''}>
   <div class="my-16">
     <Container>
       <h1 class="text-4xl font-bold mb-8 text-neutral-700">

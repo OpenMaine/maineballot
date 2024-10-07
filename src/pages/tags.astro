@@ -63,11 +63,12 @@ const tags = (
                       </a>
                     </h3>
                   </div>
-                  <div class="mt-1 flex items-center gap-1 text-neutral-500 mb-2">
-                    <span class="icon-[fa6-regular--clock] size-3" aria-hidden="true" />
-                    {/* @ts-expect-error 'body' type is missing in this version of Astro */}
-                    <span class="text-sm">{getReadingTime(bm.body)}</span>
-                  </div>
+                  {bm.body ? (
+                    <div class="mt-1 flex items-center gap-1 text-neutral-500 mb-2">
+                      <span class="icon-[fa6-regular--clock] size-3" aria-hidden="true" />
+                      <span class="text-sm">{getReadingTime(bm.body)}</span>
+                    </div>
+                  ) : null}
                   <div>
                     <p>{bm.data.excerpt}</p>
                   </div>

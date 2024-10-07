@@ -50,11 +50,14 @@ const { Content } = await render(ballotMeasure)
         <p class="text-white text-xl md:text-2xl max-w-prose mb-8">
           {ballotMeasure.data.excerpt}
         </p>
-        <p class="text-white flex items-center gap-2">
-          <span class="icon-[fa6-regular--clock] size-4" aria-hidden="true"></span>
-          {/* @ts-expect-error 'body' type is missing in this version of Astro */}
-          <span>{getReadingTime(ballotMeasure.body)}</span>
-        </p>
+        {
+          ballotMeasure.body ? (
+            <p class="text-white flex items-center gap-2">
+              <span class="icon-[fa6-regular--clock] size-4" aria-hidden="true" />
+              <span>{getReadingTime(ballotMeasure.body)}</span>
+            </p>
+          ) : null
+        }
       </div>
     </div>
   </div>
@@ -147,11 +150,12 @@ const { Content } = await render(ballotMeasure)
                       {rm.data.title}
                     </a>
                   </p>
-                  <div class="flex items-center gap-1 text-neutral-500 mb-2">
-                    <span class="icon-[fa6-regular--clock] size-3" aria-hidden="true" />
-                    {/* @ts-expect-error 'body' type is missing in this version of Astro */}
-                    <span class="text-sm">{getReadingTime(rm.body)}</span>
-                  </div>
+                  {rm.body ? (
+                    <div class="flex items-center gap-1 text-neutral-500 mb-2">
+                      <span class="icon-[fa6-regular--clock] size-3" aria-hidden="true" />
+                      <span class="text-sm">{getReadingTime(rm.body)}</span>
+                    </div>
+                  ) : null}
                   <p>{rm.data.excerpt}</p>
                 </div>
               ))}
