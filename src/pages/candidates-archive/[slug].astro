@@ -44,15 +44,16 @@ const pageTitle = `${dayjs(data.date).format('MMMM YYYY')} candidate archive`
 
 <GlobalLayout title={pageTitle} description={post.body || ''}>
   <div class="my-16">
-    <Container>
+    <Container class="mb-12">
       <h1 class="text-4xl font-bold mb-8 text-neutral-700">
         {pageTitle}
       </h1>
 
-      <div class="prose prose-neutral mb-12 mx-auto">
+      <div class="prose prose-neutral max-w-none">
         <Content />
       </div>
     </Container>
+
     <div class="space-y-20">
       <!-- Ranked-choice -->
       <div>
