@@ -27,15 +27,15 @@ Inside of this Astro project, you'll see the following folders and files:
 ├── .vscode/
 ├── public/
 ├── src/
+│   ├── assets/
 │   ├── components/
-│   ├── content/
+│   ├── content/config.ts
+│   ├── data/
 │   ├── layouts/
-│   ├── locales/
-│   ├── middleware/
 │   ├── pages/
 │   ├── styles/
 │   ├── utils/
-│   └── consts.ts/
+│   └── env.d.ts
 ├── .editorconfig
 ├── CNAME
 ├── eslint.config.js
