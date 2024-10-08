@@ -11,6 +11,8 @@ Contact us at: maineballot@gmail.com
 
 Go ahead and clone the repository! [Learn how to create your own ballot website.](https://github.com/OpenMaine/maineballot/wiki/How-to-create-your-own-ballot-website)
 
+<br />
+
 ---
 
 <br />
@@ -111,6 +113,8 @@ The "frontmatter" is where the any variables are defined. These files are static
 These files are where our most of the site's client-side JavaScript is written. Anything that is interactive to users, like the mobile menu and sortable tables, lives here. In our case, these are React components that are embedded into the site as "[islands](https://docs.astro.build/en/concepts/islands/)".
 
 While these components are typically rendered on the client (as opposed to statically during the build-step), there are ways to ensure data referenced in these components is available without having to wait. This is useful for things like SEO and perceived loading times.
+
+<br />
 
 ---
 
