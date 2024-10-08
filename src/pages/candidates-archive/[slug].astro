@@ -91,14 +91,7 @@ const pageTitle = `${dayjs(data.date).format('MMMM YYYY')} candidate archive`
           </p>
         </Container>
         <div class="mx-auto max-w-6xl px-6 prose prose-neutral">
-          <CandidatesTable
-            data={uncontestedCandidates}
-            columnVisibility={{
-              comparison: false,
-              website: false,
-            }}
-            client:load
-          />
+          <CandidatesTable data={uncontestedCandidates} hideColumns={['comparison', 'website']} client:load />
         </div>
       </div>
     </div>
