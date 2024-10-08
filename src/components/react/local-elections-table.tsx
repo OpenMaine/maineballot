@@ -9,20 +9,9 @@ import {
 import clsx from 'clsx'
 import type { LocalElectionData } from '#utils/types'
 
-const defaultColumnVisibility = {
-  county: true,
-  city: true,
-  type: true,
-  website: true,
-  drop: true,
-  ballot: true,
-  ballot_link: true,
-  ballot_link_text: true,
-}
-
-export function LocalElectionsTable({ data, columnVisibility = defaultColumnVisibility, ballotColumnText }: {
+export function LocalElectionsTable({ data, hideColumns, ballotColumnText }: {
   data: LocalElectionData[]
-  columnVisibility?: Partial<typeof defaultColumnVisibility>
+  hideColumns?: (keyof LocalElectionData)[]
   ballotColumnText: string
 }) {
   const columnHelper = createColumnHelper<LocalElectionData>()
@@ -69,6 +58,14 @@ export function LocalElectionsTable({ data, columnVisibility = defaultColumnVisi
     }),
   ]
 
+  // Converts array of column id's to object of booleans
+  const hiddenColumns = hideColumns
+    ? hideColumns.reduce((m, v) => {
+      m[v] = false
+      return m
+    }, {} as Record<keyof LocalElectionData, boolean>)
+    : undefined
+
   const table = useReactTable({
     data,
     columns,
@@ -79,10 +76,7 @@ export function LocalElectionsTable({ data, columnVisibility = defaultColumnVisi
         id: 'county',
         desc: false,
       }],
-      columnVisibility: {
-        ...defaultColumnVisibility,
-        ...columnVisibility,
-      },
+      columnVisibility: hiddenColumns,
     },
     enableMultiSort: false,
   })

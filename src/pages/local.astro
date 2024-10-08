@@ -21,19 +21,25 @@ if (error) {
     <h1 class="text-4xl font-bold mb-8 text-neutral-700">Local Elections</h1>
 
     <div class="prose prose-neutral max-w-none">
+      <p>This is a work in progress list of websites or contact information for city and town elections in Maine.</p>
       <p>
-        This is a work in progress list of websites or contact information for city and town elections in Maine. 
-      </p>
-            <p>
-        We are no longer providing sample ballots or what's on the ballot. We recommend using <a href="https://ballotpedia.org/Sample_Ballot_Lookup">Balloptpedia's Sample Ballot Lookup Tool</a> to find out what's on your ballot.
+        We are no longer providing sample ballots or what's on the ballot. We recommend using <a
+          href="https://ballotpedia.org/Sample_Ballot_Lookup">Balloptpedia's Sample Ballot Lookup Tool</a
+        > to find out what's on your ballot.
       </p>
       <p>
         For a map of dropbox locations, see the <a href="https://www.lwvme.org/AbsenteeMap"
-          >League of Women Voter's of Maine website</a>.
+          >League of Women Voter's of Maine website</a
+        >.
       </p>
     </div>
   </Container>
   <div class="mx-auto max-w-6xl px-6 prose prose-neutral">
-    <LocalElectionsTable data={validData} ballotColumnText="What's on the November 2024 ballot?" client:load />
+    <LocalElectionsTable
+      data={validData}
+      hideColumns={['ballot', 'ballot_link']}
+      ballotColumnText="What's on the November 2024 ballot?"
+      client:load
+    />
   </div>
 </GlobalLayout>

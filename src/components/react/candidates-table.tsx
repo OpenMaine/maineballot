@@ -9,19 +9,9 @@ import {
 import clsx from 'clsx'
 import type { CandidateData } from '#utils/types'
 
-const defaultColumnVisibility = {
-  Office: true,
-  Dist: true,
-  Party: true,
-  fullName: true,
-  ballotpedia: true,
-  website: true,
-  comparison: true,
-}
-
-export function CandidatesTable({ data, columnVisibility = defaultColumnVisibility }: {
+export function CandidatesTable({ data, hideColumns }: {
   data: CandidateData[]
-  columnVisibility?: Partial<typeof defaultColumnVisibility>
+  hideColumns?: (keyof CandidateData)[]
 }) {
   const columnHelper = createColumnHelper<CandidateData>()
   const columns = [
@@ -51,12 +41,15 @@ export function CandidatesTable({ data, columnVisibility = defaultColumnVisibili
       header: 'Website',
       cell: ({ row }) => row.original.ballotpedia ? <a className="text-[#2f7d95] underline hover:text-[#235e70]" href={row.original.ballotpedia}>Campaign website</a> : null,
     }),
-    // columnHelper.display({
-    //   id: 'comparison',
-    //   header: 'Comparison',
-    //   cell: ({ row }) => row.original.comparison ? <a className="text-[#2f7d95] underline hover:text-[#235e70]" href={row.original.comparison}>{row.original.comparison_text}</a> : null,
-    // }),
   ]
+
+  // Converts array of column id's to object of booleans
+  const hiddenColumns = hideColumns
+    ? hideColumns.reduce((m, v) => {
+      m[v] = false
+      return m
+    }, {} as Record<keyof CandidateData, boolean>)
+    : undefined
 
   const table = useReactTable({
     data,
@@ -68,10 +61,7 @@ export function CandidatesTable({ data, columnVisibility = defaultColumnVisibili
         id: 'fullName',
         desc: false,
       }],
-      columnVisibility: {
-        ...defaultColumnVisibility,
-        ...columnVisibility,
-      },
+      columnVisibility: hiddenColumns,
     },
     enableMultiSort: false,
   })

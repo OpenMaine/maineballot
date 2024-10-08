@@ -48,7 +48,12 @@ const pageTitle = `${dayjs(data.date).format('MMMM YYYY')} local election archiv
     </Container>
 
     <div class="mx-auto max-w-6xl px-6 prose prose-neutral">
-      <LocalElectionsTable data={validData} ballotColumnText={post.data.description} client:load />
+      <LocalElectionsTable
+        data={validData}
+        hideColumns={['ballot', 'ballot_link']}
+        ballotColumnText={post.data.description}
+        client:load
+      />
     </div>
   </div>
 </GlobalLayout>
