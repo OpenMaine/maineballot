@@ -1,6 +1,6 @@
 ---
 type Props = {
-  platform: 'facebook' | 'twitter' | 'linkedin' | 'google-plus'
+  platform: 'facebook' | 'twitter' | 'linkedin'
   shareText?: string
   shareUrl: string
 }
@@ -29,12 +29,6 @@ const share: Record<
   },
   linkedin: {
     baseUrl: 'https://www.linkedin.com/sharing/share-offsite/',
-    params: {
-      url: shareUrl,
-    },
-  },
-  'google-plus': {
-    baseUrl: 'https://plus.google.com/share',
     params: {
       url: shareUrl,
     },
@@ -73,11 +67,11 @@ const baseClasses = 'text-white transition-colors h-10 px-4 flex gap-2 items-cen
       onclick={handleOnClick}
       target="_blank"
       rel="noopener"
-      class:list={[baseClasses, 'bg-[#55acee] hover:bg-[#448abe]']}
+      class:list={[baseClasses, 'bg-gray-800 hover:bg-black']}
     >
-      <span class="icon-[fa6-brands--twitter] size-4" aria-hidden="true" />
-      <span class="sr-only">Share on </span>
-      <span>Twitter</span>
+      <span class="icon-[fa6-brands--x-twitter] size-4" aria-hidden="true" />
+      <span class="sr-only">Share on X</span>
+      <span class="text-sm">(formerly Twitter)</span>
     </a>
   ) : platform === 'linkedin' ? (
     <a
@@ -90,18 +84,6 @@ const baseClasses = 'text-white transition-colors h-10 px-4 flex gap-2 items-cen
       <span class="icon-[fa6-brands--linkedin] size-4" aria-hidden="true" />
       <span class="sr-only">Share on </span>
       <span>LinkedIn</span>
-    </a>
-  ) : platform === 'google-plus' ? (
-    <a
-      href={url}
-      onclick={handleOnClick}
-      target="_blank"
-      rel="noopener"
-      class:list={[baseClasses, 'bg-[#dd4b39] hover:bg-[#b13c2e]']}
-    >
-      <span class="icon-[fa6-brands--google-plus] size-4" aria-hidden="true" />
-      <span class="sr-only">Share on </span>
-      <span>Google+</span>
     </a>
   ) : null
 }
