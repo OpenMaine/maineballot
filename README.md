@@ -44,7 +44,7 @@ Inside of this Astro project, you'll see the following folders and files:
 ├── package-lock.json
 ├── package.json
 ├── README.md
-├── tailwind.config.cjs
+├── tailwind.config.ts
 └── tsconfig.json
 ```
 
