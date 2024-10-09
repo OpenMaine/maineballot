@@ -45,7 +45,8 @@ const handleOnClick = `window.open(
     return false;
   `.replace(/\s/g, '') // Makes string prettier in the DOM
 
-const baseClasses = 'text-white transition-colors h-10 px-4 flex gap-2 items-center rounded font-bold'
+const baseClasses =
+  'text-white transition-colors h-10 w-14 px-4 flex gap-2 items-center justify-center rounded font-bold'
 ---
 
 {
@@ -57,9 +58,8 @@ const baseClasses = 'text-white transition-colors h-10 px-4 flex gap-2 items-cen
       rel="noopener"
       class:list={[baseClasses, 'bg-[#3b5998] hover:bg-[#2f477a]']}
     >
-      <span class="icon-[fa6-brands--facebook] size-4" aria-hidden="true" />
-      <span class="sr-only">Share on </span>
-      <span>Facebook</span>
+      <span class="icon-[fa6-brands--facebook] size-5" aria-hidden="true" />
+      <span class="sr-only">Share on Facebook</span>
     </a>
   ) : platform === 'twitter' ? (
     <a
@@ -69,9 +69,8 @@ const baseClasses = 'text-white transition-colors h-10 px-4 flex gap-2 items-cen
       rel="noopener"
       class:list={[baseClasses, 'bg-gray-800 hover:bg-black']}
     >
-      <span class="icon-[fa6-brands--x-twitter] size-4" aria-hidden="true" />
-      <span class="sr-only">Share on X</span>
-      <span class="text-sm">(formerly Twitter)</span>
+      <span class="icon-[fa6-brands--x-twitter] size-5" aria-hidden="true" />
+      <span class="sr-only">Share on X (formerly Twitter)</span>
     </a>
   ) : platform === 'linkedin' ? (
     <a
@@ -81,9 +80,8 @@ const baseClasses = 'text-white transition-colors h-10 px-4 flex gap-2 items-cen
       rel="noopener"
       class:list={[baseClasses, 'bg-[#007bb6] hover:bg-[#006292]']}
     >
-      <span class="icon-[fa6-brands--linkedin] size-4" aria-hidden="true" />
-      <span class="sr-only">Share on </span>
-      <span>LinkedIn</span>
+      <span class="icon-[fa6-brands--linkedin] size-5" aria-hidden="true" />
+      <span class="sr-only">Share on LinkedIn</span>
     </a>
   ) : null
 }
