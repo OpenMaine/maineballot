@@ -3,11 +3,14 @@ import {
   createColumnHelper,
   flexRender,
   getCoreRowModel,
+  getFilteredRowModel,
   getSortedRowModel,
   useReactTable,
 } from '@tanstack/react-table'
 import clsx from 'clsx'
+import { useStore } from '@nanostores/react'
 import type { CandidateData } from '#utils/types'
+import { searchValue } from '#utils/search-store'
 
 export function CandidatesTable({ data, hideColumns }: {
   data: CandidateData[]
@@ -16,27 +19,33 @@ export function CandidatesTable({ data, hideColumns }: {
   const columnHelper = createColumnHelper<CandidateData>()
   const columns = [
     columnHelper.accessor(row => `${row.FirstName} ${row.LastName}`, {
+      enableGlobalFilter: true,
+      enableSorting: true,
       id: 'fullName',
       header: 'Candidate',
-      enableSorting: true,
     }),
     columnHelper.accessor('Office', {
+      enableGlobalFilter: false,
       header: 'Office',
     }),
     columnHelper.accessor('Dist', {
-      header: 'District',
       enableSorting: true,
+      enableGlobalFilter: false,
+      header: 'District',
     }),
     columnHelper.accessor('Party', {
-      header: 'Party',
       enableSorting: true,
+      enableGlobalFilter: false,
+      header: 'Party',
     }),
     columnHelper.display({
+      enableGlobalFilter: false,
       id: 'ballotpedia',
       header: 'Ballotpedia',
       cell: ({ row }) => row.original.ballotpedia ? <a className="text-[#2f7d95] underline hover:text-[#235e70]" href={row.original.ballotpedia}>Ballotpedia page</a> : null,
     }),
     columnHelper.display({
+      enableGlobalFilter: false,
       id: 'website',
       header: 'Website',
       cell: ({ row }) => row.original.ballotpedia ? <a className="text-[#2f7d95] underline hover:text-[#235e70]" href={row.original.ballotpedia}>Campaign website</a> : null,
@@ -56,12 +65,16 @@ export function CandidatesTable({ data, hideColumns }: {
     columns,
     getCoreRowModel: getCoreRowModel(),
     getSortedRowModel: getSortedRowModel(),
+    getFilteredRowModel: getFilteredRowModel(),
     initialState: {
       sorting: [{
         id: 'fullName',
         desc: false,
       }],
       columnVisibility: hiddenColumns,
+    },
+    state: {
+      globalFilter: useStore(searchValue),
     },
     enableMultiSort: false,
   })

@@ -3,6 +3,7 @@ import Container from '#components/container.astro'
 import { LocalElectionsTable } from '#components/react/local-elections-table'
 import electionData from '#data/csv/local-elections/local.csv'
 import GlobalLayout from '#layouts/global-layout.astro'
+import SearchInput from '#components/react/search-input'
 import { localElectionDataSchema } from '#utils/types'
 import { z } from 'zod'
 
@@ -32,6 +33,8 @@ if (error) {
           >League of Women Voter's of Maine website</a
         >.
       </p>
+
+      <SearchInput className="mt-4" placeholder="Search for town..." client:load />
     </div>
   </Container>
   <div class="mx-auto max-w-6xl px-6 prose prose-neutral">

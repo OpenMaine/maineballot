@@ -8,6 +8,7 @@ import GlobalLayout from '#layouts/global-layout.astro'
 import Container from '#components/container.astro'
 import { getEntry } from 'astro:content'
 import dayjs from 'dayjs'
+import SearchInput from '#components/react/search-input'
 
 export async function getStaticPaths() {
   const allCandidates = await getCollection('candidates')
@@ -52,6 +53,8 @@ const pageTitle = `${dayjs(data.date).format('MMMM YYYY')} candidate archive`
       <div class="prose prose-neutral max-w-none">
         <Content />
       </div>
+
+      <SearchInput className="mt-4" placeholder="Search for candidate..." client:load />
     </Container>
 
     <div class="space-y-20">

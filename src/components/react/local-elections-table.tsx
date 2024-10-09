@@ -1,13 +1,16 @@
+import { useStore } from '@nanostores/react'
 import {
   type SortDirection,
   createColumnHelper,
   flexRender,
   getCoreRowModel,
+  getFilteredRowModel,
   getSortedRowModel,
   useReactTable,
 } from '@tanstack/react-table'
 import clsx from 'clsx'
 import type { LocalElectionData } from '#utils/types'
+import { searchValue } from '#utils/search-store'
 
 export function LocalElectionsTable({ data, hideColumns, ballotColumnText }: {
   data: LocalElectionData[]
@@ -17,6 +20,7 @@ export function LocalElectionsTable({ data, hideColumns, ballotColumnText }: {
   const columnHelper = createColumnHelper<LocalElectionData>()
   const columns = [
     columnHelper.accessor('county', {
+      enableGlobalFilter: false,
       header: 'County',
       sortingFn: 'basic',
     }),
@@ -26,6 +30,7 @@ export function LocalElectionsTable({ data, hideColumns, ballotColumnText }: {
     }),
     columnHelper.display({
       enableSorting: false,
+      enableGlobalFilter: false,
       id: 'website',
       header: 'Website',
       cell: ({ row }) => row.original.website
@@ -42,14 +47,17 @@ export function LocalElectionsTable({ data, hideColumns, ballotColumnText }: {
     }),
     columnHelper.accessor('drop', {
       enableSorting: false,
+      enableGlobalFilter: false,
       header: 'Ballot drop box',
     }),
     columnHelper.accessor('ballot', {
       enableSorting: false,
+      enableGlobalFilter: false,
       header: ballotColumnText,
     }),
     columnHelper.display({
       enableSorting: false,
+      enableGlobalFilter: false,
       id: 'ballot_link',
       header: 'Sample ballot or warrant',
       cell: ({ row }) => row.original.ballot_link
@@ -71,6 +79,7 @@ export function LocalElectionsTable({ data, hideColumns, ballotColumnText }: {
     columns,
     getCoreRowModel: getCoreRowModel(),
     getSortedRowModel: getSortedRowModel(),
+    getFilteredRowModel: getFilteredRowModel(),
     initialState: {
       sorting: [{
         id: 'county',
@@ -78,8 +87,19 @@ export function LocalElectionsTable({ data, hideColumns, ballotColumnText }: {
       }],
       columnVisibility: hiddenColumns,
     },
+    state: {
+      globalFilter: useStore(searchValue),
+    },
     enableMultiSort: false,
   })
+
+  // const $searchValue = useStore(searchValue)
+  // console.log({ $searchValue })
+
+  // React.useEffect(() => {
+  //   console.log($searchValue)
+  //   table.setGlobalFilter($searchValue)
+  // }, [$searchValue])
 
   return (
     <table className="w-full">
