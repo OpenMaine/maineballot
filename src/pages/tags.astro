@@ -1,0 +1,83 @@
+---
+import { getCollection } from 'astro:content'
+import dayjs from 'dayjs'
+import { getReadingTime } from '#utils/get-reading-time'
+import GlobalLayout from '#layouts/global-layout.astro'
+import Container from '#components/container.astro'
+import { getEntryUrl } from '#utils/get-url'
+
+const allTags = await getCollection('tags')
+
+const tags = (
+  await Promise.all(
+    allTags.map(async (tag) => ({
+      id: tag.id,
+      data: tag.data,
+      ballotMeasures: (
+        await getCollection('ballot-questions', ({ data }) => data.tags?.some((postTag) => postTag.id === tag.id))
+      ).sort(
+        (a, b) =>
+          new Date(b.data.electionDate).getTime() - new Date(a.data.electionDate).getTime() || a.id.localeCompare(b.id),
+      ),
+    })),
+  )
+).sort((a, b) => b.ballotMeasures.length - a.ballotMeasures.length || a.id.localeCompare(b.id))
+---
+
+<GlobalLayout title="Ballot questions by tag" description="An archive of Maine ballot questions by tag.">
+  <Container class="my-16">
+    <h1 class="text-4xl font-bold mb-8 text-neutral-700">Ballot questions by tag</h1>
+
+    <ul class="grid grid-cols-2 lg:grid-cols-3 gap-x-4 lg:gap-x-12">
+      {
+        tags.map((tag) => (
+          <li class="block h-12 border-b">
+            <a href={`#${tag.id}`} class="flex size-full items-center justify-between">
+              <span class="font-bold text-gray-800"> {tag.data.title}</span>
+              <span class="text-gray-500">{tag.ballotMeasures.length}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+
+    <div class="space-y-16 mt-12">
+      {
+        tags.map((tag) => (
+          <div>
+            <div class="mt-8 mb-4">
+              <h2 id={tag.id} class="text-xl font-bold text-neutral-500">
+                {tag.data.title}
+              </h2>
+            </div>
+            <div class="space-y-8">
+              {tag.ballotMeasures.map((bm) => (
+                <div>
+                  <div class="mb-1">
+                    <span class="text-neutral-600">{dayjs(bm.data.electionDate).format('MMMM D, YYYY')}</span>
+                  </div>
+                  <div class="mb-1">
+                    <h3 class="text-2xl font-bold text-[#2f7d95] hover:text-[#235e70]">
+                      <a class="underline" href={getEntryUrl(bm)}>
+                        {bm.data.title}
+                      </a>
+                    </h3>
+                  </div>
+                  {bm.body ? (
+                    <div class="mt-1 flex items-center gap-1 text-neutral-500 mb-2">
+                      <span class="icon-[fa6-regular--clock] size-3" aria-hidden="true" />
+                      <span class="text-sm">{getReadingTime(bm.body)}</span>
+                    </div>
+                  ) : null}
+                  <div>
+                    <p>{bm.data.excerpt}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </Container>
+</GlobalLayout>

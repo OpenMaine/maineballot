@@ -1,15 +1,23 @@
-*.sublime-project
-*.sublime-workspace
-.bundle
-.DS_Store
-.jekyll-metadata
-.jekyll-cache
-.sass-cache
-_asset_bundler_cache
-_site
-codekit-config.json
-example/_site
-node_modules
+# build output
+dist/
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
 npm-debug.log*
-assets/docs/*/ocr.sh
-assets/docs/2020-07-14_ballots/sample.pdf
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# netlify
+.netlify/

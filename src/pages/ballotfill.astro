@@ -1,0 +1,117 @@
+---
+import Container from '#components/container.astro'
+import GlobalLayout from '#layouts/global-layout.astro'
+import { ELECTIONS } from '#utils/constants'
+import dayjs from 'dayjs'
+---
+
+<GlobalLayout
+  title="About MaineBallot.org"
+  description="The goal of MaineBallot.org is to provide concise, non-partisan information to make it easy to understand the ballot questions pending in Maine"
+>
+  <div class="bg-[#2f6585]">
+    <Container class="text-center py-10 text-white">
+      <p class="font-medium text-xl lg:text-2xl mb-2">The next Maine election is</p>
+      <p class="font-bold text-3xl md:text-4xl lg:text-5xl mb-3">
+        {dayjs(ELECTIONS.upcoming.date).format('MMMM D, YYYY')}
+      </p>
+      <p class="font-bold text-xl">{ELECTIONS.upcoming.title}</p>
+    </Container>
+  </div>
+
+  <Container class="my-16">
+    <h1 class="text-4xl font-bold mb-16 text-neutral-700">Completing an absentee ballot</h1>
+
+    <div class="prose prose-neutral max-w-none">
+      <ol class="pl-0 list-none [counter-reset:usa-numbered-list]">
+        <li
+          class="relative ml-6 border-l-8 border-l-blue-100 pb-8 pl-12 before:absolute before:-left-9 before:-top-3 before:flex before:size-16 before:items-center before:justify-center before:rounded-full before:border-[6px] before:border-black before:bg-white before:text-3xl before:font-bold before:text-black before:outline before:outline-[6px] before:outline-offset-0 before:outline-white before:content-[counter(usa-numbered-list)] before:[counter-increment:usa-numbered-list] last:border-l-transparent my-0"
+        >
+          <h2 class="mt-0 mb-2">Check Your Mail</h2>
+          <p>
+            Ballots are provided to town clerks 30 days prior to Election Day. Begin checking your mail daily for the
+            ballot.
+          </p>
+        </li>
+        <li
+          class="relative ml-6 border-l-8 border-l-blue-100 pb-8 pl-12 before:absolute before:-left-9 before:-top-3 before:flex before:size-16 before:items-center before:justify-center before:rounded-full before:border-[6px] before:border-black before:bg-white before:text-3xl before:font-bold before:text-black before:outline before:outline-[6px] before:outline-offset-0 before:outline-white before:content-[counter(usa-numbered-list)] before:[counter-increment:usa-numbered-list] last:border-l-transparent my-0"
+        >
+          <h2 class="mt-0 mb-2">Locate a pen</h2>
+          <p>After receiving your ballot, locate a ball-point pen with blue or black ink only.</p>
+        </li>
+        <li
+          class="relative ml-6 border-l-8 border-l-blue-100 pb-8 pl-12 before:absolute before:-left-9 before:-top-3 before:flex before:size-16 before:items-center before:justify-center before:rounded-full before:border-[6px] before:border-black before:bg-white before:text-3xl before:font-bold before:text-black before:outline before:outline-[6px] before:outline-offset-0 before:outline-white before:content-[counter(usa-numbered-list)] before:[counter-increment:usa-numbered-list] last:border-l-transparent my-0"
+        >
+          <h2 class="mt-0 mb-2">Sign the envelope</h2>
+          <p>Sign the return envelope in the “voter signature” line on the outer flap.</p>
+        </li>
+        <li
+          class="relative ml-6 border-l-8 border-l-blue-100 pb-8 pl-12 before:absolute before:-left-9 before:-top-3 before:flex before:size-16 before:items-center before:justify-center before:rounded-full before:border-[6px] before:border-black before:bg-white before:text-3xl before:font-bold before:text-black before:outline before:outline-[6px] before:outline-offset-0 before:outline-white before:content-[counter(usa-numbered-list)] before:[counter-increment:usa-numbered-list] last:border-l-transparent my-0"
+        >
+          <h2 class="mt-0 mb-2">Mark your choice(s)</h2>
+          <p>Read and mark your ballot(s) by completely filling in the appropriate oval next to your choice.</p>
+        </li>
+        <li
+          class="relative ml-6 border-l-8 border-l-blue-100 pb-8 pl-12 before:absolute before:-left-9 before:-top-3 before:flex before:size-16 before:items-center before:justify-center before:rounded-full before:border-[6px] before:border-black before:bg-white before:text-3xl before:font-bold before:text-black before:outline before:outline-[6px] before:outline-offset-0 before:outline-white before:content-[counter(usa-numbered-list)] before:[counter-increment:usa-numbered-list] last:border-l-transparent my-0"
+        >
+          <h2 class="mt-0 mb-2">Refold and seal</h2>
+          <p>After making your selections, refold your ballot(s) and seal them in the return envelope.</p>
+        </li>
+        <li
+          class="relative ml-6 border-l-8 border-l-blue-100 pb-8 pl-12 before:absolute before:-left-9 before:-top-3 before:flex before:size-16 before:items-center before:justify-center before:rounded-full before:border-[6px] before:border-black before:bg-white before:text-3xl before:font-bold before:text-black before:outline before:outline-[6px] before:outline-offset-0 before:outline-white before:content-[counter(usa-numbered-list)] before:[counter-increment:usa-numbered-list] last:border-l-transparent my-0"
+        >
+          <h2 class="mt-0 mb-2">Check for signature again</h2>
+          <p>Doublecheck that you signed the outside of the envelope.</p>
+        </li>
+        <li
+          class="relative ml-6 border-l-8 border-l-blue-100 pb-8 pl-12 before:absolute before:-left-9 before:-top-3 before:flex before:size-16 before:items-center before:justify-center before:rounded-full before:border-[6px] before:border-black before:bg-white before:text-3xl before:font-bold before:text-black before:outline before:outline-[6px] before:outline-offset-0 before:outline-white before:content-[counter(usa-numbered-list)] before:[counter-increment:usa-numbered-list] last:border-l-transparent my-0"
+        >
+          <h2 class="mt-0 mb-2">Return ballot</h2>
+          <p>Return your ballot (all ballots are due no later than 8 P.M. on Election Day) by:</p>
+          <ul>
+            <li>Mailing your ballot. Allow 7 days for delivery.</li>
+            <li>Returning it in person to the town clerk.</li>
+            <li>Using an absentee ballot drop-box, if available.</li>
+          </ul>
+        </li>
+      </ol>
+
+      <h2>Tracking your ballot</h2>
+      <p>
+        To track the progress of your absentee ballot, utilize the <a
+          href="https://apps.web.maine.gov/cgi-bin/online/AbsenteeBallot/ballot_status.pl"
+          >Online Absentee Ballot Request Service</a
+        > page. The ballot tracking system will show you the date that your absentee ballot application is accepted by your
+        municipal clerk, the date your clerk issues (mails out) your ballot to you, and the date your clerk receives your
+        ballot. Please note that the tracker is not updated instantaneously; the information is accessible to you after your
+        municipal clerk enters the updates. You can use this tracking system regardless of how you initially request your
+        absentee ballot (whether you request it directly with your municipal clerk or using the online service). If you have
+        any concerns about your ballot, please contact your municipal clerk directly.
+      </p>
+      <p>
+        Source: <a href="https://www.maine.gov/sos/cec/elec/voter-info/AbsenteeAnimation.Updated012121.pdf"
+          >Absentee Animation Transcript</a
+        >, <span class="italic">Absentee Voting in Maine</span>, Maine Bureau of Corporations, Elections, and
+        Commissions.
+      </p>
+
+      <h2>Common rejections (based on November 2020 election results)</h2>
+
+      <ol>
+        <li>
+          Spoiled by voter.
+          <ul>
+            <li>Stray marks</li>
+            <li>Not using pen and correct ink</li>
+            <li>Using tape to seal envelope</li>
+          </ul>
+        </li>
+        <li>Incorrect mailing address on application.</li>
+        <li>Envelope not signed.</li>
+        <li>Duplicate ballot received.</li>
+        <li>Voted in person.</li>
+        <li>Witness certificate not properly completed.</li>
+      </ol>
+    </div>
+  </Container>
+</GlobalLayout>

@@ -1,0 +1,167 @@
+---
+import Container from '#components/container.astro'
+import MarkdownLink from '#components/markdown-link.astro'
+import ShareButton from '#components/share-button.astro'
+import YesNoTable from '#components/yes-no-table.astro'
+import GlobalLayout from '#layouts/global-layout.astro'
+import { getReadingTime } from '#utils/get-reading-time'
+import { getEntryUrl } from '#utils/get-url'
+import { Image } from 'astro:assets'
+import { render } from 'astro:content'
+import { getEntry } from 'astro:content'
+import { getEntries } from 'astro:content'
+import { getCollection } from 'astro:content'
+import dayjs from 'dayjs'
+
+export async function getStaticPaths() {
+  const allBallotMeasures = await getCollection('ballot-questions')
+  return allBallotMeasures.map((post) => ({
+    params: { slug: post.id },
+    props: { ballotMeasure: post },
+  }))
+}
+
+const { ballotMeasure } = Astro.props
+const tags = await getEntries(ballotMeasure.data.tags || [])
+const election = await getEntry(ballotMeasure.data.election)
+const relatedMeasures = (
+  await getCollection('ballot-questions', (bm) => {
+    return bm.data.election.id === election.id && bm.id !== ballotMeasure.id
+  })
+).sort((a, b) => a.id.localeCompare(b.id))
+
+const { Content } = await render(ballotMeasure)
+---
+
+<GlobalLayout title={ballotMeasure.data.title} description={ballotMeasure.data.excerpt}>
+  <div class="bg-center bg-no-repeat bg-cover relative">
+    <Image
+      class="absolute size-full inset-0 object-cover z-10"
+      src={ballotMeasure.data.header.overlay_image}
+      loading="eager"
+      alt=""
+      aria-hidden="true"
+    />
+    <div class="relative z-20 bg-black/50 py-20">
+      <div class="max-w-7xl mx-auto px-6 [text-shadow:1px_1px_4px_rgba(0,0,0,0.5)]">
+        <h1 class="mb-8 max-w-prose text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-white">
+          {ballotMeasure.data.title}
+        </h1>
+        <p class="text-white text-xl md:text-2xl max-w-prose mb-8">
+          {ballotMeasure.data.excerpt}
+        </p>
+        {
+          ballotMeasure.body ? (
+            <p class="text-white flex items-center gap-2">
+              <span class="icon-[fa6-regular--clock] size-4" aria-hidden="true" />
+              <span>{getReadingTime(ballotMeasure.body)}</span>
+            </p>
+          ) : null
+        }
+      </div>
+    </div>
+  </div>
+
+  <Container class="my-16">
+    <div class="prose prose-neutral max-w-none">
+      <Content
+        components={{
+          a: MarkdownLink,
+          YesNoTable,
+        }}
+      />
+    </div>
+
+    <div class="space-y-20 mt-28">
+      <!-- Tags -->
+      <div class="space-y-2">
+        <div class="flex flex-wrap items-center gap-4">
+          <div class="flex gap-2 items-center text-gray-500">
+            <span class="icon-[fa6-solid--tags] size-5" aria-hidden="true"></span>
+            <span class="font-bold">Tags:</span>
+          </div>
+          <ul class="flex flex-wrap gap-2 list-none">
+            {
+              tags.map((tag) => (
+                <li>
+                  <a
+                    class="flex rounded h-9 px-3 items-center border no-underline text-neutral-600 border-neutral-400 hover:text-[#235e70]"
+                    href={`/tags#${tag.id}`}
+                  >
+                    {tag.data.title}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+        <div class="flex flex-wrap items-center gap-4">
+          <div class="flex gap-2 items-center text-gray-500">
+            <span class="icon-[fa6-solid--folder-open] size-5" aria-hidden="true"></span>
+            <span class="font-bold">Election:</span>
+          </div>
+          <ul>
+            <li>
+              <a
+                class="flex rounded h-9 px-3 items-center border no-underline text-neutral-600 border-neutral-400 hover:text-[#235e70]"
+                href={`/elections#${election.id}`}>{election.data.title}</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="flex items-center gap-4 h-9">
+          <div class="flex gap-2 items-center text-gray-500">
+            <span class="icon-[fa6-solid--calendar-days] size-5" aria-hidden="true"></span>
+            <span class="font-bold">Updated: </span>
+          </div>
+          <span class="text-neutral-600">{dayjs(ballotMeasure.data.lastModifiedDate).format('MMMM D, YYYY')}</span>
+        </div>
+      </div>
+      <!-- Share -->
+      <div>
+        <h2 class="uppercase font-bold mb-4 text-neutral-600">Share on</h2>
+        <div class="flex flex-wrap gap-2">
+          <ShareButton
+            shareText={ballotMeasure.data.title}
+            shareUrl={import.meta.env.SITE + getEntryUrl(ballotMeasure)}
+            platform="twitter"
+          />
+          <ShareButton shareUrl={import.meta.env.SITE + getEntryUrl(ballotMeasure)} platform="facebook" />
+          <ShareButton shareUrl={import.meta.env.SITE + getEntryUrl(ballotMeasure)} platform="linkedin" />
+        </div>
+      </div>
+      {
+        relatedMeasures.length > 0 ? (
+          // <!-- Related Posts -->
+          <div class="mt-12">
+            <h2 class="uppercase font-bold mb-4 text-neutral-600">Related ballot questions</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-8 gap-x-4">
+              {relatedMeasures.map((rm) => (
+                <div class="relative">
+                  <Image
+                    loading="lazy"
+                    class="aspect-video rounded mb-2"
+                    src={rm.data.header.overlay_image}
+                    alt={rm.data.header.image_description || ''}
+                  />
+                  <p class="text-xl font-bold text-neutral-600 mb-1">
+                    <a class="after:inset-0 after:absolute" href={getEntryUrl(rm)}>
+                      {rm.data.title}
+                    </a>
+                  </p>
+                  {rm.body ? (
+                    <div class="flex items-center gap-1 text-neutral-500 mb-2">
+                      <span class="icon-[fa6-regular--clock] size-3" aria-hidden="true" />
+                      <span class="text-sm">{getReadingTime(rm.body)}</span>
+                    </div>
+                  ) : null}
+                  <p>{rm.data.excerpt}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        ) : null
+      }
+    </div>
+  </Container>
+</GlobalLayout>

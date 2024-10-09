@@ -1,0 +1,62 @@
+---
+import { getCollection, getEntry, render } from 'astro:content'
+import GlobalLayout from '#layouts/global-layout.astro'
+import Container from '#components/container.astro'
+import { LocalElectionsTable } from '#components/react/local-elections-table'
+import { localElectionDataSchema, type CustomDataFile } from '#utils/types'
+import { z } from 'zod'
+import dayjs from 'dayjs'
+import SearchInput from '#components/react/search-input'
+
+export async function getStaticPaths() {
+  const allLocal = await getCollection('local')
+  return allLocal.map((post) => ({
+    params: { slug: post.id },
+    props: { post },
+  }))
+}
+
+const { post } = Astro.props
+
+const datafile = post.data.datafile
+const modules = import.meta.glob<CustomDataFile>(`../../data/csv/local-elections/*.csv`)
+
+if (!modules[datafile]) {
+  throw new Error(`"${datafile}" does not exist in glob: "../../data/csv/local-elections/*.csv"`)
+}
+const candidateData = (await modules[datafile]()).default
+const { data: validData, error } = z.array(localElectionDataSchema).safeParse(candidateData)
+
+if (error) {
+  throw new Error(error.message)
+}
+
+const { Content } = await render(post)
+const { data } = await getEntry('elections', post.data.election.id)
+
+const pageTitle = `${dayjs(data.date).format('MMMM YYYY')} local election archive`
+---
+
+<GlobalLayout title={pageTitle} description={post.data.description}>
+  <div class="my-16">
+    <Container>
+      <h1 class="text-4xl font-bold mb-8 text-neutral-700">
+        {pageTitle}
+      </h1>
+      <div class="prose prose-neutral max-w-none">
+        <Content />
+      </div>
+
+      <SearchInput className="mt-4" placeholder="Search for town..." client:load />
+    </Container>
+
+    <div class="mx-auto max-w-6xl px-6 prose prose-neutral">
+      <LocalElectionsTable
+        data={validData}
+        hideColumns={['ballot', 'ballot_link']}
+        ballotColumnText={post.data.description}
+        client:load
+      />
+    </div>
+  </div>
+</GlobalLayout>
