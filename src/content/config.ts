@@ -1,5 +1,11 @@
 import { file, glob } from 'astro/loaders'
 import { type ImageFunction, defineCollection, reference, z } from 'astro:content'
+import dayjs from 'dayjs'
+import utc from 'dayjs/plugin/utc'
+import timezone from 'dayjs/plugin/timezone'
+
+dayjs.extend(utc)
+dayjs.extend(timezone)
 
 const ballotMeasureCollection = defineCollection({
   loader: glob({ pattern: '**\/[^_]*.(md|mdx)', base: './src/data/ballot-questions' }),
@@ -7,7 +13,7 @@ const ballotMeasureCollection = defineCollection({
     z.object({
       title: z.string(),
       excerpt: z.string(),
-      electionDate: z.string().date(),
+      electionDate: z.preprocess(val => String(val), z.string()).transform(str => dayjs.tz(str, 'America/New_York').toDate()),
       header: z.object({
         overlay_image: image(),
         teaser: image(),
@@ -19,7 +25,7 @@ const ballotMeasureCollection = defineCollection({
       tags: z.array(reference('tags')).optional(),
       yes_vote: z.string(),
       no_vote: z.string(),
-      lastModifiedDate: z.string().date(),
+      lastModifiedDate: z.preprocess(val => String(val), z.string()).transform(str => dayjs.tz(str, 'America/New_York').toDate()),
     }),
 })
 
