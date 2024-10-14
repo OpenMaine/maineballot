@@ -77,5 +77,6 @@
     "className",
     "ngClass",
     "class:list"
-  ]
+  ],
+  "astro.content-intellisense": true
 }

@@ -10,6 +10,10 @@ import netlify from '@astrojs/netlify'
 export default defineConfig({
   site: 'https://www.maineballot.org',
 
+  experimental: {
+    contentIntellisense: true,
+  },
+
   integrations: [
     tailwind(),
     sitemap(),
