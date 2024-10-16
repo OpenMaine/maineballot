@@ -1,0 +1,42 @@
+---
+import { Image } from 'astro:assets'
+import logo from '#assets/img/logo.jpg'
+import { NAVIGATION } from '#utils/constants'
+import { MobileMenu } from './react/mobile-menu'
+
+const activePath = Astro.url.pathname
+---
+
+<div class="mx-auto max-w-7xl px-6">
+  <div class="py-8">
+    <nav id="nav" class="flex items-center">
+      <a class="site-title" href="/">
+        <Image
+          src={logo}
+          loading="eager"
+          class="w-60 md:w-72 xl:w-80"
+          alt="The Maine Ballot, Understanding Maine's Ballot Questions with hand submitting a ballot"
+        />
+      </a>
+      <ul class="items-center ml-auto gap-8 hidden lg:flex">
+        {
+          NAVIGATION.map((link) => (
+            <li class="flex">
+              <a
+                aria-current={activePath === link.url ? 'page' : undefined}
+                href={link.url}
+                class="p-2 block text-lg text-neutral-500 xl:text-xl before:absolute before:h-1 before:inset-x-2 before:bottom-1 before:bg-neutral-500 relative before:transition-transform before:scale-x-0 hover:before:scale-x-100"
+              >
+                {link.title}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+
+      <div class="lg:hidden ml-auto">
+        <MobileMenu activePath={activePath} client:load />
+      </div>
+    </nav>
+  </div>
+</div>
