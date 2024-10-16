@@ -60,7 +60,7 @@ const electionCollection = defineCollection({
   loader: file('src/data/elections.json'),
   schema: z.object({
     title: z.string(),
-    date: z.string().transform(val => new Date(val)),
+    date: z.preprocess(val => String(val), z.string()).transform(str => dayjs.tz(str, 'America/New_York').toDate()),
   }),
 })
 

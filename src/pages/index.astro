@@ -12,7 +12,7 @@ import { getReadingTime } from '#utils/get-reading-time'
 
 const upcomingBallotMeasures = (
   await getCollection('ballot-questions', (bm) => {
-    return bm.data.electionDate === ELECTIONS.upcoming.date
+    return bm.data.electionDate.toISOString() === dayjs(ELECTIONS.upcoming.date).toISOString()
   })
 ).sort((a, b) => a.id.localeCompare(b.id))
 ---
