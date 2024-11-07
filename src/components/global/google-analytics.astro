@@ -1,0 +1,24 @@
+---
+import { GOOGLE_MEASUREMENT_ID } from 'astro:env/server'
+---
+
+<script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_MEASUREMENT_ID}`}></script>
+
+<script
+  is:inline
+  define:vars={{
+    isProd: import.meta.env.PROD,
+    GOOGLE_MEASUREMENT_ID,
+  }}
+>
+  if (isProd) {
+    ;(() => {
+      window.dataLayer = window.dataLayer || []
+      function gtag(...args) {
+        dataLayer.push(args)
+      }
+      gtag('js', new Date())
+      gtag('config', GOOGLE_MEASUREMENT_ID)
+    })()
+  }
+</script>

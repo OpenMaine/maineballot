@@ -1,0 +1,9 @@
+[context.main]
+command = "npm run build"
+publish = "dist"
+environment = { NODE_ENV = "production", NODE_VERSION = "20" }
+
+[context.astro]
+command = "npm run build"
+publish = "dist"
+environment = { NODE_ENV = "production", NODE_VERSION = "20" }

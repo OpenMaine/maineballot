@@ -1,0 +1,19 @@
+---
+import type { HTMLAttributes } from 'astro/types'
+
+type Props = HTMLAttributes<'a'>
+const { href, ...props } = Astro.props
+const site = Astro.site
+
+let isExternal = false
+try {
+  const { hostname } = new URL(href || '')
+  isExternal = hostname !== site?.hostname
+} catch {
+  isExternal = false
+}
+---
+
+<a {...props} href={href} target={isExternal ? '_blank' : undefined} rel={isExternal ? 'noopener' : undefined}
+  ><slot /></a
+>

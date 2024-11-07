@@ -1,0 +1,182 @@
+[
+  {
+    "id": "bond",
+    "title": "Bond"
+  },
+  {
+    "id": "business",
+    "title": "Business"
+  },
+  {
+    "id": "accessibility",
+    "title": "Accessibility"
+  },
+  {
+    "id": "casino",
+    "title": "Casino"
+  },
+  {
+    "id": "borrowing",
+    "title": "Borrowing"
+  },
+  {
+    "id": "citizen-initiative",
+    "title": "Citizen Initiative"
+  },
+  {
+    "id": "citizens-initiative",
+    "title": "Citizen's initiative"
+  },
+  {
+    "id": "consumer-utility",
+    "title": "Consumer Utility"
+  },
+  {
+    "id": "constitutional-resolution",
+    "title": "Constitutional Resolution"
+  },
+  {
+    "id": "did-not-pass",
+    "title": "Did Not Pass"
+  },
+  {
+    "id": "elections",
+    "title": "Elections"
+  },
+  {
+    "id": "constitutional-amendment",
+    "title": "Constitutional Amendment"
+  },
+  {
+    "id": "electricity",
+    "title": "Electricity"
+  },
+  {
+    "id": "guardianship",
+    "title": "Guardianship"
+  },
+  {
+    "id": "foreign-influence",
+    "title": "Foreign Influence"
+  },
+  {
+    "id": "education",
+    "title": "Education"
+  },
+  {
+    "id": "guns",
+    "title": "Guns"
+  },
+  {
+    "id": "healthcare",
+    "title": "Healthcare"
+  },
+  {
+    "id": "infrastructure",
+    "title": "Infrastructure"
+  },
+  {
+    "id": "food",
+    "title": "Food"
+  },
+  {
+    "id": "native-american",
+    "title": "Native American"
+  },
+  {
+    "id": "mental-illness",
+    "title": "Mental Illness"
+  },
+  {
+    "id": "pensions",
+    "title": "Pensions"
+  },
+  {
+    "id": "marijuana",
+    "title": "Marijuana"
+  },
+  {
+    "id": "petitions",
+    "title": "Petitions"
+  },
+  {
+    "id": "internet",
+    "title": "Internet"
+  },
+  {
+    "id": "referendum",
+    "title": "Referendum"
+  },
+  {
+    "id": "religion",
+    "title": "Religion"
+  },
+  {
+    "id": "transportation",
+    "title": "Transportation"
+  },
+  {
+    "id": "ranked-choice",
+    "title": "Ranked-Choice"
+  },
+  {
+    "id": "vaccination",
+    "title": "Vaccination"
+  },
+  {
+    "id": "passed",
+    "title": "Passed"
+  },
+  {
+    "id": "vehicles",
+    "title": "Vehicles"
+  },
+  {
+    "id": "retroactive",
+    "title": "Retroactive"
+  },
+  {
+    "id": "right-to-repair",
+    "title": "Right to Repair"
+  },
+  {
+    "id": "veto-referendum",
+    "title": "Veto referendum"
+  },
+  {
+    "id": "wages",
+    "title": "Wages"
+  },
+  {
+    "id": "water",
+    "title": "Water"
+  },
+  {
+    "id": "research-and-development",
+    "title": "Research and Development"
+  },
+  {
+    "id": "super-pac",
+    "title": "Super PAC"
+  },
+  {
+    "id": "campaign-contributions",
+    "title": "Campaign Contributions"
+  },
+  {
+    "id": "trails",
+    "title": "Trails"
+  },
+  {
+    "id": "flag",
+    "title": "Flag"
+  },
+  {
+    "id": "historic-preservation",
+    "title": "Historic Preservation"
+  },
+  {
+    "id": "buildings",
+    "title": "Buildings"
+  }
+]

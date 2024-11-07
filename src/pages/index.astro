@@ -1,0 +1,124 @@
+---
+import { getCollection } from 'astro:content'
+import { Image } from 'astro:assets'
+import dayjs from 'dayjs'
+import { ELECTIONS, SITE_META } from '#utils/constants'
+import GlobalLayout from '#layouts/global-layout.astro'
+import voteByMail from '#assets/img/Other/mail_sm.png'
+import earlyVoting from '#assets/img/Other/early-vote_sm.png'
+import Container from '#components/container.astro'
+import { getEntryUrl } from '#utils/get-url'
+import { getReadingTime } from '#utils/get-reading-time'
+
+const upcomingBallotMeasures = (
+  await getCollection('ballot-questions', (bm) => {
+    return bm.data.electionDate.toISOString() === dayjs(ELECTIONS.upcoming.date).toISOString()
+  })
+).sort((a, b) => a.id.localeCompare(b.id))
+---
+
+<GlobalLayout title={SITE_META.title} description={SITE_META.description}>
+  <div class="bg-[#2f6585]">
+    <Container class="text-center py-10 text-white">
+      <p class="font-medium text-xl lg:text-2xl mb-2">The next Maine election is</p>
+      <p class="font-bold text-3xl md:text-4xl lg:text-5xl mb-3">
+        {dayjs(ELECTIONS.upcoming.date).format('MMMM D, YYYY')}
+      </p>
+      <p class="font-bold text-xl">{ELECTIONS.upcoming.title}</p>
+    </Container>
+  </div>
+
+  <div class="bg-[#205173]">
+    <div class="lg:grid-cols-2 grid gap-x-20 gap-y-12 max-w-7xl px-6 lg:max-w-screen-2xl mx-auto text-white py-10">
+      <div class="flex flex-col lg:flex-row gap-6 items-center">
+        <Image src={voteByMail} loading="eager" alt="Vote by Mail" class="w-40 mx-auto" />
+        <div class="text-center lg:text-left grow">
+          <p class="font-bold mb-2 text-xl">Vote by Mail</p>
+          <p class="text-lg">
+            Anyone registered to vote in Maine can <a
+              href="https://www.maine.gov/cgi-bin/online/AbsenteeBallot/index.pl"
+              class="underline text-[#EAE6D2]">request an absentee ballot</a
+            > and return it to your municipal clerk's office either by mail or in person. You can also now <a
+              href="https://apps.web.maine.gov/cgi-bin/online/AbsenteeBallot/ballot_status.pl"
+              class="underline text-[#EAE6D2]">check the status of your absentee ballot</a
+            >.
+          </p>
+        </div>
+      </div>
+      <div class="flex flex-col lg:flex-row gap-6 items-center">
+        <Image src={earlyVoting} loading="eager" alt="Vote Early Calendar" class="w-40 mx-auto" />
+        <div class="text-center lg:text-left grow">
+          <p class="font-bold mb-2 text-xl">Early Voting</p>
+          <p class="text-lg">
+            You can also vote early at your <a
+              href="https://www.maine.gov/sos/cec/elec/munic.html"
+              class="underline text-[#EAE6D2]"
+            >
+              municipal clerk's office</a
+            >.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-[#2f6585] mb-12">
+    <Container class="text-center py-10">
+      <p class="text-xl lg:text-2xl font-bold text-white">
+        More about how to <a href="/vote" class="underline text-[#EAE6D2]">vote in Maine</a>
+      </p>
+    </Container>
+  </div>
+
+  <Container class="prose prose-neutral text-center">
+    <h2>What's On Your Ballot?</h2>
+    <h3>State ballot questions</h3>
+
+    {
+      upcomingBallotMeasures.length === 0 ? (
+        <p>There will be five state ballot questions for the November election. Content coming soon.</p>
+      ) : null
+    }
+  </Container>
+
+  {
+    upcomingBallotMeasures.length > 0 ? (
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-12 mx-auto max-w-6xl px-6 my-8">
+        {upcomingBallotMeasures.map((bm) => (
+          <article class="text-center relative">
+            <Image
+              class="rounded aspect-video mb-2"
+              src={bm.data.header.teaser}
+              alt={bm.data.header.image_description}
+            />
+            <h4 class="text-xl mb-2">
+              <a
+                class="font-bold text-[#2f7d95] hover:text-[#235e70] transition-colors underline after:absolute after:inset-0"
+                href={getEntryUrl(bm)}
+              >
+                {bm.data.title}
+              </a>
+            </h4>
+            {bm.body ? (
+              <div class="flex items-center justify-center gap-1 text-neutral-500 mb-2">
+                <span class="icon-[fa6-regular--clock] size-3" aria-hidden="true" />
+                <span class="text-sm">{getReadingTime(bm.body)}</span>
+              </div>
+            ) : null}
+            <p class="text-base">{bm.data.excerpt}</p>
+          </article>
+        ))}
+      </div>
+    ) : null
+  }
+
+  <Container class="prose prose-neutral text-center">
+    <hr class="w-1/4 h-1 bg-[#2f6585] mx-auto my-12" />
+    <h3>Local ballot questions</h3>
+    <p>We have links to local election websites and ballot drop box locations for counties, cities, and towns.</p>
+    <p>
+      <a href="/local">Find information about your local election</a>.
+    </p>
+    <hr class="w-1/4 h-1 bg-[#2f6585] mx-auto my-12" />
+  </Container>
+</GlobalLayout>

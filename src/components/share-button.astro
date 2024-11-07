@@ -1,0 +1,87 @@
+---
+type Props = {
+  platform: 'facebook' | 'twitter' | 'linkedin'
+  shareText?: string
+  shareUrl: string
+}
+
+const { platform, shareText, shareUrl } = Astro.props
+
+const share: Record<
+  Props['platform'],
+  {
+    baseUrl: string
+    params: Record<string, string>
+  }
+> = {
+  facebook: {
+    baseUrl: 'https://www.facebook.com/sharer.php',
+    params: {
+      u: shareUrl,
+    },
+  },
+  twitter: {
+    baseUrl: 'https://twitter.com/intent/tweet',
+    params: {
+      text: shareText ? shareText + '\n\n' : '',
+      url: shareUrl,
+    },
+  },
+  linkedin: {
+    baseUrl: 'https://www.linkedin.com/sharing/share-offsite/',
+    params: {
+      url: shareUrl,
+    },
+  },
+}
+
+const url = share[platform].baseUrl + '?' + new URLSearchParams(share[platform].params)
+
+const handleOnClick = `window.open(
+      '${url}',
+      '',
+      'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=436,width=646',
+    );
+    return false;
+  `.replace(/\s/g, '') // Makes string prettier in the DOM
+
+const baseClasses =
+  'text-white transition-colors h-10 w-14 px-4 flex gap-2 items-center justify-center rounded font-bold'
+---
+
+{
+  platform === 'facebook' ? (
+    <a
+      href={url}
+      onclick={handleOnClick}
+      target="_blank"
+      rel="noopener"
+      class:list={[baseClasses, 'bg-[#3b5998] hover:bg-[#2f477a]']}
+    >
+      <span class="icon-[fa6-brands--facebook] size-5" aria-hidden="true" />
+      <span class="sr-only">Share on Facebook</span>
+    </a>
+  ) : platform === 'twitter' ? (
+    <a
+      href={url}
+      onclick={handleOnClick}
+      target="_blank"
+      rel="noopener"
+      class:list={[baseClasses, 'bg-gray-800 hover:bg-black']}
+    >
+      <span class="icon-[fa6-brands--x-twitter] size-5" aria-hidden="true" />
+      <span class="sr-only">Share on X (formerly Twitter)</span>
+    </a>
+  ) : platform === 'linkedin' ? (
+    <a
+      href={url}
+      onclick={handleOnClick}
+      target="_blank"
+      rel="noopener"
+      class:list={[baseClasses, 'bg-[#007bb6] hover:bg-[#006292]']}
+    >
+      <span class="icon-[fa6-brands--linkedin] size-5" aria-hidden="true" />
+      <span class="sr-only">Share on LinkedIn</span>
+    </a>
+  ) : null
+}
