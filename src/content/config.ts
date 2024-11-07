@@ -13,19 +13,18 @@ const ballotMeasureCollection = defineCollection({
     z.object({
       title: z.string(),
       excerpt: z.string(),
-      electionDate: z.preprocess(val => String(val), z.string()).transform(str => dayjs.tz(str, 'America/New_York').toDate()),
+      electionDate: z.string().transform(str => dayjs.tz(str, 'America/New_York').toDate()),
       header: z.object({
         overlay_image: image(),
         teaser: image(),
         overlay_filter: z.number(),
         image_description: z.string(),
       }),
-      search: z.boolean(),
       election: reference('elections'),
       tags: z.array(reference('tags')).optional(),
       yes_vote: z.string(),
       no_vote: z.string(),
-      lastModifiedDate: z.preprocess(val => String(val), z.string()).transform(str => dayjs.tz(str, 'America/New_York').toDate()),
+      lastModifiedDate: z.string().transform(str => dayjs.tz(str, 'America/New_York').toDate()),
     }),
 })
 
@@ -60,7 +59,7 @@ const electionCollection = defineCollection({
   loader: file('src/data/elections.json'),
   schema: z.object({
     title: z.string(),
-    date: z.preprocess(val => String(val), z.string()).transform(str => dayjs.tz(str, 'America/New_York').toDate()),
+    date: z.string().transform(str => dayjs.tz(str, 'America/New_York').toDate()),
   }),
 })
 
