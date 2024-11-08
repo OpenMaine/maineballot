@@ -70,11 +70,11 @@ const { title, description = SITE_META.description, image = new URL('og.jpg', As
     <GoogleAnalytics />
   </head>
   <body class="flex flex-col h-full">
-    <div class="w-full border-b border-b-gray-100">
+    <div class="w-full border-b border-b-gray-100 z-10 relative">
       <Navigation />
     </div>
 
-    <main class="w-full">
+    <main class="w-full isolate">
       <slot />
     </main>
 
