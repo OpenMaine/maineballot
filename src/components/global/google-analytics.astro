@@ -12,13 +12,12 @@ import { GOOGLE_MEASUREMENT_ID } from 'astro:env/server'
   }}
 >
   if (isProd) {
-    ;(() => {
-      window.dataLayer = window.dataLayer || []
-      function gtag(...args) {
-        dataLayer.push(args)
-      }
-      gtag('js', new Date())
-      gtag('config', GOOGLE_MEASUREMENT_ID)
-    })()
+    window.dataLayer = window.dataLayer || []
+    function gtag() {
+      // eslint-disable-next-line prefer-rest-params
+      dataLayer.push(arguments)
+    }
+    gtag('js', new Date())
+    gtag('config', GOOGLE_MEASUREMENT_ID)
   }
 </script>
