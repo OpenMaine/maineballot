@@ -1,9 +1,11 @@
+import { builtinModules } from 'node:module'
 import sitemap from '@astrojs/sitemap'
 import tailwind from '@astrojs/tailwind'
 import { defineConfig, envField } from 'astro/config'
 import dsv from '@rollup/plugin-dsv'
 import mdx from '@astrojs/mdx'
 import react from '@astrojs/react'
+import cloudflare from '@astrojs/cloudflare'
 
 // https://astro.build/config
 export default defineConfig({
@@ -40,6 +42,10 @@ export default defineConfig({
     plugins: [
       dsv(),
     ],
+    ssr: {
+      // Fix cloudflare node/edge runtime issue. Related: https://stackoverflow.com/questions/79053516/error-while-building-astro-on-cloudflare-pages
+      external: [...builtinModules, ...builtinModules.map(m => `node:${m}`)],
+    },
   },
 
   env: {
@@ -58,6 +64,7 @@ export default defineConfig({
   },
 
   output: 'static',
+  adapter: cloudflare(),
   redirects: {
     '/november%202024%20election/*': '/ballot-question/november-2024/:splat',
     '/november%202023%20election/*': '/ballot-question/november-2023/:splat',
