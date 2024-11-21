@@ -86,7 +86,7 @@ const { Content } = await render(ballotMeasure)
                 <li>
                   <a
                     class="flex rounded h-9 px-3 items-center border no-underline text-neutral-600 border-neutral-400 hover:text-[#235e70]"
-                    href={`/tags#${tag.id}`}
+                    href={`/tags/#${tag.id}`}
                   >
                     {tag.data.title}
                   </a>
@@ -104,7 +104,7 @@ const { Content } = await render(ballotMeasure)
             <li>
               <a
                 class="flex rounded h-9 px-3 items-center border no-underline text-neutral-600 border-neutral-400 hover:text-[#235e70]"
-                href={`/elections#${election.id}`}>{election.data.title}</a
+                href={`/elections/#${election.id}`}>{election.data.title}</a
               >
             </li>
           </ul>
