@@ -14,7 +14,6 @@
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/mdx": "^4.0.0-beta.3",
-    "@astrojs/netlify": "^6.0.0-beta.1",
     "@astrojs/react": "^3.6.2",
     "@astrojs/sitemap": "^3.2.1",
     "@astrojs/tailwind": "^5.1.2",
@@ -57,7 +56,8 @@
     "eslint-plugin-tailwindcss": "^3.17.4",
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
-    "prettier-plugin-astro": "^0.14.1"
+    "prettier-plugin-astro": "^0.14.1",
+    "vite": "^5.4.11"
   },
   "lint-staged": {
     "src/**/*.{astro,js,jsx,ts,tsx,md,mdx,json}": "eslint --fix"

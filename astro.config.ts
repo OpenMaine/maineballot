@@ -4,7 +4,6 @@ import { defineConfig, envField } from 'astro/config'
 import dsv from '@rollup/plugin-dsv'
 import mdx from '@astrojs/mdx'
 import react from '@astrojs/react'
-import netlify from '@astrojs/netlify'
 
 // https://astro.build/config
 export default defineConfig({
@@ -59,9 +58,6 @@ export default defineConfig({
   },
 
   output: 'static',
-  adapter: netlify({
-    imageCDN: false,
-  }),
   redirects: {
     '/november%202024%20election/*': '/ballot-question/november-2024/:splat',
     '/november%202023%20election/*': '/ballot-question/november-2023/:splat',
