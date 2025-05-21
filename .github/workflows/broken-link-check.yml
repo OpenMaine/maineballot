@@ -19,7 +19,7 @@ jobs:
         with:
           fail: false
           jobSummary: true
-          args: --no-progress --accept '200..=299, 401, 403, 405' .
+          args: --base www.maineballot.org --no-progress './**/*.(md|mdx)' './**/*.astro' './**/*.csv'
 
       - name: Find Link Checker Issue
         if: steps.lychee.outputs.exit_code != 0
@@ -34,7 +34,7 @@ jobs:
         if: steps.lychee.outputs.exit_code != 0 && steps.link-checker-issue.outputs.has-found == 'false'
         uses: peter-evans/create-issue-from-file@v5
         with:
-          title: Broken links detected in docs 🔗
+          title: Broken links detected on site 🔗
           # Update an existing issue if one was found (issue-number),
           # otherwise an empty value creates a new issue:
           issue-number: "${{ steps.link-checker-issue.outputs.issue_number }}"
