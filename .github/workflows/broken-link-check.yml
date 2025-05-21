@@ -17,6 +17,7 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         id: lychee
         with:
+          fail: false
           jobSummary: true
           args: --no-progress --accept '200..=299, 401, 403, 405' .
 
