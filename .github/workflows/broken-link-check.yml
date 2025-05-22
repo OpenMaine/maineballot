@@ -14,8 +14,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Extract URLs from CSV
+        shell: bash
         run: |
-          grep -hEo 'https?://[^ ,]+' ./**/*.csv > urls.txt
+          shopt -s globstar
+          grep -hEo 'https?://[^ ",]+' **/*.csv > urls.txt
       - name: Check for Broken Links"
         uses: lycheeverse/lychee-action@v2
         id: lychee
