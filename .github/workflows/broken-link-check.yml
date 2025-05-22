@@ -7,34 +7,22 @@ on:
 
 jobs:
   check:
-    name: "Check for broken links"
+    name: "Check for Broken Links"
     runs-on: ubuntu-latest
     steps:
-      - name: "Checkout code"
+      - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Install Rust
-        uses: moonrepo/setup-rust@v1
-
-      - name: Install xmllint (libxml2-utils)
+      - name: Extract URLs from CSV
         run: |
-          sudo apt-get update
-          sudo apt-get install -y libxml2-utils
-
-      - name: Fetch sitemap and extract URLs
-        run: |
-          curl -s https://www.maineballot.org/sitemap-0.xml |
-            xmllint --xpath "//*[local-name()='loc']/text()" - |
-            tr ' ' '\n' > urls.txt
-
-      - name: Install lychee CLI
-        run: cargo install lychee
-
-      - name: "Check for broken links"
+          grep -hEo 'https?://[^ ,]+' ./**/*.csv > urls.txt
+      - name: Check for Broken Links"
+        uses: lycheeverse/lychee-action@v2
         id: lychee
-        run: |
-          cat urls.txt \
-          |  lychee --no-progress --verbose --format markdown --output ./lychee/out.md -
+        with:
+          fail: false
+          jobSummary: true
+          args: --base www.maineballot.org --no-progress './**/*.(md|mdx)' './**/*.astro' './**/*.txt'
 
       - name: Find Link Checker Issue
         if: steps.lychee.outputs.exit_code != 0
