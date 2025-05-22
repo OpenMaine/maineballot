@@ -13,13 +13,19 @@ jobs:
       - name: "Checkout code"
         uses: actions/checkout@v4
 
+      - name: Fetch sitemap and extract URLs
+        run: |
+          curl -s https://www.maineballot.org/sitemap-0.xml |
+            xmllint --xpath "//*[local-name()='loc']/text()" - |
+            tr ' ' '\n' > urls.txt
+
       - name: "Check for broken links"
         uses: lycheeverse/lychee-action@v2
         id: lychee
         with:
           fail: false
           jobSummary: true
-          args: --base www.maineballot.org --no-progress './**/*.(md|mdx)' './**/*.astro' './**/*.csv'
+          args: cat urls.txt | lychee --stdin --no-progress
 
       - name: Find Link Checker Issue
         if: steps.lychee.outputs.exit_code != 0
