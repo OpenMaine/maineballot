@@ -30,7 +30,7 @@ jobs:
         with:
           fail: false
           jobSummary: true
-          args: cat urls.txt | lychee --no-progress
+          args: cat urls.txt | lychee - --no-progress
 
       - name: Find Link Checker Issue
         if: steps.lychee.outputs.exit_code != 0
@@ -47,7 +47,7 @@ jobs:
           title: Broken links detected on site 🔗
           # Update an existing issue if one was found (issue-number),
           # otherwise an empty value creates a new issue:
-          issue-number: "${{ steps.link-checker-issue.outputs.issue_number }}"
+          issue-number: ${{ steps.link-checker-issue.outputs.issue-number }}
           content-filepath: ./lychee/out.md
           token: ${{secrets.LYCHEE_ACTION_TOKEN}}
           labels: |
