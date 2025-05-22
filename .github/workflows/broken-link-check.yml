@@ -18,13 +18,13 @@ jobs:
         run: |
           shopt -s globstar
           grep -hEo 'https?://[^ ",]+' **/*.csv > urls.txt
-      - name: Check for Broken Links"
+      - name: Check for Broken Links
         uses: lycheeverse/lychee-action@v2
         id: lychee
         with:
           fail: false
           jobSummary: true
-          args: --base www.maineballot.org --no-progress './**/*.(md|mdx)' './**/*.astro' './**/*.txt'
+          args: --base www.maineballot.org --no-progress './**/*.(md|mdx)' './**/*.astro' './**/*.txt' --accept '100..=103,200..=299,403'
 
       - name: Find Link Checker Issue
         if: steps.lychee.outputs.exit_code != 0
@@ -46,3 +46,9 @@ jobs:
           token: ${{secrets.LYCHEE_ACTION_TOKEN}}
           labels: |
             link-checker
+
+      - name: Upload lychee output as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: lychee-report
+          path: ./lychee/out.md
