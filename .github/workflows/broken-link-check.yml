@@ -13,6 +13,9 @@ jobs:
       - name: "Checkout code"
         uses: actions/checkout@v4
 
+      - name: Install Rust
+        uses: moonrepo/setup-rust@v1
+
       - name: Install xmllint (libxml2-utils)
         run: |
           sudo apt-get update
@@ -24,13 +27,14 @@ jobs:
             xmllint --xpath "//*[local-name()='loc']/text()" - |
             tr ' ' '\n' > urls.txt
 
+      - name: Install lychee CLI
+        run: cargo install lychee
+
       - name: "Check for broken links"
-        uses: lycheeverse/lychee-action@v2
         id: lychee
-        with:
-          fail: false
-          jobSummary: true
-          args: cat urls.txt | lychee - --no-progress
+        run: |
+          cat urls.txt \
+          |  lychee --no-progress --verbose --format markdown --output ./lychee/out.md -
 
       - name: Find Link Checker Issue
         if: steps.lychee.outputs.exit_code != 0
