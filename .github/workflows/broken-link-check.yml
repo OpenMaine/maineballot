@@ -30,7 +30,7 @@ jobs:
         with:
           fail: false
           jobSummary: true
-          args: cat urls.txt | lychee --stdin --no-progress
+          args: cat urls.txt | lychee --no-progress
 
       - name: Find Link Checker Issue
         if: steps.lychee.outputs.exit_code != 0
