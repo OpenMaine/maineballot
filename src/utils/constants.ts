@@ -30,10 +30,11 @@ export const NAVIGATION: Navigation = [
 
 export const ELECTIONS: Elections = {
   upcoming: {
-    date: '2024-11-05',
-    title: 'General Election and Referendum Election',
+    date: '2025-06-10',
+    title: 'Municipal Election',
   },
   past: [
+    { date: '2024-11-05' },
     { date: '2024-06-11' },
     { date: '2024-03-05' },
     { date: '2023-11-07' },
