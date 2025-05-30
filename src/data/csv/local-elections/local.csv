@@ -28,7 +28,7 @@ Aroostook,Cyr Plantation,contact info,http://mainegov-images.informe.org/local/t
 Aroostook,Dyer Brook,contact info,http://mainegov-images.informe.org/local/town.php?t=Dyer%20Brook,,,,,Aroostook
 Aroostook,Eagle Lake,election,https://www.townofeaglelake.org/registering-to-vote,,,,,Aroostook
 Aroostook,Easton,election,https://www.eastonme.com/municipal-departments/elections-voting/,,,,,Aroostook
-Aroostook,Fort Fairfield,town,http://www.fortfairfield.org/,,,,,Aroostook
+Aroostook,Fort Fairfield,town,https://www.fortfairfield.org/,,,,,Aroostook
 Aroostook,Fort Kent,town,https://www.fortkent.org/,,,,,Aroostook
 Aroostook,Frenchville,town,https://www.frenchville.org/,,,,,Aroostook
 Aroostook,Garfield Plantation,contact info,http://mainegov-images.informe.org/local/town.php?t=Garfield%20Plt,,,,,Aroostook
@@ -244,7 +244,7 @@ Oxford,Fryeburg,town,https://www.fryeburgmaine.org/,,,,,Oxford
 Oxford,Gilead,Facebook,https://www.facebook.com/pages/category/Government-Organization/Gilead-Town-Office-614214438918965/,,,,,Oxford
 Oxford,Greenwood,town,https://www.greenwoodmaine.org/,,,,,Oxford
 Oxford,Hanover,town,https://hanoverme.org/,,,,,Oxford
-Oxford,Hartford,town,https://hartfordmaine.weebly.com/,,,,,Oxford
+Oxford,Hartford,town,https://www.townofhartfordmaine.com/,,,,,Oxford
 Oxford,Hebron,election,https://hebronmaine.org/committees-other-officials/election-faqs/,,,,,Oxford
 Oxford,Hiram,election,https://townofhiram.org/elections,,,,,Oxford
 Oxford,Lincoln Plantation,contact info,http://mainegov-images.informe.org/local/town.php?t=Lincoln%20Plt,,,,,Oxford
@@ -382,7 +382,7 @@ Piscataquis,Guilford,election,https://townofguilford.com/departments/town-office
 Piscataquis,Kingsbury Plantation,town,https://kingsburyplantation.com/,,,,,Piscataquis
 Piscataquis,Lake View Plantation,town,https://www.lakeviewpltme.org/,,,,,Piscataquis
 Piscataquis,Medford,town,https://townofmedfordmaine.com/index.html,,,,,Piscataquis
-Piscataquis,Milo,town,https://www.milomaine.org/index.asp?SEC=3233607C-A151-4A54-BA86-71709E7386A2&Type=B_BASIC,,,,,Piscataquis
+Piscataquis,Milo,town,https://www.milomaine.org/,,,,,Piscataquis
 Piscataquis,Monson,town,https://www.monsonmaine.org/,,,,,Piscataquis
 Piscataquis,Parkman,town,https://www.parkmanmaine.com/,,,,,Piscataquis
 Piscataquis,Sangerville,town,https://sangervilleme.com/,,,,,Piscataquis
@@ -420,10 +420,10 @@ Somerset,Madison,town,https://www.madisonmaine.com/,,,,,Somerset
 Somerset,Mercer,election,https://mercermaine.com/election-information/,Outside town office,,,,Somerset
 Somerset,Moose River,contact info,http://mainegov-images.informe.org/local/town.php?t=Moose%20River,,,,,Somerset
 Somerset,Moscow,town,https://moscowmaine.org/,,,,,Somerset
-Somerset,New Portland,town,http://www.newportlandmaine.org,,,,,Somerset
+Somerset,New Portland,town,https://newportlandmaine.org/,,,,,Somerset
 Somerset,Norridgewock,town,https://www.townofnorridgewock.com/elections-voting,,,,,Somerset
 Somerset,Palmyra,town,https://palmyratown.org/,,,,,Somerset
-Somerset,Pittsfield,election,https://www.pittsfield.org/govtdepartmentsclerk,,,,,Somerset
+Somerset,Pittsfield,town,https://www.pittsfieldmaine.gov/,,,,,Somerset
 Somerset,Pleasant Ridge Plantation,contact info,http://mainegov-images.informe.org/local/town.php?t=Pleasant%20Ridge%20Plt,,,,,Somerset
 Somerset,Ripley,contact info,http://mainegov-images.informe.org/local/town.php?t=Ripley,,,,,Somerset
 Somerset,Skowhegan,election,https://www.skowhegan.org/148/Elections,,,,,Somerset
@@ -501,7 +501,7 @@ Washington,Talmadge,town,https://talmadge.me/,,,,,Washington
 Washington,Topsfield,contact info,http://mainegov-images.informe.org/local/town.php?t=Topsfield,,,,,Washington
 Washington,Vanceboro,contact info,http://mainegov-images.informe.org/local/town.php?t=Vanceboro,,,,,Washington
 Washington,Waite,Facebook,https://www.facebook.com/townofwaiteme/,,,,,Washington
-Washington,Wesley,town,http://sites.google.com/site/wesleyevents/wesley-community-events,,,,,Washington
+Washington,Wesley,town,https://sites.google.com/site/wesleyevents/wesley-community-events,,,,,Washington
 Washington,Whiting,town,https://www.whitingmaine.com/,,,,,Washington
 Washington,Whitneyville,town,https://sites.google.com/site/whitneyvilleinfo/home,,,,,Washington
 York,Acton,town,https://www.actonmaine.org/,,,,,York
@@ -533,3 +533,30 @@ York,South Berwick,election,https://www.southberwickmaine.org/departments/town_c
 York,Waterboro,town,https://www.waterboro-me.gov/index.php,,,,,York
 York,Wells,election,https://www.wellstown.org/440/Town-Meeting-Election-Info,,,,,York
 York,York,town,https://www.yorkmaine.org/,,,,,York
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
