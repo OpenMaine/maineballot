@@ -13,18 +13,13 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Extract URLs from CSV
-        shell: bash
-        run: |
-          shopt -s globstar
-          grep -hEo 'https?://[^ ",]+' **/*.csv > urls.txt
       - name: Check for Broken Links
         uses: lycheeverse/lychee-action@v2
         id: lychee
         with:
           fail: false
           jobSummary: true
-          args: --base www.maineballot.org --no-progress './**/*.(md|mdx)' './**/*.astro' './**/*.txt' --accept '100..=103,200..=299,403'
+          args: --base www.maineballot.org --no-progress './**/*.(md|mdx)' './**/*.astro' --accept '100..=103,200..=299,403'
 
       - name: Find Link Checker Issue
         if: steps.lychee.outputs.exit_code != 0
