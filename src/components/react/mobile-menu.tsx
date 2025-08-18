@@ -18,14 +18,14 @@ export function MobileMenu({
     })
   }, [])
 
-  const [state, send] = useMachine(menu.machine({
+  const serviceMenu = useMachine(menu.machine, ({
     id: useId(),
     positioning: {
       placement: 'bottom-end',
     },
   }))
 
-  const api = menu.connect(state, send, normalizeProps)
+  const api = menu.connect(serviceMenu, normalizeProps)
 
   return (
     <div>
