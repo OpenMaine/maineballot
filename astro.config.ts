@@ -65,8 +65,6 @@ export default defineConfig({
       }),
     },
   },
-
-  output: 'static',
   adapter: cloudflare(),
   redirects: {
     '/november%202024%20election/*': '/ballot-question/november-2024/:splat',

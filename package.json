@@ -3,10 +3,10 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
+    "dev": "wrangler types && astro dev",
+    "start": "wrangler types && astro dev",
+    "build": "wrangler types && astro check && astro build",
+    "preview": "wrangler types && astro preview",
     "astro": "astro",
     "lint": "eslint 'src/**/*.{astro,js,jsx,ts,tsx,md,mdx,json}'",
     "prepare": "node .husky/install.mjs"
@@ -59,7 +59,8 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.1.6",
     "prettier-plugin-astro": "^0.14.1",
-    "vite": "^6.3.6"
+    "vite": "^6.3.6",
+    "wrangler": "^4.27.0"
   },
   "lint-staged": {
     "src/**/*.{astro,js,jsx,ts,tsx,md,mdx,json}": "eslint --fix"
