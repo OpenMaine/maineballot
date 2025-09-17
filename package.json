@@ -58,7 +58,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^15.2.10",
     "prettier-plugin-astro": "^0.14.1",
-    "vite": "^5.4.19"
+    "vite": "^7.1.5"
   },
   "lint-staged": {
     "src/**/*.{astro,js,jsx,ts,tsx,md,mdx,json}": "eslint --fix"
