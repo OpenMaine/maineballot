@@ -1,50 +1,46 @@
-import tailwindTypography from '@tailwindcss/typography'
-import type { PluginUtils } from 'tailwindcss/types/config'
+import type { PluginUtils } from 'tailwindcss/plugin'
 import { addDynamicIconSelectors } from '@iconify/tailwind'
+import tailwindTypography from '@tailwindcss/typography'
 
 export default {
-  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
   theme: {
     extend: {
-      css: {
-
-      },
       typography: ({ theme }: PluginUtils) => ({
         neutral: {
           css: {
-            '--tw-prose-headings': theme('colors.gray.600'),
-            '--tw-prose-body': theme('colors.gray.600'),
-            '--tw-prose-bold': theme('colors.gray.600'),
-            '--tw-prose-quotes': theme('colors.gray.600'),
-            '--tw-prose-bullets': theme('colors.gray.600'),
+            '--tw-prose-headings': theme('--color-gray-600'),
+            '--tw-prose-body': theme('--color-gray-600'),
+            '--tw-prose-bold': theme('--color-gray-600'),
+            '--tw-prose-quotes': theme('--color-gray-600'),
+            '--tw-prose-bullets': theme('--color-gray-600'),
           },
         },
         DEFAULT: {
           css: {
-            'fontSize': theme('fontSize.xl')[0],
-            'lineHeight': theme('fontSize.3xl')[1].lineHeight,
+            'fontSize': theme('--text-xl'),
+            'lineHeight': theme('--leading-9'),
             'h1': {
-              fontSize: theme('fontSize.4xl')[0],
+              fontSize: theme('--text-4xl'),
               fontWeight: '700',
             },
             'h2': {
-              fontSize: theme('fontSize.3xl')[0],
+              fontSize: theme('--text-3xl'),
               fontWeight: '700',
             },
             'h3': {
-              fontSize: theme('fontSize.2xl')[0],
+              fontSize: theme('--text-2xl'),
               fontWeight: '700',
             },
             'h4': {
-              fontSize: theme('fontSize.xl')[0],
+              fontSize: theme('--text-xl'),
               fontWeight: '700',
             },
             'h5': {
-              fontSize: theme('fontSize.lg')[0],
+              fontSize: theme('--text-lg'),
               fontWeight: '700',
             },
             'h6': {
-              fontSize: theme('fontSize.base')[0],
+              fontSize: theme('--text-base'),
               fontWeight: '700',
             },
             'a': {
@@ -52,10 +48,10 @@ export default {
               fontWeight: '500',
             },
             'ul': {
-              paddingInlineStart: theme('space.4'),
+              paddingInlineStart: '--spacing(4)',
             },
             'ul > li': {
-              paddingInlineStart: theme('space.1'),
+              paddingInlineStart: '--spacing(1)',
             },
             'sup > a': {
               'fontSize': 'inherit',
@@ -72,16 +68,16 @@ export default {
               },
             },
             '.footnotes ol': {
-              'font-size': theme('fontSize.base')[0],
-              'line-height': theme('fontSize.lg')[1].lineHeight,
+              'font-size': theme('--text-base'),
+              'line-height': theme('--leading-6'),
             },
             '.footnotes li': {
-              'margin-top': theme('space.4'),
-              'margin-bottom': theme('space.4'),
+              'margin-top': '--spacing(4)',
+              'margin-bottom': '--spacing(4)',
             },
             '.footnotes li p': {
-              'margin-top': theme('space.0'),
-              'margin-bottom': theme('space.0'),
+              'margin-top': '--spacing(0)',
+              'margin-bottom': '--spacing(0)',
             },
           },
         },

@@ -1,9 +1,9 @@
-import * as React from 'react'
-import * as menu from '@zag-js/menu'
-import { normalizeProps, useMachine } from '@zag-js/react'
-import { useId } from 'react'
 import type { TransitionBeforeSwapEvent } from 'astro:transitions/client'
 import { NAVIGATION } from '#utils/constants'
+import * as menu from '@zag-js/menu'
+import { normalizeProps, useMachine } from '@zag-js/react'
+import * as React from 'react'
+import { useId } from 'react'
 
 export function MobileMenu({
   activePath,

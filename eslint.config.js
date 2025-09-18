@@ -1,5 +1,6 @@
 import antfu from '@antfu/eslint-config'
-import tailwind from 'eslint-plugin-tailwindcss'
+// TODO: Re-enable when eslint-plugin-tailwindcss supports Tailwind CSS v4
+// import tailwind from 'eslint-plugin-tailwindcss'
 
 export default antfu(
   {
@@ -29,5 +30,6 @@ export default antfu(
       '.DS_Store',
     ],
   },
-  ...tailwind.configs['flat/recommended'],
+  // TODO: Re-enable when eslint-plugin-tailwindcss supports Tailwind CSS v4
+  // ...tailwind.configs['flat/recommended'],
 )
