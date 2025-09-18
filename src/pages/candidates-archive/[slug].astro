@@ -38,9 +38,12 @@ const contestedCandidates = validData.filter((d) => d.Type === 'C')
 const uncontestedCandidates = validData.filter((d) => d.Type === 'U')
 
 const { Content } = await render(post)
-const { data } = await getEntry('elections', post.data.election.id)
+const entry = await getEntry('elections', post.data.election.id)
+if (!entry) {
+  throw new Error('Page not found')
+}
 
-const pageTitle = `${dayjs(data.date).format('MMMM YYYY')} candidate archive`
+const pageTitle = `${dayjs(entry.data.date).format('MMMM YYYY')} candidate archive`
 ---
 
 <GlobalLayout title={pageTitle} description={post.body || ''}>
@@ -50,7 +53,7 @@ const pageTitle = `${dayjs(data.date).format('MMMM YYYY')} candidate archive`
         {pageTitle}
       </h1>
 
-      <div class="prose prose-neutral max-w-none">
+      <div class="prose:prose prose:prose-neutral max-w-none">
         <Content />
       </div>
 
@@ -60,40 +63,40 @@ const pageTitle = `${dayjs(data.date).format('MMMM YYYY')} candidate archive`
     <div class="space-y-20">
       <!-- Ranked-choice -->
       <div>
-        <Container class="prose prose-neutral">
+        <Container class="prose:prose prose:prose-neutral">
           <h2 class="text-3xl font-bold mb-2">Ranked-Choice Races</h2>
           <p class="mb-4">
             There are more than one candidate for these races and you can rank the candidates, so you might need to do
             some research before making a choice.
           </p>
         </Container>
-        <div class="mx-auto max-w-6xl px-6 prose prose-neutral">
+        <div class="mx-auto max-w-6xl px-6 prose:prose prose:prose-neutral">
           <CandidatesTable data={rcvCandidates} client:load />
         </div>
       </div>
       <!-- Contested -->
       <div>
-        <Container class="prose prose-neutral">
+        <Container class="prose:prose prose:prose-neutral">
           <h2 class="text-3xl font-bold mb-2">Contested Races</h2>
           <p class="mb-4">
             There are more than one candidate for these races and you can only select one candidate, so you might need
             to do some research before making a choice.
           </p>
         </Container>
-        <div class="mx-auto max-w-6xl px-6 prose prose-neutral">
+        <div class="mx-auto max-w-6xl px-6 prose:prose prose:prose-neutral">
           <CandidatesTable data={contestedCandidates} client:load />
         </div>
       </div>
       <!-- Uncontested -->
       <div>
-        <Container class="prose prose-neutral">
+        <Container class="prose:prose prose:prose-neutral">
           <h2 class="text-3xl font-bold mb-2">Uncontested Races</h2>
           <p class="mb-4">
             There is only one candidate for these races, so you just need to fill in the oval or write-in another
             candidate.
           </p>
         </Container>
-        <div class="mx-auto max-w-6xl px-6 prose prose-neutral">
+        <div class="mx-auto max-w-6xl px-6 prose:prose prose:prose-neutral">
           <CandidatesTable data={uncontestedCandidates} hideColumns={['comparison', 'website']} client:load />
         </div>
       </div>

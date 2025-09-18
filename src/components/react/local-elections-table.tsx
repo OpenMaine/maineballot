@@ -1,16 +1,17 @@
+import type { LocalElectionData } from '#utils/types'
+import type { SortDirection } from '@tanstack/react-table'
+import { searchValue } from '#utils/search-store'
 import { useStore } from '@nanostores/react'
 import {
-  type SortDirection,
   createColumnHelper,
   flexRender,
   getCoreRowModel,
   getFilteredRowModel,
   getSortedRowModel,
+
   useReactTable,
 } from '@tanstack/react-table'
 import clsx from 'clsx'
-import type { LocalElectionData } from '#utils/types'
-import { searchValue } from '#utils/search-store'
 
 export function LocalElectionsTable({ data, hideColumns, ballotColumnText }: {
   data: LocalElectionData[]
@@ -69,9 +70,9 @@ export function LocalElectionsTable({ data, hideColumns, ballotColumnText }: {
   // Converts array of column id's to object of booleans
   const hiddenColumns = hideColumns
     ? hideColumns.reduce((m, v) => {
-      m[v] = false
-      return m
-    }, {} as Record<keyof LocalElectionData, boolean>)
+        m[v] = false
+        return m
+      }, {} as Record<keyof LocalElectionData, boolean>)
     : undefined
 
   const table = useReactTable({
@@ -130,9 +131,9 @@ export function LocalElectionsTable({ data, hideColumns, ballotColumnText }: {
                         {header.isPlaceholder
                           ? null
                           : flexRender(
-                            header.column.columnDef.header,
-                            header.getContext(),
-                          )}
+                              header.column.columnDef.header,
+                              header.getContext(),
+                            )}
                         <SortIcon sortDir={header.column.getIsSorted()} />
                       </button>
                     )
@@ -141,9 +142,9 @@ export function LocalElectionsTable({ data, hideColumns, ballotColumnText }: {
                         {header.isPlaceholder
                           ? null
                           : flexRender(
-                            header.column.columnDef.header,
-                            header.getContext(),
-                          )}
+                              header.column.columnDef.header,
+                              header.getContext(),
+                            )}
                       </>
                     )}
               </th>

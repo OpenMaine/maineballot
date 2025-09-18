@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@plugin "@iconify/tailwind4" {
+  scale: 0
+}
+
+/* Legacy Tailwind plugin */
+@plugin "@tailwindcss/typography";
+@config "../tailwind.config.ts";
+
+@custom-variant prose {
+  @layer typography {
+    @slot;
+  }
+}

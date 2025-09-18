@@ -1,5 +1,6 @@
+import type { ImageFunction } from 'astro:content'
 import { file, glob } from 'astro/loaders'
-import { type ImageFunction, defineCollection, reference, z } from 'astro:content'
+import { defineCollection, reference, z } from 'astro:content'
 import dayjs from 'dayjs'
 
 const ballotMeasureCollection = defineCollection({

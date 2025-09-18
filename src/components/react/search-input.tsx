@@ -1,6 +1,6 @@
+import { searchValue } from '#utils/search-store'
 import clsx from 'clsx'
 import * as React from 'react'
-import { searchValue } from '#utils/search-store'
 
 export default function SearchInput({
   placeholder,

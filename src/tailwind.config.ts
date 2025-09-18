@@ -1,14 +1,10 @@
-import tailwindTypography from '@tailwindcss/typography'
-import type { PluginUtils } from 'tailwindcss/types/config'
+import type { PluginUtils } from 'tailwindcss/plugin'
 import { addDynamicIconSelectors } from '@iconify/tailwind'
+import tailwindTypography from '@tailwindcss/typography'
 
 export default {
-  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
   theme: {
     extend: {
-      css: {
-
-      },
       typography: ({ theme }: PluginUtils) => ({
         neutral: {
           css: {
