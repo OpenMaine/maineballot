@@ -1,11 +1,11 @@
 import { builtinModules } from 'node:module'
-import sitemap from '@astrojs/sitemap'
-import { defineConfig, envField } from 'astro/config'
-import dsv from '@rollup/plugin-dsv'
+import cloudflare from '@astrojs/cloudflare'
 import mdx from '@astrojs/mdx'
 import react from '@astrojs/react'
-import cloudflare from '@astrojs/cloudflare'
+import sitemap from '@astrojs/sitemap'
+import dsv from '@rollup/plugin-dsv'
 import tailwindcss from '@tailwindcss/vite'
+import { defineConfig, envField } from 'astro/config'
 
 // https://astro.build/config
 export default defineConfig({
@@ -39,16 +39,16 @@ export default defineConfig({
 
   vite: {
     plugins: [dsv(), tailwindcss()],
-    ssr: {
-      // Fix cloudflare node/edge runtime issue. Related: https://stackoverflow.com/questions/79053516/error-while-building-astro-on-cloudflare-pages
-      external: [...builtinModules, ...builtinModules.map(m => `node:${m}`)],
-    },
-    resolve: {
-      // Fix cloudflare React 19 issue. Related: https://github.com/withastro/astro/issues/12824#issuecomment-2563095382
-      alias: import.meta.env.PROD
-        ? { 'react-dom/server': 'react-dom/server.edge' }
-        : undefined,
-    },
+    // ssr: {
+    //   // Fix cloudflare node/edge runtime issue. Related: https://stackoverflow.com/questions/79053516/error-while-building-astro-on-cloudflare-pages
+    //   external: [...builtinModules, ...builtinModules.map(m => `node:${m}`)],
+    // },
+    // resolve: {
+    //   // Fix cloudflare React 19 issue. Related: https://github.com/withastro/astro/issues/12824#issuecomment-2563095382
+    //   alias: import.meta.env.PROD
+    //     ? { 'react-dom/server': 'react-dom/server.edge' }
+    //     : undefined,
+    // },
   },
 
   env: {
