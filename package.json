@@ -60,7 +60,7 @@
     "lint-staged": "^16.1.6",
     "prettier-plugin-astro": "^0.14.1",
     "vite": "^6.3.6",
-    "wrangler": "^4.27.0"
+    "wrangler": "^4.59.1"
   },
   "lint-staged": {
     "src/**/*.{astro,js,jsx,ts,tsx,md,mdx,json}": "eslint --fix"
