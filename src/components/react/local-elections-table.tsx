@@ -1,6 +1,5 @@
-import type { LocalElectionData } from '#utils/types'
 import type { SortDirection } from '@tanstack/react-table'
-import { searchValue } from '#utils/search-store'
+import type { LocalElectionData } from '@utils/types'
 import { useStore } from '@nanostores/react'
 import {
   createColumnHelper,
@@ -11,6 +10,7 @@ import {
 
   useReactTable,
 } from '@tanstack/react-table'
+import { searchValue } from '@utils/search-store'
 import clsx from 'clsx'
 
 export function LocalElectionsTable({ data, hideColumns, ballotColumnText }: {

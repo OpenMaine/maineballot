@@ -1,12 +1,12 @@
 ---
 import { getCollection, getEntry, render } from 'astro:content'
-import GlobalLayout from '#layouts/global-layout.astro'
-import Container from '#components/container.astro'
-import { LocalElectionsTable } from '#components/react/local-elections-table'
-import { localElectionDataSchema, type CustomDataFile } from '#utils/types'
+import GlobalLayout from '@layouts/global-layout.astro'
+import Container from '@components/container.astro'
+import { LocalElectionsTable } from '@components/react/local-elections-table'
+import { localElectionDataSchema, type CustomDataFile } from '@utils/types'
 import { z } from 'zod'
 import dayjs from 'dayjs'
-import SearchInput from '#components/react/search-input'
+import SearchInput from '@components/react/search-input'
 
 export async function getStaticPaths() {
   const allLocal = await getCollection('local')

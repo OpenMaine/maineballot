@@ -1,9 +1,9 @@
 ---
 import { getCollection } from 'astro:content'
-import { getReadingTime } from '#utils/get-reading-time'
-import GlobalLayout from '#layouts/global-layout.astro'
-import Container from '#components/container.astro'
-import { getEntryUrl } from '#utils/get-url'
+import { getReadingTime } from '@utils/get-reading-time'
+import GlobalLayout from '@layouts/global-layout.astro'
+import Container from '@components/container.astro'
+import { getEntryUrl } from '@utils/get-url'
 
 const allEelections = await getCollection('elections')
 

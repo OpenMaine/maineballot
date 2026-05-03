@@ -9,7 +9,7 @@ export const candidateDataSchema = z.object({
   FirstName: z.string(),
   MiddleName: z.string(),
   Suffix: z.string(),
-  Type: z.union([z.enum(['RCV', 'C', 'U']), z.undefined()]),
+  Type: z.enum(['RCV', 'C', 'U']).optional(),
   ballotpedia: z.string(),
   website: z.string(),
   website_text: z.string(),

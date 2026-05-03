@@ -1,6 +1,5 @@
-import type { CandidateData } from '#utils/types'
 import type { SortDirection } from '@tanstack/react-table'
-import { searchValue } from '#utils/search-store'
+import type { CandidateData } from '@utils/types'
 import { useStore } from '@nanostores/react'
 import {
   createColumnHelper,
@@ -8,15 +7,17 @@ import {
   getCoreRowModel,
   getFilteredRowModel,
   getSortedRowModel,
-
   useReactTable,
 } from '@tanstack/react-table'
+import { searchValue } from '@utils/search-store'
 import clsx from 'clsx'
 
 export function CandidatesTable({ data, hideColumns }: {
   data: CandidateData[]
   hideColumns?: (keyof CandidateData)[]
 }) {
+  // console.log({ data })
+
   const columnHelper = createColumnHelper<CandidateData>()
   const columns = [
     columnHelper.accessor(row => `${row.FirstName} ${row.LastName}`, {

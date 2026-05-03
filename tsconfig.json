@@ -3,21 +3,41 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "jsxImportSource": "react",
-    "baseUrl": "src",
     "paths": {
-      "#assets/*": ["assets/*"],
-      "#components/*": ["components/*"],
-      "#content/*": ["content/*"],
-      "#layouts/*": ["layouts/*"],
-      "#pages/*": ["pages/*"],
-      "#styles/*": ["styles/*"],
-      "#utils/*": ["utils/*"],
-      "#data/*": ["data/*"]
+      "@assets/*": [
+        "./src/assets/*"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@content/*": [
+        "./src/content/*"
+      ],
+      "@layouts/*": [
+        "./src/layouts/*"
+      ],
+      "@pages/*": [
+        "./src/pages/*"
+      ],
+      "@styles/*": [
+        "./src/styles/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ],
+      "@data/*": [
+        "./src/data/*"
+      ]
     },
     "resolveJsonModule": true,
     "allowJs": true,
     "esModuleInterop": true,
     "verbatimModuleSyntax": true
   },
-  "exclude": ["./src/assets/js/**.*"]
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": [
+    "./src/assets/js/**.*",
+    "./dist",
+    "./node_modules"
+  ]
 }

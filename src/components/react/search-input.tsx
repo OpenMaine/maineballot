@@ -1,4 +1,4 @@
-import { searchValue } from '#utils/search-store'
+import { searchValue } from '@utils/search-store'
 import clsx from 'clsx'
 import * as React from 'react'
 

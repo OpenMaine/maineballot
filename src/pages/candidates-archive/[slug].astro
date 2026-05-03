@@ -1,14 +1,14 @@
 ---
 import { getCollection, render } from 'astro:content'
 import { z } from 'zod'
-import { candidateDataSchema } from '#utils/types'
-import { CandidatesTable } from '#components/react/candidates-table'
-import { type CustomDataFile } from '#utils/types'
-import GlobalLayout from '#layouts/global-layout.astro'
-import Container from '#components/container.astro'
+import { candidateDataSchema } from '@utils/types'
+import { CandidatesTable } from '@components/react/candidates-table'
+import { type CustomDataFile } from '@utils/types'
+import GlobalLayout from '@layouts/global-layout.astro'
+import Container from '@components/container.astro'
 import { getEntry } from 'astro:content'
 import dayjs from 'dayjs'
-import SearchInput from '#components/react/search-input'
+import SearchInput from '@components/react/search-input'
 
 export async function getStaticPaths() {
   const allCandidates = await getCollection('candidates')
@@ -57,7 +57,7 @@ const pageTitle = `${dayjs(entry.data.date).format('MMMM YYYY')} candidate archi
         <Content />
       </div>
 
-      <SearchInput className="mt-4" placeholder="Search for candidate..." client:load />
+      <SearchInput className="mt-4" placeholder="Search for candidate..." client:only="react" />
     </Container>
 
     <div class="space-y-20">
