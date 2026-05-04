@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: 0 0 * * 0 # run every Sunday at midnight
 
+concurrency:
+  group: broken-link-check
+  cancel-in-progress: false
+
 jobs:
   check:
     name: "Check for Broken Links"
@@ -31,6 +35,7 @@ jobs:
             link-checker
 
       - name: Update Issue
+        if: steps.lychee.outputs.exit_code != 0
         uses: peter-evans/create-issue-from-file@v5
         with:
           title: Broken links detected on site 🔗
@@ -43,6 +48,7 @@ jobs:
             link-checker
 
       - name: Upload lychee output as artifact
+        if: steps.lychee.outputs.exit_code != 0
         uses: actions/upload-artifact@v4
         with:
           name: lychee-report
