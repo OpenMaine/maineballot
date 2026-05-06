@@ -2,13 +2,13 @@
 import { getCollection } from 'astro:content'
 import { Image } from 'astro:assets'
 import dayjs from 'dayjs'
-import { ELECTIONS, SITE_META } from '#utils/constants'
-import GlobalLayout from '#layouts/global-layout.astro'
-import voteByMail from '#assets/img/Other/mail_sm.png'
-import earlyVoting from '#assets/img/Other/early-vote_sm.png'
-import Container from '#components/container.astro'
-import { getEntryUrl } from '#utils/get-url'
-import { getReadingTime } from '#utils/get-reading-time'
+import { ELECTIONS, SITE_META } from '@utils/constants'
+import GlobalLayout from '@layouts/global-layout.astro'
+import voteByMail from '@assets/img/Other/mail_sm.png'
+import earlyVoting from '@assets/img/Other/early-vote_sm.png'
+import Container from '@components/container.astro'
+import { getEntryUrl } from '@utils/get-url'
+import { getReadingTime } from '@utils/get-reading-time'
 
 const upcomingBallotMeasures = (
   await getCollection('ballot-questions', (bm) => {
