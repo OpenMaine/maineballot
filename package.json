@@ -32,7 +32,7 @@
     "@types/react-dom": "^19.2.3",
     "@zag-js/menu": "^1.40.0",
     "@zag-js/react": "^1.40.0",
-    "astro": "^6.2.1",
+    "astro": "^6.4.8",
     "astro-seo": "^1.1.0",
     "clsx": "^2.1.1",
     "csv-parse": "^6.2.1",
