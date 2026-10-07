@@ -74,11 +74,7 @@ const upcomingBallotMeasures = (
     <h2>What's On Your Ballot?</h2>
     <h3>State ballot questions</h3>
 
-    {
-      upcomingBallotMeasures.length === 0 ? (
-        <p>The Secretary of State's office has not yet provided details for November ballot questions.</p>
-      ) : null
-    }
+    {upcomingBallotMeasures.length === 0 ? <p>There are no statewide questions on the November ballot.</p> : null}
   </Container>
 
   {
